@@ -1,0 +1,1351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Notification Basic 1`] = `
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E7EAFE;
+  border-radius: 4px;
+  color: rgba(8,22,122,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.c3 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 3px 0;
+}
+
+<div
+  className="c0"
+  role="alert"
+>
+  <svg
+    aria-hidden={true}
+    className="c1 c2"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+    />
+  </svg>
+  <div
+    className="c3"
+  >
+    <p
+      className="c4 c5"
+    >
+      <span
+        className="c6"
+      >
+        This is a basic notification
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c7::-moz-focus-inner {
+  border-style: none;
+}
+
+.c5 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E7EAFE;
+  border-radius: 4px;
+  color: rgba(8,22,122,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.c3 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 3px 0;
+}
+
+.c8 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-left: 8px;
+}
+
+<div
+  className="c0"
+  role="alert"
+>
+  <svg
+    aria-hidden={true}
+    className="c1 c2"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+    />
+  </svg>
+  <div
+    className="c3"
+  >
+    <p
+      className="c4 c5"
+    >
+      <span
+        className="c6"
+      >
+        This notification will be dismissed automatically...
+      </span>
+    </p>
+  </div>
+  <button
+    aria-label="Dismiss notification"
+    className="c7 c8"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="button"
+  >
+    <svg
+      aria-hidden={true}
+      className="c1"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c7::-moz-focus-inner {
+  border-style: none;
+}
+
+.c5 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E7EAFE;
+  border-radius: 4px;
+  color: rgba(8,22,122,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.c3 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 3px 0;
+}
+
+.c8 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-left: 8px;
+}
+
+<div
+  className="c0"
+  role="alert"
+>
+  <svg
+    aria-hidden={true}
+    className="c1 c2"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+    />
+  </svg>
+  <div
+    className="c3"
+  >
+    <p
+      className="c4 c5"
+    >
+      <span
+        className="c6"
+      >
+        Click the close button to dismiss this notification
+      </span>
+    </p>
+  </div>
+  <button
+    aria-label="Dismiss notification"
+    className="c7 c8"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="button"
+  >
+    <svg
+      aria-hidden={true}
+      className="c1"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Components/Notification With Typical Usage 1`] = `
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 500px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c7::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E7EAFE;
+  border-radius: 4px;
+  color: rgba(8,22,122,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.c4 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 3px 0;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c10:focus {
+  outline: none;
+  outline-offset: 1px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10:visited,
+.c10:active {
+  color: inherit;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    role="alert"
+  >
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+      />
+    </svg>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <p
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            <b>
+              Something happened.
+            </b>
+             This notification is informing you about something. If you want to fix it, click the link below.
+          </span>
+        </p>
+        <div
+          className="c9"
+        />
+        <p
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            <a
+              className="c10"
+              href="/"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              rel={null}
+            >
+              Learn more
+            </a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Notification With Variants 1`] = `
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c6::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E7EAFE;
+  border-radius: 4px;
+  color: rgba(8,22,122,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ECFBE7;
+  border-radius: 4px;
+  color: rgba(0,122,0,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFF8E1;
+  border-radius: 4px;
+  color: rgba(189,82,0,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFE5E5;
+  border-radius: 4px;
+  color: rgba(148,0,17,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.c4 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 3px 0;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    role="alert"
+  >
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+      />
+    </svg>
+    <div
+      className="c4"
+    >
+      <p
+        className="c5 c6"
+      >
+        <span
+          className="c7"
+        >
+          Info notification
+        </span>
+      </p>
+    </div>
+  </div>
+  <div
+    className="c8"
+  />
+  <div
+    className="c9"
+    role="alert"
+  >
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+      />
+    </svg>
+    <div
+      className="c4"
+    >
+      <p
+        className="c5 c6"
+      >
+        <span
+          className="c7"
+        >
+          Success notification
+        </span>
+      </p>
+    </div>
+  </div>
+  <div
+    className="c8"
+  />
+  <div
+    className="c10"
+    role="alert"
+  >
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+      />
+    </svg>
+    <div
+      className="c4"
+    >
+      <p
+        className="c5 c6"
+      >
+        <span
+          className="c7"
+        >
+          Warning notification
+        </span>
+      </p>
+    </div>
+  </div>
+  <div
+    className="c8"
+  />
+  <div
+    className="c11"
+    role="alert"
+  >
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+      />
+    </svg>
+    <div
+      className="c4"
+    >
+      <p
+        className="c5 c6"
+      >
+        <span
+          className="c7"
+        >
+          Error notification
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;

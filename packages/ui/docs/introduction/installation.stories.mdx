@@ -1,0 +1,66 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { lightTheme, Link, Notification, Space, Text, ThemeProvider } from '../../src'
+
+<Meta id='installation' title='Getting Started/Installation' />
+
+# Installation
+
+You can get started with One UI in two steps:
+
+
+## 1. Install Packages
+
+Inside your React project directory, install One UI by running either of the following commands:
+
+```
+yarn add one-ui lodash prop-types react react-dom styled-components
+```
+
+```
+npm i one-ui lodash prop-types react react-dom styled-components
+```
+
+## 2. Set Up Your App
+
+#### Load Fonts
+
+One UI is designed to work with the Neue Haas font. You can load it from Adobe Fonts by adding a stylesheet link to your HTML document. Here are instructions for [Create React App](https://create-react-app.dev/docs/using-the-public-folder#adding-assets-outside-of-the-module-system) and [Next.js](https://nextjs.org/docs/advanced-features/custom-document).
+
+```html
+<link rel="stylesheet" href="https://use.typekit.net/ajt2xhb.css" />
+```
+
+**NOTES:**
+
+- One UI is only tested with the Neue Haas (Helvetica) font, but similar fonts (Open Sans, Roboto, etc.) _might_ work too.
+- The `ajt2xhb.css` file will load Neue Haas from an Adobe Fonts project maintained by the Core-UI team.
+
+#### Add Root Components
+
+For One UI to work correctly, you need to set up the [ThemeProvider](/?path=/docs/components-themeprovider--basic) at the root of your application. You can also add [CssBaseline](/?path=/docs/components-cssbaseline--basic) to normalize browser styles in your own components.
+
+```javascript
+// src/index.js
+
+import { CssBaseline, ThemeProvider } from 'one-ui'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
+
+const rootElement = document.getElementById('root')
+const rootComponent = (
+  <ThemeProvider>
+    <CssBaseline />
+    <App />
+  </ThemeProvider>
+)
+
+ReactDOM.render(rootComponent, rootElement)
+```
+
+## Up Next
+
+* [Design Principles](/?path=/docs/design-principles--page)
+* [Features](/?path=/docs/features--page)
+* [Theming](/?path=/docs/theming--page)
+* [Styling](/?path=/docs/styling--page)

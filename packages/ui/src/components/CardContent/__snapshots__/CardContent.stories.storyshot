@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/CardContent Basic 1`] = `
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 320px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c7::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:first-child {
+  padding-top: 32px;
+}
+
+.c5:last-child {
+  padding-bottom: 32px;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <p
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            Use the CardContent component to provide padding around basic text and other content in Cards.
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/CardContent With Multiple 1`] = `
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 320px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c7::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:first-child {
+  padding-top: 32px;
+}
+
+.c5:last-child {
+  padding-bottom: 32px;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <p
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            Use the CardContent component to provide padding around basic text and other content in Cards.
+          </span>
+        </p>
+      </div>
+      <div
+        className="c5"
+      >
+        <p
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            By the way, did you know that you can add as many CardContent elements to your card as you would like? This is great for scenarios where you have multiple blocks of text.
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

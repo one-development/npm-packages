@@ -1,0 +1,66 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import * as icons from '../../src/icons'
+import IconsTable from './IconsTable'
+
+<Meta id='icon-reference' title='API Reference/Icons' />
+
+# Icons Reference
+
+One UI includes a small selection of icons that can be used throughout your application. Icons are exported as React components supporting the [icon component](/?path=/docs/components-icon--basic) API. Additionally, One UI exports a helper function to create custom icon components.
+
+- [Icon Components](#icon-components)
+- [createIcon](#createiconchildren-displayname)
+
+## `Icon Components`
+
+One UI exports a small selection of icon components to use in your application. Each component is created via the `createIcon` helper above, meaning it supports all `Icon` component props, like `color`, `size`, `viewBox`, etc. See the [icon component](/?path=/docs/components-icon--basic) docs for a complete list of supported props.
+
+##### Examples
+
+```javascript
+import { CloseIcon, VisibilityIcon } from 'one-ui'
+
+<CloseIcon size='md' color='brand2' />
+<VisibilityIcon scalable={false} />
+```
+
+##### Reference Table
+
+<IconsTable icons={icons} />
+
+## `createIcon(children, displayName)`
+
+Create a memoized React component that renders an SVG icon with the provided paths.
+
+##### Arguments
+
+1. `children: node` - A React node passed into the `Icon` component's SVG element. Typically, this should be a fragment with two path elements: one for negative space (fill="none") and one for the icon fill.
+2. `displayName: string` - The display name to use for the new component.
+
+##### Returns
+
+`component: Component` - A memoized React function component that renders an SVG icon. The component will uses an `Icon` component and supports all of its props. See the [icon component](/?path=/docs/components-icon--basic) for more information.
+
+##### Examples
+
+```javascript
+import { createIcon } from 'one-ui'
+
+const CheckIcon = createIcon(
+  <>
+    <path d='M0 0h24v24H0z' fill='none' />
+    <path d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z' />
+  </>,
+  'Check'
+)
+
+const MyComponent = () => (
+  <CheckIcon color='brand2' />
+  <CheckIcon size='md' />
+  <CheckIcon title='complete' />
+)
+```
+
+##### Notes
+
+- The returned component supports the exact same props API as the [icon component](/?path=/docs/components-icon--basic)

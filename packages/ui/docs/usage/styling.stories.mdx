@@ -1,0 +1,117 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta id='styling' title='Usage/Styling' />
+
+# Styling
+
+One UI supports three primary means of applying CSS styles in your application: _style props (recommended)_, _hook/HOC_, and _styled components_.
+
+- [Style Props (recommended)](#style-props--recommended)
+- [Hook/HOC](#hookhoc)
+- [Styled Components](#styled-components)
+
+## Style Props (recommended)
+
+Component Style Props are the recommended way to define CSS styles in your application. Style Props are special component props that can pull design token values from the [theme](/?path=/story/theming--page) object and apply them for common CSS properties, like _margin_, _color_, _height_, or _width_. Check out the [Style Props Reference](/?path=/story/style-props-reference--page) to see the complete list of supported CSS properties and shorthands.
+
+```javascript
+<Box
+  color='onSurface.primary' // theme.color.onSurface.primary
+  margin='md' // theme.space.md
+  height='100%' // uses 100% height as custom value
+  width='containedWidth' // theme.sizes.containerWidth
+>
+  This is a box
+</Box>
+```
+
+Many One UI components support Style Props, but [Box](/?path=/docs/components-box--basic) and [Container](/?path=/docs/components-container--basic) are the most powerful. In fact, the Box component is flexible enough to build any view in your application--One UI is designed to make custom styles the exception, not the rule.
+
+```javascript
+<Container
+  backgroundColor='background'
+  padding={{ _: 'md', sm: 'lg' }} // responsive style
+>
+  <Stack space='md'>
+    <Text variant='h1'>Style Props Are Incredible!</Text>
+    <Text variant='body'>Don't you agree?</Text>
+    <Box alignItems='center' display='flex' justifyContent='flex-end'>
+      <Button variant='secondary' color='neutral'>
+        Nope!
+      </Button>
+      <Space width='md' />
+      <Button>Yep</Button>
+    </Box>
+  </Stack>
+</Container>
+```
+
+## Hook/HOC
+
+In certain circumstances, you may need to apply styling overrides to a component that doesn't support Style Props or adjust a less common CSS property. For these scenarios, One UI provides a `useTheme` hook (preferred) and a `withTheme` higher order component to access the theme explicitly.
+
+###### via the `useTheme` hook
+
+```javascript
+import { Button, useTheme } from 'one-ui'
+
+const MyComponent = () => {
+  const theme = useTheme()
+
+  return (
+    <Button style={{ height: theme.sizes.inputHeight }}>
+      Buy with Apple Pay
+    </Button>
+  )
+}
+```
+
+###### via the `withTheme` HOC (not recommended)
+
+```javascript
+import { withTheme } from 'one-ui'
+
+class MyComponent extends React.Component {
+  render() {
+    const { theme } = this.props
+    return (
+      <Button style={{ height: theme.sizes.inputHeight }}>
+        Buy with Apple Pay
+      </Button>
+    )
+  }
+}
+
+export default withTheme(MyComponent)
+```
+
+## Styled Components
+
+One UI is built on top of [Styled Components](https://styled-components.com/). You can use the `styled` helper to in your application, however, this should rarely be necessary--most use cases can be met by using [Style Props](#style-props) in layout components, like [Box](/?path=/docs/components-box--basic). However, styled components are ocassionally necessary. For example, theme scale helpers are only accessible via styled components or hook/hoc.
+
+```javascript
+import React, { useState } from 'react'
+import styled from 'styled-components'
+import { Box, Button, Text } from 'one-ui'
+
+const Dropdown = styled.div(({ theme, ...props }) => ({
+  height: props.open ? '0px' : '100px',
+  transition: theme.transitions.create('height'),
+}))
+
+const MyApp = () => {
+  const [open, setOpen] = useState(false)
+  const handleClick = () => {
+    setOpen(prev => !prev)
+  }
+
+  return (
+    <Box backgroundColor='surface' color='onSurface.primary' margin='md'>
+      <Button onClick={handleClick}>Toggle Dropdown</Button>
+      <Dropdown>
+        <Text>I am open</Text>
+      </Dropdown>
+    </Box>
+  )
+}
+```

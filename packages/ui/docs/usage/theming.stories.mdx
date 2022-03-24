@@ -1,0 +1,481 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { Inspector } from 'react-inspector'
+import {
+  Box,
+  darkTheme,
+  Divider,
+  lightTheme,
+  Space,
+  Notification,
+  Text,
+  ThemeProvider,
+} from '../../src'
+
+<Meta id='theming' title='Usage/Theming' />
+
+# Theming
+
+One UI components are built using a constraint-based style system that makes it easy to define declarative, cohesive styling. The style system's foundation is a configurable theme, which can be _customized_ and _extended_ to meet the needs of any application. The theme serves as a central location to store the style system's _values_ and _scales_.
+
+## Contents
+
+- [Benefits](#benefits)
+- [Setup](#setup)
+- [Theme Object](#theme-object)
+- [Default Themes](#default-themes)
+- [Custom Themes](#custom-themes)
+- [Multiple Themes](#multiple-themes)
+- [Using the Theme](#using-the-theme)
+
+## Benefits
+
+The theming system that ships with One UI provides developers with a few useful features:
+
+##### Centralized Customization
+
+The theme object allows you to configure system-wide styling values in one place. All of our components reference the theme object when assigning style values. This removes the need for certain types of styling overrides and frees you from maintaining custom versions of components simply because your interface requires a different color palette or typography scale.
+
+##### Light and Dark Themes
+
+Because our theme is provided to components through React’s context system, we can dynamically change the theme at any time. The most common use case is toggling between One UI’s light and dark themes, but there are many other possibilities. For example, you could introduce controls for modifying layout density or you could let users customize your interface in real-time.
+
+##### Access to Design Tokens
+
+The theme object is easily accessible when working with One UI’s various styling utilities, such as Style Props, `useTheme`, `withTheme`, and styled-components. This makes it easy to use consistent values when extending our components or styling your own components. Using consistent design tokens results in faster development, smaller bundle sizes, and better-looking user interfaces.
+
+## Setup
+
+To get started with One UI, you must to use the [ThemeProvider](/?path=/docs/components-themeprovider--basic) component to inject a theme into your application. One UI components will not work without this step, because they depend on the theme's design tokens to assign styles.
+
+Render a [ThemeProvider](/?path=/docs/components-themeprovider--basic) at the root of your application.
+
+```javascript
+// src/index.js
+
+import { ThemeProvider } from 'one-ui'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
+
+const rootElement = document.getElementById('root')
+const rootComponent = (
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+)
+
+ReactDOM.render(rootComponent, rootElement)
+```
+
+Additionally, you can render the [CssBaseline](/?path=/docs/components-cssbaseline--basic) component _before_ your root component to normalize styles across different browsers. CssBaseline is _not_ required for One UI components, but it is useful when you'd like to apply the same resets to custom components and styles in your application.
+
+```javascript
+const rootComponent = (
+  <ThemeProvider>
+    <CssBaseline />
+    <App />
+  </ThemeProvider>
+)
+```
+
+## Theme Object
+
+The theme is structured as an object, based on the [Styled System Theme Specification](https://styled-system.com/theme-specification). The theme object defines properties for your application's color palette, spacing, typography, breakpoints, and more.
+
+Expand the interactive theme object below to inspect its properties:
+
+<ThemeProvider theme={lightTheme}>
+  <Box
+    marginTop='20px'
+    marginBottom='24px'
+    padding='20px'
+    border='thin'
+    borderRadius='4px'
+    boxShadow='xs'
+  >
+    <Inspector data={lightTheme} expandLevel={1} />
+  </Box>
+</ThemeProvider>
+
+### Scales
+
+The properties in the theme object above are referred to as scales. The intent behind these scales stems from constraint-based design. Scales are meant to make it easy to do the right thing, but possible to handle one-off exceptions where needed.
+
+For example, consider the `space` scale, which provides a limited number of ordered sizes.
+
+```javascript
+// Define ordered scale
+theme.space = ['0px', '4px', '8px', '16px', '24px', '32px', '48px']
+
+// Define named aliases
+theme.space.xs = theme.space[0]
+theme.space.sm = theme.space[1]
+theme.space.md = theme.space[2]
+theme.space.lg = theme.space[3]
+theme.space.xl = theme.space[4]
+theme.space.xxl = theme.space[5]
+theme.space.grid = 8
+```
+
+By limiting the sizes in the space scale, we can reduce guesswork for developers and establish a consistent visual rhythm in the application. Instead of reading a value from a redline spec, developers can easily match spacing in wireframes to values in the scale. The limited scale also makes nudging things easier. When a designer asks you to increase the spacing, the value can go from `space='sm'` to `space='md'` while still conforming to the scale.
+
+```javascript
+<Box margin='sm' />
+```
+
+If a designer needs to use a value outside the scale for a particular screen, that is still possible, but less convenient.
+
+```javascript
+<Box margin='12px' />
+```
+
+### Scale Arrays
+
+Scales that tend to have an implied order, such as _radii_, _space_, and _shadows_ are stored in an array.
+
+```javascript
+theme.radii = ['0px', '4px', '8px', '100%']
+theme.space = ['0px', '4px', '8px', '16px', '24px', '32px', '48px']
+theme.shadows = [
+  'none',
+  '0 1px 4px rgba(0,0,0,0.16)',
+  '0 2px 8px rgba(0,0,0,0.16)',
+  '0 4px 16px rgba(0,0,0,0.16)',
+  '0 8px 24px rgba(0,0,0,0.16)',
+  '0 20px 32px rgba(0,0,0,0.16)',
+]
+```
+
+```javascript
+<Box borderRadius={1} boxShadow={2} margin={3} />
+```
+
+Arrays are _intentionally_ limiting and make it difficult to add in-between sizes in the future.
+Please note, it is _possible_ to reference scale values by index, but it is generally prefered to use the [alias](#scale-aliases).
+
+### Scale Objects
+
+More complex and nuanced scales, like color schemes, are stored as objects with named keys. Some scales are simple and only use a flat object. Others, like colors or transitions, are more complex and use nested objects.
+
+```javascript
+// the sizes scale is an object
+sizes: {
+  appbarHeight: '64px',
+  badgeHeight: '34px',
+  componentHeight: '48px',
+  containerWidth: '1280px',
+  inputHeight: '44px',
+}
+```
+
+```javascript
+// the color scale contains nested objects
+colors: {
+  brand: '#009d00',
+  onBrand: {
+    disabled: 'rgba(255, 255, 255, 0.5)',
+    divider: 'rgba(255, 255, 255, 0.2)',
+    hint: 'rgba(255, 255, 255, 0.5)',
+    primary: 'rgba(255, 255, 255, 1)',
+    secondary: 'rgba(255, 255, 255, 0.7)',
+  }
+  // additional colors...
+}
+```
+
+```javascript
+// using color and size via Style Prop
+<Box height='inputHeight' backgroundColor='brand' color='onBrand.primary' />
+```
+
+### Scale Aliases
+
+Most array scales expose aliases by adding named properties to the object. Aliases are _always preferred_ when they are available.
+
+```javascript
+const borderWidths = ['0px', '1px', '2px']
+
+borderWidths.none = borderWidths[0]
+borderWidths.thin = borderWidths[1]
+borderWidths.thick = borderWidths[2]
+```
+
+```javascript
+// using alias in style prop
+<Box borderWidth='thin' />
+
+// using alias in styled component
+styled.div(({ theme }) => ({
+  borderWidth: theme.borderWidths.thin,
+})
+```
+
+### Scale Helpers
+
+Some scales expose helper methods that make it easier to retrieve common values or compose values into CSS props.
+
+```javascript
+const space = ['0px', '4px', '8px', '16px', '24px', '32px', '48px']
+
+space.step = 8
+space.unit = 'px'
+
+space.custom = (...multipliers) =>
+  multipliers.map(m => `${m * space.step}${space.unit}`).join(' ')
+```
+
+```javascript
+// using space helper in styled component
+{
+  margin: theme.space.custom(1, 2),
+}
+```
+
+**NOTES**
+
+- Check out the [Theme Reference](/?path=/story/theme-reference--page#theme-properties) page to see a full list of helpers for each scale.
+
+## Default Themes
+
+One UI includes two default themes: _light_ and _dark_. When using [ThemeProvider](/?path=/docs/utils-themeprovider--basic), light is the default. However, you can easily override this by passing a different theme.
+
+##### Comparison
+
+<ThemeProvider>
+  <Box display='flex'>
+    <Box padding='md' backgroundColor='background'>
+      <Box
+        backgroundColor='surface'
+        border='thin'
+        borderRadius='sm'
+        flex='0 0 auto'
+        height='250px'
+        width='250px'
+        display='flex'
+        alignItems='center'
+        justifyContent='center'
+      >
+        <Text>Light Theme</Text>
+      </Box>
+    </Box>
+    <ThemeProvider theme={darkTheme}>
+      <Box padding='md' backgroundColor='background'>
+        <Box
+          backgroundColor='surface'
+          border='thin'
+          borderRadius='sm'
+          flex='0 0 auto'
+          height='250px'
+          width='250px'
+          display='flex'
+          alignItems='center'
+          justifyContent='center'
+        >
+          <Text>Light Theme</Text>
+        </Box>
+      </Box>
+    </ThemeProvider>
+  </Box>
+</ThemeProvider>
+
+##### Use Light Theme
+
+```javascript
+import { ThemeProvider } from 'one-ui'
+import App from './App'
+
+function Root() {
+  // ThemeProvider uses light theme by default
+  return (
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  )
+}
+```
+
+##### Use Dark Theme
+
+```javascript
+import { darkTheme, ThemeProvider } from 'one-ui'
+import App from './App'
+
+function Root() {
+  // You can specify a different theme
+  return (
+    <ThemeProvider theme={darkTheme}>
+      <App />
+    </ThemeProvider>
+  )
+}
+```
+
+## Custom Themes
+
+To create a custom theme, *could* create a compatible theme object from scratch. After all, the theme's structure is well documented and simple to replicate. However, One UI offers an even easier way to create custom themes. You can use the [createTheme](/?path=/docs/theme-reference--page#createthemeoptions--theme) utility, a handy factory function for creating custom theme objects.
+
+### Light or Dark
+
+The `createTheme` helper accepts an argument to determine if your theme should use *light* or *dark* theme defaults.
+
+```javascript
+import { createTheme } from 'one-ui'
+import App from './App'
+
+// Identical to default dark theme
+const myTheme = createTheme({
+  type: 'dark',
+})
+
+function Root() {
+  return (
+    <ThemeProvider theme={myTheme}>
+      <App />
+    </ThemeProvider>
+  )
+}
+```
+
+### Colors
+
+Of course, passing just the `type` argument isn't very useful. It will result in a theme that is identical to one of the default *light* and *dark* dark themes that are already exported. Instead, we can customize our theme further by changing any of its colors. Learn more about the `colors` option on the [Theme Reference](/?path=/docs/theme-reference--page#createthemeoptions--theme) page.
+
+```javascript
+import { createTheme } from 'one-ui'
+import App from './App'
+
+const myTheme = createTheme({
+  type: 'dark',
+  colors: {
+    brand: '#009D00',
+    brand2: '#0E24C4',
+  },
+})
+
+function Root() {
+  return (
+    <ThemeProvider theme={myTheme}>
+      <App />
+    </ThemeProvider>
+  )
+}
+```
+
+### Custom Properties
+
+For many applications, the default theme may be missing some global values. To accomodate this use case, the `createTheme` helper assigns any *unrecognized* keys to the resulting theme object. For example, we could add global settings to our theme.
+
+```javascript
+import { createTheme, useTheme } from 'one-ui'
+import { AlternateTopbar, DefaultTopbar } from './Topbar'
+
+const myTheme = createTheme({
+  settings: {
+    useAlternateFooter: true,
+    useAlternateMenu: false,
+    useAlternateTopbar: true,
+  },
+})
+
+function App() {
+  const theme = useTheme()
+
+  return theme.settings.useAlternateTopbar
+    ? <AlternateTopbar />
+    : <DefaultTopbar />
+}
+
+function Root() {
+  return (
+    <ThemeProvider theme={myTheme}>
+      <App />
+    </ThemeProvider>
+  )
+}
+```
+
+## Multiple Themes
+
+Although uncommon, multiple themes may be required for certain applications. For example, an text editor application may have a user-selected theme for the editor UI and a separate theme for the rest of the application. One UI supports this use case out of the box. Simply nest `ThemeProvider` components above the relevant UI.
+
+```javascript
+import { darkTheme, lightTheme, ThemeProvider } from 'one-ui'
+import React, { useState } from 'react'
+import { mainTheme } from './themes'
+import Layout from './Layout'
+import Editor from './Editor'
+
+function App() {
+  const [editorTheme, setEditorTheme] = useState(darkTheme)
+
+  return (
+    <ThemeProvider theme={lightTheme}>
+      <Layout>
+        <ThemeProvider theme={editorTheme}>
+          <Editor onThemeChange={setEditorTheme} />
+        </ThemeProvider>
+      </Layout>
+    </ThemeProvider>
+  )
+}
+```
+
+<ThemeProvider>
+  <Notification variant='warning'>
+    <Text>
+      <b>Warning!</b> Nesting too many themes can <i>severely</i> impact performance. Use discretion when taking advantage of this feature, and be sure to test your application for performance impacts.
+    </Text>
+  </Notification>
+  <Space height='lg' />
+</ThemeProvider>
+
+## Using the Theme
+
+The theme object acts as a centralized API for customizing global styling properties, but it also allows developers to use consistent values when extending components or styling new components. One UI makes access to the theme object a priority across all of our styling utilities so that you can always use the right value.
+
+Let's look at how you can use the theme object while extending our components and when building out your interfaces.
+
+### Box
+
+```javascript
+import { Box } from 'one-ui'
+
+<Box
+  color='onSurface.primary' // theme.color.onSurface.primary
+  margin='md' // theme.space.md
+  height='100%' // uses 100% height as custom value
+  width='containedWidth' // theme.sizes.containerWidth
+>
+  This is a box
+</Box>
+```
+
+### React Hook
+
+```javascript
+import { useTheme } from 'one-ui'
+
+function MyComponent() {
+  const theme = useTheme()
+  const amber = '#EA6500'
+  const onAmber = theme.colors.on(amber)
+
+  return (
+    <Box color={onAmber} backgroundColor={amber} />
+  )
+}
+```
+
+### Styled Components
+
+```javascript
+import styled from 'styled-components'
+
+const Animated = styled.div(({ theme }) => ({
+  transition: theme.transitions.create('opacity'),
+}))
+```
+
+## Up Next
+
+* [Styling](/?path=/docs/styling--page)

@@ -1,0 +1,1288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Stack Basic 1`] = `
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  min-width: 40px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  />
+  <div
+    className="c2"
+  />
+  <div
+    className="c1"
+  />
+  <div
+    className="c2"
+  />
+  <div
+    className="c1"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/Stack With Alignment 1`] = `
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 420px;
+  border-left: 1px solid rgba(0,0,0,0.12);
+  border-right: 1px solid rgba(0,0,0,0.12);
+  padding: 16px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  min-width: 60px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  min-width: 80px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  min-width: 120px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c2::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 8px;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:360px) {
+  .c14 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .c14 {
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      Align items to the left
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c8"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c9"
+    />
+  </div>
+  <div
+    className="c7"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      Align items to the right
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c10"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c8"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c9"
+    />
+  </div>
+  <div
+    className="c7"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      Align items to the center
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c11"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c8"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c9"
+    />
+  </div>
+  <div
+    className="c7"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      Align items stretch
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c12"
+  >
+    <div
+      className="c13"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c13"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c13"
+    />
+  </div>
+  <div
+    className="c7"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      Center on mobile, left on desktop
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c14"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c8"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c9"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Stack With Dividers 1`] = `
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: rgba(0,0,0,0.12);
+  border: none;
+  height: 1px;
+  width: auto;
+  color: rgba(0,0,0,0.87);
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 420px;
+  border-left: 1px solid rgba(0,0,0,0.12);
+  border-right: 1px solid rgba(0,0,0,0.12);
+  padding: 16px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  width: 60px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  width: 80px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  width: 120px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 16px;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    />
+    <div
+      className="c3"
+    />
+    <hr
+      className="c4"
+    />
+    <div
+      className="c3"
+    />
+    <div
+      className="c5"
+    />
+    <div
+      className="c3"
+    />
+    <hr
+      className="c4"
+    />
+    <div
+      className="c3"
+    />
+    <div
+      className="c6"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Stack With Sizes 1`] = `
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 420px;
+  border-left: 1px solid rgba(0,0,0,0.12);
+  border-right: 1px solid rgba(0,0,0,0.12);
+  padding: 16px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  border: 2px solid rgba(0,0,0,0.12);
+  height: 40px;
+  background-color: #F3F4FC;
+  color: rgba(0,0,0,0.87);
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c2::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 8px;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 16px;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 4px;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 51px;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      xs
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c6"
+    />
+    <div
+      className="c7"
+    />
+    <div
+      className="c6"
+    />
+  </div>
+  <div
+    className="c8"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      sm
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c4"
+    />
+    <div
+      className="c6"
+    />
+    <div
+      className="c4"
+    />
+    <div
+      className="c6"
+    />
+  </div>
+  <div
+    className="c8"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      md
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c9"
+    />
+    <div
+      className="c6"
+    />
+    <div
+      className="c9"
+    />
+    <div
+      className="c6"
+    />
+  </div>
+  <div
+    className="c8"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      lg
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c8"
+    />
+    <div
+      className="c6"
+    />
+    <div
+      className="c8"
+    />
+    <div
+      className="c6"
+    />
+  </div>
+  <div
+    className="c8"
+  />
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      custom
+    </span>
+  </p>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <div
+      className="c6"
+    />
+    <div
+      className="c10"
+    />
+    <div
+      className="c6"
+    />
+    <div
+      className="c10"
+    />
+    <div
+      className="c6"
+    />
+  </div>
+</div>
+`;

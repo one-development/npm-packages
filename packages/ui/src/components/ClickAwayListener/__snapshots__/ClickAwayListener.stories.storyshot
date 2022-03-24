@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  position: relative;
+  height: 250px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: 0 20px 32px rgba(0,0,0,0.16);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 320px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: rgba(0,0,0,0.12);
+  border: none;
+  height: 1px;
+  width: auto;
+  color: rgba(0,0,0,0.87);
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c1::-moz-focus-inner {
+  border-style: none;
+}
+
+.c5 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2670625rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: center;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c9 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c14 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.014625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.227375rem);
+  -ms-transform: translateY(0.227375rem);
+  transform: translateY(0.227375rem);
+  text-align: initial;
+}
+
+.c14::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.55475rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.014625000000000013rem;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  background-color: #009D00;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c2:hover {
+  background-color: hsl(120,100%,24.6%);
+}
+
+.c2:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 32px;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <button
+    aria-busy={false}
+    className="c1 c2"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="button"
+  >
+    <div
+      className="c3"
+    >
+      <span
+        className="c4 c5"
+      >
+        <span
+          className="c6"
+        >
+          Open Menu
+        </span>
+      </span>
+    </div>
+  </button>
+  <div
+    className="c7"
+  >
+    <div
+      className="c8"
+    >
+      <p
+        className="c4 c9"
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+      </p>
+      <div
+        className="c10"
+      />
+      <hr
+        className="c11"
+      />
+      <div
+        className="c10"
+      />
+      <p
+        className="c4 c9"
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+      </p>
+      <div
+        className="c10"
+      />
+      <hr
+        className="c11"
+      />
+      <div
+        className="c10"
+      />
+      <p
+        className="c4 c9"
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+      </p>
+    </div>
+    <div
+      className="c12"
+    />
+    <p
+      className="c13 c14"
+    >
+      <span
+        className="c15"
+      >
+        Note: Click outside this menu to close
+      </span>
+    </p>
+  </div>
+</div>
+`;

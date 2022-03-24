@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "author": "Jordan Hurt <jth0024@gmail.com>",
+  "version": "3.0.3",
+  "main": "index.js",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "example-package": "^1.1.1"
+  }
+}

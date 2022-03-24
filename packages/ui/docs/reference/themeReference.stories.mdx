@@ -1,0 +1,551 @@
+import _ from 'lodash'
+import { Inspector } from 'react-inspector'
+import { Meta } from '@storybook/addon-docs/blocks'
+import {
+  darkTheme,
+  lightTheme,
+  ThemeProvider,
+  Box,
+  Space,
+  Text,
+} from '../../src'
+import ColorsScale from './ColorsScale'
+import ScaleVisualizer from './ScaleVisualizer'
+
+<Meta id='theme-reference' title='API Reference/Theme' />
+
+# Theme Reference
+
+One UI exports default themes, components, helpers, and hooks to use in your application.
+
+- [createTheme](#createthemeoptions--theme)
+- [ThemeProvider](#themeprovider)
+- [useTheme](#usetheme--theme)
+- [withTheme](#withthemebasecomponent--wrappedcomponent)
+- [Default Themes](#default-themes)
+  - [Light Theme](#-lighttheme-)
+  - [Dark Theme](#-darktheme-)
+- [Theme Properties](#theme-properties)
+  - [Borders](#borders)
+  - [Border Widths](#border-widths)
+  - [Breakpoints](#breakpoints)
+  - [Colors](#colors)
+  - [Fonts](#fonts)
+  - [Font Sizes](#font-sizes)
+  - [Font Weights](#font-weights)
+  - [Radii](#radii)
+  - [Shadows](#shadows)
+  - [Sizes](#sizes)
+  - [Space](#space)
+  - [Transitions](#transitions)
+  - [Type](#type)
+  - [Typography](#typography)
+  - [Z Indices](#z-indices)
+
+## `createTheme(options) => theme`
+
+Returns a new One UI theme based on the provided options.
+
+##### Arguments
+
+Accepts options used to configure your theme - `{ colors?, type? = light, ...rest }`. Any unknown keys will be spread into the returned theme object for use throughout your application.
+
+1. `options.colors: object` - an object containing your application's built-in and custom colors. Each key must be the name of a built-in or custom color, and each value must be either a color definition string or object.
+   - A theme includes the following built-in colors: `background|surface|brand|brand2|info|success|error|warning|highlight`
+   - A color definition string can be provided as hex, hsl, rgb, or a recognized browser color name (e.g. blue).
+   - A color definition object describes variants and "on" colors, and it has the following shape: `{ main, light?, dark?, on?, onLight?, onDark?, onMain? }`
+   - Only `main` is required for a color definition object. Variants and "on" colors can be generated programatically from main.
+   - The `on` option can be provided to sets defaults for `onLight`, `onMain`, and `onDark`.
+   - The `background` and `surface` colors only use `{ main, onMain }` because there are no background/surface variants.
+2. `options.type: light | dark` - an enum indicating whether the theme is light or dark. Used to configure certain behaviors and default colors.
+
+##### Returns
+
+`theme: object` - A complete, ready to use One UI theme
+
+##### Examples
+
+###### Setting the type
+
+You can use the `type` option to specify a _light_ (default) or _dark_ theme. Changing the `type` will only affect the default values that are used when built-in colors are omitted or partially defined. If a fully defined `colors` option is provided, the `type` option will effectively be ignored.
+
+```javascript
+import { createTheme } from 'one-ui'
+
+const lightTheme = createTheme()
+const darkTheme = createTheme({ type: 'dark' })
+```
+
+###### Defining colors
+
+You can use the `colors` option to define _built-in_ and _custom_ colors for your theme. _Built-in_ colors (background, surface, brand, brand2, highlight, info, warning, error) are part of the One UI color system and will receive fallbacks when they are not defined via the `colors` option. _Custom_ colors are defined by providing extra keys (e.g. red, foo, bar) via the `colors` option.
+
+```javascript
+import { createTheme } from 'one-ui'
+
+const myTheme = createTheme({
+  colors: {
+    // Background, Surface, and Highlight only support single hex values
+    background: '#f3f4fc',
+    surface: '#fff',
+    highlight: '#0e24c4',
+
+    // Define all variants for a color
+    brand: {
+      dark: '#007a00',
+      light: '#ecfbe7',
+      main: '#009d00',
+    },
+
+    // Customize the "on" colors (icon/text) for some or all varaints
+    brand2: {
+      dark: '#08167a',
+      light: '#e7eafe',
+      main: '#0e24c4',
+      on: '#fff', // set all variants at once
+    },
+    error: {
+      dark: '#940011',
+      light: '#ffe5e5',
+      main: '#f03d3d',
+      onDark: '#fff', // set each variant individually
+      onMain: '#fff',
+      onLight: '#000',
+    },
+
+    // Define custom colors that aren't built in to One UI.
+    // Light, dark, and "on" shades can be generated from a single hex value.
+    orange: '#FF6800',
+    red: '#FF0000',
+  },
+})
+```
+
+###### Adding extra keys
+
+You can add custom properties to your theme by defining extra keys on the `options` object. In this example, we are defining a mixins key that can be referenced throughout our application via `theme.mixins`.
+
+```javascript
+import { createTheme } from 'one-ui'
+
+const myTheme = createTheme({
+  mixins: {
+    visuallyHidden: {
+      border: 0,
+      clip: 'rect(0 0 0 0)',
+      height: '1px',
+      margin: '-1px',
+      overflow: 'hidden',
+      padding: 0,
+      position: 'absolute',
+      width: '1px',
+      whiteSpace: 'nowrap',
+      wordWrap: 'normal',
+    },
+  },
+})
+```
+
+## `<ThemeProvider/>`
+
+A helper component for theming. Injects the theme into all styled components anywhere beneath it in the component tree, via the context API. You can view full documentation [here](/?path=/docs/utils-themeprovider--basic).
+
+##### Examples
+
+```javascript
+import { darkTheme, lightTheme, ThemeProvider } from 'one-ui'
+import App from './components/App'
+import usePrefersDark from './utils/usePrefersDark'
+
+const Main = () => {
+  const prefersDark = usePrefersDark()
+  const theme = prefersDark ? darkTheme : lightTheme
+
+  return (
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  )
+}
+
+const rootComponent = <Main />
+```
+
+## `useTheme() => theme`
+
+A React hook that can be used inside function components to access the theme object.
+
+##### Returns
+
+`theme: object` - The theme object provided by the `ThemeProvider`
+
+##### Examples
+
+```javascript
+import { useTheme } from 'one-ui'
+
+const MyComponent = () => {
+  const theme = useTheme()
+
+  console.log('Current theme: ', theme)
+}
+```
+
+##### Notes
+
+- Must be used in a component nested under a theme provider.
+
+## `withTheme(baseComponent) => wrappedComponent`
+
+A higher-order component factory to get the current theme from a `ThemeProvider` and pass it to your input component as a `theme` prop.
+
+##### Arguments
+
+1. `baseComponent: component` - A component that will receive the theme object via a `theme` prop.
+
+##### Returns
+
+`wrappedComponent: component` - A new component that will provide the theme object via context to the base component.
+
+##### Examples
+
+```javascript
+import { withTheme } from 'one-ui'
+
+class MyComponent extends React.Component {
+  render() {
+    console.log('Current theme: ', this.props.theme)
+    // ...
+  }
+}
+
+export default withTheme(MyComponent)
+```
+
+## Default Themes
+
+One UI exports two default themes to use in your application. These themes implement One UI's brand colors.
+
+##### `{ lightTheme }`
+
+A light theme that implements One UI's brand colors. View it in context [here](/?path=/story/theme-builder--one-ui-light) or expand the interactive JavaScript object below:
+
+<ThemeProvider theme={lightTheme}>
+  <Box
+    marginTop='20px'
+    marginBottom='24px'
+    padding='20px'
+    border='thin'
+    borderRadius='4px'
+    boxShadow='xs'
+  >
+    <Inspector data={lightTheme} expandLevel={1} />
+  </Box>
+</ThemeProvider>
+
+##### `{ darkTheme }`
+
+A dark theme that implements One UI's brand colors. View it in context [here](/?path=/story/theme-builder--one-ui-dark) or expand the interactive JavaScript object below:
+
+<ThemeProvider theme={lightTheme}>
+  <Box
+    marginTop='20px'
+    marginBottom='24px'
+    padding='20px'
+    border='thin'
+    borderRadius='4px'
+    boxShadow='xs'
+  >
+    <Inspector data={darkTheme} expandLevel={1} />
+  </Box>
+</ThemeProvider>
+
+## `Theme Properties`
+
+The theme object defines properties for your application's color palette, spacing, typography, breakpoints, and more. These properties are referred to as scales and separated by concern. You can learn more about the intent behind scales in the [Theming](/?path=/docs/theming--page#scales) guide.
+
+Most of the theme's scales also define helper functions for advanced usage, e.g. `theme.breakpoints.above('md')`. Helper functions are not supported in [Style Props](#style-props) and must be accessed within [styled components](/?path=/docs/styling--page#styled-components), the [useTheme](#usetheme--theme) hook, or the [withTheme](#withthemebasecomponent--wrappedcomponent) higher-order component.
+
+- [Borders](#borders)
+- [Border Widths](#border-widths)
+- [Breakpoints](#breakpoints)
+- [Colors](#colors)
+- [Fonts](#fonts)
+- [Font Sizes](#font-sizes)
+- [Font Weights](#font-weights)
+- [Radii](#radii)
+- [Shadows](#shadows)
+- [Sizes](#sizes)
+- [Space](#space)
+- [Transitions](#transitions)
+- [Type](#type)
+- [Typography](#typography)
+- [Z Indices](#z-indices)
+
+##### Borders
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: `
+        Returns the border style defined for the specified key
+      `,
+    },
+  }}
+  name='borders'
+  renderPreview={(value, key) => (
+    key !== 'none' &&
+    <Box key={key} border={key} p='sm'>
+      <Text>{key}</Text>
+    </Box>
+  )}
+/>
+
+##### Border Widths
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the border width defined for the specified key',
+    },
+  }}
+  name='borderWidths'
+/>
+
+##### Breakpoints
+
+<ScaleVisualizer
+  helperDefs={{
+    above: {
+      args: ['size: string'],
+      description: 'Generates a min-width media query for the provided size',
+    },
+    below: {
+      args: ['size: string'],
+      description:
+        'Generates a max-width media query for the provided size - 1',
+    },
+    between: {
+      args: ['min: string', 'max: string'],
+      description: 'Generates a media query between min (inclusive)',
+    },
+  }}
+  name='breakpoints'
+/>
+
+##### Colors
+
+<ColorsScale />
+
+##### Fonts
+
+<ScaleVisualizer
+  helperDefs={{
+    family: {
+      args: ['key: string'],
+      description: 'Returns the font-family definition for the provided key',
+    },
+    metrics: {
+      args: ['key: string'],
+      description:
+        'Returns the metrics (capHeight, ascender, etc) for the provided key',
+    },
+  }}
+  name='fonts'
+/>
+
+##### Font Sizes
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the font size value defined for the provided key',
+    },
+  }}
+  name='fontSizes'
+/>
+
+##### Font Weights
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the font weight value defined for the provided key',
+    },
+  }}
+  name='fontWeights'
+  renderPreview={(value, key) => (
+    <Text key={key} weight={key}> 
+      {key}
+    </Text>
+  )}
+/>
+
+##### Radii
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the border radius value defined for the provided key',
+    },
+  }}
+  name='radii'
+  renderPreview={(value, key) => (
+    <Box
+      key={key}
+      alignItems='center'
+      border='thin'
+      borderRadius={key}
+      display='flex'
+      height='80px'
+      justifyContent='center'
+      width='80px'
+    >
+      <Text>{key}</Text>
+    </Box>
+    )}
+/>
+
+##### Shadows
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the box shadow value defined for the provided key',
+    },
+  }}
+  name='shadows'
+  renderPreview={(value, key) => (
+    <Box
+      key={key}
+      alignItems='center'
+      boxShadow={key}
+      display='flex'
+      height='80px'
+      justifyContent='center'
+      width='80px'
+    >
+      <Text>{key}</Text>
+    </Box>
+  )}
+/>
+
+##### Sizes
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the value defined for the provided key',
+    },
+  }}
+  name='sizes'
+  renderPreview={(value, key) => (key !== 'containerWidth' &&
+    <Box
+      key={key}
+      alignItems='center'
+      border='thin'
+      display='flex'
+      height={key}
+      justifyContent='center'
+      width='250px'
+    >
+      <Text>{key}</Text>
+    </Box>
+  )}
+/>
+
+##### Space
+
+<ScaleVisualizer
+  helperDefs={{
+    custom: {
+      args: ['[...multipliers]: number'],
+      description: `
+      Calculates the computed spacing style with 'px' appended - Args match shorthand for margin/padding - For example, theme.space.custom(1, 1.5) -> '8px 12px'
+      `,
+    }
+  }}
+  name='space'
+  renderPreview={(value, key) => (!['grid', 'unit'].includes(key) &&
+    <Box key={key} padding='xs'>
+      <Text>{key}</Text>
+      <Space height='xs' />
+      <Box height={value} border='thin' width='16px' />
+    </Box>
+  )}
+/>
+
+##### Transitions
+
+<ScaleVisualizer
+  helperDefs={{
+    create: {
+      args: ['props: string|array', 'options: { delay, duration, easing }'],
+      description: `
+        Generates the CSS transition value for the provided css properties.
+        - \`props\` refers to the applicable CSS properties, i.e. "opacity"
+        - \`options.delay\` sets the transition delay. Defaults to 0.
+        - \`options.duration\` sets the transition duration. Defaults to "standard".
+        - \`options.easing\` sets the transition easing. Defaults to "easeInOut".
+      `,
+    },
+    'durations.use': {
+      args: ['key: number|string'],
+      description: 'Returns the duration value defined for the provided key',
+    },
+    'easings.use': {
+      args: ['key: number|string'],
+      description: 'Returns the easing value defined for the provided key',
+    },
+  }}
+  name='transitions'
+/>
+
+##### Typography
+
+<ScaleVisualizer
+  helperDefs={{
+    remToValue: {
+      args: ['remValue: string'],
+      description: `
+      Converts an rem value string into a number based on assumed 16px font size
+      `
+    },
+    use: {
+      args: ['key: string'],
+      description: `
+      Returns the type styles defined for the provided key - \`key\` can be any key defined in \`theme.typography\` above
+      `,
+    },
+    useImportant: {
+      args: ['key: string'],
+      description: `
+      Returns the type styles defined for the provided key and adds !important to the css rule - \`key\` can be any key defined in \`theme.typography\` above
+      `,
+    },
+  }}
+  name='typography'
+  renderPreview={(value, key) =>
+    <Text key={key} variant={key}>
+      {key}
+    </Text>}
+  />
+
+##### Z Indices
+
+<ScaleVisualizer
+  helperDefs={{
+    use: {
+      args: ['key: number|string'],
+      description: 'Returns the value defined for the provided key',
+    },
+  }}
+  name='zIndices'
+/>

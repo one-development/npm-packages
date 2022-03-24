@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/RadioDetails Basic 1`] = `
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c2::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.03);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+  id="radio-details-basic"
+>
+  <p
+    className="c1 c2"
+  >
+    <span
+      className="c3"
+    >
+      Radio details go here
+    </span>
+  </p>
+</div>
+`;
+
+exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c18 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c18::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c14 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c14::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:first-child {
+  padding-top: 32px;
+}
+
+.c5:last-child {
+  padding-bottom: 32px;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 36px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 36px;
+  position: relative;
+  width: 18px;
+}
+
+.c10 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c10 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c11 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c9:hover .c11 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c11 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c9:hover .c21 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+.c9:hover .c22 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.03);
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  padding: 8px 16px;
+}
+
+.c20 {
+  padding: 8px 16px;
+  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+.c16 {
+  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <form>
+          <div
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-label="color"
+            aria-required={true}
+            className="c6"
+            id="color"
+            role="radiogroup"
+          >
+            <div
+              className="c7"
+            >
+              <div
+                className="c8"
+                onInput={[Function]}
+              >
+                <div
+                  className="c9 c10"
+                >
+                  <input
+                    aria-controls="blue-details"
+                    aria-disabled={false}
+                    aria-expanded={true}
+                    aria-invalid={false}
+                    aria-labelledby="blue-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    defaultChecked={true}
+                    disabled={false}
+                    id="blue"
+                    name="color"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="blue"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c11"
+                  />
+                </div>
+                <label
+                  className="c12"
+                  htmlFor="blue"
+                  id="blue-label"
+                >
+                  <span
+                    className="c13 c14"
+                  >
+                    <span
+                      className="c15"
+                    >
+                      Blue
+                    </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div
+              className="c16"
+            >
+              <div
+                className="c17"
+                id="blue-details"
+              >
+                <p
+                  className="c13 c18"
+                >
+                  <span
+                    className="c19"
+                  >
+                    Your app will be themed blue
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              className="c20"
+            >
+              <div
+                className="c8"
+                onInput={[Function]}
+              >
+                <div
+                  className="c9 c10"
+                >
+                  <input
+                    aria-controls="red-details"
+                    aria-disabled={false}
+                    aria-expanded={false}
+                    aria-invalid={false}
+                    aria-labelledby="red-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    defaultChecked={false}
+                    disabled={false}
+                    id="red"
+                    name="color"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="red"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c11"
+                  />
+                </div>
+                <label
+                  className="c12"
+                  htmlFor="red"
+                  id="red-label"
+                >
+                  <span
+                    className="c13 c14"
+                  >
+                    <span
+                      className="c15"
+                    >
+                      Red
+                    </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,85 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { Inspector } from 'react-inspector'
+import { Box, lightTheme, ThemeProvider } from '../../src'
+
+<Meta id='features' title='Getting Started/Features' />
+
+# Features
+
+One UI provides a variety of useful features and functionality that make building applications a breeze.
+
+- [Accessibility](#accessibility)
+- [Theming](#theming)
+- [Style Props](#style-props)
+- [Utilities](#utilities)
+
+## Accesibility
+
+One UI is built with the understanding that accessibility is a requirement. Accordingly, One UI components support accessibility out of the box and include helpful summarizes of relevant accessibility guidance. Check out our [input](/?path=/docs/components-input--basic) component for a great example.
+
+## Theming
+
+One UI has two default themes and built-in support for complex theming. The theme is structured as a JavaScript object, based on the [Styled System Theme Specification](https://styled-system.com/theme-specification). You can [learn more](/?path=/docs/theming--page) about theming and even [create](/?path=/story/tools-theme-builder--basic) your own.
+
+Expand the interactive theme object below to inspect its properties:
+
+<ThemeProvider theme={lightTheme}>
+  <Box
+    marginTop='20px'
+    marginBottom='24px'
+    padding='20px'
+    border='thin'
+    borderRadius='4px'
+    boxShadow='xs'
+  >
+    <Inspector data={lightTheme} expandLevel={1} />
+  </Box>
+</ThemeProvider>
+
+## Style Props
+
+Many One UI components support _Style Props_, which make it easy to reference theme values for CSS properties like _margin_, _color_, _height_, or _width_. Style Props make components more declarative and eliminate the need to write custom style rules.
+
+```javascript
+<Box
+  color='onSurface.primary' // theme.color.onSurface.primary
+  margin='md' // theme.space.md
+  height='100%' // uses 100% height as custom value
+  width='containedWidth' // theme.sizes.containerWidth
+>
+  This is a box
+</Box>
+```
+
+What's more, style props support _responsive_ values, which make it simple to adjust style prop values for different screen sizes.
+
+```javascript
+// You can pass an object (or array), which uses breakpoint aliases as keys
+<Box
+  padding={{ default: 'md', sm: 'lg' }}
+  marginX={{ default: 'md', xs: 'lg', md: 'auto' }}
+>
+  This is a box
+</Box>
+```
+
+## Utilities
+
+One UI exports a variety of useful functions and hooks to support rapid application development. You can read more about them [here](/?path=/story/utils-reference--page).
+
+```javascript
+import { useEventListener } from 'one-ui'
+
+function Input(props) {
+  useEventListener('scroll', () => {
+    console.log('window scrolled')
+  })
+
+  return <div>This page logs to the console on scroll events</div>
+}
+```
+
+## Up Next
+
+* [Theming](/?path=/docs/theming--page)
+* [Styling](/?path=/docs/styling--page)

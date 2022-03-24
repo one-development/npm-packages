@@ -1,0 +1,104 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import Releases, { currentVersion, CurrentVersion } from './Releases'
+import { Box, Button, Container, CssBaseline, lightTheme, Link, Notification, Space, Stack, Text, ThemeProvider } from '../../src'
+
+<Meta title='Getting Started/About' />
+
+<CurrentVersion />
+
+One UI to rule them all.
+
+<ThemeProvider>
+  <Box 
+    display="flex"
+    border="thin"
+    borderRadius="sm"
+    flexDirection={{ _: 'column', md: 'row' }}
+    mb="xl"
+    overflow="hidden"
+  >
+    <Box
+      backgroundColor="background"
+      flex="1 1 50%"
+      borderRight={{ _: 'none', md: 'thin' }}
+      borderBottom={{ _: 'thin', md: 'none' }}
+    >
+      <style 
+        dangerouslySetInnerHTML={{
+          __html: `
+            .docblock-source {
+              background-color: transparent !important;
+              border: none !important;
+              border-radius: 0px !important;
+              box-shadow: none !important;
+              margin-top: 0px !important;
+              margin-bottom: 0px !important;
+              padding-right: 0px !important;
+            }
+          `
+        }}
+      />
+      <code className="language-javascript">
+        {
+          `
+import { Box, Button, Text } from 'one-ui'
+          `
++
+         `
+export default () => (
+    <Box
+      alignItems="center"
+      backgroundColor="surface"
+      color="onSurface.primary"
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      paddingX="md"
+      paddingY="xxl"
+    >
+      <Text align="center" variant="h1">
+        Ready to set up One UI in your app?
+      </Text>
+      <Space height="lg" />
+      <Button
+        as="a"
+        href="/installation"
+        shape="pill"
+      >
+        Get Started!
+      </Button>
+    </Box>
+)
+         `
+       }
+      </code>
+    </Box>
+    <Box
+      alignItems="center"
+      backgroundColor="surface"
+      color="onSurface.primary"
+      display="flex"
+      flex="1 1 50%"
+      flexDirection="column"
+      justifyContent="center"
+      paddingX="md"
+      paddingY="xxl"
+    >
+      <Text align="center" variant="h1">Ready to set up One UI in your app?</Text>
+      <Space height="lg" />
+      <Button as="a" shape="pill" href="/?path=/docs/installation--page">
+        Get Started!
+      </Button>
+    </Box>
+  </Box>
+</ThemeProvider>
+
+
+## Versioning
+
+One UI follows semantic versioning, meaning that breaking changes are only included in major release versions. 
+If you're looking for information about the changes included in a release, check out the project's
+[changelog](https://github.com/jth0024/npm-packages/blob/master/packages/ui/CHANGELOG.md) on GitHub. 
+If you need to view documentation from a past release, follow the appropriate link below:
+
+<Releases />

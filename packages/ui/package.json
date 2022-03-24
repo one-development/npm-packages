@@ -1,0 +1,61 @@
+{
+  "name": "one-ui",
+  "author": "Jordan Hurt <jth0024@gmail.com>",
+  "version": "2.9.0",
+  "main": "./dist/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "node ./tasksfile build",
+    "deploy": "node ./tasksfile deploy",
+    "generate": "node ./tasksfile generate",
+    "storybook": "node ./tasksfile storybook",
+    "tasks": "node ./tasksfile --help"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "7.11.2",
+    "@styled-system/prop-types": "5.1.4",
+    "@styled-system/should-forward-prop": "5.1.5",
+    "bezier-easing": "2.1.0",
+    "color": "3.1.2",
+    "styled-system": "5.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "lodash": "4.x",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "4.4.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "6.1.11",
+    "@storybook/addon-docs": "6.1.11",
+    "@storybook/addon-essentials": "6.1.11",
+    "@storybook/addon-storyshots": "6.1.11",
+    "@storybook/addon-storysource": "6.1.11",
+    "@storybook/addons": "6.1.11",
+    "@storybook/react": "6.1.11",
+    "@storybook/theming": "6.1.11",
+    "babel-loader": "8.1.0",
+    "babel-plugin-require-context-hook": "1.0.0",
+    "jest-specific-snapshot": "^3.0.0",
+    "jest-styled-components": "6.3.4",
+    "lodash": "4.17.15",
+    "raw-loader": "4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "16.12.0",
+    "react-hook-form": "5.3.1",
+    "react-inspector": "4.0.0",
+    "react-markdown": "5.0.3",
+    "react-test-renderer": "^16.12.0",
+    "storybook-addon-themes": "6.0.1",
+    "stringify-object": "3.3.0",
+    "styled-components": "4.4.1"
+  },
+  "sideEffects": false
+}

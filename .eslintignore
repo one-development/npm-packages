@@ -1,0 +1,8 @@
+!.storybook
+dist
+.dsm
+.docs
+node_modules
+reports
+__snapshots__
+test/fixtures

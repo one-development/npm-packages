@@ -1,0 +1,26 @@
+{
+  "name": "one-config",
+  "author": "Jordan Hurt <jth0024@gmail.com>",
+  "version": "1.0.0-alpha.8",
+  "main": "./dist/index.js",
+  "browser": {
+    "./dist/index.js": "./dist/index.browser.js"
+  },
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "node ./tasksfile build",
+    "tasks": "node ./tasksfile --help"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "7.11.2",
+    "cosmiconfig": "5.2.1"
+  },
+  "peerDependencies": {
+    "lodash": "4.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

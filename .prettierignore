@@ -1,0 +1,8 @@
+pages
+.build
+dist
+reports
+node_modules
+
+# Prettier has a tendency to screw up MDX files
+*.mdx

@@ -1,0 +1,93 @@
+{
+  "name": "npm-packages-project",
+  "author": "Jordan Hurt <jth0024@gmail.com>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "test/fixtures/*/*"
+  ],
+  "scripts": {
+    "authenticate": "node ./tasks/authenticate",
+    "commit": "git-cz",
+    "build": "node ./tasksfile.js build",
+    "deduplicate": "node ./tasksfile.js deduplicate",
+    "deploy": "node ./tasksfile deploy",
+    "dev": "node ./tasksfile.js dev",
+    "format": "node ./tasksfile.js format",
+    "lint": "node ./tasksfile.js lint",
+    "precommit": "yarn deduplicate --ci && lint-staged && rimraf ./packages/.DS_Store",
+    "tasks": "node ./tasksfile.js --help",
+    "test": "node ./tasksfile.js test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.11.6",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.11.0",
+    "@babel/plugin-transform-runtime": "7.11.5",
+    "@babel/preset-env": "7.11.5",
+    "@babel/preset-react": "7.10.4",
+    "@commitlint/cli": "^7.6.1",
+    "@commitlint/config-conventional": "^7.6.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-optimize-clsx": "2.5.0",
+    "babel-plugin-require-context-hook": "1.0.0",
+    "babel-plugin-styled-components": "1.10.6",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "babel-preset-react": "6.24.1",
+    "chokidar": "^3.0.1",
+    "commitizen": "^3.1.1",
+    "concurrently": "5.0.0",
+    "cross-env": "7.0.2",
+    "cz-customizable": "6.2.0",
+    "dedent": "0.7.0",
+    "eslint": "7.9.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "fs-extra": "8.1.0",
+    "glob": "7.1.6",
+    "husky": "^2.4.0",
+    "jest": "24.9.0",
+    "jest-html-reporter": "^2.5.0",
+    "jest-junit": "9.0.0",
+    "jest-watch-select-projects": "^0.1.1",
+    "jest-watch-typeahead": "^0.3.1",
+    "lerna": "^3.20.2",
+    "lint-staged": "^8.2.0",
+    "memfs": "^3.0.3",
+    "pkg-up": "^3.1.0",
+    "plop": "2.7.4",
+    "prettier": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "rimraf": "3.0.2",
+    "rollup": "^1.29.0",
+    "tasksfile": "5.1.0",
+    "webpack": "^4.41.5",
+    "yarn-deduplicate": "1.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "concurrently \"yarn test --once\" \"yarn lint\""
+    }
+  }
+}

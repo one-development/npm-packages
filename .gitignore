@@ -1,0 +1,37 @@
+# Possible build directories
+.build
+.dist
+.dsm
+.docs
+.next
+dist
+
+# Possible environment files & directories
+.env
+.env.dev
+.env.development
+.env.local
+.env.production
+.env.staging
+
+# Possible secrets or config files
+.aws
+.dsmrc
+.npmrc
+
+# OS and IDE Files
+.DS_Store
+.vscode
+
+# Possible package manager files
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+newrelic_agent.log
+node_modules
+
+# Reports files
+reports
+
+# Fixture artifacts
+packages/example*

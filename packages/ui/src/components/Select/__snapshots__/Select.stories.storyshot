@@ -1,0 +1,3652 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Select Basic 1`] = `
+.c1 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c0 select *,
+.c0 select *::before,
+.c0 select *::after {
+  box-sizing: border-box;
+}
+
+.c0 select:-ms-expand {
+  display: none;
+}
+
+.c0 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c2 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c2 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+<div
+  className="c0"
+>
+  <select
+    aria-invalid={false}
+    aria-required={true}
+    autoComplete="on"
+    autoFocus={false}
+    defaultValue="one"
+    formNoValidate={true}
+    id="select-basic"
+    multiple={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onInvalid={[Function]}
+    required={true}
+  >
+    <option
+      value="one"
+    >
+      One
+    </option>
+    <option
+      value="two"
+    >
+      Two
+    </option>
+  </select>
+  <svg
+    aria-hidden={true}
+    className="c1 c2"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0 24 0 24 24 0 24"
+      fill="none"
+    />
+    <path
+      d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Components/Select With Browser Validation 1`] = `
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.6);
+  display: block;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c24 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c24 *,
+.c24 *::before,
+.c24 *::after {
+  box-sizing: border-box;
+}
+
+.c24::-moz-focus-inner {
+  border-style: none;
+}
+
+.c27 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2670625rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: center;
+}
+
+.c27::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c8 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5195rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3865rem);
+  -ms-transform: translateY(0.3865rem);
+  transform: translateY(0.3865rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.873rem;
+}
+
+.c11 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c11::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c17 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.26584375rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32965625rem);
+  -ms-transform: translateY(0.32965625rem);
+  transform: translateY(0.32965625rem);
+  text-align: initial;
+}
+
+.c17::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7593125rem;
+}
+
+.c15 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.014625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.227375rem);
+  -ms-transform: translateY(0.227375rem);
+  transform: translateY(0.227375rem);
+  text-align: initial;
+}
+
+.c15::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.55475rem;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.019500000000000003rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c18 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.015843750000000004rem;
+}
+
+.c18 *,
+.c18 *::before,
+.c18 *::after {
+  box-sizing: border-box;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.014625000000000013rem;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c25 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 100%;
+  background-color: #009D00;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c25 *,
+.c25 *::before,
+.c25 *::after {
+  box-sizing: border-box;
+}
+
+.c25:hover {
+  background-color: hsl(120,100%,24.6%);
+}
+
+.c25:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.c26 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c23 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c23 *,
+.c23 *::before,
+.c23 *::after {
+  box-sizing: border-box;
+}
+
+.c23 > * {
+  margin-left: 8px;
+}
+
+.c23 > :first-child {
+  margin-left: 0;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c10:first-child {
+  padding-top: 32px;
+}
+
+.c10:last-child {
+  padding-bottom: 32px;
+}
+
+.c10:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+}
+
+.c6 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.c21 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c20 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c20 *,
+.c20 *::before,
+.c20 *::after {
+  box-sizing: border-box;
+}
+
+.c20 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.38);
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c20 select *,
+.c20 select *::before,
+.c20 select *::after {
+  box-sizing: border-box;
+}
+
+.c20 select:-ms-expand {
+  display: none;
+}
+
+.c20 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c22 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c22 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 8px;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 16px;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Using Browser Validation
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              You can enable built-in HTML validation by setting formNoValidate=false on your Select. Try submitting the form below.
+            </span>
+          </p>
+          <div
+            className="c13"
+          />
+          <p
+            className="c14 c15"
+          >
+            <span
+              className="c16"
+            >
+              Note: Many form components set noValidate=true. Make sure it is also set to false on your form.
+            </span>
+          </p>
+        </div>
+        <div
+          className="c10"
+        >
+          <label
+            className="c7 c17"
+            htmlFor="swbv-plan-type"
+          >
+            <span
+              className="c18"
+            >
+              Plan Type
+            </span>
+          </label>
+          <div
+            className="c19"
+          />
+          <div
+            className="c20"
+          >
+            <select
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              defaultValue=""
+              formNoValidate={false}
+              id="swbv-plan-type"
+              multiple={false}
+              name="plan-type"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onInvalid={[Function]}
+              required={true}
+            >
+              <option
+                value=""
+              >
+                -- select a plan --
+              </option>
+              <option
+                value={1}
+              >
+                Free
+              </option>
+              <option
+                value={2}
+              >
+                Pro ($0.99/month)
+              </option>
+            </select>
+            <svg
+              aria-hidden={true}
+              className="c21 c22"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0 24 0 24 24 0 24"
+                fill="none"
+              />
+              <path
+                d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="c23"
+        >
+          <button
+            aria-busy={false}
+            className="c24 c25"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="submit"
+          >
+            <div
+              className="c26"
+            >
+              <span
+                className="c7 c27"
+              >
+                <span
+                  className="c12"
+                >
+                  Save Changes
+                </span>
+              </span>
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Select With Controlled State 1`] = `
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5195rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3865rem);
+  -ms-transform: translateY(0.3865rem);
+  transform: translateY(0.3865rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.873rem;
+}
+
+.c11 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c11::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c13 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.26584375rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32965625rem);
+  -ms-transform: translateY(0.32965625rem);
+  transform: translateY(0.32965625rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7593125rem;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.019500000000000003rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.015843750000000004rem;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c10:first-child {
+  padding-top: 32px;
+}
+
+.c10:last-child {
+  padding-bottom: 32px;
+}
+
+.c10:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+}
+
+.c6 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.c17 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c16 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c16 select *,
+.c16 select *::before,
+.c16 select *::after {
+  box-sizing: border-box;
+}
+
+.c16 select:-ms-expand {
+  display: none;
+}
+
+.c16 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c18 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c18 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 8px;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          <h2
+            className="c7 c8"
+          >
+            <span
+              className="c9"
+            >
+              Controlled Usage
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div
+        className="c10"
+      >
+        <p
+          className="c7 c11"
+        >
+          <span
+            className="c12"
+          >
+            Selects can be used as controlled components with React state. This is useful when you are using a Select outside of form.
+          </span>
+        </p>
+      </div>
+      <div
+        className="c10"
+      >
+        <label
+          className="c7 c13"
+          htmlFor="swcs-color"
+        >
+          <span
+            className="c14"
+          >
+            Controlled Select
+          </span>
+        </label>
+        <div
+          className="c15"
+        />
+        <div
+          className="c16"
+        >
+          <select
+            aria-invalid={false}
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            formNoValidate={true}
+            id="swcs-color"
+            multiple={false}
+            name="color"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            value="red"
+          >
+            <option
+              value=""
+            >
+              -- select a color --
+            </option>
+            <option
+              label="Red"
+              value="red"
+            />
+            <option
+              label="Blue"
+              value="blue"
+            />
+            <option
+              label="Green"
+              value="green"
+            />
+          </select>
+          <svg
+            aria-hidden={true}
+            className="c17 c18"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0 24 0 24 24 0 24"
+              fill="none"
+            />
+            <path
+              d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Select With Custom Attributes 1`] = `
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c7::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:first-child {
+  padding-top: 32px;
+}
+
+.c5:last-child {
+  padding-bottom: 32px;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c11 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c10 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.38);
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c10 select *,
+.c10 select *::before,
+.c10 select *::after {
+  box-sizing: border-box;
+}
+
+.c10 select:-ms-expand {
+  display: none;
+}
+
+.c10 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c12 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c12 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <p
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            This select is adding custom data attributes for test automation
+          </span>
+        </p>
+        <div
+          className="c9"
+        />
+        <div
+          className="c10"
+        >
+          <select
+            aria-invalid={false}
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            data-test-id="color"
+            defaultValue=""
+            formNoValidate={true}
+            id="swca-color"
+            multiple={false}
+            name="color"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onInvalid={[Function]}
+            required={true}
+          >
+            <option
+              value=""
+            >
+              --select a color--
+            </option>
+            <option
+              value="red"
+            >
+              Red
+            </option>
+            <option
+              value="green"
+            >
+              Green
+            </option>
+            <option
+              value="blue"
+            >
+              Blue
+            </option>
+          </select>
+          <svg
+            aria-hidden={true}
+            className="c11 c12"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0 24 0 24 24 0 24"
+              fill="none"
+            />
+            <path
+              d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Select With JS Validation 1`] = `
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.6);
+  display: block;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c21 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.87);
+  display: block;
+}
+
+.c21 *,
+.c21 *::before,
+.c21 *::after {
+  box-sizing: border-box;
+}
+
+.c28 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c28 *,
+.c28 *::before,
+.c28 *::after {
+  box-sizing: border-box;
+}
+
+.c28::-moz-focus-inner {
+  border-style: none;
+}
+
+.c31 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2670625rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: center;
+}
+
+.c31::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c8 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5195rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3865rem);
+  -ms-transform: translateY(0.3865rem);
+  transform: translateY(0.3865rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.873rem;
+}
+
+.c12 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2670625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.30693750000000003rem);
+  -ms-transform: translateY(0.30693750000000003rem);
+  transform: translateY(0.30693750000000003rem);
+  text-align: initial;
+}
+
+.c12::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.713875rem;
+}
+
+.c22 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.26584375rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32965625rem);
+  -ms-transform: translateY(0.32965625rem);
+  transform: translateY(0.32965625rem);
+  text-align: initial;
+}
+
+.c22::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7593125rem;
+}
+
+.c16 {
+  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.014625rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.227375rem);
+  -ms-transform: translateY(0.227375rem);
+  transform: translateY(0.227375rem);
+  text-align: initial;
+}
+
+.c16::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.55475rem;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.017062500000000008rem;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.019500000000000003rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c23 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.015843750000000004rem;
+}
+
+.c23 *,
+.c23 *::before,
+.c23 *::after {
+  box-sizing: border-box;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: -0.014625000000000013rem;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c29 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 100%;
+  background-color: #009D00;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c29 *,
+.c29 *::before,
+.c29 *::after {
+  box-sizing: border-box;
+}
+
+.c29:hover {
+  background-color: hsl(120,100%,24.6%);
+}
+
+.c29:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.c30 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c27 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c27 *,
+.c27 *::before,
+.c27 *::after {
+  box-sizing: border-box;
+}
+
+.c27 > * {
+  margin-left: 8px;
+}
+
+.c27 > :first-child {
+  margin-left: 0;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c10:first-child {
+  padding-top: 32px;
+}
+
+.c10:last-child {
+  padding-bottom: 32px;
+}
+
+.c10:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+}
+
+.c6 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.c25 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c20 {
+  margin-bottom: 8px;
+}
+
+.c18 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  color: #009D00;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c18 *,
+.c18 *::before,
+.c18 *::after {
+  box-sizing: border-box;
+}
+
+.c18:focus {
+  outline: none;
+  outline-offset: 1px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c18:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c18:visited,
+.c18:active {
+  color: #009D00;
+}
+
+.c24 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c24 *,
+.c24 *::before,
+.c24 *::after {
+  box-sizing: border-box;
+}
+
+.c24 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.38);
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c24 select *,
+.c24 select *::before,
+.c24 select *::after {
+  box-sizing: border-box;
+}
+
+.c24 select:-ms-expand {
+  display: none;
+}
+
+.c24 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c26 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c26 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className="c4"
+    >
+      <form
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Using JavaScript Validation
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <div
+            className="c11"
+          >
+            <p
+              className="c7 c12"
+            >
+              <span
+                className="c13"
+              >
+                In this example, a Select and Inputs are being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation.
+              </span>
+            </p>
+            <div
+              className="c14"
+            />
+            <p
+              className="c15 c16"
+            >
+              <span
+                className="c17"
+              >
+                Note: this example uses the 
+                <a
+                  className="c18"
+                  href={true}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  rel={null}
+                >
+                  FormControl
+                </a>
+                 
+                component to manage labels and error messages
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <div
+            className="c19"
+          >
+            <div
+              className="c20"
+            >
+              <label
+                className="c21 c22"
+                htmlFor="swjsv-plan-type"
+                id="swjsv-plan-type-label"
+              >
+                <span
+                  className="c23"
+                >
+                  Plan Type
+                </span>
+              </label>
+            </div>
+            <div
+              className="c24"
+            >
+              <select
+                aria-disabled={false}
+                aria-errormessage={null}
+                aria-invalid={false}
+                aria-labelledby="swjsv-plan-type-label"
+                aria-required={true}
+                autoComplete="on"
+                autoFocus={false}
+                defaultValue=""
+                disabled={false}
+                formNoValidate={true}
+                id="swjsv-plan-type"
+                multiple={false}
+                name="plan-type"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onInvalid={[Function]}
+                required={true}
+              >
+                <option
+                  value=""
+                >
+                  -- select a plan --
+                </option>
+                <option
+                  value={1}
+                >
+                  Free
+                </option>
+                <option
+                  value={2}
+                >
+                  Pro ($0.99/month)
+                </option>
+              </select>
+              <svg
+                aria-hidden={true}
+                className="c25 c26"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 0 24 0 24 24 0 24"
+                  fill="none"
+                />
+                <path
+                  d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c27"
+        >
+          <button
+            aria-busy={false}
+            className="c28 c29"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="submit"
+          >
+            <div
+              className="c30"
+            >
+              <span
+                className="c7 c31"
+              >
+                <span
+                  className="c13"
+                >
+                  Save Changes
+                </span>
+              </span>
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Select With Min Width 1`] = `
+.c1 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 250px;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0 select *,
+.c0 select *::before,
+.c0 select *::after {
+  box-sizing: border-box;
+}
+
+.c0 select:-ms-expand {
+  display: none;
+}
+
+.c0 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c2 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c2 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+<div
+  className="c0"
+>
+  <select
+    aria-invalid={false}
+    aria-required={true}
+    autoComplete="on"
+    autoFocus={false}
+    defaultValue="one"
+    formNoValidate={true}
+    id="swmw-number"
+    multiple={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onInvalid={[Function]}
+    required={true}
+  >
+    <option
+      value="one"
+    >
+      One
+    </option>
+    <option
+      value="two"
+    >
+      Two
+    </option>
+  </select>
+  <svg
+    aria-hidden={true}
+    className="c1 c2"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0 24 0 24 24 0 24"
+      fill="none"
+    />
+    <path
+      d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Components/Select With Placeholder 1`] = `
+.c1 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c0 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.38);
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c0 select *,
+.c0 select *::before,
+.c0 select *::after {
+  box-sizing: border-box;
+}
+
+.c0 select:-ms-expand {
+  display: none;
+}
+
+.c0 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c2 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c2 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+<div
+  className="c0"
+>
+  <select
+    aria-invalid={false}
+    aria-required={true}
+    autoComplete="on"
+    autoFocus={false}
+    defaultValue=""
+    formNoValidate={true}
+    id="swp-number"
+    multiple={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onInvalid={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      -- select a number --
+    </option>
+    <option
+      value="one"
+    >
+      One
+    </option>
+    <option
+      value="one"
+    >
+      Two
+    </option>
+  </select>
+  <svg
+    aria-hidden={true}
+    className="c1 c2"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0 24 0 24 24 0 24"
+      fill="none"
+    />
+    <path
+      d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Components/Select With States 1`] = `
+.c2 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: not-allowed;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+  opacity: 0.5;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c1 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgba(0,0,0,0.12);
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: not-allowed;
+  width: 100%;
+}
+
+.c1 select *,
+.c1 select *::before,
+.c1 select *::after {
+  box-sizing: border-box;
+}
+
+.c1 select:-ms-expand {
+  display: none;
+}
+
+.c1 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5 select {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: #F03D3D;
+  border-radius: 4px;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 44px;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  padding-right: 37px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c5 select *,
+.c5 select *::before,
+.c5 select *::after {
+  box-sizing: border-box;
+}
+
+.c5 select:-ms-expand {
+  display: none;
+}
+
+.c5 select:focus {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: #F03D3D;
+  outline: none;
+  padding: 0 8px;
+  padding-right: 36px;
+}
+
+.c3 {
+  cursor: pointer;
+  fill: currentColor;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+}
+
+select:active + .c3 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <select
+      aria-disabled={true}
+      aria-invalid={false}
+      aria-required={true}
+      autoComplete="on"
+      autoFocus={false}
+      defaultValue="disabled"
+      disabled={true}
+      formNoValidate={true}
+      id="sws-disabled"
+      multiple={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onInvalid={[Function]}
+      required={true}
+    >
+      <option
+        selected={true}
+        value="disabled"
+      >
+        Disabled
+      </option>
+    </select>
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0 24 0 24 24 0 24"
+        fill="none"
+      />
+      <path
+        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+      />
+    </svg>
+  </div>
+  <div
+    className="c4"
+  />
+  <div
+    className="c5"
+  >
+    <select
+      aria-invalid={true}
+      aria-required={true}
+      autoComplete="on"
+      autoFocus={false}
+      defaultValue="invalid"
+      formNoValidate={true}
+      id="sws-invalid"
+      multiple={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onInvalid={[Function]}
+      required={true}
+    >
+      <option
+        selected={true}
+        value="invalid"
+      >
+        Invalid
+      </option>
+      <option
+        value="still-invalid"
+      >
+        Still Invalid
+      </option>
+    </select>
+    <svg
+      aria-hidden={true}
+      className="c2 c3"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0 24 0 24 24 0 24"
+        fill="none"
+      />
+      <path
+        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+      />
+    </svg>
+  </div>
+</div>
+`;

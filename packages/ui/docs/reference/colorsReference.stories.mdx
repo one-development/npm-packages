@@ -1,0 +1,100 @@
+import _ from 'lodash'
+import { Meta } from '@storybook/addon-docs/blocks'
+import { 
+  amber, 
+  blue,
+  common, 
+  green, 
+  grey, 
+  indigo, 
+  purple,
+  red, 
+  Link,
+  Notification, 
+  Space,
+  Text, 
+  ThemeProvider,
+} from '../../src'
+import ColorSwatch from './ColorSwatch'
+
+<Meta id='colors-reference' title='API Reference/Colors' />
+
+# Colors Reference
+
+One UI exports a few color palettes and color functions to assist with creating themes. Additionally, color palettes can be used to accomodate special circumstances that don't warrant adding a new color to the theme. For example, an email application might allow users to assign a color to each label, but the application shouldn't necessarily include the user-facing color options as part of its theme.
+
+- [createSwatch](#createswatchhexvalue--swatch)
+- [amber](#-amber-)
+- [blue](#-blue-)
+- [common](#-common-)
+- [green](#-green-)
+- [grey](#-grey-)
+- [indigo](#-indigo-)
+- [purple](#-purple-)
+- [red](#-red-)
+
+<ThemeProvider>
+  <Notification>
+    <Text>
+      <b>Note.</b> This API reference documents the color palettes and utilities used to create custom themes in One UI. If you're looking for documentation on the colors that are exposed on the theme object, check out the <Link color='inherit' href='/?path=/story/theme-reference--page#colors'>Theme Reference</Link> page.
+    </Text>
+  </Notification>
+  <Space height='lg' />
+</ThemeProvider>
+
+## `createSwatch(hexValue) => swatch`
+
+Create a new 10 step swatch based on the provided hex.
+
+##### Arguments
+
+1. `hex: string` - A hex value to use as the basis for the swatch. It should be near the desired middle of your swatch.
+
+##### Returns
+
+`swatch: object` - A swatch with shades `50-900`. Also includes a `closest` prop to denote the input color's position on the swatch.
+
+##### Examples
+
+```javascript
+import { createSwatch } from 'one-ui'
+
+const indigo = createSwatch('#0e24c4')
+
+const light = swatch[100]
+const main = swatch[swatch.closest]
+const dark = swatch[800]
+```
+
+## `{ common }`
+
+<ColorSwatch swatch={common} />
+
+## `{ amber }`
+
+<ColorSwatch swatch={amber} />
+
+## `{ blue }`
+
+<ColorSwatch swatch={blue} />
+
+
+## `{ green }`
+
+<ColorSwatch swatch={green} />
+
+## `{ grey }`
+
+<ColorSwatch swatch={grey} />
+
+## `{ indigo }`
+
+<ColorSwatch swatch={indigo} />
+
+## `{ purple }`
+
+<ColorSwatch swatch={purple} />
+
+## `{ red }`
+
+<ColorSwatch swatch={red} />

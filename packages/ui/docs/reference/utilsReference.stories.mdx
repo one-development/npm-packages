@@ -1,0 +1,295 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta id='utils-reference' title='API Reference/Utils' />
+
+# Utils Reference
+
+One UI exports a few utility functions to use inside your application's components.
+
+- [applyMask](#applymaskmask-value--result)
+- [hideIf](#hideifcondition--elementorfn--result)
+- [showIf](#showifcondition--elementorfn--result)
+- [useEventCallback](#useeventcallbackcallback--handler)
+- [useEventListener](#useeventlistenereventname-handler-target-options)
+- [useFocusVisible](#usefocusvisible--result)
+- [useForkRef](#useforkrefsrcref-altref--ref)
+- [useOnce](#useoncecallback--void)
+- [usePrevious](#usepreviousvalue--prevvalue)
+
+## `applyMask(mask, value) => result`
+
+A function used to format a text string based on a provided pattern.
+
+##### Arguments
+
+1. `mask: string` - A string illustrating how to format the input with separators. It must include at least one `#` character, must end with a `#` character, and must not include any `_` characters.
+2. `value: string` - A string to be formatted with the provided mask
+
+##### Returns
+
+`result: string` - The provided value formatted with the provided mask. NOTE: masked values have a fixed length. Placeholder characters (`_`) are provided when `value` is too short, and extra characters are omitted when `value` is too long.
+
+##### Examples
+
+```javascript
+import { applyMask } from 'one-ui'
+
+console.log(applyMask('(###) ###-####', '555'))
+// (555) ___-____
+
+console.log(applyMask('(###) ###-####', '5555555555'))
+// (555) 555-5555
+
+console.log(applyMask('(###) ###-####', '55555555554444'))
+// (555) 555-5555
+```
+
+## `hideIf(condition) => elementOrFn => result`
+
+A function used to conditionally hide elements based on a boolean condition.
+
+##### Arguments
+
+1. `condition: boolean` - A boolean value. If `true`, returns a function that always returns `null`. If `false`, returns a function that returns React elements and invokes functions.
+
+##### Returns
+
+`result: function` - A function accepting a React element or callback that returns a React element. When `condition` is `true`, the result function will always return null. When `condition` is `false`, the result function will return a React element if it receives one or invoke a callback if it receives a function instead.
+
+##### Examples
+
+```javascript
+import { hideIf } from 'one-ui'
+
+function MyComponent(props) {
+  return (
+    <div>
+      {hideIf(props.closed)(<div>I am open</div>)}
+      {hideIf(props.closed)(() => (
+        <div>I am also open</div>
+      ))}
+    </div>
+  )
+}
+```
+
+## `showIf(condition) => elementOrFn => result`
+
+A function used to conditionally show elements based on a boolean condition.
+
+##### Arguments
+
+1. `condition: boolean` - A boolean value. If `false`, returns a function that always returns `null`. If `true`, returns a function that returns React elements and invokes functions.
+
+##### Returns
+
+`result: function` - A function accepting a React element or callback that returns a React element. When `condition` is `false`, the result function will always return null. When `condition` is `true`, the result function will return a React element if it receives one or invoke a callback if it receives a function instead.
+
+##### Examples
+
+```javascript
+import { showIf } from 'one-ui'
+
+function MyComponent(props) {
+  return (
+    <div>
+      {showIf(props.open)(<div>I am open</div>)}
+      {showIf(props.open)(() => (
+        <div>I am also open</div>
+      ))}
+    </div>
+  )
+}
+```
+
+## `useEventCallback(callback) => handler`
+
+A React hook that can be used to memoize an event handler to prevent unnecessary re-renders. <br/><br/>**NOTE**: Use this hook with caution. In some rare cases you might need to memoize a callback with useCallback, but the memoization doesn’t work very well because the inner function has to be re-created too often. If the function you’re memoizing is an event handler and isn’t used during rendering, you can use ref as an instance variable, and save the last committed value into it manually. This function addresses the issue, which is documented in more detail [here](https://reactjs.org/docs/hooks-faq.html#how-to-read-an-often-changing-value-from-usecallback) and [here](https://github.com/facebook/react/issues/14099#issuecomment-440013892).
+
+##### Arguments
+
+1. `callback: function` - An event callback
+
+##### Returns
+
+`handler: function` - A new event handler to be used in place of the callback.
+
+##### Examples
+
+```javascript
+import { useEventCallback } from 'one-ui'
+
+function Input(props) {
+  const { onBlur, ...rest } = props
+
+  const [touched, setIsTouched] = useState(false)
+  const handleBlur = useEventCallback(e => {
+    setIsTouched(true)
+    onBlur(e)
+  })
+
+  return <input {...rest} onBlur={handleBlur} />
+}
+```
+
+## `useEventListener(eventName, handler, target, options)`
+
+A React hook used to register an event listener on a valid EventTarget.
+
+##### Arguments
+
+1. `eventName: string` - A valid event type. See list [here](https://developer.mozilla.org/en-US/docs/Web/Events).
+2. `handler: function` - An event listener function to invoke when the event is fired.
+3. `target?: EventTarget` - Any valid [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget). Defaults to `window`.
+4. `options?: Object` - The `capture`, `once`, and `passive` options supported by the `addEventListener` method. Defaults to `{}`. Read more about the options [here](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener).
+
+##### Examples
+
+```javascript
+import { useEventListener } from 'one-ui'
+
+function Input(props) {
+  useEventListener('scroll', () => {
+    console.log('window scrolled')
+  })
+
+  return <div>Hello World</div>
+}
+```
+
+## `useFocusVisible() => result`
+
+A React hook that can be used to polyfill the upcoming :focus-visible pseudo selector. It is useful for components that should only react to keyboard initiated focus events.
+
+##### Returns
+
+`result: { createBlurHandler, createFocusHandler, isFocusVisible, register }` - An object used to create blur/focus handlers, register input ref, and read focus visible state.
+
+- `createBlurHandler` - A function accepting an optional callback and returning a blur event handler
+- `createFocusHandler` - A function accepting an optional callback and returning a focus event handler
+- `isFocusVisible` - A boolean value indicating whether or not focus is currently visible
+- `register` - A React ref to be provided to the input component
+
+##### Examples
+
+```javascript
+import { useFocusVisible } from 'one-ui'
+
+function Button(props) {
+  const { children, onBlur, onClick, onFocus, ...rest } = props
+  const {
+    createBlurHandler,
+    createFocusHandler,
+    isFocusVisible,
+    register,
+  } = useFocusVisible()
+
+  const handleBlur = createBlurHandler(onBlur)
+  const handleFocus = createFocusHandler(onFocus)
+
+  return (
+    <button
+      onBlur={handleBlur}
+      onFocus={handleFocus}
+      onClick={onClick}
+      ref={register}
+      style={{
+        border: isFocusVisible ? '1px solid blue' : 'none',
+      }}
+    >
+      {children}
+    </button>
+  )
+}
+```
+
+## `useForkRef(srcRef, altRef) => ref`
+
+A React hook that can be used to combine two refs into one. It is useful when a component accepting ref needs to declare its own ref as well.
+
+##### Arguments
+
+1. `srcRef: Ref` - The original ref, which should be forked.
+2. `altRef: Ref` - The second ref, which should be updated when the src ref changes.
+
+##### Returns
+
+`ref: Ref` - A new React ref that combines `srcRef` and `altRef`.
+
+##### Examples
+
+```javascript
+import { useForkRef, useOnce } from 'one-ui'
+import React, { createRef, forwardRef } from 'react'
+
+const Input = forwardRef((props, forwardedRef) => {
+  const inputRef = createRef(null)
+  const ref = useForkRef(forwardedRef, inputRef)
+
+  useOnce(() => {
+    inputRef.current.focus()
+  })
+
+  return <input {...props} ref={ref} />
+})
+```
+
+## `useOnce(callback) => void`
+
+A React hook used to create an effect that executes only once.
+
+##### Arguments
+
+1. `callback: function` - The side effect function to run. Should be the same type of function that would be passed to `React.useEffect`.
+
+##### Examples
+
+```javascript
+import { useOnce } from 'one-ui'
+import React, { createRef } from 'react'
+
+function MyComponent(props) {
+  const { autoFocus, ...rest } = props
+  const ref = createRef(null)
+
+  useOnce(() => {
+    if (autoFocus) {
+      ref.current.focus()
+    }
+  })
+
+  return <input {...rest} ref={ref} />
+}
+```
+
+## `usePrevious(value) => prevValue`
+
+A React hook used to track the previous state of a value.
+
+##### Arguments
+
+1. `value: any` - Any value.
+
+##### Returns
+
+`previousValue: any` - The previous value once the value has been changed
+
+##### Examples
+
+```javascript
+import { usePrevious } from 'one-ui'
+import { useEffect } from 'react'
+
+function MyComponent(props) {
+  const { invalid, onValidate } = props
+  const prevInvalid = usePrevious(invalid)
+
+  useEffect(() => {
+    if (prevInvalid !== invalid) {
+      onValidate(invalid)
+    }
+  }, [invalid, onValidate, prevInvalid])
+
+  return <div>{invalid}</div>
+}
+```

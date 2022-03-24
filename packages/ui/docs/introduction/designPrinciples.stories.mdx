@@ -1,0 +1,94 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta id='design-principles' title='Getting Started/Design Principles' />
+
+# Design Principles
+
+One UI is designed to offer simple components that cater to real-life UI design problems. To meet that goal, we developed a set of principles that help ensure our components behave predictably and consistently. Understanding these principles will help you work with and contribute to One UI.
+
+- [Simple & Intuitive](#simple--intuitive)
+- [Composible](#composible)
+- [Isolated](#isolated)
+- [Modifiable](#modifiable)
+- [Accessible](#accessible)
+- [Themeable](#themeable)
+
+## Simple & Intuitive
+
+Component APIs should be as simple and intuitive as possible.
+
+###### Simple
+
+- When in doubt, leave it out. It's easier to add new props when needed than to deprecate old ones
+- Be concise. Avoid adding unnecessary context to prop names. For example, `<Radio />` should accept `label` rather than `radioLabel`.
+- Avoid documenting irrelevant native DOM properties. For example, `<Button />` should document `onClick`, but `<Text />` should not.
+
+###### Intuitive
+
+- Avoid coupling props. For example, `hasLabel` and `labelText` could simplified to `label`.
+- Re-use native HTML semantics and community best practices whenever possible. For example, `<Input />` should accept `disabled` rather than `isDisabled`.
+- Spread extra props into the component's root node
+- Do not support invalid prop configurations. For example, `<Button />` should not support `flat`, `outline`, and `raised` boolean props. Instead, it should support a single `variant: flat | outline | raised` prop.
+
+## Composible
+
+Break down components into smaller parts with minimal props to keep complexity low, and compose them together. This ensures that components are easy to use and their styles are flexible and extensible.
+
+```javascript
+<Card>
+  <CardHeader title='Learn More' />
+  <CardContent>
+    <Text>Sure, I'd love to</Text>
+  </CardContent>
+</Card>
+```
+
+## Isolated
+
+All component styles should be isolated and work in any context.
+
+- Never depend on external styles or "resets", like those applied by `CssBaseline`
+- Never apply styles, like margin, that affect a component's layout in its parent container
+- Never apply global styles in a component (except `CssBaseline`)
+
+## Modifiable
+
+Components should support simple style overrides and extensions via style props, inline styles, composition, and inheritance. Components should support [styled-components](https://styled-components.com/), but also strive to make them unnecessary.
+
+```javascript
+// style props
+<Box marginX="auto" />
+
+// inline styles
+<Button style={{ margin: '0 auto' }}>
+  Click Me
+</Button>
+
+// composition
+<Box marginX="auto">
+  <Button>Click Me</Button>
+</Box>
+
+// inheritance
+<Box color="brandDark">
+  <CheckIcon color="inherit" />
+</Box>
+```
+
+## Accessibile
+
+When creating a component, keep accessibility top of mind.
+
+- Support keyboard navigation, focus management, color contrast, voice over, and the correct aria-\* attributes
+- Prefer semantic HTML over ARIA when possible
+- Add accessibility notes describing necessary props and common usage
+
+## Themeable
+
+Make components theme aware and dark mode compatible. Never hardcode colors based on assumptions. For example, avoid using hardcoded greys and always reference "on" colors to ensure appropriate contrast (i.e. background/onBackground).
+
+## Up Next
+
+* [Features](/?path=/docs/features--page)
+* [Theming](/?path=/docs/theming--page)
+* [Styling](/?path=/docs/styling--page)
