@@ -45,7 +45,7 @@
     "babel-plugin-require-context-hook": "1.0.0",
     "jest-specific-snapshot": "^3.0.0",
     "jest-styled-components": "6.3.4",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "raw-loader": "4.0.0",
     "react": "^16.12.0",
     "react-dom": "16.12.0",
