@@ -37,7 +37,7 @@ help(
 function deploy() {
   // eslint-disable-next-line global-require
   const { version } = require('./package.json')
-  const bucketUri = 's3://one-ui-docs'
+  const bucketUri = 's3://@one/ui-docs'
   const cpArgs = ['--recursive', '--acl public-read'].join(' ')
 
   sh(`aws s3 cp .docs ${bucketUri}/next ${cpArgs}`, {

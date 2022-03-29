@@ -32,7 +32,7 @@ A function used to format a text string based on a provided pattern.
 ##### Examples
 
 ```javascript
-import { applyMask } from 'one-ui'
+import { applyMask } from '@one/ui'
 
 console.log(applyMask('(###) ###-####', '555'))
 // (555) ___-____
@@ -59,7 +59,7 @@ A function used to conditionally hide elements based on a boolean condition.
 ##### Examples
 
 ```javascript
-import { hideIf } from 'one-ui'
+import { hideIf } from '@one/ui'
 
 function MyComponent(props) {
   return (
@@ -88,7 +88,7 @@ A function used to conditionally show elements based on a boolean condition.
 ##### Examples
 
 ```javascript
-import { showIf } from 'one-ui'
+import { showIf } from '@one/ui'
 
 function MyComponent(props) {
   return (
@@ -117,7 +117,7 @@ A React hook that can be used to memoize an event handler to prevent unnecessary
 ##### Examples
 
 ```javascript
-import { useEventCallback } from 'one-ui'
+import { useEventCallback } from '@one/ui'
 
 function Input(props) {
   const { onBlur, ...rest } = props
@@ -146,7 +146,7 @@ A React hook used to register an event listener on a valid EventTarget.
 ##### Examples
 
 ```javascript
-import { useEventListener } from 'one-ui'
+import { useEventListener } from '@one/ui'
 
 function Input(props) {
   useEventListener('scroll', () => {
@@ -173,7 +173,7 @@ A React hook that can be used to polyfill the upcoming :focus-visible pseudo sel
 ##### Examples
 
 ```javascript
-import { useFocusVisible } from 'one-ui'
+import { useFocusVisible } from '@one/ui'
 
 function Button(props) {
   const { children, onBlur, onClick, onFocus, ...rest } = props
@@ -219,7 +219,7 @@ A React hook that can be used to combine two refs into one. It is useful when a 
 ##### Examples
 
 ```javascript
-import { useForkRef, useOnce } from 'one-ui'
+import { useForkRef, useOnce } from '@one/ui'
 import React, { createRef, forwardRef } from 'react'
 
 const Input = forwardRef((props, forwardedRef) => {
@@ -245,7 +245,7 @@ A React hook used to create an effect that executes only once.
 ##### Examples
 
 ```javascript
-import { useOnce } from 'one-ui'
+import { useOnce } from '@one/ui'
 import React, { createRef } from 'react'
 
 function MyComponent(props) {
@@ -277,7 +277,7 @@ A React hook used to track the previous state of a value.
 ##### Examples
 
 ```javascript
-import { usePrevious } from 'one-ui'
+import { usePrevious } from '@one/ui'
 import { useEffect } from 'react'
 
 function MyComponent(props) {

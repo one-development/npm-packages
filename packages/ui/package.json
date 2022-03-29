@@ -1,5 +1,5 @@
 {
-  "name": "one-ui",
+  "name": "@one/ui",
   "author": "Jordan Hurt <jth0024@gmail.com>",
   "version": "2.9.0",
   "main": "./dist/index.js",

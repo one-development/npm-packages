@@ -40,7 +40,7 @@ We will reject any One UI contribution that:
 - New components adhere to _component style guidelines_
 - New components support _A11y and ARIA attributes_
 - Include storyshots (auto-generated from component stories) or unit tests with [jest](https://jestjs.io/en/).
-- Include _proper documentation_ (you can start the docs site by running `yarn workspace one-ui storybook`)
+- Include _proper documentation_ (you can start the docs site by running `yarn workspace @one/ui storybook`)
 
 ##### Test Style Guidelines
 
@@ -110,15 +110,15 @@ This repo has two types of scripts or tasks: global tasks that run for _all_ pac
 
 ##### Package Tasks
 
-1. To list all of the tasks for a package, run `yarn workspace [package name] tasks`. For example, `yarn workspace one-ui tasks`.
-2. To learn more about a _specific_ package task, run `yarn workspace [package name] [task name] --help`. For example, `yarn workspace one-ui storybook --help`.
+1. To list all of the tasks for a package, run `yarn workspace [package name] tasks`. For example, `yarn workspace @one/ui tasks`.
+2. To learn more about a _specific_ package task, run `yarn workspace [package name] [task name] --help`. For example, `yarn workspace @one/ui storybook --help`.
 
 ##### Tasks Cheat Sheet
 
 | Description                    | Command                                         |
 | ------------------------------ | ----------------------------------------------- |
-| Start the One UI docs site     | `yarn workspace one-ui storybook`               |
-| Create a One UI component      | `yarn workspace one-ui generate component`      |
+| Start the One UI docs site     | `yarn workspace @one/ui storybook`              |
+| Create a One UI component      | `yarn workspace @one/ui generate component`     |
 | Run _unit_ tests in watch mode | `yarn test --only=unit`                         |
 | Run _all_ tests once           | `yarn test --once`                              |
 | Update One UI snapshots        | `yarn test --once --only=unit --updateSnapshot` |
@@ -128,7 +128,7 @@ This repo has two types of scripts or tasks: global tasks that run for _all_ pac
 
 ## Adding NPM Dependencies
 
-- To add a dependency for your package, run `yarn workspace [name of package] add [name of dependency]`. For example, `yarn workspace one-ui add fast-sort`
+- To add a dependency for your package, run `yarn workspace [name of package] add [name of dependency]`. For example, `yarn workspace @one/ui add fast-sort`
 - To add a dependency for the workspace (not recommended), run `yarn add [name of dependency] -W -D`. For example, `yarn add eslint-plugin-fp -W -D`.
 - Run `yarn deduplicate` before commiting your changes to dedupe dependencies.
 - Review and commit the cached dependency files located in `npm-packages-offline-cache`
@@ -146,7 +146,7 @@ If you have approval (from an RFC or project maintainer) to create a new compone
 run the following command to generate the necessary component boilerplate:
 
 ```bash
-yarn workspace one-ui generate component
+yarn workspace @one/ui generate component
 ```
 
 ## Creating New Packages
