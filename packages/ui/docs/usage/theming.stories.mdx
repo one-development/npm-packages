@@ -52,7 +52,7 @@ Render a [ThemeProvider](/?path=/docs/components-themeprovider--basic) at the ro
 ```javascript
 // src/index.js
 
-import { ThemeProvider } from 'one-ui'
+import { ThemeProvider } from '@one/ui'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
@@ -281,7 +281,7 @@ One UI includes two default themes: _light_ and _dark_. When using [ThemeProvide
 ##### Use Light Theme
 
 ```javascript
-import { ThemeProvider } from 'one-ui'
+import { ThemeProvider } from '@one/ui'
 import App from './App'
 
 function Root() {
@@ -297,7 +297,7 @@ function Root() {
 ##### Use Dark Theme
 
 ```javascript
-import { darkTheme, ThemeProvider } from 'one-ui'
+import { darkTheme, ThemeProvider } from '@one/ui'
 import App from './App'
 
 function Root() {
@@ -319,7 +319,7 @@ To create a custom theme, *could* create a compatible theme object from scratch.
 The `createTheme` helper accepts an argument to determine if your theme should use *light* or *dark* theme defaults.
 
 ```javascript
-import { createTheme } from 'one-ui'
+import { createTheme } from '@one/ui'
 import App from './App'
 
 // Identical to default dark theme
@@ -341,7 +341,7 @@ function Root() {
 Of course, passing just the `type` argument isn't very useful. It will result in a theme that is identical to one of the default *light* and *dark* dark themes that are already exported. Instead, we can customize our theme further by changing any of its colors. Learn more about the `colors` option on the [Theme Reference](/?path=/docs/theme-reference--page#createthemeoptions--theme) page.
 
 ```javascript
-import { createTheme } from 'one-ui'
+import { createTheme } from '@one/ui'
 import App from './App'
 
 const myTheme = createTheme({
@@ -366,7 +366,7 @@ function Root() {
 For many applications, the default theme may be missing some global values. To accomodate this use case, the `createTheme` helper assigns any *unrecognized* keys to the resulting theme object. For example, we could add global settings to our theme.
 
 ```javascript
-import { createTheme, useTheme } from 'one-ui'
+import { createTheme, useTheme } from '@one/ui'
 import { AlternateTopbar, DefaultTopbar } from './Topbar'
 
 const myTheme = createTheme({
@@ -399,7 +399,7 @@ function Root() {
 Although uncommon, multiple themes may be required for certain applications. For example, an text editor application may have a user-selected theme for the editor UI and a separate theme for the rest of the application. One UI supports this use case out of the box. Simply nest `ThemeProvider` components above the relevant UI.
 
 ```javascript
-import { darkTheme, lightTheme, ThemeProvider } from 'one-ui'
+import { darkTheme, lightTheme, ThemeProvider } from '@one/ui'
 import React, { useState } from 'react'
 import { mainTheme } from './themes'
 import Layout from './Layout'
@@ -438,7 +438,7 @@ Let's look at how you can use the theme object while extending our components an
 ### Box
 
 ```javascript
-import { Box } from 'one-ui'
+import { Box } from '@one/ui'
 
 <Box
   color='onSurface.primary' // theme.color.onSurface.primary
@@ -453,7 +453,7 @@ import { Box } from 'one-ui'
 ### React Hook
 
 ```javascript
-import { useTheme } from 'one-ui'
+import { useTheme } from '@one/ui'
 
 function MyComponent() {
   const theme = useTheme()

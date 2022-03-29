@@ -70,7 +70,7 @@ Accepts options used to configure your theme - `{ colors?, type? = light, ...res
 You can use the `type` option to specify a _light_ (default) or _dark_ theme. Changing the `type` will only affect the default values that are used when built-in colors are omitted or partially defined. If a fully defined `colors` option is provided, the `type` option will effectively be ignored.
 
 ```javascript
-import { createTheme } from 'one-ui'
+import { createTheme } from '@one/ui'
 
 const lightTheme = createTheme()
 const darkTheme = createTheme({ type: 'dark' })
@@ -81,7 +81,7 @@ const darkTheme = createTheme({ type: 'dark' })
 You can use the `colors` option to define _built-in_ and _custom_ colors for your theme. _Built-in_ colors (background, surface, brand, brand2, highlight, info, warning, error) are part of the One UI color system and will receive fallbacks when they are not defined via the `colors` option. _Custom_ colors are defined by providing extra keys (e.g. red, foo, bar) via the `colors` option.
 
 ```javascript
-import { createTheme } from 'one-ui'
+import { createTheme } from '@one/ui'
 
 const myTheme = createTheme({
   colors: {
@@ -126,7 +126,7 @@ const myTheme = createTheme({
 You can add custom properties to your theme by defining extra keys on the `options` object. In this example, we are defining a mixins key that can be referenced throughout our application via `theme.mixins`.
 
 ```javascript
-import { createTheme } from 'one-ui'
+import { createTheme } from '@one/ui'
 
 const myTheme = createTheme({
   mixins: {
@@ -153,7 +153,7 @@ A helper component for theming. Injects the theme into all styled components any
 ##### Examples
 
 ```javascript
-import { darkTheme, lightTheme, ThemeProvider } from 'one-ui'
+import { darkTheme, lightTheme, ThemeProvider } from '@one/ui'
 import App from './components/App'
 import usePrefersDark from './utils/usePrefersDark'
 
@@ -182,7 +182,7 @@ A React hook that can be used inside function components to access the theme obj
 ##### Examples
 
 ```javascript
-import { useTheme } from 'one-ui'
+import { useTheme } from '@one/ui'
 
 const MyComponent = () => {
   const theme = useTheme()
@@ -210,7 +210,7 @@ A higher-order component factory to get the current theme from a `ThemeProvider`
 ##### Examples
 
 ```javascript
-import { withTheme } from 'one-ui'
+import { withTheme } from '@one/ui'
 
 class MyComponent extends React.Component {
   render() {
@@ -228,7 +228,7 @@ One UI exports two default themes to use in your application. These themes imple
 
 ##### `{ lightTheme }`
 
-A light theme that implements One UI's brand colors. View it in context [here](/?path=/story/theme-builder--one-ui-light) or expand the interactive JavaScript object below:
+A light theme that implements One UI's brand colors. View it in context [here](/?path=/story/theme-builder--@one/ui-light) or expand the interactive JavaScript object below:
 
 <ThemeProvider theme={lightTheme}>
   <Box
@@ -245,7 +245,7 @@ A light theme that implements One UI's brand colors. View it in context [here](/
 
 ##### `{ darkTheme }`
 
-A dark theme that implements One UI's brand colors. View it in context [here](/?path=/story/theme-builder--one-ui-dark) or expand the interactive JavaScript object below:
+A dark theme that implements One UI's brand colors. View it in context [here](/?path=/story/theme-builder--@one/ui-dark) or expand the interactive JavaScript object below:
 
 <ThemeProvider theme={lightTheme}>
   <Box

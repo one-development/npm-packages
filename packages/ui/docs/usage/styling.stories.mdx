@@ -53,7 +53,7 @@ In certain circumstances, you may need to apply styling overrides to a component
 ###### via the `useTheme` hook
 
 ```javascript
-import { Button, useTheme } from 'one-ui'
+import { Button, useTheme } from '@one/ui'
 
 const MyComponent = () => {
   const theme = useTheme()
@@ -69,7 +69,7 @@ const MyComponent = () => {
 ###### via the `withTheme` HOC (not recommended)
 
 ```javascript
-import { withTheme } from 'one-ui'
+import { withTheme } from '@one/ui'
 
 class MyComponent extends React.Component {
   render() {
@@ -92,7 +92,7 @@ One UI is built on top of [Styled Components](https://styled-components.com/). Y
 ```javascript
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Box, Button, Text } from 'one-ui'
+import { Box, Button, Text } from '@one/ui'
 
 const Dropdown = styled.div(({ theme, ...props }) => ({
   height: props.open ? '0px' : '100px',
