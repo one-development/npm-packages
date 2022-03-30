@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Utils/CssBaseline Basic 1`] = `
-<div>
-  Hello, this text has received baseline styles.
-</div>
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  <div>
+    Hello, this text has received baseline styles.
+  </div>,
+]
 `;

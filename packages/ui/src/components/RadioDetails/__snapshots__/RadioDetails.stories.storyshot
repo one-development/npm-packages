@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/RadioDetails Basic 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -23,15 +31,15 @@ exports[`Storyshots Components/RadioDetails Basic 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -39,7 +47,7 @@ exports[`Storyshots Components/RadioDetails Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -57,7 +65,7 @@ exports[`Storyshots Components/RadioDetails Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -85,23 +93,32 @@ exports[`Storyshots Components/RadioDetails Basic 1`] = `
 }
 
 <div
-  className="c0"
-  id="radio-details-basic"
->
-  <p
-    className="c1 c2"
+    className="c0"
+    id="radio-details-basic"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      Radio details go here
-    </span>
-  </p>
-</div>
+      <span
+        className="c3"
+      >
+        Radio details go here
+      </span>
+    </p>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
-.c13 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -144,15 +161,15 @@ exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
 }
 
 .c18 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -160,18 +177,18 @@ exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 400;
   text-align: initial;
 }
@@ -180,7 +197,7 @@ exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c19 {
@@ -198,7 +215,7 @@ exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c19 *,
@@ -222,7 +239,7 @@ exports[`Storyshots Components/RadioDetails With Radio Group 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -500,160 +517,161 @@ input[type=radio]:checked + .c11 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <form>
-          <div
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-label="color"
-            aria-required={true}
-            className="c6"
-            id="color"
-            role="radiogroup"
-          >
+        <div
+          className="c5"
+        >
+          <form>
             <div
-              className="c7"
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-label="color"
+              aria-required={true}
+              className="c6"
+              id="color"
+              role="radiogroup"
             >
               <div
-                className="c8"
-                onInput={[Function]}
+                className="c7"
               >
                 <div
-                  className="c9 c10"
+                  className="c8"
+                  onInput={[Function]}
                 >
-                  <input
-                    aria-controls="blue-details"
-                    aria-disabled={false}
-                    aria-expanded={true}
-                    aria-invalid={false}
-                    aria-labelledby="blue-label"
-                    aria-required={true}
-                    autoComplete="on"
-                    autoFocus={false}
-                    defaultChecked={true}
-                    disabled={false}
-                    id="blue"
-                    name="color"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    required={true}
-                    role="radio"
-                    type="radio"
-                    value="blue"
-                  />
-                  <span
-                    aria-hidden="true"
-                    className="c11"
-                  />
-                </div>
-                <label
-                  className="c12"
-                  htmlFor="blue"
-                  id="blue-label"
-                >
-                  <span
-                    className="c13 c14"
+                  <div
+                    className="c9 c10"
+                  >
+                    <input
+                      aria-controls="blue-details"
+                      aria-disabled={false}
+                      aria-expanded={true}
+                      aria-invalid={false}
+                      aria-labelledby="blue-label"
+                      aria-required={true}
+                      autoComplete="on"
+                      autoFocus={false}
+                      defaultChecked={true}
+                      disabled={false}
+                      id="blue"
+                      name="color"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      required={true}
+                      role="radio"
+                      type="radio"
+                      value="blue"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="c11"
+                    />
+                  </div>
+                  <label
+                    className="c12"
+                    htmlFor="blue"
+                    id="blue-label"
                   >
                     <span
-                      className="c15"
+                      className="c13 c14"
                     >
-                      Blue
+                      <span
+                        className="c15"
+                      >
+                        Blue
+                      </span>
                     </span>
-                  </span>
-                </label>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div
-              className="c16"
-            >
               <div
-                className="c17"
-                id="blue-details"
-              >
-                <p
-                  className="c13 c18"
-                >
-                  <span
-                    className="c19"
-                  >
-                    Your app will be themed blue
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div
-              className="c20"
-            >
-              <div
-                className="c8"
-                onInput={[Function]}
+                className="c16"
               >
                 <div
-                  className="c9 c10"
+                  className="c17"
+                  id="blue-details"
                 >
-                  <input
-                    aria-controls="red-details"
-                    aria-disabled={false}
-                    aria-expanded={false}
-                    aria-invalid={false}
-                    aria-labelledby="red-label"
-                    aria-required={true}
-                    autoComplete="on"
-                    autoFocus={false}
-                    defaultChecked={false}
-                    disabled={false}
-                    id="red"
-                    name="color"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    required={true}
-                    role="radio"
-                    type="radio"
-                    value="red"
-                  />
-                  <span
-                    aria-hidden="true"
-                    className="c11"
-                  />
-                </div>
-                <label
-                  className="c12"
-                  htmlFor="red"
-                  id="red-label"
-                >
-                  <span
-                    className="c13 c14"
+                  <p
+                    className="c13 c18"
                   >
                     <span
-                      className="c15"
+                      className="c19"
                     >
-                      Red
+                      Your app will be themed blue
                     </span>
-                  </span>
-                </label>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="c20"
+              >
+                <div
+                  className="c8"
+                  onInput={[Function]}
+                >
+                  <div
+                    className="c9 c10"
+                  >
+                    <input
+                      aria-controls="red-details"
+                      aria-disabled={false}
+                      aria-expanded={false}
+                      aria-invalid={false}
+                      aria-labelledby="red-label"
+                      aria-required={true}
+                      autoComplete="on"
+                      autoFocus={false}
+                      defaultChecked={false}
+                      disabled={false}
+                      id="red"
+                      name="color"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      required={true}
+                      role="radio"
+                      type="radio"
+                      value="red"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="c11"
+                    />
+                  </div>
+                  <label
+                    className="c12"
+                    htmlFor="red"
+                    id="red-label"
+                  >
+                    <span
+                      className="c13 c14"
+                    >
+                      <span
+                        className="c15"
+                      >
+                        Red
+                      </span>
+                    </span>
+                  </label>
+                </div>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

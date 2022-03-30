@@ -1,3 +1,4 @@
+import interMetrics from '@capsizecss/metrics/inter'
 /**
  * If you are unfamiliar with terms like capHeight or ascender, please read:
  * https://material.io/design/typography/understanding-typography.html
@@ -24,41 +25,20 @@ const createFont = ({ family, metrics }) => {
   }
 }
 
-export const neueHaasDisplayFont = createFont({
-  family: 'neue-haas-grotesk-display, Helvetica, "Open Sans", sans-serif',
+export const interFont = createFont({
+  family: '"Inter", sans-serif',
   metrics: {
-    capitalHeight: 715,
-    emSize: 1000,
-    hHeadAscent: 916,
-    hHeadDescent: 228,
-  },
-})
-
-export const neueHaasTextFont = createFont({
-  family: 'neue-haas-grotesk-text, Helvetica, "Open Sans", sans-serif',
-  metrics: {
-    capitalHeight: 727,
-    emSize: 1000,
-    hHeadAscent: 916,
-    hHeadDescent: 228,
-  },
-})
-
-export const robotoFont = createFont({
-  family:
-    'Roboto, "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif',
-  metrics: {
-    capitalHeight: 1456,
-    emSize: 2048,
-    hHeadAscent: 1900,
-    hHeadDescent: 500,
+    capitalHeight: interMetrics.capHeight,
+    emSize: interMetrics.unitsPerEm,
+    hHeadAscent: interMetrics.ascent,
+    hHeadDescent: -1 * interMetrics.descent,
   },
 })
 
 export default function createFonts() {
   const fonts = {
-    display: neueHaasDisplayFont,
-    text: neueHaasTextFont,
+    display: interFont,
+    text: interFont,
   }
 
   fonts.metrics = type => {

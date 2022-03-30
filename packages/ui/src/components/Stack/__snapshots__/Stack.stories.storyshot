@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Stack Basic 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -75,28 +83,37 @@ exports[`Storyshots Components/Stack Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-  />
-  <div
-    className="c2"
-  />
-  <div
-    className="c1"
-  />
-  <div
-    className="c2"
-  />
-  <div
-    className="c1"
-  />
-</div>
+    className="c0"
+  >
+    <div
+      className="c1"
+    />
+    <div
+      className="c2"
+    />
+    <div
+      className="c1"
+    />
+    <div
+      className="c2"
+    />
+    <div
+      className="c1"
+    />
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Stack With Alignment 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -235,15 +252,15 @@ exports[`Storyshots Components/Stack With Alignment 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -251,7 +268,7 @@ exports[`Storyshots Components/Stack With Alignment 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -269,7 +286,7 @@ exports[`Storyshots Components/Stack With Alignment 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -481,180 +498,189 @@ exports[`Storyshots Components/Stack With Alignment 1`] = `
 }
 
 <div
-  className="c0"
->
-  <p
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      Align items to the left
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
+      <span
+        className="c3"
+      >
+        Align items to the left
+      </span>
+    </p>
     <div
-      className="c6"
+      className="c4"
     />
     <div
-      className="c7"
-    />
-    <div
-      className="c8"
-    />
-    <div
-      className="c7"
-    />
-    <div
-      className="c9"
-    />
-  </div>
-  <div
-    className="c7"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+      className="c5"
     >
-      Align items to the right
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c10"
-  >
-    <div
-      className="c6"
-    />
-    <div
-      className="c7"
-    />
-    <div
-      className="c8"
-    />
+      <div
+        className="c6"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c8"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c9"
+      />
+    </div>
     <div
       className="c7"
     />
-    <div
-      className="c9"
-    />
-  </div>
-  <div
-    className="c7"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      Align items to the center
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c11"
-  >
+      <span
+        className="c3"
+      >
+        Align items to the right
+      </span>
+    </p>
     <div
-      className="c6"
+      className="c4"
     />
     <div
-      className="c7"
-    />
-    <div
-      className="c8"
-    />
-    <div
-      className="c7"
-    />
-    <div
-      className="c9"
-    />
-  </div>
-  <div
-    className="c7"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+      className="c10"
     >
-      Align items stretch
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c12"
-  >
-    <div
-      className="c13"
-    />
-    <div
-      className="c7"
-    />
-    <div
-      className="c13"
-    />
+      <div
+        className="c6"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c8"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c9"
+      />
+    </div>
     <div
       className="c7"
     />
-    <div
-      className="c13"
-    />
-  </div>
-  <div
-    className="c7"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      Center on mobile, left on desktop
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c14"
-  >
+      <span
+        className="c3"
+      >
+        Align items to the center
+      </span>
+    </p>
     <div
-      className="c6"
+      className="c4"
     />
+    <div
+      className="c11"
+    >
+      <div
+        className="c6"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c8"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c9"
+      />
+    </div>
     <div
       className="c7"
     />
+    <p
+      className="c1 c2"
+    >
+      <span
+        className="c3"
+      >
+        Align items stretch
+      </span>
+    </p>
     <div
-      className="c8"
+      className="c4"
     />
+    <div
+      className="c12"
+    >
+      <div
+        className="c13"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c13"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c13"
+      />
+    </div>
     <div
       className="c7"
     />
+    <p
+      className="c1 c2"
+    >
+      <span
+        className="c3"
+      >
+        Center on mobile, left on desktop
+      </span>
+    </p>
     <div
-      className="c9"
+      className="c4"
     />
-  </div>
-</div>
+    <div
+      className="c14"
+    >
+      <div
+        className="c6"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c8"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c9"
+      />
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Stack With Dividers 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -826,44 +852,53 @@ exports[`Storyshots Components/Stack With Dividers 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
-    />
-    <div
-      className="c3"
-    />
-    <hr
-      className="c4"
-    />
-    <div
-      className="c3"
-    />
-    <div
-      className="c5"
-    />
-    <div
-      className="c3"
-    />
-    <hr
-      className="c4"
-    />
-    <div
-      className="c3"
-    />
-    <div
-      className="c6"
-    />
-  </div>
-</div>
+      className="c1"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+      <hr
+        className="c4"
+      />
+      <div
+        className="c3"
+      />
+      <div
+        className="c5"
+      />
+      <div
+        className="c3"
+      />
+      <hr
+        className="c4"
+      />
+      <div
+        className="c3"
+      />
+      <div
+        className="c6"
+      />
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Stack With Sizes 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -933,15 +968,15 @@ exports[`Storyshots Components/Stack With Sizes 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -949,7 +984,7 @@ exports[`Storyshots Components/Stack With Sizes 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -967,7 +1002,7 @@ exports[`Storyshots Components/Stack With Sizes 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -1115,174 +1150,175 @@ exports[`Storyshots Components/Stack With Sizes 1`] = `
 }
 
 <div
-  className="c0"
->
-  <p
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      xs
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
-    <div
-      className="c6"
-    />
-    <div
-      className="c7"
-    />
-    <div
-      className="c6"
-    />
-    <div
-      className="c7"
-    />
-    <div
-      className="c6"
-    />
-  </div>
-  <div
-    className="c8"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
-    >
-      sm
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
-    <div
-      className="c6"
-    />
+      <span
+        className="c3"
+      >
+        xs
+      </span>
+    </p>
     <div
       className="c4"
     />
     <div
-      className="c6"
+      className="c5"
+    >
+      <div
+        className="c6"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c6"
+      />
+      <div
+        className="c7"
+      />
+      <div
+        className="c6"
+      />
+    </div>
+    <div
+      className="c8"
     />
+    <p
+      className="c1 c2"
+    >
+      <span
+        className="c3"
+      >
+        sm
+      </span>
+    </p>
     <div
       className="c4"
     />
     <div
-      className="c6"
-    />
-  </div>
-  <div
-    className="c8"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+      className="c5"
     >
-      md
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
-    <div
-      className="c6"
-    />
-    <div
-      className="c9"
-    />
-    <div
-      className="c6"
-    />
-    <div
-      className="c9"
-    />
-    <div
-      className="c6"
-    />
-  </div>
-  <div
-    className="c8"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
-    >
-      lg
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
-    <div
-      className="c6"
-    />
+      <div
+        className="c6"
+      />
+      <div
+        className="c4"
+      />
+      <div
+        className="c6"
+      />
+      <div
+        className="c4"
+      />
+      <div
+        className="c6"
+      />
+    </div>
     <div
       className="c8"
     />
+    <p
+      className="c1 c2"
+    >
+      <span
+        className="c3"
+      >
+        md
+      </span>
+    </p>
     <div
-      className="c6"
+      className="c4"
     />
+    <div
+      className="c5"
+    >
+      <div
+        className="c6"
+      />
+      <div
+        className="c9"
+      />
+      <div
+        className="c6"
+      />
+      <div
+        className="c9"
+      />
+      <div
+        className="c6"
+      />
+    </div>
     <div
       className="c8"
     />
-    <div
-      className="c6"
-    />
-  </div>
-  <div
-    className="c8"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      custom
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
+      <span
+        className="c3"
+      >
+        lg
+      </span>
+    </p>
     <div
-      className="c6"
+      className="c4"
     />
     <div
-      className="c10"
+      className="c5"
+    >
+      <div
+        className="c6"
+      />
+      <div
+        className="c8"
+      />
+      <div
+        className="c6"
+      />
+      <div
+        className="c8"
+      />
+      <div
+        className="c6"
+      />
+    </div>
+    <div
+      className="c8"
+    />
+    <p
+      className="c1 c2"
+    >
+      <span
+        className="c3"
+      >
+        custom
+      </span>
+    </p>
+    <div
+      className="c4"
     />
     <div
-      className="c6"
-    />
-    <div
-      className="c10"
-    />
-    <div
-      className="c6"
-    />
-  </div>
-</div>
+      className="c5"
+    >
+      <div
+        className="c6"
+      />
+      <div
+        className="c10"
+      />
+      <div
+        className="c6"
+      />
+      <div
+        className="c10"
+      />
+      <div
+        className="c6"
+      />
+    </div>
+  </div>,
+]
 `;

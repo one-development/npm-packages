@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Stepper Basic 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -23,15 +31,15 @@ exports[`Storyshots Components/Stepper Basic 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -39,18 +47,18 @@ exports[`Storyshots Components/Stepper Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -59,7 +67,7 @@ exports[`Storyshots Components/Stepper Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
@@ -77,7 +85,7 @@ exports[`Storyshots Components/Stepper Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -145,69 +153,78 @@ exports[`Storyshots Components/Stepper Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <ol
-    className="c1"
+    className="c0"
   >
-    <li
-      className="c2"
+    <ol
+      className="c1"
     >
-      <p
-        className="c3 c4"
+      <li
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          First Step
-        </span>
-      </p>
-    </li>
-    <li
-      aria-hidden={true}
-      className="c6"
-    >
-      &gt;
-    </li>
-    <li
-      className="c2"
-    >
-      <p
-        className="c3 c4"
+          <span
+            className="c5"
+          >
+            First Step
+          </span>
+        </p>
+      </li>
+      <li
+        aria-hidden={true}
+        className="c6"
       >
-        <span
-          className="c5"
-        >
-          Second Step
-        </span>
-      </p>
-    </li>
-    <li
-      aria-hidden={true}
-      className="c6"
-    >
-      &gt;
-    </li>
-    <li
-      className="c2"
-    >
-      <p
-        aria-current="step"
-        className="c3 c7"
+        &gt;
+      </li>
+      <li
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          Current Step
-        </span>
-      </p>
-    </li>
-  </ol>
-</div>
+          <span
+            className="c5"
+          >
+            Second Step
+          </span>
+        </p>
+      </li>
+      <li
+        aria-hidden={true}
+        className="c6"
+      >
+        &gt;
+      </li>
+      <li
+        className="c2"
+      >
+        <p
+          aria-current="step"
+          className="c3 c7"
+        >
+          <span
+            className="c5"
+          >
+            Current Step
+          </span>
+        </p>
+      </li>
+    </ol>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -250,15 +267,15 @@ exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -266,18 +283,18 @@ exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -286,7 +303,7 @@ exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
@@ -304,7 +321,7 @@ exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -389,137 +406,138 @@ exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
 }
 
 <div
-  className="c0"
->
-  <ol
-    className="c1"
+    className="c0"
   >
-    <li
-      className="c2"
+    <ol
+      className="c1"
     >
-      <p
-        className="c3 c4"
+      <li
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          Zone
-        </span>
-      </p>
-    </li>
-    <li
-      aria-hidden={true}
-      className="c6"
-    >
-      <svg
+          <span
+            className="c5"
+          >
+            Zone
+          </span>
+        </p>
+      </li>
+      <li
         aria-hidden={true}
-        className="c7"
-        focusable="false"
-        viewBox="0 0 24 24"
+        className="c6"
       >
-        <path
-          d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-        />
-      </svg>
-    </li>
-    <li
-      className="c2"
-    >
-      <p
-        className="c3 c4"
-      >
-        <span
-          className="c5"
+        <svg
+          aria-hidden={true}
+          className="c7"
+          focusable="false"
+          viewBox="0 0 24 24"
         >
-          Duration
-        </span>
-      </p>
-    </li>
-    <li
-      aria-hidden={true}
-      className="c6"
-    >
-      <svg
+          <path
+            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+          />
+        </svg>
+      </li>
+      <li
+        className="c2"
+      >
+        <p
+          className="c3 c4"
+        >
+          <span
+            className="c5"
+          >
+            Duration
+          </span>
+        </p>
+      </li>
+      <li
         aria-hidden={true}
-        className="c7"
-        focusable="false"
-        viewBox="0 0 24 24"
+        className="c6"
       >
-        <path
-          d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-        />
-      </svg>
-    </li>
-    <li
-      className="c2"
-    >
-      <p
-        className="c3 c4"
-      >
-        <span
-          className="c5"
+        <svg
+          aria-hidden={true}
+          className="c7"
+          focusable="false"
+          viewBox="0 0 24 24"
         >
-          Vehicle
-        </span>
-      </p>
-    </li>
-    <li
-      aria-hidden={true}
-      className="c6"
-    >
-      <svg
+          <path
+            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+          />
+        </svg>
+      </li>
+      <li
+        className="c2"
+      >
+        <p
+          className="c3 c4"
+        >
+          <span
+            className="c5"
+          >
+            Vehicle
+          </span>
+        </p>
+      </li>
+      <li
         aria-hidden={true}
-        className="c7"
-        focusable="false"
-        viewBox="0 0 24 24"
+        className="c6"
       >
-        <path
-          d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-        />
-      </svg>
-    </li>
-    <li
-      className="c2"
-    >
-      <p
-        aria-current="step"
-        className="c3 c8"
-      >
-        <span
-          className="c5"
+        <svg
+          aria-hidden={true}
+          className="c7"
+          focusable="false"
+          viewBox="0 0 24 24"
         >
-          Payment
-        </span>
-      </p>
-    </li>
-    <li
-      aria-hidden={true}
-      className="c6"
-    >
-      <svg
+          <path
+            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+          />
+        </svg>
+      </li>
+      <li
+        className="c2"
+      >
+        <p
+          aria-current="step"
+          className="c3 c8"
+        >
+          <span
+            className="c5"
+          >
+            Payment
+          </span>
+        </p>
+      </li>
+      <li
         aria-hidden={true}
-        className="c7"
-        focusable="false"
-        viewBox="0 0 24 24"
+        className="c6"
       >
-        <path
-          d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-        />
-      </svg>
-    </li>
-    <li
-      className="c2"
-    >
-      <p
-        className="c9 c4"
-      >
-        <span
-          className="c5"
+        <svg
+          aria-hidden={true}
+          className="c7"
+          focusable="false"
+          viewBox="0 0 24 24"
         >
-          Review
-        </span>
-      </p>
-    </li>
-  </ol>
-</div>
+          <path
+            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+          />
+        </svg>
+      </li>
+      <li
+        className="c2"
+      >
+        <p
+          className="c9 c4"
+        >
+          <span
+            className="c5"
+          >
+            Review
+          </span>
+        </p>
+      </li>
+    </ol>
+  </div>,
+]
 `;

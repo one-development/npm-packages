@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/CardHeader Basic 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -44,15 +52,15 @@ exports[`Storyshots Components/CardHeader Basic 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -60,7 +68,7 @@ exports[`Storyshots Components/CardHeader Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c9 {
@@ -78,7 +86,7 @@ exports[`Storyshots Components/CardHeader Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -202,41 +210,50 @@ exports[`Storyshots Components/CardHeader Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
           >
-            <span
-              className="c9"
+            <h2
+              className="c7 c8"
             >
-              Shrimp and Chorizo Paella
-            </span>
-          </h2>
+              <span
+                className="c9"
+              >
+                Shrimp and Chorizo Paella
+              </span>
+            </h2>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/CardHeader With Action 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -329,15 +346,15 @@ exports[`Storyshots Components/CardHeader With Action 1`] = `
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -345,19 +362,19 @@ exports[`Storyshots Components/CardHeader With Action 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -365,7 +382,7 @@ exports[`Storyshots Components/CardHeader With Action 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c15 {
@@ -383,7 +400,7 @@ exports[`Storyshots Components/CardHeader With Action 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c15 *,
@@ -407,7 +424,7 @@ exports[`Storyshots Components/CardHeader With Action 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -598,68 +615,77 @@ exports[`Storyshots Components/CardHeader With Action 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
           >
-            <span
-              className="c9"
-            >
-              Contact Info
-            </span>
-          </h2>
-        </div>
-        <div
-          className="c10"
-        >
-          <button
-            aria-busy={false}
-            className="c11 c12"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c13"
+            <h2
+              className="c7 c8"
             >
               <span
-                className="c7 c14"
+                className="c9"
+              >
+                Contact Info
+              </span>
+            </h2>
+          </div>
+          <div
+            className="c10"
+          >
+            <button
+              aria-busy={false}
+              className="c11 c12"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
               >
                 <span
-                  className="c15"
+                  className="c7 c14"
                 >
-                  Change
+                  <span
+                    className="c15"
+                  >
+                    Change
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/CardHeader With Avatar 1`] = `
-.c8 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -758,15 +784,15 @@ exports[`Storyshots Components/CardHeader With Avatar 1`] = `
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -774,19 +800,19 @@ exports[`Storyshots Components/CardHeader With Avatar 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -794,19 +820,19 @@ exports[`Storyshots Components/CardHeader With Avatar 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -814,61 +840,7 @@ exports[`Storyshots Components/CardHeader With Avatar 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
-}
-
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c10 {
@@ -886,12 +858,39 @@ exports[`Storyshots Components/CardHeader With Avatar 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
 }
 
 .c10 *,
 .c10 *::before,
 .c10 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
@@ -1033,67 +1032,76 @@ exports[`Storyshots Components/CardHeader With Avatar 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
           <div
-            className="c7"
+            className="c6"
           >
-            <h6
-              className="c8 c9"
+            <div
+              className="c7"
+            >
+              <h6
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  R
+                </span>
+              </h6>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <h2
+              className="c8 c12"
             >
               <span
-                className="c10"
+                className="c13"
               >
-                R
+                Shrimp and Chorizo Paella
               </span>
-            </h6>
+            </h2>
+            <p
+              className="c14 c15 c16"
+            >
+              <span
+                className="c13"
+              >
+                September 15, 2020
+              </span>
+            </p>
           </div>
-        </div>
-        <div
-          className="c11"
-        >
-          <h2
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              Shrimp and Chorizo Paella
-            </span>
-          </h2>
-          <p
-            className="c14 c15 c16"
-          >
-            <span
-              className="c17"
-            >
-              September 15, 2020
-            </span>
-          </p>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1157,15 +1165,15 @@ exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1173,19 +1181,19 @@ exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1193,7 +1201,7 @@ exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
@@ -1211,7 +1219,7 @@ exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1220,33 +1228,6 @@ exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
   box-sizing: border-box;
 }
 
@@ -1366,44 +1347,45 @@ exports[`Storyshots Components/CardHeader With Subtitle 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
           >
-            <span
-              className="c9"
+            <h2
+              className="c7 c8"
             >
-              Shrimp and Chorizo Paella
-            </span>
-          </h2>
-          <p
-            className="c10 c11 c12"
-          >
-            <span
-              className="c13"
+              <span
+                className="c9"
+              >
+                Shrimp and Chorizo Paella
+              </span>
+            </h2>
+            <p
+              className="c10 c11 c12"
             >
-              September 15, 2020
-            </span>
-          </p>
+              <span
+                className="c9"
+              >
+                September 15, 2020
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

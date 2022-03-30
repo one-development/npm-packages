@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Divider Basic 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -28,12 +36,21 @@ exports[`Storyshots Components/Divider Basic 1`] = `
 }
 
 <hr
-  className="c0"
-/>
+    className="c0"
+  />,
+]
 `;
 
 exports[`Storyshots Components/Divider With Flexbox Columns 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -133,15 +150,15 @@ exports[`Storyshots Components/Divider With Flexbox Columns 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -149,7 +166,7 @@ exports[`Storyshots Components/Divider With Flexbox Columns 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c4 {
@@ -167,7 +184,7 @@ exports[`Storyshots Components/Divider With Flexbox Columns 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c4 *,
@@ -177,58 +194,67 @@ exports[`Storyshots Components/Divider With Flexbox Columns 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <p
-      className="c2 c3"
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        One
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          One
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Two
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          Two
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Three
-      </span>
-    </p>
-  </div>
-</div>
+        <span
+          className="c4"
+        >
+          Three
+        </span>
+      </p>
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Divider With Flexbox Rows 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -324,15 +350,15 @@ exports[`Storyshots Components/Divider With Flexbox Rows 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -340,7 +366,7 @@ exports[`Storyshots Components/Divider With Flexbox Rows 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c4 {
@@ -358,7 +384,7 @@ exports[`Storyshots Components/Divider With Flexbox Rows 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c4 *,
@@ -368,58 +394,67 @@ exports[`Storyshots Components/Divider With Flexbox Rows 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <p
-      className="c2 c3"
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        One
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          One
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Two
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          Two
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Three
-      </span>
-    </p>
-  </div>
-</div>
+        <span
+          className="c4"
+        >
+          Three
+        </span>
+      </p>
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Divider With Grid Columns 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -511,15 +546,15 @@ exports[`Storyshots Components/Divider With Grid Columns 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -527,7 +562,7 @@ exports[`Storyshots Components/Divider With Grid Columns 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c4 {
@@ -545,7 +580,7 @@ exports[`Storyshots Components/Divider With Grid Columns 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c4 *,
@@ -555,58 +590,67 @@ exports[`Storyshots Components/Divider With Grid Columns 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <p
-      className="c2 c3"
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        One
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          One
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Two
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          Two
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Three
-      </span>
-    </p>
-  </div>
-</div>
+        <span
+          className="c4"
+        >
+          Three
+        </span>
+      </p>
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Divider With Grid Rows 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -697,15 +741,15 @@ exports[`Storyshots Components/Divider With Grid Rows 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -713,7 +757,7 @@ exports[`Storyshots Components/Divider With Grid Rows 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c4 {
@@ -731,7 +775,7 @@ exports[`Storyshots Components/Divider With Grid Rows 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c4 *,
@@ -741,52 +785,53 @@ exports[`Storyshots Components/Divider With Grid Rows 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <p
-      className="c2 c3"
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        One
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          One
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Two
-      </span>
-    </p>
-  </div>
-  <hr
-    className="c5"
-  />
-  <div
-    className="c1"
-  >
-    <p
-      className="c2 c3"
+        <span
+          className="c4"
+        >
+          Two
+        </span>
+      </p>
+    </div>
+    <hr
+      className="c5"
+    />
+    <div
+      className="c1"
     >
-      <span
-        className="c4"
+      <p
+        className="c2 c3"
       >
-        Three
-      </span>
-    </p>
-  </div>
-</div>
+        <span
+          className="c4"
+        >
+          Three
+        </span>
+      </p>
+    </div>
+  </div>,
+]
 `;

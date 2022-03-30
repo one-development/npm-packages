@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Select Basic 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -116,52 +124,61 @@ select:active + .c2 {
 }
 
 <div
-  className="c0"
->
-  <select
-    aria-invalid={false}
-    aria-required={true}
-    autoComplete="on"
-    autoFocus={false}
-    defaultValue="one"
-    formNoValidate={true}
-    id="select-basic"
-    multiple={false}
-    onBlur={[Function]}
-    onChange={[Function]}
-    onInvalid={[Function]}
-    required={true}
+    className="c0"
   >
-    <option
-      value="one"
+    <select
+      aria-invalid={false}
+      aria-required={true}
+      autoComplete="on"
+      autoFocus={false}
+      defaultValue="one"
+      formNoValidate={true}
+      id="select-basic"
+      multiple={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onInvalid={[Function]}
+      required={true}
     >
-      One
-    </option>
-    <option
-      value="two"
+      <option
+        value="one"
+      >
+        One
+      </option>
+      <option
+        value="two"
+      >
+        Two
+      </option>
+    </select>
+    <svg
+      aria-hidden={true}
+      className="c1 c2"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      Two
-    </option>
-  </select>
-  <svg
-    aria-hidden={true}
-    className="c1 c2"
-    focusable="false"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M0 0 24 0 24 24 0 24"
-      fill="none"
-    />
-    <path
-      d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-    />
-  </svg>
-</div>
+      <path
+        d="M0 0 24 0 24 24 0 24"
+        fill="none"
+      />
+      <path
+        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+      />
+    </svg>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With Browser Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -224,7 +241,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c24 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -264,46 +281,46 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c24::-moz-focus-inner {
+.c22::-moz-focus-inner {
   border-style: none;
 }
 
-.c27 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c25 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c27::before {
+.c25::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -311,19 +328,19 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -331,39 +348,39 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c17 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c16 {
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
-.c17::before {
+.c16::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -371,7 +388,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -389,7 +406,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -413,7 +430,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -425,55 +442,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c25 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -497,24 +466,24 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c25 *,
-.c25 *::before,
-.c25 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
-.c25:hover {
+.c23:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c25:active {
+.c23:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c26 {
+.c24 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -602,7 +571,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   overflow: hidden;
 }
 
-.c23 {
+.c21 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -625,17 +594,17 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c21 *,
+.c21 *::before,
+.c21 *::after {
   box-sizing: border-box;
 }
 
-.c23 > * {
+.c21 > * {
   margin-left: 8px;
 }
 
-.c23 > :first-child {
+.c21 > :first-child {
   margin-left: 0;
 }
 
@@ -711,7 +680,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c21 {
+.c19 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -728,7 +697,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   width: 1em;
 }
 
-.c20 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -753,13 +722,13 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   position: relative;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c20 select {
+.c18 select {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -791,17 +760,17 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   width: 100%;
 }
 
-.c20 select *,
-.c20 select *::before,
-.c20 select *::after {
+.c18 select *,
+.c18 select *::before,
+.c18 select *::after {
   box-sizing: border-box;
 }
 
-.c20 select:-ms-expand {
+.c18 select:-ms-expand {
   display: none;
 }
 
-.c20 select:focus {
+.c18 select:focus {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   outline: none;
@@ -809,7 +778,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   padding-right: 36px;
 }
 
-.c22 {
+.c20 {
   cursor: pointer;
   fill: currentColor;
   left: auto;
@@ -819,13 +788,13 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   top: 14px;
 }
 
-select:active + .c22 {
+select:active + .c20 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.c19 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -841,9 +810,9 @@ select:active + .c22 {
   height: 8px;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
@@ -870,163 +839,172 @@ select:active + .c22 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Using Browser Validation
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              You can enable built-in HTML validation by setting formNoValidate=false on your Select. Try submitting the form below.
-            </span>
-          </p>
-          <div
-            className="c13"
-          />
-          <p
-            className="c14 c15"
-          >
-            <span
-              className="c16"
-            >
-              Note: Many form components set noValidate=true. Make sure it is also set to false on your form.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <label
-            className="c7 c17"
-            htmlFor="swbv-plan-type"
-          >
-            <span
-              className="c18"
-            >
-              Plan Type
-            </span>
-          </label>
-          <div
-            className="c19"
-          />
-          <div
-            className="c20"
-          >
-            <select
-              aria-invalid={false}
-              aria-required={true}
-              autoComplete="on"
-              autoFocus={false}
-              defaultValue=""
-              formNoValidate={false}
-              id="swbv-plan-type"
-              multiple={false}
-              name="plan-type"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onInvalid={[Function]}
-              required={true}
-            >
-              <option
-                value=""
-              >
-                -- select a plan --
-              </option>
-              <option
-                value={1}
-              >
-                Free
-              </option>
-              <option
-                value={2}
-              >
-                Pro ($0.99/month)
-              </option>
-            </select>
-            <svg
-              aria-hidden={true}
-              className="c21 c22"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M0 0 24 0 24 24 0 24"
-                fill="none"
-              />
-              <path
-                d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-              />
-            </svg>
-          </div>
-        </div>
-        <div
-          className="c23"
-        >
-          <button
-            aria-busy={false}
-            className="c24 c25"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+            className="c5"
           >
             <div
-              className="c26"
+              className="c6"
             >
-              <span
-                className="c7 c27"
+              <h2
+                className="c7 c8"
               >
                 <span
-                  className="c12"
+                  className="c9"
                 >
-                  Save Changes
+                  Using Browser Validation
                 </span>
-              </span>
+              </h2>
             </div>
-          </button>
-        </div>
-      </form>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
+            >
+              <span
+                className="c12"
+              >
+                You can enable built-in HTML validation by setting formNoValidate=false on your Select. Try submitting the form below.
+              </span>
+            </p>
+            <div
+              className="c13"
+            />
+            <p
+              className="c14 c15"
+            >
+              <span
+                className="c12"
+              >
+                Note: Many form components set noValidate=true. Make sure it is also set to false on your form.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <label
+              className="c7 c16"
+              htmlFor="swbv-plan-type"
+            >
+              <span
+                className="c12"
+              >
+                Plan Type
+              </span>
+            </label>
+            <div
+              className="c17"
+            />
+            <div
+              className="c18"
+            >
+              <select
+                aria-invalid={false}
+                aria-required={true}
+                autoComplete="on"
+                autoFocus={false}
+                defaultValue=""
+                formNoValidate={false}
+                id="swbv-plan-type"
+                multiple={false}
+                name="plan-type"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onInvalid={[Function]}
+                required={true}
+              >
+                <option
+                  value=""
+                >
+                  -- select a plan --
+                </option>
+                <option
+                  value={1}
+                >
+                  Free
+                </option>
+                <option
+                  value={2}
+                >
+                  Pro ($0.99/month)
+                </option>
+              </select>
+              <svg
+                aria-hidden={true}
+                className="c19 c20"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 0 24 0 24 24 0 24"
+                  fill="none"
+                />
+                <path
+                  d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c21"
+          >
+            <button
+              aria-busy={false}
+              className="c22 c23"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
+            >
+              <div
+                className="c24"
+              >
+                <span
+                  className="c7 c25"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With Controlled State 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1069,15 +1047,15 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1085,19 +1063,19 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1105,19 +1083,19 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c13 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -1125,7 +1103,7 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c12 {
@@ -1143,7 +1121,7 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -1167,7 +1145,7 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1176,30 +1154,6 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
   box-sizing: border-box;
 }
 
@@ -1344,7 +1298,7 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   transform: translateY(2px);
 }
 
-.c17 {
+.c16 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -1361,7 +1315,7 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   width: 1em;
 }
 
-.c16 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1386,13 +1340,13 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   position: relative;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c16 select {
+.c15 select {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1424,17 +1378,17 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   width: 100%;
 }
 
-.c16 select *,
-.c16 select *::before,
-.c16 select *::after {
+.c15 select *,
+.c15 select *::before,
+.c15 select *::after {
   box-sizing: border-box;
 }
 
-.c16 select:-ms-expand {
+.c15 select:-ms-expand {
   display: none;
 }
 
-.c16 select:focus {
+.c15 select:focus {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   outline: none;
@@ -1442,7 +1396,7 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   padding-right: 36px;
 }
 
-.c18 {
+.c17 {
   cursor: pointer;
   fill: currentColor;
   left: auto;
@@ -1452,13 +1406,13 @@ exports[`Storyshots Components/Select With Controlled State 1`] = `
   top: 14px;
 }
 
-select:active + .c18 {
+select:active + .c17 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.c15 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1474,129 +1428,138 @@ select:active + .c18 {
   height: 8px;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Controlled Usage
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Controlled Usage
+              Selects can be used as controlled components with React state. This is useful when you are using a Select outside of form.
             </span>
-          </h2>
+          </p>
         </div>
-      </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            Selects can be used as controlled components with React state. This is useful when you are using a Select outside of form.
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
-        <label
-          className="c7 c13"
-          htmlFor="swcs-color"
-        >
-          <span
-            className="c14"
-          >
-            Controlled Select
-          </span>
-        </label>
         <div
-          className="c15"
-        />
-        <div
-          className="c16"
+          className="c10"
         >
-          <select
-            aria-invalid={false}
-            aria-required={true}
-            autoComplete="on"
-            autoFocus={false}
-            formNoValidate={true}
-            id="swcs-color"
-            multiple={false}
-            name="color"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            value="red"
+          <label
+            className="c7 c13"
+            htmlFor="swcs-color"
           >
-            <option
-              value=""
+            <span
+              className="c12"
             >
-              -- select a color --
-            </option>
-            <option
-              label="Red"
-              value="red"
-            />
-            <option
-              label="Blue"
-              value="blue"
-            />
-            <option
-              label="Green"
-              value="green"
-            />
-          </select>
-          <svg
-            aria-hidden={true}
-            className="c17 c18"
-            focusable="false"
-            viewBox="0 0 24 24"
+              Controlled Select
+            </span>
+          </label>
+          <div
+            className="c14"
+          />
+          <div
+            className="c15"
           >
-            <path
-              d="M0 0 24 0 24 24 0 24"
-              fill="none"
-            />
-            <path
-              d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-            />
-          </svg>
+            <select
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              formNoValidate={true}
+              id="swcs-color"
+              multiple={false}
+              name="color"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onInvalid={[Function]}
+              required={true}
+              value="red"
+            >
+              <option
+                value=""
+              >
+                -- select a color --
+              </option>
+              <option
+                label="Red"
+                value="red"
+              />
+              <option
+                label="Blue"
+                value="blue"
+              />
+              <option
+                label="Green"
+                value="green"
+              />
+            </select>
+            <svg
+              aria-hidden={true}
+              className="c16 c17"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0 24 0 24 24 0 24"
+                fill="none"
+              />
+              <path
+                d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With Custom Attributes 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1639,15 +1602,15 @@ exports[`Storyshots Components/Select With Custom Attributes 1`] = `
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1655,7 +1618,7 @@ exports[`Storyshots Components/Select With Custom Attributes 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -1673,7 +1636,7 @@ exports[`Storyshots Components/Select With Custom Attributes 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -1918,95 +1881,104 @@ select:active + .c12 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <p
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            This select is adding custom data attributes for test automation
-          </span>
-        </p>
         <div
-          className="c9"
-        />
-        <div
-          className="c10"
+          className="c5"
         >
-          <select
-            aria-invalid={false}
-            aria-required={true}
-            autoComplete="on"
-            autoFocus={false}
-            data-test-id="color"
-            defaultValue=""
-            formNoValidate={true}
-            id="swca-color"
-            multiple={false}
-            name="color"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onInvalid={[Function]}
-            required={true}
+          <p
+            className="c6 c7"
           >
-            <option
-              value=""
+            <span
+              className="c8"
             >
-              --select a color--
-            </option>
-            <option
-              value="red"
-            >
-              Red
-            </option>
-            <option
-              value="green"
-            >
-              Green
-            </option>
-            <option
-              value="blue"
-            >
-              Blue
-            </option>
-          </select>
-          <svg
-            aria-hidden={true}
-            className="c11 c12"
-            focusable="false"
-            viewBox="0 0 24 24"
+              This select is adding custom data attributes for test automation
+            </span>
+          </p>
+          <div
+            className="c9"
+          />
+          <div
+            className="c10"
           >
-            <path
-              d="M0 0 24 0 24 24 0 24"
-              fill="none"
-            />
-            <path
-              d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-            />
-          </svg>
+            <select
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              data-test-id="color"
+              defaultValue=""
+              formNoValidate={true}
+              id="swca-color"
+              multiple={false}
+              name="color"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onInvalid={[Function]}
+              required={true}
+            >
+              <option
+                value=""
+              >
+                --select a color--
+              </option>
+              <option
+                value="red"
+              >
+                Red
+              </option>
+              <option
+                value="green"
+              >
+                Green
+              </option>
+              <option
+                value="blue"
+              >
+                Blue
+              </option>
+            </select>
+            <svg
+              aria-hidden={true}
+              className="c11 c12"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0 24 0 24 24 0 24"
+                fill="none"
+              />
+              <path
+                d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With JS Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2069,7 +2041,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c21 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2084,13 +2056,13 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   display: block;
 }
 
-.c21 *,
-.c21 *::before,
-.c21 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c28 {
+.c26 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2130,46 +2102,46 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c28 *,
-.c28 *::before,
-.c28 *::after {
+.c26 *,
+.c26 *::before,
+.c26 *::after {
   box-sizing: border-box;
 }
 
-.c28::-moz-focus-inner {
+.c26::-moz-focus-inner {
   border-style: none;
 }
 
-.c31 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c29 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c31::before {
+.c29::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2177,19 +2149,19 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2197,39 +2169,39 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c22 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c21 {
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
-.c22::before {
+.c21::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c16 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -2237,7 +2209,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c13 {
@@ -2255,7 +2227,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c13 *,
@@ -2279,7 +2251,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2291,55 +2263,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c23 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c23 *,
-.c23 *::before,
-.c23 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-.c29 {
+.c27 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2363,24 +2287,24 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c29 *,
-.c29 *::before,
-.c29 *::after {
+.c27 *,
+.c27 *::before,
+.c27 *::after {
   box-sizing: border-box;
 }
 
-.c29:hover {
+.c27:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c29:active {
+.c27:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c30 {
+.c28 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2468,7 +2392,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   overflow: hidden;
 }
 
-.c27 {
+.c25 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2491,17 +2415,17 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c27 *,
-.c27 *::before,
-.c27 *::after {
+.c25 *,
+.c25 *::before,
+.c25 *::after {
   box-sizing: border-box;
 }
 
-.c27 > * {
+.c25 > * {
   margin-left: 8px;
 }
 
-.c27 > :first-child {
+.c25 > :first-child {
   margin-left: 0;
 }
 
@@ -2577,7 +2501,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c25 {
+.c23 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -2594,7 +2518,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   width: 1em;
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2605,17 +2529,17 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   -webkit-text-size-adjust: 100%;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c20 {
+.c19 {
   margin-bottom: 8px;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2633,30 +2557,30 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   text-decoration: underline;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c18:focus {
+.c17:focus {
   outline: none;
   outline-offset: 1px;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c18:hover {
+.c17:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c18:visited,
-.c18:active {
+.c17:visited,
+.c17:active {
   color: #38A169;
 }
 
-.c24 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2681,13 +2605,13 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   position: relative;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c24 select {
+.c22 select {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2719,17 +2643,17 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   width: 100%;
 }
 
-.c24 select *,
-.c24 select *::before,
-.c24 select *::after {
+.c22 select *,
+.c22 select *::before,
+.c22 select *::after {
   box-sizing: border-box;
 }
 
-.c24 select:-ms-expand {
+.c22 select:-ms-expand {
   display: none;
 }
 
-.c24 select:focus {
+.c22 select:focus {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   outline: none;
@@ -2737,7 +2661,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   padding-right: 36px;
 }
 
-.c26 {
+.c24 {
   cursor: pointer;
   fill: currentColor;
   left: auto;
@@ -2747,7 +2671,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   top: 14px;
 }
 
-select:active + .c26 {
+select:active + .c24 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -2804,189 +2728,198 @@ select:active + .c26 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Using JavaScript Validation
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c11"
-          >
-            <p
-              className="c7 c12"
-            >
-              <span
-                className="c13"
-              >
-                In this example, a Select and Inputs are being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation.
-              </span>
-            </p>
-            <div
-              className="c14"
-            />
-            <p
-              className="c15 c16"
-            >
-              <span
-                className="c17"
-              >
-                Note: this example uses the 
-                <a
-                  className="c18"
-                  href={true}
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel={null}
-                >
-                  FormControl
-                </a>
-                 
-                component to manage labels and error messages
-              </span>
-            </p>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c19"
+            className="c5"
           >
             <div
-              className="c20"
+              className="c6"
             >
-              <label
-                className="c21 c22"
-                htmlFor="swjsv-plan-type"
-                id="swjsv-plan-type-label"
+              <h2
+                className="c7 c8"
               >
                 <span
-                  className="c23"
+                  className="c9"
                 >
-                  Plan Type
+                  Using JavaScript Validation
                 </span>
-              </label>
-            </div>
-            <div
-              className="c24"
-            >
-              <select
-                aria-disabled={false}
-                aria-errormessage={null}
-                aria-invalid={false}
-                aria-labelledby="swjsv-plan-type-label"
-                aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                defaultValue=""
-                disabled={false}
-                formNoValidate={true}
-                id="swjsv-plan-type"
-                multiple={false}
-                name="plan-type"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onInvalid={[Function]}
-                required={true}
-              >
-                <option
-                  value=""
-                >
-                  -- select a plan --
-                </option>
-                <option
-                  value={1}
-                >
-                  Free
-                </option>
-                <option
-                  value={2}
-                >
-                  Pro ($0.99/month)
-                </option>
-              </select>
-              <svg
-                aria-hidden={true}
-                className="c25 c26"
-                focusable="false"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M0 0 24 0 24 24 0 24"
-                  fill="none"
-                />
-                <path
-                  d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-                />
-              </svg>
+              </h2>
             </div>
           </div>
-        </div>
-        <div
-          className="c27"
-        >
-          <button
-            aria-busy={false}
-            className="c28 c29"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <div
+            className="c10"
           >
             <div
-              className="c30"
+              className="c11"
             >
-              <span
-                className="c7 c31"
+              <p
+                className="c7 c12"
               >
                 <span
                   className="c13"
                 >
-                  Save Changes
+                  In this example, a Select and Inputs are being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation.
                 </span>
-              </span>
+              </p>
+              <div
+                className="c14"
+              />
+              <p
+                className="c15 c16"
+              >
+                <span
+                  className="c13"
+                >
+                  Note: this example uses the 
+                  <a
+                    className="c17"
+                    href={true}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel={null}
+                  >
+                    FormControl
+                  </a>
+                   
+                  component to manage labels and error messages
+                </span>
+              </p>
             </div>
-          </button>
-        </div>
-      </form>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c18"
+            >
+              <div
+                className="c19"
+              >
+                <label
+                  className="c20 c21"
+                  htmlFor="swjsv-plan-type"
+                  id="swjsv-plan-type-label"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Plan Type
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c22"
+              >
+                <select
+                  aria-disabled={false}
+                  aria-errormessage={null}
+                  aria-invalid={false}
+                  aria-labelledby="swjsv-plan-type-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  defaultValue=""
+                  disabled={false}
+                  formNoValidate={true}
+                  id="swjsv-plan-type"
+                  multiple={false}
+                  name="plan-type"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                >
+                  <option
+                    value=""
+                  >
+                    -- select a plan --
+                  </option>
+                  <option
+                    value={1}
+                  >
+                    Free
+                  </option>
+                  <option
+                    value={2}
+                  >
+                    Pro ($0.99/month)
+                  </option>
+                </select>
+                <svg
+                  aria-hidden={true}
+                  className="c23 c24"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0 24 0 24 24 0 24"
+                    fill="none"
+                  />
+                  <path
+                    d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c25"
+          >
+            <button
+              aria-busy={false}
+              className="c26 c27"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
+            >
+              <div
+                className="c28"
+              >
+                <span
+                  className="c7 c29"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Save Changes
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With Min Width 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -3100,52 +3033,61 @@ select:active + .c2 {
 }
 
 <div
-  className="c0"
->
-  <select
-    aria-invalid={false}
-    aria-required={true}
-    autoComplete="on"
-    autoFocus={false}
-    defaultValue="one"
-    formNoValidate={true}
-    id="swmw-number"
-    multiple={false}
-    onBlur={[Function]}
-    onChange={[Function]}
-    onInvalid={[Function]}
-    required={true}
+    className="c0"
   >
-    <option
-      value="one"
+    <select
+      aria-invalid={false}
+      aria-required={true}
+      autoComplete="on"
+      autoFocus={false}
+      defaultValue="one"
+      formNoValidate={true}
+      id="swmw-number"
+      multiple={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onInvalid={[Function]}
+      required={true}
     >
-      One
-    </option>
-    <option
-      value="two"
+      <option
+        value="one"
+      >
+        One
+      </option>
+      <option
+        value="two"
+      >
+        Two
+      </option>
+    </select>
+    <svg
+      aria-hidden={true}
+      className="c1 c2"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      Two
-    </option>
-  </select>
-  <svg
-    aria-hidden={true}
-    className="c1 c2"
-    focusable="false"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M0 0 24 0 24 24 0 24"
-      fill="none"
-    />
-    <path
-      d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-    />
-  </svg>
-</div>
+      <path
+        d="M0 0 24 0 24 24 0 24"
+        fill="none"
+      />
+      <path
+        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+      />
+    </svg>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With Placeholder 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -3260,57 +3202,66 @@ select:active + .c2 {
 }
 
 <div
-  className="c0"
->
-  <select
-    aria-invalid={false}
-    aria-required={true}
-    autoComplete="on"
-    autoFocus={false}
-    defaultValue=""
-    formNoValidate={true}
-    id="swp-number"
-    multiple={false}
-    onBlur={[Function]}
-    onChange={[Function]}
-    onInvalid={[Function]}
-    required={true}
+    className="c0"
   >
-    <option
-      value=""
+    <select
+      aria-invalid={false}
+      aria-required={true}
+      autoComplete="on"
+      autoFocus={false}
+      defaultValue=""
+      formNoValidate={true}
+      id="swp-number"
+      multiple={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onInvalid={[Function]}
+      required={true}
     >
-      -- select a number --
-    </option>
-    <option
-      value="one"
+      <option
+        value=""
+      >
+        -- select a number --
+      </option>
+      <option
+        value="one"
+      >
+        One
+      </option>
+      <option
+        value="one"
+      >
+        Two
+      </option>
+    </select>
+    <svg
+      aria-hidden={true}
+      className="c1 c2"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      One
-    </option>
-    <option
-      value="one"
-    >
-      Two
-    </option>
-  </select>
-  <svg
-    aria-hidden={true}
-    className="c1 c2"
-    focusable="false"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M0 0 24 0 24 24 0 24"
-      fill="none"
-    />
-    <path
-      d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-    />
-  </svg>
-</div>
+      <path
+        d="M0 0 24 0 24 24 0 24"
+        fill="none"
+      />
+      <path
+        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+      />
+    </svg>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Select With States 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -3558,95 +3509,96 @@ select:active + .c3 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <select
-      aria-disabled={true}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoFocus={false}
-      defaultValue="disabled"
-      disabled={true}
-      formNoValidate={true}
-      id="sws-disabled"
-      multiple={false}
-      onBlur={[Function]}
-      onChange={[Function]}
-      onInvalid={[Function]}
-      required={true}
+    <div
+      className="c1"
     >
-      <option
-        selected={true}
-        value="disabled"
+      <select
+        aria-disabled={true}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoFocus={false}
+        defaultValue="disabled"
+        disabled={true}
+        formNoValidate={true}
+        id="sws-disabled"
+        multiple={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onInvalid={[Function]}
+        required={true}
       >
-        Disabled
-      </option>
-    </select>
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0 24 0 24 24 0 24"
-        fill="none"
-      />
-      <path
-        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-      />
-    </svg>
-  </div>
-  <div
-    className="c4"
-  />
-  <div
-    className="c5"
-  >
-    <select
-      aria-invalid={true}
-      aria-required={true}
-      autoComplete="on"
-      autoFocus={false}
-      defaultValue="invalid"
-      formNoValidate={true}
-      id="sws-invalid"
-      multiple={false}
-      onBlur={[Function]}
-      onChange={[Function]}
-      onInvalid={[Function]}
-      required={true}
-    >
-      <option
-        selected={true}
-        value="invalid"
+        <option
+          selected={true}
+          value="disabled"
+        >
+          Disabled
+        </option>
+      </select>
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
       >
-        Invalid
-      </option>
-      <option
-        value="still-invalid"
-      >
-        Still Invalid
-      </option>
-    </select>
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
+        <path
+          d="M0 0 24 0 24 24 0 24"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+        />
+      </svg>
+    </div>
+    <div
+      className="c4"
+    />
+    <div
+      className="c5"
     >
-      <path
-        d="M0 0 24 0 24 24 0 24"
-        fill="none"
-      />
-      <path
-        d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-      />
-    </svg>
-  </div>
-</div>
+      <select
+        aria-invalid={true}
+        aria-required={true}
+        autoComplete="on"
+        autoFocus={false}
+        defaultValue="invalid"
+        formNoValidate={true}
+        id="sws-invalid"
+        multiple={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onInvalid={[Function]}
+        required={true}
+      >
+        <option
+          selected={true}
+          value="invalid"
+        >
+          Invalid
+        </option>
+        <option
+          value="still-invalid"
+        >
+          Still Invalid
+        </option>
+      </select>
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0 24 0 24 24 0 24"
+          fill="none"
+        />
+        <path
+          d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+        />
+      </svg>
+    </div>
+  </div>,
+]
 `;

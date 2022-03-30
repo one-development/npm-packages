@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Card Basic 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -44,15 +52,15 @@ exports[`Storyshots Components/Card Basic 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -60,19 +68,19 @@ exports[`Storyshots Components/Card Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -80,7 +88,7 @@ exports[`Storyshots Components/Card Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -98,7 +106,7 @@ exports[`Storyshots Components/Card Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -122,7 +130,7 @@ exports[`Storyshots Components/Card Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -276,54 +284,63 @@ exports[`Storyshots Components/Card Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Simple Card
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Simple Card
+              This is a simple card. It uses CardHeader and CardContent to correctly position its children. It also has the default density.
             </span>
-          </h2>
+          </p>
         </div>
       </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            This is a simple card. It uses CardHeader and CardContent to correctly position its children. It also has the default density.
-          </span>
-        </p>
-      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Card With Actions 1`] = `
-.c8 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -416,15 +433,15 @@ exports[`Storyshots Components/Card With Actions 1`] = `
 }
 
 .c18 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -432,19 +449,19 @@ exports[`Storyshots Components/Card With Actions 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -452,19 +469,19 @@ exports[`Storyshots Components/Card With Actions 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -472,7 +489,7 @@ exports[`Storyshots Components/Card With Actions 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c13 {
@@ -490,7 +507,7 @@ exports[`Storyshots Components/Card With Actions 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c13 *,
@@ -514,7 +531,7 @@ exports[`Storyshots Components/Card With Actions 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -937,179 +954,188 @@ exports[`Storyshots Components/Card With Actions 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2 c3"
+      className="c1"
     >
       <div
-        className="c4"
-      />
-      <div
-        className="c5"
+        className="c2 c3"
       >
         <div
-          className="c6"
+          className="c4"
+        />
+        <div
+          className="c5"
         >
           <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Left Aligned
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c11"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              This card has left aligned actions
-            </span>
-          </p>
-        </div>
-        <div
-          className="c14"
-        >
-          <button
-            aria-busy={false}
-            className="c15 c16"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
+            className="c6"
           >
             <div
-              className="c17"
+              className="c7"
             >
-              <span
-                className="c8 c18"
+              <h2
+                className="c8 c9"
               >
                 <span
-                  className="c13"
+                  className="c10"
                 >
-                  Learn More
+                  Left Aligned
                 </span>
-              </span>
+              </h2>
             </div>
-          </button>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                This card has left aligned actions
+              </span>
+            </p>
+          </div>
+          <div
+            className="c14"
+          >
+            <button
+              aria-busy={false}
+              className="c15 c16"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Learn More
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c19"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Right Aligned
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                This card has right aligned actions
+              </span>
+            </p>
+          </div>
+          <div
+            className="c20"
+          >
+            <button
+              aria-busy={false}
+              className="c15 c21"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Cancel
+                  </span>
+                </span>
+              </div>
+            </button>
+            <button
+              aria-busy={false}
+              className="c15 c22"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Save
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      className="c19"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Right Aligned
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c11"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              This card has right aligned actions
-            </span>
-          </p>
-        </div>
-        <div
-          className="c20"
-        >
-          <button
-            aria-busy={false}
-            className="c15 c21"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c17"
-            >
-              <span
-                className="c8 c18"
-              >
-                <span
-                  className="c13"
-                >
-                  Cancel
-                </span>
-              </span>
-            </div>
-          </button>
-          <button
-            aria-busy={false}
-            className="c15 c22"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c17"
-            >
-              <span
-                className="c8 c18"
-              >
-                <span
-                  className="c13"
-                >
-                  Save
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Card With Density 1`] = `
-.c8 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1202,15 +1228,15 @@ exports[`Storyshots Components/Card With Density 1`] = `
 }
 
 .c18 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -1218,19 +1244,19 @@ exports[`Storyshots Components/Card With Density 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1238,19 +1264,19 @@ exports[`Storyshots Components/Card With Density 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1258,7 +1284,7 @@ exports[`Storyshots Components/Card With Density 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c13 {
@@ -1276,7 +1302,7 @@ exports[`Storyshots Components/Card With Density 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c13 *,
@@ -1300,7 +1326,7 @@ exports[`Storyshots Components/Card With Density 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1963,298 +1989,307 @@ exports[`Storyshots Components/Card With Density 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2 c3"
+      className="c1"
     >
       <div
-        className="c4"
-      />
-      <div
-        className="c5"
+        className="c2 c3"
       >
         <div
-          className="c6"
+          className="c4"
+        />
+        <div
+          className="c5"
         >
           <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Default
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c11"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              I am using the default density, which is the largest padding available
-            </span>
-          </p>
-        </div>
-        <div
-          className="c14"
-        >
-          <button
-            aria-busy={false}
-            className="c15 c16"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
+            className="c6"
           >
             <div
-              className="c17"
+              className="c7"
             >
-              <span
-                className="c8 c18"
+              <h2
+                className="c8 c9"
               >
                 <span
-                  className="c13"
+                  className="c10"
                 >
-                  Learn More
+                  Default
                 </span>
-              </span>
+              </h2>
             </div>
-          </button>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                I am using the default density, which is the largest padding available
+              </span>
+            </p>
+          </div>
+          <div
+            className="c14"
+          >
+            <button
+              aria-busy={false}
+              className="c15 c16"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Learn More
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c19"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c20"
+          >
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Comfortable
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c21"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                I am using the comfortable density, which is a happy medium between compact and default
+              </span>
+            </p>
+          </div>
+          <div
+            className="c22"
+          >
+            <button
+              aria-busy={false}
+              className="c15 c16"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Learn More
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c19"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c23"
+          >
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Compact
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c24"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                I am using the compact density, which is the smallest option available
+              </span>
+            </p>
+          </div>
+          <div
+            className="c25"
+          >
+            <button
+              aria-busy={false}
+              className="c15 c16"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Learn More
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c19"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c26"
+          >
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Responsive
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c27"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                I am using the responsive density. With this setting, the Card will adjust its density between default, comfortable, and compact based on the device screen size
+              </span>
+            </p>
+          </div>
+          <div
+            className="c28"
+          >
+            <button
+              aria-busy={false}
+              className="c15 c16"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c17"
+              >
+                <span
+                  className="c8 c18"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Learn More
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      className="c19"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c20"
-        >
-          <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Comfortable
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c21"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              I am using the comfortable density, which is a happy medium between compact and default
-            </span>
-          </p>
-        </div>
-        <div
-          className="c22"
-        >
-          <button
-            aria-busy={false}
-            className="c15 c16"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c17"
-            >
-              <span
-                className="c8 c18"
-              >
-                <span
-                  className="c13"
-                >
-                  Learn More
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c19"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c23"
-        >
-          <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Compact
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c24"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              I am using the compact density, which is the smallest option available
-            </span>
-          </p>
-        </div>
-        <div
-          className="c25"
-        >
-          <button
-            aria-busy={false}
-            className="c15 c16"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c17"
-            >
-              <span
-                className="c8 c18"
-              >
-                <span
-                  className="c13"
-                >
-                  Learn More
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c19"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c26"
-        >
-          <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Responsive
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c27"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c13"
-            >
-              I am using the responsive density. With this setting, the Card will adjust its density between default, comfortable, and compact based on the device screen size
-            </span>
-          </p>
-        </div>
-        <div
-          className="c28"
-        >
-          <button
-            aria-busy={false}
-            className="c15 c16"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c17"
-            >
-              <span
-                className="c8 c18"
-              >
-                <span
-                  className="c13"
-                >
-                  Learn More
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Card With Form 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2369,15 +2404,15 @@ exports[`Storyshots Components/Card With Form 1`] = `
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -2385,19 +2420,19 @@ exports[`Storyshots Components/Card With Form 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2405,39 +2440,39 @@ exports[`Storyshots Components/Card With Form 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
-.c22 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c21 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
-.c22::before {
+.c21::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c19 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -2445,7 +2480,7 @@ exports[`Storyshots Components/Card With Form 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c15 {
@@ -2463,7 +2498,7 @@ exports[`Storyshots Components/Card With Form 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c15 *,
@@ -2487,7 +2522,7 @@ exports[`Storyshots Components/Card With Form 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2496,30 +2531,6 @@ exports[`Storyshots Components/Card With Form 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c20 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c20 *,
-.c20 *::before,
-.c20 *::after {
   box-sizing: border-box;
 }
 
@@ -2731,7 +2742,7 @@ exports[`Storyshots Components/Card With Form 1`] = `
   transform: translateY(2px);
 }
 
-.c21 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2747,13 +2758,13 @@ exports[`Storyshots Components/Card With Form 1`] = `
   height: 8px;
 }
 
-.c21 *,
-.c21 *::before,
-.c21 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c23 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2769,9 +2780,9 @@ exports[`Storyshots Components/Card With Form 1`] = `
   height: 32px;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
@@ -2804,157 +2815,166 @@ exports[`Storyshots Components/Card With Form 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
           >
-            <span
-              className="c9"
-            >
-              Profile
-            </span>
-          </h2>
-        </div>
-        <div
-          className="c10"
-        >
-          <button
-            aria-busy={false}
-            className="c11 c12"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c13"
+            <h2
+              className="c7 c8"
             >
               <span
-                className="c7 c14"
+                className="c9"
+              >
+                Profile
+              </span>
+            </h2>
+          </div>
+          <div
+            className="c10"
+          >
+            <button
+              aria-busy={false}
+              className="c11 c12"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
+              >
+                <span
+                  className="c7 c14"
+                >
+                  <span
+                    className="c15"
+                  >
+                    Change
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          className="c16"
+        >
+          <div
+            className="c17"
+          >
+            <div
+              className="c18"
+            >
+              <span
+                className="c7 c19"
               >
                 <span
                   className="c15"
                 >
-                  Change
+                  Name
                 </span>
               </span>
+              <div
+                className="c20"
+              />
+              <p
+                className="c7 c21"
+              >
+                <span
+                  className="c15"
+                >
+                  Jim Fishman
+                </span>
+              </p>
             </div>
-          </button>
-        </div>
-      </div>
-      <div
-        className="c16"
-      >
-        <div
-          className="c17"
-        >
-          <div
-            className="c18"
-          >
-            <span
-              className="c7 c19"
-            >
-              <span
-                className="c20"
-              >
-                Name
-              </span>
-            </span>
             <div
-              className="c21"
+              className="c22"
             />
-            <p
-              className="c7 c22"
-            >
-              <span
-                className="c15"
-              >
-                Jim Fishman
-              </span>
-            </p>
-          </div>
-          <div
-            className="c23"
-          />
-          <div
-            className="c18"
-          >
-            <span
-              className="c7 c19"
-            >
-              <span
-                className="c20"
-              >
-                Mobile Number
-              </span>
-            </span>
             <div
-              className="c21"
-            />
-            <p
-              className="c7 c22"
+              className="c18"
             >
               <span
-                className="c15"
+                className="c7 c19"
               >
-                (256) 555-5555
+                <span
+                  className="c15"
+                >
+                  Mobile Number
+                </span>
               </span>
-            </p>
-          </div>
-          <div
-            className="c23"
-          />
-          <div
-            className="c18"
-          >
-            <span
-              className="c7 c19"
-            >
-              <span
+              <div
                 className="c20"
+              />
+              <p
+                className="c7 c21"
               >
-                Email
-              </span>
-            </span>
+                <span
+                  className="c15"
+                >
+                  (256) 555-5555
+                </span>
+              </p>
+            </div>
             <div
-              className="c21"
+              className="c22"
             />
-            <p
-              className="c7 c22"
+            <div
+              className="c18"
             >
               <span
-                className="c15"
+                className="c7 c19"
               >
-                stillusing@aol.com
+                <span
+                  className="c15"
+                >
+                  Email
+                </span>
               </span>
-            </p>
+              <div
+                className="c20"
+              />
+              <p
+                className="c7 c21"
+              >
+                <span
+                  className="c15"
+                >
+                  stillusing@aol.com
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Card With Header 1`] = `
-.c8 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3017,7 +3037,7 @@ exports[`Storyshots Components/Card With Header 1`] = `
   box-sizing: border-box;
 }
 
-.c20 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3046,22 +3066,22 @@ exports[`Storyshots Components/Card With Header 1`] = `
   height: 40px;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
 .c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -3069,19 +3089,19 @@ exports[`Storyshots Components/Card With Header 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -3089,30 +3109,30 @@ exports[`Storyshots Components/Card With Header 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c21 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c20 {
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
-.c21::before {
+.c20::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
-.c16 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3127,12 +3147,12 @@ exports[`Storyshots Components/Card With Header 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
@@ -3151,7 +3171,7 @@ exports[`Storyshots Components/Card With Header 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -3160,57 +3180,6 @@ exports[`Storyshots Components/Card With Header 1`] = `
 .c10 *,
 .c10 *::before,
 .c10 *::after {
-  box-sizing: border-box;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
-  box-sizing: border-box;
-}
-
-.c22 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
-}
-
-.c22 *,
-.c22 *::before,
-.c22 *::after {
   box-sizing: border-box;
 }
 
@@ -3283,7 +3252,7 @@ exports[`Storyshots Components/Card With Header 1`] = `
   overflow: hidden;
 }
 
-.c15 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3294,21 +3263,21 @@ exports[`Storyshots Components/Card With Header 1`] = `
   -webkit-text-size-adjust: 100%;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c15:first-child {
+.c14:first-child {
   padding-top: 32px;
 }
 
-.c15:last-child {
+.c14:last-child {
   padding-bottom: 32px;
 }
 
-.c15:only-child {
+.c14:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -3343,7 +3312,7 @@ exports[`Storyshots Components/Card With Header 1`] = `
   padding-bottom: 32px;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3364,17 +3333,17 @@ exports[`Storyshots Components/Card With Header 1`] = `
   display: flex;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c18:only-child {
+.c17:only-child {
   padding-bottom: 32px;
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3389,9 +3358,9 @@ exports[`Storyshots Components/Card With Header 1`] = `
   margin-right: 16px;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
@@ -3411,7 +3380,7 @@ exports[`Storyshots Components/Card With Header 1`] = `
   margin-top: 8px;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3427,9 +3396,9 @@ exports[`Storyshots Components/Card With Header 1`] = `
   height: 24px;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
@@ -3462,131 +3431,132 @@ exports[`Storyshots Components/Card With Header 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2 c3"
+      className="c1"
     >
       <div
-        className="c4"
-      />
-      <div
-        className="c5"
+        className="c2 c3"
       >
         <div
-          className="c6"
+          className="c4"
+        />
+        <div
+          className="c5"
         >
           <div
-            className="c7"
-          >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Card Header
-              </span>
-            </h2>
-            <p
-              className="c11 c12 c13"
-            >
-              <span
-                className="c14"
-              >
-                Subtitle
-              </span>
-            </p>
-          </div>
-        </div>
-        <div
-          className="c15"
-        >
-          <p
-            className="c8 c12"
-          >
-            <span
-              className="c16"
-            >
-              This is a card with a header. It uses CardHeader to set a title and subtitle.
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c17"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c18"
-        >
-          <div
-            className="c19"
+            className="c6"
           >
             <div
-              className="c20"
+              className="c7"
             >
-              <h6
-                className="c8 c21"
+              <h2
+                className="c8 c9"
               >
                 <span
-                  className="c22"
+                  className="c10"
                 >
-                  R
+                  Card Header
                 </span>
-              </h6>
+              </h2>
+              <p
+                className="c11 c12 c13"
+              >
+                <span
+                  className="c10"
+                >
+                  Subtitle
+                </span>
+              </p>
             </div>
           </div>
           <div
-            className="c7"
+            className="c14"
           >
-            <h2
-              className="c8 c9"
-            >
-              <span
-                className="c10"
-              >
-                Shrimp and Chorizo Paella
-              </span>
-            </h2>
             <p
-              className="c11 c12 c13"
+              className="c8 c12"
             >
               <span
-                className="c14"
+                className="c15"
               >
-                March 16, 2020
+                This is a card with a header. It uses CardHeader to set a title and subtitle.
               </span>
             </p>
           </div>
         </div>
+      </div>
+      <div
+        className="c16"
+      />
+      <div
+        className="c2 c3"
+      >
         <div
-          className="c15"
+          className="c4"
+        />
+        <div
+          className="c5"
         >
-          <p
-            className="c8 c12"
+          <div
+            className="c17"
           >
-            <span
-              className="c16"
+            <div
+              className="c18"
             >
-              This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.
-            </span>
-          </p>
+              <div
+                className="c19"
+              >
+                <h6
+                  className="c8 c20"
+                >
+                  <span
+                    className="c15"
+                  >
+                    R
+                  </span>
+                </h6>
+              </div>
+            </div>
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Shrimp and Chorizo Paella
+                </span>
+              </h2>
+              <p
+                className="c11 c12 c13"
+              >
+                <span
+                  className="c10"
+                >
+                  March 16, 2020
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className="c14"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c15"
+              >
+                This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

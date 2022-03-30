@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Surface Basic 1`] = `
-.c5 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -65,15 +73,15 @@ exports[`Storyshots Components/Surface Basic 1`] = `
 }
 
 .c6 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -81,7 +89,7 @@ exports[`Storyshots Components/Surface Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c7 {
@@ -99,7 +107,7 @@ exports[`Storyshots Components/Surface Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c7 *,
@@ -172,37 +180,46 @@ exports[`Storyshots Components/Surface Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
-    />
-    <div
-      className="c3"
+      className="c1"
     >
       <div
-        className="c4"
+        className="c2"
+      />
+      <div
+        className="c3"
       >
-        <p
-          className="c5 c6"
+        <div
+          className="c4"
         >
-          <span
-            className="c7"
+          <p
+            className="c5 c6"
           >
-            This text is displayed on top of a surface
-          </span>
-        </p>
+            <span
+              className="c7"
+            >
+              This text is displayed on top of a surface
+            </span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Surface With Elevation 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -396,67 +413,68 @@ exports[`Storyshots Components/Surface With Elevation 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
-    />
+      className="c1"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
     <div
-      className="c3"
-    />
-  </div>
-  <div
-    className="c4"
-  >
+      className="c4"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
     <div
-      className="c2"
-    />
+      className="c5"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
     <div
-      className="c3"
-    />
-  </div>
-  <div
-    className="c5"
-  >
+      className="c6"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
     <div
-      className="c2"
-    />
+      className="c7"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
     <div
-      className="c3"
-    />
-  </div>
-  <div
-    className="c6"
-  >
-    <div
-      className="c2"
-    />
-    <div
-      className="c3"
-    />
-  </div>
-  <div
-    className="c7"
-  >
-    <div
-      className="c2"
-    />
-    <div
-      className="c3"
-    />
-  </div>
-  <div
-    className="c8"
-  >
-    <div
-      className="c2"
-    />
-    <div
-      className="c3"
-    />
-  </div>
-</div>
+      className="c8"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
+  </div>,
+]
 `;

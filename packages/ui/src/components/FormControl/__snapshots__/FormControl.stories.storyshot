@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/FormControl Basic 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -126,7 +134,7 @@ exports[`Storyshots Components/FormControl Basic 1`] = `
   .c1 input:-webkit-autofill:focus,
   .c1 input:-webkit-autofill:active,
   .c1 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -134,35 +142,44 @@ exports[`Storyshots Components/FormControl Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <input
-      aria-disabled={false}
-      aria-errormessage={null}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="form-control-basic-story"
-      name="email"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      required={true}
-      type="email"
-    />
-  </div>
-</div>
+    <div
+      className="c1"
+    >
+      <input
+        aria-disabled={false}
+        aria-errormessage={null}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="form-control-basic-story"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        required={true}
+        type="email"
+      />
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -225,7 +242,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -240,13 +257,13 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   display: block;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c26 {
+.c24 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -286,46 +303,46 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c26 *,
-.c26 *::before,
-.c26 *::after {
+.c24 *,
+.c24 *::before,
+.c24 *::after {
   box-sizing: border-box;
 }
 
-.c26::-moz-focus-inner {
+.c24::-moz-focus-inner {
   border-style: none;
 }
 
-.c29 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c27 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c29::before {
+.c27::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -333,19 +350,19 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -353,39 +370,39 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c20 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c19 {
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
-.c20::before {
+.c19::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -393,7 +410,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -411,7 +428,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -435,7 +452,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -447,55 +464,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c21 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c21 *,
-.c21 *::before,
-.c21 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c27 {
+.c25 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -519,24 +488,24 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c27 *,
-.c27 *::before,
-.c27 *::after {
+.c25 *,
+.c25 *::before,
+.c25 *::after {
   box-sizing: border-box;
 }
 
-.c27:hover {
+.c25:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c27:active {
+.c25:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c28 {
+.c26 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -624,7 +593,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   overflow: hidden;
 }
 
-.c25 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -647,17 +616,17 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c25 *,
-.c25 *::before,
-.c25 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
-.c25 > * {
+.c23 > * {
   margin-left: 8px;
 }
 
-.c25 > :first-child {
+.c23 > :first-child {
   margin-left: 0;
 }
 
@@ -733,7 +702,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c23 {
+.c21 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -750,7 +719,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   width: 1em;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -761,17 +730,17 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   -webkit-text-size-adjust: 100%;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c17 {
   margin-bottom: 8px;
 }
 
-.c22 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -796,13 +765,13 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   position: relative;
 }
 
-.c22 *,
-.c22 *::before,
-.c22 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c22 select {
+.c20 select {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -834,17 +803,17 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   width: 100%;
 }
 
-.c22 select *,
-.c22 select *::before,
-.c22 select *::after {
+.c20 select *,
+.c20 select *::before,
+.c20 select *::after {
   box-sizing: border-box;
 }
 
-.c22 select:-ms-expand {
+.c20 select:-ms-expand {
   display: none;
 }
 
-.c22 select:focus {
+.c20 select:focus {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   outline: none;
@@ -852,7 +821,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   padding-right: 36px;
 }
 
-.c24 {
+.c22 {
   cursor: pointer;
   fill: currentColor;
   left: auto;
@@ -862,7 +831,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   top: 14px;
 }
 
-select:active + .c24 {
+select:active + .c22 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -891,173 +860,182 @@ select:active + .c24 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
+            className="c5"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c6"
+            >
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using Browser Validation
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
             >
               <span
-                className="c9"
+                className="c12"
               >
-                Using Browser Validation
+                You can use FormControl with built-in HTML validation. Just set formNoValidate=false on your form control components. Try submitting the form below.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
+            </p>
+            <div
+              className="c13"
+            />
+            <p
+              className="c14 c15"
             >
-              You can use FormControl with built-in HTML validation. Just set formNoValidate=false on your form control components. Try submitting the form below.
-            </span>
-          </p>
+              <span
+                className="c12"
+              >
+                Note: Many form components set noValidate=true. Make sure it is also set to false on your form.
+              </span>
+            </p>
+          </div>
           <div
-            className="c13"
-          />
-          <p
-            className="c14 c15"
+            className="c10"
           >
-            <span
+            <div
               className="c16"
             >
-              Note: Many form components set noValidate=true. Make sure it is also set to false on your form.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c17"
-          >
-            <div
-              className="c18"
-            >
-              <label
-                className="c19 c20"
-                htmlFor="planType"
-                id="planType-label"
+              <div
+                className="c17"
               >
-                <span
-                  className="c21"
+                <label
+                  className="c18 c19"
+                  htmlFor="planType"
+                  id="planType-label"
                 >
-                  Plan Type
-                </span>
-              </label>
-            </div>
-            <div
-              className="c22"
-            >
-              <select
-                aria-disabled={false}
-                aria-errormessage={null}
-                aria-invalid={false}
-                aria-labelledby="planType-label"
-                aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                defaultValue=""
-                disabled={false}
-                formNoValidate={false}
-                id="planType"
-                multiple={false}
-                name="planType"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onInvalid={[Function]}
-                required={true}
+                  <span
+                    className="c12"
+                  >
+                    Plan Type
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c20"
               >
-                <option
-                  value=""
+                <select
+                  aria-disabled={false}
+                  aria-errormessage={null}
+                  aria-invalid={false}
+                  aria-labelledby="planType-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  defaultValue=""
+                  disabled={false}
+                  formNoValidate={false}
+                  id="planType"
+                  multiple={false}
+                  name="planType"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
                 >
-                  -- select a plan --
-                </option>
-                <option
-                  value={1}
+                  <option
+                    value=""
+                  >
+                    -- select a plan --
+                  </option>
+                  <option
+                    value={1}
+                  >
+                    Free
+                  </option>
+                  <option
+                    value={2}
+                  >
+                    Pro ($0.99/month)
+                  </option>
+                </select>
+                <svg
+                  aria-hidden={true}
+                  className="c21 c22"
+                  focusable="false"
+                  viewBox="0 0 24 24"
                 >
-                  Free
-                </option>
-                <option
-                  value={2}
-                >
-                  Pro ($0.99/month)
-                </option>
-              </select>
-              <svg
-                aria-hidden={true}
-                className="c23 c24"
-                focusable="false"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M0 0 24 0 24 24 0 24"
-                  fill="none"
-                />
-                <path
-                  d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-                />
-              </svg>
+                  <path
+                    d="M0 0 24 0 24 24 0 24"
+                    fill="none"
+                  />
+                  <path
+                    d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className="c25"
-        >
-          <button
-            aria-busy={false}
-            className="c26 c27"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <div
+            className="c23"
           >
-            <div
-              className="c28"
+            <button
+              aria-busy={false}
+              className="c24 c25"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
             >
-              <span
-                className="c7 c29"
+              <div
+                className="c26"
               >
                 <span
-                  className="c12"
+                  className="c7 c27"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With Caption 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1150,15 +1128,15 @@ exports[`Storyshots Components/FormControl With Caption 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -1166,7 +1144,7 @@ exports[`Storyshots Components/FormControl With Caption 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c9 {
@@ -1184,7 +1162,7 @@ exports[`Storyshots Components/FormControl With Caption 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c9 *,
@@ -1347,7 +1325,7 @@ exports[`Storyshots Components/FormControl With Caption 1`] = `
   .c2 input:-webkit-autofill:focus,
   .c2 input:-webkit-autofill:active,
   .c2 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1355,81 +1333,90 @@ exports[`Storyshots Components/FormControl With Caption 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <input
-        aria-describedby="form-control-with-caption-caption"
-        aria-disabled={false}
-        aria-errormessage={null}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="new-password"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="form-control-with-caption"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        required={true}
-        type="password"
-      />
       <div
-        className="c3"
+        className="c2"
       >
-        <button
-          aria-label="Show password text"
-          className="c4 "
+        <input
+          aria-describedby="form-control-with-caption-caption"
+          aria-disabled={false}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="new-password"
+          autoCorrect="off"
+          autoFocus={false}
           disabled={false}
+          id="form-control-with-caption"
           onBlur={[Function]}
-          onClick={[Function]}
+          onChange={[Function]}
           onFocus={[Function]}
-          type="button"
+          onInvalid={[Function]}
+          required={true}
+          type="password"
+        />
+        <div
+          className="c3"
         >
-          <svg
-            aria-hidden={true}
-            className="c5"
-            focusable="false"
-            viewBox="0 0 24 24"
+          <button
+            aria-label="Show password text"
+            className="c4 "
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
           >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-            />
-          </svg>
-        </button>
+            <svg
+              aria-hidden={true}
+              className="c5"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
-    </div>
-    <div
-      className="c6"
-    >
-      <span
-        className="c7 c8"
-        id="form-control-with-caption-caption"
+      <div
+        className="c6"
       >
         <span
-          className="c9"
+          className="c7 c8"
+          id="form-control-with-caption-caption"
         >
-          Your password must contain 1 uppercase letter, 1 number, and 1 special character
+          <span
+            className="c9"
+          >
+            Your password must contain 1 uppercase letter, 1 number, and 1 special character
+          </span>
         </span>
-      </span>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1512,7 +1499,7 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   box-sizing: border-box;
 }
 
-.c12 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1528,22 +1515,22 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   padding: 8px;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -1551,19 +1538,19 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c10 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -1571,7 +1558,7 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c5 {
@@ -1589,36 +1576,12 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
 .c5 *::before,
 .c5 *::after {
-  box-sizing: border-box;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
   box-sizing: border-box;
 }
 
@@ -1756,7 +1719,7 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   .c7 input:-webkit-autofill:focus,
   .c7 input:-webkit-autofill:active,
   .c7 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1764,78 +1727,87 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <label
-        className="c3 c4"
-        htmlFor="firstname"
-        id="firstname-label"
+      <div
+        className="c2"
+      >
+        <label
+          className="c3 c4"
+          htmlFor="firstname"
+          id="firstname-label"
+        >
+          <span
+            className="c5"
+          >
+            <div
+              className="c6"
+            >
+              Name
+            </div>
+          </span>
+        </label>
+      </div>
+      <div
+        className="c7"
+      >
+        <input
+          aria-describedby="firstname-caption"
+          aria-disabled={false}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-labelledby="firstname-label"
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          id="firstname"
+          name="firstname"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="c8"
       >
         <span
-          className="c5"
+          className="c9 c10"
+          id="firstname-caption"
         >
-          <div
-            className="c6"
+          <span
+            className="c5"
           >
-            Name
-          </div>
+            <div
+              className="c11"
+            >
+              Provide your first and last name
+            </div>
+          </span>
         </span>
-      </label>
+      </div>
     </div>
-    <div
-      className="c7"
-    >
-      <input
-        aria-describedby="firstname-caption"
-        aria-disabled={false}
-        aria-errormessage={null}
-        aria-invalid={false}
-        aria-labelledby="firstname-label"
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="firstname"
-        name="firstname"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        required={true}
-        type="text"
-      />
-    </div>
-    <div
-      className="c8"
-    >
-      <span
-        className="c9 c10"
-        id="firstname-caption"
-      >
-        <span
-          className="c11"
-        >
-          <div
-            className="c12"
-          >
-            Provide your first and last name
-          </div>
-        </span>
-      </span>
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With Disabled 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1983,7 +1955,7 @@ exports[`Storyshots Components/FormControl With Disabled 1`] = `
   .c2 input:-webkit-autofill:focus,
   .c2 input:-webkit-autofill:active,
   .c2 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1991,40 +1963,49 @@ exports[`Storyshots Components/FormControl With Disabled 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <input
-        aria-disabled={true}
-        aria-errormessage={null}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={true}
-        id="form-control-with-disabled"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="Disabled input"
-        required={true}
-        tabIndex={-1}
-        type="text"
-      />
+      <div
+        className="c2"
+      >
+        <input
+          aria-disabled={true}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={true}
+          id="form-control-with-disabled"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="Disabled input"
+          required={true}
+          tabIndex={-1}
+          type="text"
+        />
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With Error 1`] = `
-.c11 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2138,15 +2119,15 @@ exports[`Storyshots Components/FormControl With Error 1`] = `
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -2154,7 +2135,7 @@ exports[`Storyshots Components/FormControl With Error 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c13 {
@@ -2172,7 +2153,7 @@ exports[`Storyshots Components/FormControl With Error 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c13 *,
@@ -2391,7 +2372,7 @@ exports[`Storyshots Components/FormControl With Error 1`] = `
   .c2 input:-webkit-autofill:focus,
   .c2 input:-webkit-autofill:active,
   .c2 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -2399,47 +2380,71 @@ exports[`Storyshots Components/FormControl With Error 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <input
-        aria-describedby="form-control-with-error-error"
-        aria-disabled={false}
-        aria-errormessage="form-control-with-error-error"
-        aria-invalid={true}
-        aria-required={true}
-        autoComplete="new-password"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="form-control-with-error"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        required={true}
-        type="password"
-      />
       <div
-        className="c3"
+        className="c2"
       >
-        <button
-          aria-label="Show password text"
-          className="c4 "
+        <input
+          aria-describedby="form-control-with-error-error"
+          aria-disabled={false}
+          aria-errormessage="form-control-with-error-error"
+          aria-invalid={true}
+          aria-required={true}
+          autoComplete="new-password"
+          autoCorrect="off"
+          autoFocus={false}
           disabled={false}
+          id="form-control-with-error"
           onBlur={[Function]}
-          onClick={[Function]}
+          onChange={[Function]}
           onFocus={[Function]}
-          type="button"
+          onInvalid={[Function]}
+          required={true}
+          type="password"
+        />
+        <div
+          className="c3"
+        >
+          <button
+            aria-label="Show password text"
+            className="c4 "
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="c5"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        className="c6"
+      >
+        <div
+          className="c7"
+          role="alert"
         >
           <svg
             aria-hidden={true}
-            className="c5"
+            className="c8 c9"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -2448,55 +2453,40 @@ exports[`Storyshots Components/FormControl With Error 1`] = `
               fill="none"
             />
             <path
-              d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+              d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
             />
           </svg>
-        </button>
-      </div>
-    </div>
-    <div
-      className="c6"
-    >
-      <div
-        className="c7"
-        role="alert"
-      >
-        <svg
-          aria-hidden={true}
-          className="c8 c9"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
-          />
-        </svg>
-        <div
-          className="c10"
-        >
-          <span
-            className="c11 c12"
-            id="form-control-with-error-error"
+          <div
+            className="c10"
           >
             <span
-              className="c13"
+              className="c11 c12"
+              id="form-control-with-error-error"
             >
-              Your password must contain 1 uppercase letter, 1 number, and 1 special character
+              <span
+                className="c13"
+              >
+                Your password must contain 1 uppercase letter, 1 number, and 1 special character
+              </span>
             </span>
-          </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With JS Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2538,7 +2528,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c24 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2553,9 +2543,9 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   display: block;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
@@ -2580,7 +2570,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c21 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2620,46 +2610,46 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c21 *,
-.c21 *::before,
-.c21 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c21::-moz-focus-inner {
+.c20::-moz-focus-inner {
   border-style: none;
 }
 
-.c43 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c40 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c43::before {
+.c40::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2667,19 +2657,19 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2687,19 +2677,19 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c16 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -2707,47 +2697,47 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
-.c36 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c34 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
 
-.c36::before {
+.c34::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c25 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c24 {
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
-.c25::before {
+.c24::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -2765,7 +2755,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -2789,7 +2779,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2801,82 +2791,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c37 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c37 *,
-.c37 *::before,
-.c37 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-.c26 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c26 *,
-.c26 *::before,
-.c26 *::after {
-  box-sizing: border-box;
-}
-
-.c41 {
+.c38 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2900,24 +2815,24 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c41 *,
-.c41 *::before,
-.c41 *::after {
+.c38 *,
+.c38 *::before,
+.c38 *::after {
   box-sizing: border-box;
 }
 
-.c41:hover {
+.c38:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c41:active {
+.c38:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c42 {
+.c39 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3005,7 +2920,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   overflow: hidden;
 }
 
-.c40 {
+.c37 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3028,17 +2943,17 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c40 *,
-.c40 *::before,
-.c40 *::after {
+.c37 *,
+.c37 *::before,
+.c37 *::after {
   box-sizing: border-box;
 }
 
-.c40 > * {
+.c37 > * {
   margin-left: 8px;
 }
 
-.c40 > :first-child {
+.c37 > :first-child {
   margin-left: 0;
 }
 
@@ -3114,7 +3029,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c22 {
+.c21 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -3148,7 +3063,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c23 {
+.c22 {
   margin-top: 8px;
 }
 
@@ -3156,7 +3071,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   margin-bottom: 8px;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3194,13 +3109,13 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   width: 100%;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c18 input {
+.c17 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3227,46 +3142,46 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   outline: none;
 }
 
-.c18 input *,
-.c18 input *::before,
-.c18 input *::after {
+.c17 input *,
+.c17 input *::before,
+.c17 input *::after {
   box-sizing: border-box;
 }
 
-.c18 input::-webkit-input-placeholder {
+.c17 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18 input::-moz-placeholder {
+.c17 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18 input:-ms-input-placeholder {
+.c17 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18 input::placeholder {
+.c17 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18:focus-within {
+.c17:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   padding: 0 8px;
 }
 
-.c20 {
+.c19 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c31 {
+.c29 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3287,13 +3202,13 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   position: relative;
 }
 
-.c31 *,
-.c31 *::before,
-.c31 *::after {
+.c29 *,
+.c29 *::before,
+.c29 *::after {
   box-sizing: border-box;
 }
 
-.c33 {
+.c31 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3311,7 +3226,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   width: 18px;
 }
 
-.c33 input[type=radio] {
+.c31 input[type=radio] {
   cursor: pointer;
   font-size: 1rem;
   grid-area: input;
@@ -3322,11 +3237,11 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   z-index: 1;
 }
 
-.c33 input[type=radio][disabled] {
+.c31 input[type=radio][disabled] {
   cursor: not-allowed;
 }
 
-.c34 {
+.c32 {
   background-color: transparent;
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.6);
@@ -3343,16 +3258,16 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   width: 18px;
 }
 
-.c32:hover .c34 {
+.c30:hover .c32 {
   border-color: rgba(0,0,0,0.87);
 }
 
-input[type=radio]:checked + .c34 {
+input[type=radio]:checked + .c32 {
   border-color: rgba(0,0,0,0.87);
   border-width: 6px;
 }
 
-.c35 {
+.c33 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3372,13 +3287,13 @@ input[type=radio]:checked + .c34 {
   -webkit-tap-highlight-color: transparent;
 }
 
-.c38 {
+.c35 {
   grid-area: description;
   margin-top: 8px;
   padding-left: 8px;
 }
 
-.c29 {
+.c27 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3391,23 +3306,23 @@ input[type=radio]:checked + .c34 {
   border-radius: 4px;
 }
 
-.c29 *,
-.c29 *::before,
-.c29 *::after {
+.c27 *,
+.c27 *::before,
+.c27 *::after {
   box-sizing: border-box;
 }
 
-.c30 {
+.c28 {
   padding: 16px;
 }
 
-.c39 {
+.c36 {
   padding: 16px;
   border-top: 1px solid rgba(0,0,0,0.12);
   border-top-color: rgba(0,0,0,0.12);
 }
 
-.c27 {
+.c25 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3432,13 +3347,13 @@ input[type=radio]:checked + .c34 {
   position: relative;
 }
 
-.c27 *,
-.c27 *::before,
-.c27 *::after {
+.c25 *,
+.c25 *::before,
+.c25 *::after {
   box-sizing: border-box;
 }
 
-.c27 select {
+.c25 select {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3470,17 +3385,17 @@ input[type=radio]:checked + .c34 {
   width: 100%;
 }
 
-.c27 select *,
-.c27 select *::before,
-.c27 select *::after {
+.c25 select *,
+.c25 select *::before,
+.c25 select *::after {
   box-sizing: border-box;
 }
 
-.c27 select:-ms-expand {
+.c25 select:-ms-expand {
   display: none;
 }
 
-.c27 select:focus {
+.c25 select:focus {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   outline: none;
@@ -3488,7 +3403,7 @@ input[type=radio]:checked + .c34 {
   padding-right: 36px;
 }
 
-.c28 {
+.c26 {
   cursor: pointer;
   fill: currentColor;
   left: auto;
@@ -3498,13 +3413,13 @@ input[type=radio]:checked + .c34 {
   top: 14px;
 }
 
-select:active + .c28 {
+select:active + .c26 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3520,19 +3435,19 @@ select:active + .c28 {
   height: 24px;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c18 input:-webkit-autofill,
-  .c18 input:-webkit-autofill:hover,
-  .c18 input:-webkit-autofill:focus,
-  .c18 input:-webkit-autofill:active,
-  .c18 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  .c17 input:-webkit-autofill,
+  .c17 input:-webkit-autofill:hover,
+  .c17 input:-webkit-autofill:focus,
+  .c17 input:-webkit-autofill:active,
+  .c17 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -3540,454 +3455,463 @@ select:active + .c28 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
+            className="c5"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c6"
+            >
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using JavaScript Validation
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
             >
               <span
-                className="c9"
+                className="c12"
               >
-                Using JavaScript Validation
+                In this example, a FormControl is used with various form controls, like Input, Select, and Radio. This example illustrates a realistic use case for FormControl. It uses react-hook-form to manage state and provide error validation.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              In this example, a FormControl is used with various form controls, like Input, Select, and Radio. This example illustrates a realistic use case for FormControl. It uses react-hook-form to manage state and provide error validation.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c13"
-          >
-            <div
-              className="c14"
-            >
-              <label
-                className="c15 c16"
-                htmlFor="email"
-                id="email-label"
-              >
-                <span
-                  className="c17"
-                >
-                  Email
-                </span>
-              </label>
-            </div>
-            <div
-              className="c18"
-            >
-              <input
-                aria-disabled={false}
-                aria-errormessage={null}
-                aria-invalid={false}
-                aria-labelledby="email-label"
-                aria-required={true}
-                autoComplete="on"
-                autoCorrect="off"
-                autoFocus={false}
-                disabled={false}
-                id="email"
-                name="email"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={true}
-                type="email"
-              />
-            </div>
+            </p>
           </div>
           <div
-            className="c19"
-          />
-          <div
-            className="c13"
+            className="c10"
           >
             <div
-              className="c14"
+              className="c13"
             >
-              <label
-                className="c15 c16"
-                htmlFor="password"
-                id="password-label"
-              >
-                <span
-                  className="c17"
-                >
-                  Password
-                </span>
-              </label>
-            </div>
-            <div
-              className="c18"
-            >
-              <input
-                aria-describedby="password-caption"
-                aria-disabled={false}
-                aria-errormessage={null}
-                aria-invalid={false}
-                aria-labelledby="password-label"
-                aria-required={true}
-                autoComplete="new-password"
-                autoCorrect="off"
-                autoFocus={false}
-                disabled={false}
-                id="password"
-                name="password"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={true}
-                type="password"
-              />
               <div
-                className="c20"
+                className="c14"
               >
-                <button
-                  aria-label="Show password text"
-                  className="c21 "
-                  disabled={false}
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  type="button"
+                <label
+                  className="c15 c16"
+                  htmlFor="email"
+                  id="email-label"
                 >
-                  <svg
-                    aria-hidden={true}
-                    className="c22"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                  <span
+                    className="c12"
                   >
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                    />
-                  </svg>
-                </button>
+                    Email
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c17"
+              >
+                <input
+                  aria-disabled={false}
+                  aria-errormessage={null}
+                  aria-invalid={false}
+                  aria-labelledby="email-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoCorrect="off"
+                  autoFocus={false}
+                  disabled={false}
+                  id="email"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                  type="email"
+                />
               </div>
             </div>
             <div
-              className="c23"
+              className="c18"
+            />
+            <div
+              className="c13"
             >
-              <span
-                className="c24 c25"
-                id="password-caption"
+              <div
+                className="c14"
+              >
+                <label
+                  className="c15 c16"
+                  htmlFor="password"
+                  id="password-label"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Password
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c17"
+              >
+                <input
+                  aria-describedby="password-caption"
+                  aria-disabled={false}
+                  aria-errormessage={null}
+                  aria-invalid={false}
+                  aria-labelledby="password-label"
+                  aria-required={true}
+                  autoComplete="new-password"
+                  autoCorrect="off"
+                  autoFocus={false}
+                  disabled={false}
+                  id="password"
+                  name="password"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                  type="password"
+                />
+                <div
+                  className="c19"
+                >
+                  <button
+                    aria-label="Show password text"
+                    className="c20 "
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="c21"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                className="c22"
               >
                 <span
-                  className="c26"
+                  className="c23 c24"
+                  id="password-caption"
                 >
-                  Choose a password with 1 number and 8 or more characters
+                  <span
+                    className="c12"
+                  >
+                    Choose a password with 1 number and 8 or more characters
+                  </span>
                 </span>
-              </span>
+              </div>
             </div>
-          </div>
-          <div
-            className="c19"
-          />
-          <div
-            className="c13"
-          >
             <div
-              className="c14"
+              className="c18"
+            />
+            <div
+              className="c13"
             >
-              <label
-                className="c15 c16"
-                htmlFor="country"
-                id="country-label"
+              <div
+                className="c14"
               >
-                <span
-                  className="c17"
+                <label
+                  className="c15 c16"
+                  htmlFor="country"
+                  id="country-label"
                 >
-                  Country
-                </span>
-              </label>
+                  <span
+                    className="c12"
+                  >
+                    Country
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c25"
+              >
+                <select
+                  aria-disabled={false}
+                  aria-errormessage={null}
+                  aria-invalid={false}
+                  aria-labelledby="country-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  defaultValue="us"
+                  disabled={false}
+                  formNoValidate={true}
+                  id="country"
+                  multiple={false}
+                  name="country"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                >
+                  <option
+                    value="ca"
+                  >
+                    Canada
+                  </option>
+                  <option
+                    value="mx"
+                  >
+                    Mexico
+                  </option>
+                  <option
+                    value="us"
+                  >
+                    United States
+                  </option>
+                </select>
+                <svg
+                  aria-hidden={true}
+                  className="c21 c26"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0 24 0 24 24 0 24"
+                    fill="none"
+                  />
+                  <path
+                    d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
+                  />
+                </svg>
+              </div>
             </div>
             <div
-              className="c27"
+              className="c18"
+            />
+            <div
+              className="c13"
             >
-              <select
+              <div
+                className="c14"
+              >
+                <label
+                  className="c15 c16"
+                  htmlFor="planType"
+                  id="planType-label"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Choose a Plan
+                  </span>
+                </label>
+              </div>
+              <div
                 aria-disabled={false}
                 aria-errormessage={null}
                 aria-invalid={false}
-                aria-labelledby="country-label"
+                aria-labelledby="planType-label"
                 aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                defaultValue="us"
-                disabled={false}
-                formNoValidate={true}
-                id="country"
-                multiple={false}
-                name="country"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onInvalid={[Function]}
-                required={true}
-              >
-                <option
-                  value="ca"
-                >
-                  Canada
-                </option>
-                <option
-                  value="mx"
-                >
-                  Mexico
-                </option>
-                <option
-                  value="us"
-                >
-                  United States
-                </option>
-              </select>
-              <svg
-                aria-hidden={true}
-                className="c22 c28"
-                focusable="false"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M0 0 24 0 24 24 0 24"
-                  fill="none"
-                />
-                <path
-                  d="M7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            className="c19"
-          />
-          <div
-            className="c13"
-          >
-            <div
-              className="c14"
-            >
-              <label
-                className="c15 c16"
-                htmlFor="planType"
-                id="planType-label"
-              >
-                <span
-                  className="c17"
-                >
-                  Choose a Plan
-                </span>
-              </label>
-            </div>
-            <div
-              aria-disabled={false}
-              aria-errormessage={null}
-              aria-invalid={false}
-              aria-labelledby="planType-label"
-              aria-required={true}
-              className="c29"
-              id="planType"
-              role="radiogroup"
-            >
-              <div
-                className="c30"
+                className="c27"
+                id="planType"
+                role="radiogroup"
               >
                 <div
-                  className="c31"
-                  onInput={[Function]}
+                  className="c28"
                 >
                   <div
-                    className="c32 c33"
+                    className="c29"
+                    onInput={[Function]}
                   >
-                    <input
-                      aria-describedby="free-description"
-                      aria-disabled={false}
-                      aria-invalid={false}
-                      aria-labelledby="free-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      defaultChecked={true}
-                      disabled={false}
-                      id="free"
-                      name="planType"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value={0}
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c34"
-                    />
-                  </div>
-                  <label
-                    className="c35"
-                    htmlFor="free"
-                    id="free-label"
-                  >
-                    <span
-                      className="c7 c36"
+                    <div
+                      className="c30 c31"
+                    >
+                      <input
+                        aria-describedby="free-description"
+                        aria-disabled={false}
+                        aria-invalid={false}
+                        aria-labelledby="free-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        defaultChecked={true}
+                        disabled={false}
+                        id="free"
+                        name="planType"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value={0}
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c32"
+                      />
+                    </div>
+                    <label
+                      className="c33"
+                      htmlFor="free"
+                      id="free-label"
                     >
                       <span
-                        className="c37"
+                        className="c7 c34"
                       >
-                        Free
+                        <span
+                          className="c9"
+                        >
+                          Free
+                        </span>
                       </span>
-                    </span>
-                  </label>
-                  <div
-                    className="c15 c25 c38"
-                    id="free-description"
-                  >
-                    <span
-                      className="c26"
+                    </label>
+                    <div
+                      className="c15 c24 c35"
+                      id="free-description"
                     >
-                      Use an ad-supported version of the ACME app
-                    </span>
+                      <span
+                        className="c12"
+                      >
+                        Use an ad-supported version of the ACME app
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="c36"
+                >
+                  <div
+                    className="c29"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c30 c31"
+                    >
+                      <input
+                        aria-describedby="paid-description"
+                        aria-disabled={false}
+                        aria-invalid={false}
+                        aria-labelledby="paid-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        defaultChecked={false}
+                        disabled={false}
+                        id="paid"
+                        name="planType"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value={1}
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c32"
+                      />
+                    </div>
+                    <label
+                      className="c33"
+                      htmlFor="paid"
+                      id="paid-label"
+                    >
+                      <span
+                        className="c7 c34"
+                      >
+                        <span
+                          className="c9"
+                        >
+                          Paid ($0.99/month)
+                        </span>
+                      </span>
+                    </label>
+                    <div
+                      className="c15 c24 c35"
+                      id="paid-description"
+                    >
+                      <span
+                        className="c12"
+                      >
+                        Skip the ads, get special discounts, and more
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div
+            className="c37"
+          >
+            <button
+              aria-busy={false}
+              className="c20 c38"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
+            >
               <div
                 className="c39"
               >
-                <div
-                  className="c31"
-                  onInput={[Function]}
-                >
-                  <div
-                    className="c32 c33"
-                  >
-                    <input
-                      aria-describedby="paid-description"
-                      aria-disabled={false}
-                      aria-invalid={false}
-                      aria-labelledby="paid-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      defaultChecked={false}
-                      disabled={false}
-                      id="paid"
-                      name="planType"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value={1}
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c34"
-                    />
-                  </div>
-                  <label
-                    className="c35"
-                    htmlFor="paid"
-                    id="paid-label"
-                  >
-                    <span
-                      className="c7 c36"
-                    >
-                      <span
-                        className="c37"
-                      >
-                        Paid ($0.99/month)
-                      </span>
-                    </span>
-                  </label>
-                  <div
-                    className="c15 c25 c38"
-                    id="paid-description"
-                  >
-                    <span
-                      className="c26"
-                    >
-                      Skip the ads, get special discounts, and more
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c40"
-        >
-          <button
-            aria-busy={false}
-            className="c21 c41"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
-          >
-            <div
-              className="c42"
-            >
-              <span
-                className="c7 c43"
-              >
                 <span
-                  className="c12"
+                  className="c7 c40"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/FormControl With Label 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4030,15 +3954,15 @@ exports[`Storyshots Components/FormControl With Label 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -4046,7 +3970,7 @@ exports[`Storyshots Components/FormControl With Label 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c5 {
@@ -4064,7 +3988,7 @@ exports[`Storyshots Components/FormControl With Label 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -4203,7 +4127,7 @@ exports[`Storyshots Components/FormControl With Label 1`] = `
   .c6 input:-webkit-autofill:focus,
   .c6 input:-webkit-autofill:active,
   .c6 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -4211,49 +4135,50 @@ exports[`Storyshots Components/FormControl With Label 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <label
-        className="c3 c4"
-        htmlFor="form-control-with-label-story"
-        id="form-control-with-label-story-label"
+      <div
+        className="c2"
       >
-        <span
-          className="c5"
+        <label
+          className="c3 c4"
+          htmlFor="form-control-with-label-story"
+          id="form-control-with-label-story-label"
         >
-          Email
-        </span>
-      </label>
+          <span
+            className="c5"
+          >
+            Email
+          </span>
+        </label>
+      </div>
+      <div
+        className="c6"
+      >
+        <input
+          aria-disabled={false}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-labelledby="form-control-with-label-story-label"
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          id="form-control-with-label-story"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          required={true}
+          type="email"
+        />
+      </div>
     </div>
-    <div
-      className="c6"
-    >
-      <input
-        aria-disabled={false}
-        aria-errormessage={null}
-        aria-invalid={false}
-        aria-labelledby="form-control-with-label-story-label"
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="form-control-with-label-story"
-        name="email"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        required={true}
-        type="email"
-      />
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;

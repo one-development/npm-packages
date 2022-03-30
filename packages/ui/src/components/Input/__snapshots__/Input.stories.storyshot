@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Input Basic 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -110,7 +118,7 @@ exports[`Storyshots Components/Input Basic 1`] = `
   .c0 input:-webkit-autofill:focus,
   .c0 input:-webkit-autofill:active,
   .c0 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -118,29 +126,38 @@ exports[`Storyshots Components/Input Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <input
-    aria-disabled={false}
-    aria-invalid={false}
-    aria-required={true}
-    autoComplete="on"
-    autoCorrect="off"
-    autoFocus={false}
-    disabled={false}
-    id="input-basic"
-    onBlur={[Function]}
-    onChange={[Function]}
-    onFocus={[Function]}
-    onInvalid={[Function]}
-    required={true}
-    type="text"
-  />
-</div>
+    className="c0"
+  >
+    <input
+      aria-disabled={false}
+      aria-invalid={false}
+      aria-required={true}
+      autoComplete="on"
+      autoCorrect="off"
+      autoFocus={false}
+      disabled={false}
+      id="input-basic"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onInvalid={[Function]}
+      required={true}
+      type="text"
+    />
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Adornments 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -162,15 +179,15 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -178,7 +195,7 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
@@ -196,7 +213,7 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -605,7 +622,7 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
   .c1 input:-webkit-autofill:focus,
   .c1 input:-webkit-autofill:active,
   .c1 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -618,7 +635,7 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
   .c7 input:-webkit-autofill:focus,
   .c7 input:-webkit-autofill:active,
   .c7 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -631,7 +648,7 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
   .c9 input:-webkit-autofill:focus,
   .c9 input:-webkit-autofill:active,
   .c9 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -639,180 +656,189 @@ exports[`Storyshots Components/Input With Adornments 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <p
-        className="c3 c4"
+      <div
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          @
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            @
+          </span>
+        </p>
+      </div>
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="input-with-adornments-start"
+        name="input-with-adornments-start"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="Input with a start adornment"
+        required={true}
+        type="text"
+      />
     </div>
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="input-with-adornments-start"
-      name="input-with-adornments-start"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="Input with a start adornment"
-      required={true}
-      type="text"
-    />
-  </div>
-  <div
-    className="c6"
-  />
-  <div
-    className="c7"
-  >
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="input-with-adornments-end"
-      name="input-with-adornments-end"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="Input with an end adornment"
-      required={true}
-      type="text"
+    <div
+      className="c6"
     />
     <div
-      className="c8"
+      className="c7"
     >
-      <p
-        className="c3 c4"
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="input-with-adornments-end"
+        name="input-with-adornments-end"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="Input with an end adornment"
+        required={true}
+        type="text"
+      />
+      <div
+        className="c8"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          .00
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            .00
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="c6"
-  />
-  <div
-    className="c9"
-  >
     <div
-      className="c2"
-    >
-      <p
-        className="c3 c4"
-      >
-        <span
-          className="c5"
-        >
-          $
-        </span>
-      </p>
-    </div>
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="input-with-adornments-start-end"
-      name="input-with-adornments-start-end"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="Input with start and end adornments"
-      required={true}
-      type="text"
+      className="c6"
     />
     <div
-      className="c8"
+      className="c9"
     >
-      <p
-        className="c3 c4"
+      <div
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          .00
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            $
+          </span>
+        </p>
+      </div>
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="input-with-adornments-start-end"
+        name="input-with-adornments-start-end"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="Input with start and end adornments"
+        required={true}
+        type="text"
+      />
+      <div
+        className="c8"
+      >
+        <p
+          className="c3 c4"
+        >
+          <span
+            className="c5"
+          >
+            .00
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="c6"
-  />
-  <div
-    className="c7"
-  >
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="input-with-adornments-icon"
-      name="input-with-adornments-icon"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="Input with icon adornment"
-      required={true}
-      type="text"
+    <div
+      className="c6"
     />
     <div
-      className="c8"
+      className="c7"
     >
-      <svg
-        aria-hidden={true}
-        className="c10"
-        focusable="false"
-        viewBox="0 0 24 24"
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="input-with-adornments-icon"
+        name="input-with-adornments-icon"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="Input with icon adornment"
+        required={true}
+        type="text"
+      />
+      <div
+        className="c8"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-        />
-      </svg>
+        <svg
+          aria-hidden={true}
+          className="c10"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Browser Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -875,7 +901,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -915,46 +941,46 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c19::-moz-focus-inner {
+.c18::-moz-focus-inner {
   border-style: none;
 }
 
-.c22 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c21 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c22::before {
+.c21::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -962,19 +988,19 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -982,19 +1008,19 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -1002,7 +1028,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -1020,7 +1046,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -1044,7 +1070,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1056,31 +1082,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c20 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1104,24 +1106,24 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
-.c20:hover {
+.c19:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c20:active {
+.c19:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c21 {
+.c20 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1209,7 +1211,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   overflow: hidden;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1232,17 +1234,17 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c18 > * {
+.c17 > * {
   margin-left: 8px;
 }
 
-.c18 > :first-child {
+.c17 > :first-child {
   margin-left: 0;
 }
 
@@ -1318,7 +1320,7 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1356,13 +1358,13 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   width: 100%;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c17 input {
+.c16 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1389,33 +1391,33 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
   outline: none;
 }
 
-.c17 input *,
-.c17 input *::before,
-.c17 input *::after {
+.c16 input *,
+.c16 input *::before,
+.c16 input *::after {
   box-sizing: border-box;
 }
 
-.c17 input::-webkit-input-placeholder {
+.c16 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input::-moz-placeholder {
+.c16 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input:-ms-input-placeholder {
+.c16 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input::placeholder {
+.c16 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17:focus-within {
+.c16:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   padding: 0 8px;
@@ -1444,12 +1446,12 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
 }
 
 @supports selector(:-webkit-autofill) {
-  .c17 input:-webkit-autofill,
-  .c17 input:-webkit-autofill:hover,
-  .c17 input:-webkit-autofill:focus,
-  .c17 input:-webkit-autofill:active,
-  .c17 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  .c16 input:-webkit-autofill,
+  .c16 input:-webkit-autofill:hover,
+  .c16 input:-webkit-autofill:focus,
+  .c16 input:-webkit-autofill:active,
+  .c16 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1457,123 +1459,132 @@ exports[`Storyshots Components/Input With Browser Validation 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
+            className="c5"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c6"
+            >
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using Browser Validation
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
             >
               <span
-                className="c9"
+                className="c12"
               >
-                Using Browser Validation
+                You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
+            </p>
+            <div
+              className="c13"
+            />
+            <p
+              className="c14 c15"
             >
-              You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
-            </span>
-          </p>
+              <span
+                className="c12"
+              >
+                Note: Many form components set noValidate=true. Make sure it is also set to false as well.
+              </span>
+            </p>
+          </div>
           <div
-            className="c13"
-          />
-          <p
-            className="c14 c15"
+            className="c10"
           >
-            <span
+            <div
               className="c16"
             >
-              Note: Many form components set noValidate=true. Make sure it is also set to false as well.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
+              <input
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-required={true}
+                autoComplete="on"
+                autoCorrect="off"
+                autoFocus={false}
+                disabled={false}
+                id="input-with-browser-validation"
+                name="email"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInvalid={[Function]}
+                placeholder="Email Address"
+                required={true}
+                type="email"
+              />
+            </div>
+          </div>
           <div
             className="c17"
           >
-            <input
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-required={true}
-              autoComplete="on"
-              autoCorrect="off"
-              autoFocus={false}
+            <button
+              aria-busy={false}
+              className="c18 c19"
               disabled={false}
-              id="input-with-browser-validation"
-              name="email"
               onBlur={[Function]}
-              onChange={[Function]}
+              onClick={[Function]}
               onFocus={[Function]}
-              onInvalid={[Function]}
-              placeholder="Email Address"
-              required={true}
-              type="email"
-            />
-          </div>
-        </div>
-        <div
-          className="c18"
-        >
-          <button
-            aria-busy={false}
-            className="c19 c20"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
-          >
-            <div
-              className="c21"
+              type="submit"
             >
-              <span
-                className="c7 c22"
+              <div
+                className="c20"
               >
                 <span
-                  className="c12"
+                  className="c7 c21"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Controlled State 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1617,15 +1628,15 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1633,19 +1644,19 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1653,7 +1664,7 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -1671,7 +1682,7 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -1695,7 +1706,7 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1957,7 +1968,7 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
   .c13 input:-webkit-autofill:focus,
   .c13 input:-webkit-autofill:active,
   .c13 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1965,82 +1976,91 @@ exports[`Storyshots Components/Input With Controlled State 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Adding Extra Attributes
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Adding Extra Attributes
+              You can use inputs as controlled components via value/onChange
             </span>
-          </h2>
+          </p>
         </div>
-      </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            You can use inputs as controlled components via value/onChange
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
         <div
-          className="c13"
+          className="c10"
         >
-          <input
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-required={true}
-            autoComplete="on"
-            autoCorrect="off"
-            autoFocus={false}
-            data-test-id="first-name"
-            disabled={false}
-            id="input-with-controlled-state"
-            name="input-with-controlled-state"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            placeholder="First Name"
-            required={true}
-            type="text"
-            value=""
-          />
+          <div
+            className="c13"
+          >
+            <input
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="on"
+              autoCorrect="off"
+              autoFocus={false}
+              data-test-id="first-name"
+              disabled={false}
+              id="input-with-controlled-state"
+              name="input-with-controlled-state"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              placeholder="First Name"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Custom Attributes 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2083,15 +2103,15 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2099,19 +2119,19 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2119,7 +2139,7 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -2137,7 +2157,7 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -2161,7 +2181,7 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2423,7 +2443,7 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
   .c13 input:-webkit-autofill:focus,
   .c13 input:-webkit-autofill:active,
   .c13 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -2431,80 +2451,89 @@ exports[`Storyshots Components/Input With Custom Attributes 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Adding Custom Attributes
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Adding Custom Attributes
+              You can add custom HTML attributes to your Input via the \`input\` prop. This may be useful when adding test attributes to inputs.
             </span>
-          </h2>
+          </p>
         </div>
-      </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            You can add custom HTML attributes to your Input via the \`input\` prop. This may be useful when adding test attributes to inputs.
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
         <div
-          className="c13"
+          className="c10"
         >
-          <input
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-required={true}
-            autoComplete="on"
-            autoCorrect="off"
-            autoFocus={false}
-            data-test-id="first-name"
-            disabled={false}
-            id="input-with-custom-attributes"
-            name="input-with-custom-attributes"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            type="text"
-          />
+          <div
+            className="c13"
+          >
+            <input
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="on"
+              autoCorrect="off"
+              autoFocus={false}
+              data-test-id="first-name"
+              disabled={false}
+              id="input-with-custom-attributes"
+              name="input-with-custom-attributes"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              required={true}
+              type="text"
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With JS Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2567,7 +2596,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c21 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2607,46 +2636,46 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c21 *,
-.c21 *::before,
-.c21 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c21::-moz-focus-inner {
+.c20::-moz-focus-inner {
   border-style: none;
 }
 
-.c26 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c25 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c26::before {
+.c25::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2654,19 +2683,19 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2674,19 +2703,19 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -2694,7 +2723,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -2712,7 +2741,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -2736,7 +2765,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2748,31 +2777,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c24 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2796,24 +2801,24 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
-.c24:hover {
+.c23:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c24:active {
+.c23:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c25 {
+.c24 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2901,7 +2906,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   overflow: hidden;
 }
 
-.c23 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2924,17 +2929,17 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c23 > * {
+.c22 > * {
   margin-left: 8px;
 }
 
-.c23 > :first-child {
+.c22 > :first-child {
   margin-left: 0;
 }
 
@@ -3010,7 +3015,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c22 {
+.c21 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -3027,7 +3032,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   width: 1em;
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3065,13 +3070,13 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   width: 100%;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c19 input {
+.c18 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3098,46 +3103,46 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   outline: none;
 }
 
-.c19 input *,
-.c19 input *::before,
-.c19 input *::after {
+.c18 input *,
+.c18 input *::before,
+.c18 input *::after {
   box-sizing: border-box;
 }
 
-.c19 input::-webkit-input-placeholder {
+.c18 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c19 input::-moz-placeholder {
+.c18 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c19 input:-ms-input-placeholder {
+.c18 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c19 input::placeholder {
+.c18 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c19:focus-within {
+.c18:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   padding: 0 8px;
 }
 
-.c20 {
+.c19 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3155,26 +3160,26 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   text-decoration: underline;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c17:focus {
+.c16:focus {
   outline: none;
   outline-offset: 1px;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c17:hover {
+.c16:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c17:visited,
-.c17:active {
+.c16:visited,
+.c16:active {
   color: #38A169;
 }
 
@@ -3200,7 +3205,7 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3222,19 +3227,19 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
   align-items: stretch;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c19 input:-webkit-autofill,
-  .c19 input:-webkit-autofill:hover,
-  .c19 input:-webkit-autofill:focus,
-  .c19 input:-webkit-autofill:active,
-  .c19 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  .c18 input:-webkit-autofill,
+  .c18 input:-webkit-autofill:hover,
+  .c18 input:-webkit-autofill:focus,
+  .c18 input:-webkit-autofill:active,
+  .c18 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -3242,252 +3247,261 @@ exports[`Storyshots Components/Input With JS Validation 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
+            className="c5"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c6"
+            >
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using JavaScript Validation
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
             >
               <span
-                className="c9"
+                className="c12"
               >
-                Using JavaScript Validation
+                In this example, an Input is being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation for a few common input types.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
+            </p>
+            <div
+              className="c13"
+            />
+            <p
+              className="c14 c15"
             >
-              In this example, an Input is being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation for a few common input types.
-            </span>
-          </p>
-          <div
-            className="c13"
-          />
-          <p
-            className="c14 c15"
-          >
-            <span
-              className="c16"
-            >
-              Note: This example uses standalone input components, but they work better when used with a
-               
-              <a
-                className="c17"
-                href="/?path=/docs/components-formcontrol--basic"
-                onBlur={[Function]}
-                onFocus={[Function]}
-                rel={null}
+              <span
+                className="c12"
               >
-                Form Control
-              </a>
-               
-              component.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c18"
-          >
-            <div>
-              <div
-                className="c19"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-required={true}
-                  autoComplete="on"
-                  autoCorrect="off"
-                  autoFocus={false}
-                  disabled={false}
-                  id="name"
-                  name="name"
+                Note: This example uses standalone input components, but they work better when used with a
+                 
+                <a
+                  className="c16"
+                  href="/?path=/docs/components-formcontrol--basic"
                   onBlur={[Function]}
-                  onChange={[Function]}
                   onFocus={[Function]}
-                  onInvalid={[Function]}
-                  placeholder="Name"
-                  required={true}
-                  type="text"
-                />
-              </div>
-            </div>
-            <div
-              className="c13"
-            />
-            <div>
-              <div
-                className="c19"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-required={true}
-                  autoComplete="on"
-                  autoCorrect="off"
-                  autoFocus={false}
-                  disabled={false}
-                  id="email"
-                  name="email"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  placeholder="Email"
-                  required={true}
-                  type="email"
-                />
-              </div>
-            </div>
-            <div
-              className="c13"
-            />
-            <div>
-              <div
-                className="c19"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-required={true}
-                  autoComplete="on"
-                  autoCorrect="off"
-                  autoFocus={false}
-                  disabled={false}
-                  id="phone"
-                  maxLength="10"
-                  name="phone"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  placeholder="Phone"
-                  required={true}
-                  type="tel"
-                />
-              </div>
-            </div>
-            <div
-              className="c13"
-            />
-            <div>
-              <div
-                className="c19"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-required={true}
-                  autoComplete="new-password"
-                  autoCorrect="off"
-                  autoFocus={false}
-                  disabled={false}
-                  id="password"
-                  name="password"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  placeholder="Password"
-                  required={true}
-                  type="password"
-                />
-                <div
-                  className="c20"
+                  rel={null}
                 >
-                  <button
-                    aria-label="Show password text"
-                    className="c21 "
+                  Form Control
+                </a>
+                 
+                component.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c17"
+            >
+              <div>
+                <div
+                  className="c18"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-required={true}
+                    autoComplete="on"
+                    autoCorrect="off"
+                    autoFocus={false}
                     disabled={false}
+                    id="name"
+                    name="name"
                     onBlur={[Function]}
-                    onClick={[Function]}
+                    onChange={[Function]}
                     onFocus={[Function]}
-                    type="button"
+                    onInvalid={[Function]}
+                    placeholder="Name"
+                    required={true}
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                className="c13"
+              />
+              <div>
+                <div
+                  className="c18"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-required={true}
+                    autoComplete="on"
+                    autoCorrect="off"
+                    autoFocus={false}
+                    disabled={false}
+                    id="email"
+                    name="email"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Email"
+                    required={true}
+                    type="email"
+                  />
+                </div>
+              </div>
+              <div
+                className="c13"
+              />
+              <div>
+                <div
+                  className="c18"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-required={true}
+                    autoComplete="on"
+                    autoCorrect="off"
+                    autoFocus={false}
+                    disabled={false}
+                    id="phone"
+                    maxLength="10"
+                    name="phone"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Phone"
+                    required={true}
+                    type="tel"
+                  />
+                </div>
+              </div>
+              <div
+                className="c13"
+              />
+              <div>
+                <div
+                  className="c18"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-required={true}
+                    autoComplete="new-password"
+                    autoCorrect="off"
+                    autoFocus={false}
+                    disabled={false}
+                    id="password"
+                    name="password"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <div
+                    className="c19"
                   >
-                    <svg
-                      aria-hidden={true}
-                      className="c22"
-                      focusable="false"
-                      viewBox="0 0 24 24"
+                    <button
+                      aria-label="Show password text"
+                      className="c20 "
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      type="button"
                     >
-                      <path
-                        d="M0 0h24v24H0z"
-                        fill="none"
-                      />
-                      <path
-                        d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                      />
-                    </svg>
-                  </button>
+                      <svg
+                        aria-hidden={true}
+                        className="c21"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                        <path
+                          d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="c23"
-        >
-          <button
-            aria-busy={false}
-            className="c21 c24"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <div
+            className="c22"
           >
-            <div
-              className="c25"
+            <button
+              aria-busy={false}
+              className="c20 c23"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
             >
-              <span
-                className="c7 c26"
+              <div
+                className="c24"
               >
                 <span
-                  className="c12"
+                  className="c7 c25"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Mask 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3551,15 +3565,15 @@ exports[`Storyshots Components/Input With Mask 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -3567,19 +3581,19 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -3587,19 +3601,19 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -3607,7 +3621,7 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -3625,7 +3639,7 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -3649,7 +3663,7 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -3658,30 +3672,6 @@ exports[`Storyshots Components/Input With Mask 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
   box-sizing: border-box;
 }
 
@@ -3826,7 +3816,7 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   transform: translateY(2px);
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3864,13 +3854,13 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   width: 100%;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c17 input {
+.c16 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3897,33 +3887,33 @@ exports[`Storyshots Components/Input With Mask 1`] = `
   outline: none;
 }
 
-.c17 input *,
-.c17 input *::before,
-.c17 input *::after {
+.c16 input *,
+.c16 input *::before,
+.c16 input *::after {
   box-sizing: border-box;
 }
 
-.c17 input::-webkit-input-placeholder {
+.c16 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input::-moz-placeholder {
+.c16 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input:-ms-input-placeholder {
+.c16 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input::placeholder {
+.c16 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17:focus-within {
+.c16:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   padding: 0 8px;
@@ -3952,12 +3942,12 @@ exports[`Storyshots Components/Input With Mask 1`] = `
 }
 
 @supports selector(:-webkit-autofill) {
-  .c17 input:-webkit-autofill,
-  .c17 input:-webkit-autofill:hover,
-  .c17 input:-webkit-autofill:focus,
-  .c17 input:-webkit-autofill:active,
-  .c17 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  .c16 input:-webkit-autofill,
+  .c16 input:-webkit-autofill:hover,
+  .c16 input:-webkit-autofill:focus,
+  .c16 input:-webkit-autofill:active,
+  .c16 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -3965,93 +3955,102 @@ exports[`Storyshots Components/Input With Mask 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Using Input Masking
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Using Input Masking
+              You can format your Input value on blur via the \`mask\` prop.
             </span>
-          </h2>
-        </div>
-      </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
+          </p>
+          <div
+            className="c13"
+          />
+          <p
+            className="c14 c15"
           >
-            You can format your Input value on blur via the \`mask\` prop.
-          </span>
-        </p>
+            <span
+              className="c12"
+            >
+              NOTE: It can be helpful to use the \`maxLength\` attribute to prevent extra characters.
+            </span>
+          </p>
+        </div>
         <div
-          className="c13"
-        />
-        <p
-          className="c14 c15"
+          className="c10"
         >
-          <span
+          <div
             className="c16"
           >
-            NOTE: It can be helpful to use the \`maxLength\` attribute to prevent extra characters.
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
-        <div
-          className="c17"
-        >
-          <input
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-required={true}
-            autoComplete="on"
-            autoCorrect="off"
-            autoFocus={false}
-            disabled={false}
-            id="input-with-mask"
-            maxLength="10"
-            name="input-with-mask"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            placeholder="(###) ###-####"
-            required={true}
-            type="tel"
-          />
+            <input
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="on"
+              autoCorrect="off"
+              autoFocus={false}
+              disabled={false}
+              id="input-with-mask"
+              maxLength="10"
+              name="input-with-mask"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              placeholder="(###) ###-####"
+              required={true}
+              type="tel"
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Min Width 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4159,7 +4158,7 @@ exports[`Storyshots Components/Input With Min Width 1`] = `
   .c0 input:-webkit-autofill:focus,
   .c0 input:-webkit-autofill:active,
   .c0 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -4167,31 +4166,40 @@ exports[`Storyshots Components/Input With Min Width 1`] = `
 }
 
 <div
-  className="c0"
->
-  <input
-    aria-disabled={false}
-    aria-invalid={false}
-    aria-required={true}
-    autoComplete="on"
-    autoCorrect="off"
-    autoFocus={false}
-    disabled={false}
-    id="input-with-min-width"
-    name="input-with-min-width"
-    onBlur={[Function]}
-    onChange={[Function]}
-    onFocus={[Function]}
-    onInvalid={[Function]}
-    placeholder="Min width input"
-    required={true}
-    type="text"
-  />
-</div>
+    className="c0"
+  >
+    <input
+      aria-disabled={false}
+      aria-invalid={false}
+      aria-required={true}
+      autoComplete="on"
+      autoCorrect="off"
+      autoFocus={false}
+      disabled={false}
+      id="input-with-min-width"
+      name="input-with-min-width"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onInvalid={[Function]}
+      placeholder="Min width input"
+      required={true}
+      type="text"
+    />
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With Passwords 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4254,7 +4262,7 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   box-sizing: border-box;
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4294,26 +4302,26 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c19::-moz-focus-inner {
+.c18::-moz-focus-inner {
   border-style: none;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -4321,19 +4329,19 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -4341,19 +4349,19 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -4361,7 +4369,7 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -4379,7 +4387,7 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -4403,7 +4411,7 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -4412,30 +4420,6 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
   box-sizing: border-box;
 }
 
@@ -4580,7 +4564,7 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   transform: translateY(2px);
 }
 
-.c20 {
+.c19 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -4597,7 +4581,7 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   width: 1em;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4635,13 +4619,13 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   width: 100%;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c17 input {
+.c16 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4668,39 +4652,39 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
   outline: none;
 }
 
-.c17 input *,
-.c17 input *::before,
-.c17 input *::after {
+.c16 input *,
+.c16 input *::before,
+.c16 input *::after {
   box-sizing: border-box;
 }
 
-.c17 input::-webkit-input-placeholder {
+.c16 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input::-moz-placeholder {
+.c16 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input:-ms-input-placeholder {
+.c16 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17 input::placeholder {
+.c16 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c17:focus-within {
+.c16:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.38);
   padding: 0 8px;
 }
 
-.c18 {
+.c17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4730,12 +4714,12 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
 }
 
 @supports selector(:-webkit-autofill) {
-  .c17 input:-webkit-autofill,
-  .c17 input:-webkit-autofill:hover,
-  .c17 input:-webkit-autofill:focus,
-  .c17 input:-webkit-autofill:active,
-  .c17 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  .c16 input:-webkit-autofill,
+  .c16 input:-webkit-autofill:hover,
+  .c16 input:-webkit-autofill:focus,
+  .c16 input:-webkit-autofill:active,
+  .c16 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -4743,119 +4727,128 @@ exports[`Storyshots Components/Input With Passwords 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Using Password Inputs
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Using Password Inputs
+              Input provides built-in logic when you set type=password. A button is added to the right side of the input to toggle the masking of the current text.
             </span>
-          </h2>
-        </div>
-      </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
+          </p>
+          <div
+            className="c13"
+          />
+          <p
+            className="c14 c15"
           >
-            Input provides built-in logic when you set type=password. A button is added to the right side of the input to toggle the masking of the current text.
-          </span>
-        </p>
+            <span
+              className="c12"
+            >
+              NOTE: By default, the component will use auto-complete=new-password when text is masked and auto-complete=disabled when text is visible. You can change that by providing an autoComplete prop.
+            </span>
+          </p>
+        </div>
         <div
-          className="c13"
-        />
-        <p
-          className="c14 c15"
+          className="c10"
         >
-          <span
+          <div
             className="c16"
           >
-            NOTE: By default, the component will use auto-complete=new-password when text is masked and auto-complete=disabled when text is visible. You can change that by providing an autoComplete prop.
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
-        <div
-          className="c17"
-        >
-          <input
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-required={true}
-            autoComplete="new-password"
-            autoCorrect="off"
-            autoFocus={false}
-            disabled={false}
-            id="input-with-passwords"
-            name="input-with-passwords"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            type="password"
-          />
-          <div
-            className="c18"
-          >
-            <button
-              aria-label="Show password text"
-              className="c19 "
+            <input
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-required={true}
+              autoComplete="new-password"
+              autoCorrect="off"
+              autoFocus={false}
               disabled={false}
+              id="input-with-passwords"
+              name="input-with-passwords"
               onBlur={[Function]}
-              onClick={[Function]}
+              onChange={[Function]}
               onFocus={[Function]}
-              type="button"
+              onInvalid={[Function]}
+              required={true}
+              type="password"
+            />
+            <div
+              className="c17"
             >
-              <svg
-                aria-hidden={true}
-                className="c20"
-                focusable="false"
-                viewBox="0 0 24 24"
+              <button
+                aria-label="Show password text"
+                className="c18 "
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
               >
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                />
-              </svg>
-            </button>
+                <svg
+                  aria-hidden={true}
+                  className="c19"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Input With States 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -5118,7 +5111,7 @@ exports[`Storyshots Components/Input With States 1`] = `
   .c3 input:-webkit-autofill:focus,
   .c3 input:-webkit-autofill:active,
   .c3 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -5131,7 +5124,7 @@ exports[`Storyshots Components/Input With States 1`] = `
   .c1 input:-webkit-autofill:focus,
   .c1 input:-webkit-autofill:active,
   .c1 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+    font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
     transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -5139,51 +5132,52 @@ exports[`Storyshots Components/Input With States 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <input
-      aria-disabled={true}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={true}
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="disabled"
-      required={true}
-      tabIndex={-1}
-      type="text"
+    <div
+      className="c1"
+    >
+      <input
+        aria-disabled={true}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="disabled"
+        required={true}
+        tabIndex={-1}
+        type="text"
+      />
+    </div>
+    <div
+      className="c2"
     />
-  </div>
-  <div
-    className="c2"
-  />
-  <div
-    className="c3"
-  >
-    <input
-      aria-disabled={false}
-      aria-invalid={true}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="invalid"
-      required={true}
-      type="text"
-    />
-  </div>
-</div>
+    <div
+      className="c3"
+    >
+      <input
+        aria-disabled={false}
+        aria-invalid={true}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="invalid"
+        required={true}
+        type="text"
+      />
+    </div>
+  </div>,
+]
 `;

@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/CardActions Basic 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -94,15 +102,15 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
 }
 
 .c13 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -110,19 +118,19 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -130,7 +138,7 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -148,7 +156,7 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -353,64 +361,73 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
-      >
-        <p
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            Use the CardActions component to display buttons, icons, or other action elements at the bottom of a Card.
-          </span>
-        </p>
-      </div>
+        className="c3"
+      />
       <div
-        className="c9"
+        className="c4"
       >
-        <button
-          aria-busy={false}
-          className="c10 c11"
-          disabled={false}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          type="button"
+        <div
+          className="c5"
         >
-          <div
-            className="c12"
+          <p
+            className="c6 c7"
           >
             <span
-              className="c6 c13"
+              className="c8"
+            >
+              Use the CardActions component to display buttons, icons, or other action elements at the bottom of a Card.
+            </span>
+          </p>
+        </div>
+        <div
+          className="c9"
+        >
+          <button
+            aria-busy={false}
+            className="c10 c11"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
+          >
+            <div
+              className="c12"
             >
               <span
-                className="c8"
+                className="c6 c13"
               >
-                Learn More
+                <span
+                  className="c8"
+                >
+                  Learn More
+                </span>
               </span>
-            </span>
-          </div>
-        </button>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/CardActions With Alignment 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -503,15 +520,15 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -519,19 +536,19 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -539,7 +556,7 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
@@ -557,7 +574,7 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c9 *,
@@ -890,173 +907,182 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2 c3"
+      className="c1"
     >
       <div
-        className="c4"
-      />
-      <div
-        className="c5"
+        className="c2 c3"
       >
         <div
-          className="c6"
-        >
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              The actions in this Card are aligned to the start, which is the default
-            </span>
-          </p>
-        </div>
+          className="c4"
+        />
         <div
-          className="c10"
+          className="c5"
         >
-          <button
-            aria-busy={false}
-            className="c11 c12"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
+          <div
+            className="c6"
           >
-            <div
-              className="c13"
+            <p
+              className="c7 c8"
             >
               <span
-                className="c7 c14"
+                className="c9"
+              >
+                The actions in this Card are aligned to the start, which is the default
+              </span>
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <button
+              aria-busy={false}
+              className="c11 c12"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
               >
                 <span
-                  className="c9"
+                  className="c7 c14"
                 >
-                  Learn More
+                  <span
+                    className="c9"
+                  >
+                    Learn More
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-          <button
-            aria-busy={false}
-            className="c11 c15"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
+              </div>
+            </button>
+            <button
+              aria-busy={false}
+              className="c11 c15"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
+              >
+                <span
+                  className="c7 c14"
+                >
+                  <span
+                    className="c9"
+                  >
+                    No Thanks
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c16"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
           >
-            <div
-              className="c13"
+            <p
+              className="c7 c8"
             >
               <span
-                className="c7 c14"
+                className="c9"
+              >
+                The actions in this Card are aligned to the end, which is 
+                <i>
+                  not
+                </i>
+                 
+                the default
+              </span>
+            </p>
+          </div>
+          <div
+            className="c17"
+          >
+            <button
+              aria-busy={false}
+              className="c11 c15"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
               >
                 <span
-                  className="c9"
+                  className="c7 c14"
                 >
-                  No Thanks
+                  <span
+                    className="c9"
+                  >
+                    No Thanks
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
+              </div>
+            </button>
+            <button
+              aria-busy={false}
+              className="c11 c12"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
+              >
+                <span
+                  className="c7 c14"
+                >
+                  <span
+                    className="c9"
+                  >
+                    Learn More
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      className="c16"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              The actions in this Card are aligned to the end, which is 
-              <i>
-                not
-              </i>
-               
-              the default
-            </span>
-          </p>
-        </div>
-        <div
-          className="c17"
-        >
-          <button
-            aria-busy={false}
-            className="c11 c15"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c13"
-            >
-              <span
-                className="c7 c14"
-              >
-                <span
-                  className="c9"
-                >
-                  No Thanks
-                </span>
-              </span>
-            </div>
-          </button>
-          <button
-            aria-busy={false}
-            className="c11 c12"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
-          >
-            <div
-              className="c13"
-            >
-              <span
-                className="c7 c14"
-              >
-                <span
-                  className="c9"
-                >
-                  Learn More
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/CardActions With Full Width 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1172,15 +1198,15 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -1188,19 +1214,19 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1208,7 +1234,7 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -1226,7 +1252,7 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -1477,89 +1503,90 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
-      >
-        <p
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            Here is an example that illustrates how you can make the actions equal width
-          </span>
-        </p>
-      </div>
+        className="c3"
+      />
       <div
-        className="c9"
+        className="c4"
       >
         <div
-          className="c10"
+          className="c5"
         >
-          <button
-            aria-busy={false}
-            className="c11 c12"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
+          <p
+            className="c6 c7"
           >
-            <div
-              className="c13"
+            <span
+              className="c8"
             >
-              <span
-                className="c6 c14"
-              >
-                <span
-                  className="c8"
-                >
-                  Yes
-                </span>
-              </span>
-            </div>
-          </button>
+              Here is an example that illustrates how you can make the actions equal width
+            </span>
+          </p>
         </div>
         <div
-          className="c10"
+          className="c9"
         >
-          <button
-            aria-busy={false}
-            className="c11 c15"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="button"
+          <div
+            className="c10"
           >
-            <div
-              className="c13"
+            <button
+              aria-busy={false}
+              className="c11 c12"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
             >
-              <span
-                className="c6 c14"
+              <div
+                className="c13"
               >
                 <span
-                  className="c8"
+                  className="c6 c14"
                 >
-                  No
+                  <span
+                    className="c8"
+                  >
+                    Yes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
+              </div>
+            </button>
+          </div>
+          <div
+            className="c10"
+          >
+            <button
+              aria-busy={false}
+              className="c11 c15"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="button"
+            >
+              <div
+                className="c13"
+              >
+                <span
+                  className="c6 c14"
+                >
+                  <span
+                    className="c8"
+                  >
+                    No
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

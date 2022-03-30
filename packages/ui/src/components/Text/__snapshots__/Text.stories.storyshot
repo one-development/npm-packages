@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Text Basic 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -44,14 +52,14 @@ exports[`Storyshots Components/Text Basic 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
   text-transform: none;
 }
@@ -60,7 +68,7 @@ exports[`Storyshots Components/Text Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -78,7 +86,7 @@ exports[`Storyshots Components/Text Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -88,22 +96,31 @@ exports[`Storyshots Components/Text Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <p
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      This is some text
-    </span>
-  </p>
-</div>
+      <span
+        className="c3"
+      >
+        This is some text
+      </span>
+    </p>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Colors 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -340,15 +357,15 @@ exports[`Storyshots Components/Text With Colors 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -356,7 +373,7 @@ exports[`Storyshots Components/Text With Colors 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
@@ -374,7 +391,7 @@ exports[`Storyshots Components/Text With Colors 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -434,143 +451,152 @@ exports[`Storyshots Components/Text With Colors 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <p
-        className="c3 c4"
-      >
-        <span
-          className="c5"
-        >
-          Primary
-        </span>
-      </p>
       <div
-        className="c6"
-      />
-      <p
-        className="c7 c4"
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c3 c4"
         >
-          Secondary
-        </span>
-      </p>
-      <div
-        className="c6"
-      />
-      <p
-        className="c8 c4"
-      >
-        <span
-          className="c5"
+          <span
+            className="c5"
+          >
+            Primary
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c7 c4"
         >
-          Hint
-        </span>
-      </p>
-      <div
-        className="c6"
-      />
-      <p
-        className="c8 c4"
-      >
-        <span
-          className="c5"
+          <span
+            className="c5"
+          >
+            Secondary
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c8 c4"
         >
-          Disabled
-        </span>
-      </p>
-      <div
-        className="c6"
-      />
-      <p
-        className="c9 c4"
-      >
-        <span
-          className="c5"
+          <span
+            className="c5"
+          >
+            Hint
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c8 c4"
         >
-          Custom
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            Disabled
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c9 c4"
+        >
+          <span
+            className="c5"
+          >
+            Custom
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="c10"
-  >
     <div
-      className="c2"
+      className="c10"
     >
-      <p
-        className="c11 c4"
-      >
-        <span
-          className="c5"
-        >
-          Primary
-        </span>
-      </p>
       <div
-        className="c6"
-      />
-      <p
-        className="c12 c4"
+        className="c2"
       >
-        <span
-          className="c5"
+        <p
+          className="c11 c4"
         >
-          Secondary
-        </span>
-      </p>
-      <div
-        className="c6"
-      />
-      <p
-        className="c13 c4"
-      >
-        <span
-          className="c5"
+          <span
+            className="c5"
+          >
+            Primary
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c12 c4"
         >
-          Hint
-        </span>
-      </p>
-      <div
-        className="c6"
-      />
-      <p
-        className="c13 c4"
-      >
-        <span
-          className="c5"
+          <span
+            className="c5"
+          >
+            Secondary
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c13 c4"
         >
-          Disabled
-        </span>
-      </p>
-      <div
-        className="c6"
-      />
-      <p
-        className="c14 c4"
-      >
-        <span
-          className="c5"
+          <span
+            className="c5"
+          >
+            Hint
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c13 c4"
         >
-          Custom
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            Disabled
+          </span>
+        </p>
+        <div
+          className="c6"
+        />
+        <p
+          className="c14 c4"
+        >
+          <span
+            className="c5"
+          >
+            Custom
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Emphasis 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -613,15 +639,15 @@ exports[`Storyshots Components/Text With Emphasis 1`] = `
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -629,7 +655,7 @@ exports[`Storyshots Components/Text With Emphasis 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -647,7 +673,7 @@ exports[`Storyshots Components/Text With Emphasis 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -756,49 +782,58 @@ exports[`Storyshots Components/Text With Emphasis 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <p
-          className="c6 c7"
+        <div
+          className="c5"
         >
-          <span
-            className="c8"
+          <p
+            className="c6 c7"
           >
-            You can easily create 
-            <b>
-              bold
-            </b>
-             or 
-            <i>
-              italicized
-            </i>
-             words within blocks of text. Just render a \`b\` or \`i\` element as a child of a Text component. Additionally, Text supports a 
-            <i>
-              weight
-            </i>
-             property that can be used to bold entire blocks of text.
-          </span>
-        </p>
+            <span
+              className="c8"
+            >
+              You can easily create 
+              <b>
+                bold
+              </b>
+               or 
+              <i>
+                italicized
+              </i>
+               words within blocks of text. Just render a \`b\` or \`i\` element as a child of a Text component. Additionally, Text supports a 
+              <i>
+                weight
+              </i>
+               property that can be used to bold entire blocks of text.
+            </span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Stacking 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -840,196 +875,16 @@ exports[`Storyshots Components/Text With Stacking 1`] = `
   box-sizing: border-box;
 }
 
-.c19 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5195rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
-  text-align: initial;
-}
-
-.c19::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.873rem;
-}
-
-.c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c17 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5195rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
-  text-align: initial;
-}
-
-.c17::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.873rem;
-}
-
-.c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.26584375rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
-  text-align: initial;
-}
-
-.c14::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7593125rem;
-}
-
-.c13 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1.014625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
-  text-align: initial;
-}
-
-.c13::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.55475rem;
-}
-
-.c20 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.774375rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.420625rem);
-  -ms-transform: translateY(0.420625rem);
-  transform: translateY(0.420625rem);
-  text-align: initial;
-}
-
-.c20::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.94125rem;
-}
-
-.c26 {
-  font-family: neue-haas-grotesk-display,Helvetica,"Open Sans",sans-serif;
-  font-size: 4.5rem;
-  font-weight: 700;
-  line-height: 4.81075rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.7662500000000001rem);
-  -ms-transform: translateY(0.7662500000000001rem);
-  transform: translateY(0.7662500000000001rem);
-  text-align: initial;
-}
-
-.c26::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.6325000000000003rem;
-}
-
-.c24 {
-  font-family: neue-haas-grotesk-display,Helvetica,"Open Sans",sans-serif;
-  font-size: 3.75rem;
-  font-weight: 700;
-  line-height: 4.050625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.659375rem);
-  -ms-transform: translateY(0.659375rem);
-  transform: translateY(0.659375rem);
-  text-align: initial;
-}
-
-.c24::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.4187500000000002rem;
-}
-
-.c22 {
-  font-family: neue-haas-grotesk-display,Helvetica,"Open Sans",sans-serif;
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 3.037125rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.5168750000000001rem);
-  -ms-transform: translateY(0.5168750000000001rem);
-  transform: translateY(0.5168750000000001rem);
-  text-align: initial;
-}
-
-.c22::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.1337500000000003rem;
-}
-
 .c16 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
-  text-transform: capitalize;
+  line-height: 1.5rem;
+  text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1037,19 +892,199 @@ exports[`Storyshots Components/Text With Stacking 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c8 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c15 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c15::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.759090909090909rem;
+}
+
+.c12 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c12::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c17 {
+  font-family: "Inter",sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.4204545454545454rem);
+  -ms-transform: translateY(0.4204545454545454rem);
+  transform: translateY(0.4204545454545454rem);
+  text-align: initial;
+}
+
+.c17::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.9409090909090908rem;
+}
+
+.c20 {
+  font-family: "Inter",sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.7386363636363635rem);
+  -ms-transform: translateY(0.7386363636363635rem);
+  transform: translateY(0.7386363636363635rem);
+  text-align: initial;
+}
+
+.c20::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.5772727272727272rem;
+}
+
+.c19 {
+  font-family: "Inter",sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 4rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.6363636363636362rem);
+  -ms-transform: translateY(0.6363636363636362rem);
+  transform: translateY(0.6363636363636362rem);
+  text-align: initial;
+}
+
+.c19::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.3727272727272726rem;
+}
+
+.c18 {
+  font-family: "Inter",sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+  text-align: initial;
+}
+
+.c18::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.1rem;
+}
+
+.c14 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c14::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: uppercase;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -1057,7 +1092,7 @@ exports[`Storyshots Components/Text With Stacking 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c9 {
@@ -1075,180 +1110,12 @@ exports[`Storyshots Components/Text With Stacking 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c15 *,
-.c15 *::before,
-.c15 *::after {
-  box-sizing: border-box;
-}
-
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
-}
-
-.c21 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.024375000000000008rem;
-}
-
-.c21 *,
-.c21 *::before,
-.c21 *::after {
-  box-sizing: border-box;
-}
-
-.c27 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.06074999999999997rem;
-}
-
-.c27 *,
-.c27 *::before,
-.c27 *::after {
-  box-sizing: border-box;
-}
-
-.c25 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.050624999999999976rem;
-}
-
-.c25 *,
-.c25 *::before,
-.c25 *::after {
-  box-sizing: border-box;
-}
-
-.c23 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.037124999999999964rem;
-}
-
-.c23 *,
-.c23 *::before,
-.c23 *::after {
   box-sizing: border-box;
 }
 
@@ -1402,410 +1269,419 @@ exports[`Storyshots Components/Text With Stacking 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2 c3"
+      className="c1"
     >
       <div
-        className="c4"
-      />
-      <div
-        className="c5"
+        className="c2 c3"
       >
         <div
-          className="c6"
+          className="c4"
+        />
+        <div
+          className="c5"
         >
-          <p
-            className="c7 c8"
+          <div
+            className="c6"
           >
-            <span
-              className="c9"
+            <p
+              className="c7 c8"
             >
-              This example illustrates the whiteSpace clipping that is built into the Text component. The Text component strips unnecessary whiteSpace caused by line-height. This means that space between text components will be exact.
-            </span>
-          </p>
+              <span
+                className="c9"
+              >
+                This example illustrates the whiteSpace clipping that is built into the Text component. The Text component strips unnecessary whiteSpace caused by line-height. This means that space between text components will be exact.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c11"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c12"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c13"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c14"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <h6
+              className="c7 c15"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h6>
+            <h2
+              className="c7 c16"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h1
+              className="c7 c17"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h1>
+            <h2
+              className="c7 c18"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h2
+              className="c7 c19"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h2
+              className="c7 c20"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <h1
+              className="c7 c17"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h1>
+            <h1
+              className="c7 c17"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h1>
+            <h1
+              className="c7 c17"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h1>
+            <h1
+              className="c7 c17"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h1>
+            <h1
+              className="c7 c17"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c20"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h2
+              className="c7 c20"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h2
+              className="c7 c20"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h2
+              className="c7 c20"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+            <h2
+              className="c7 c20"
+            >
+              <span
+                className="c9"
+              >
+                HIIIIIIIIIII
+              </span>
+            </h2>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      className="c10"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c13"
-          >
-            <span
-              className="c12"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c14"
-          >
-            <span
-              className="c15"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c16"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <h6
-            className="c7 c17"
-          >
-            <span
-              className="c18"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h6>
-          <h2
-            className="c7 c19"
-          >
-            <span
-              className="c18"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h1
-            className="c7 c20"
-          >
-            <span
-              className="c21"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h1>
-          <h2
-            className="c7 c22"
-          >
-            <span
-              className="c23"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h2
-            className="c7 c24"
-          >
-            <span
-              className="c25"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h2
-            className="c7 c26"
-          >
-            <span
-              className="c27"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c10"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c10"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-          <p
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              HIIIIIIIIIII
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c10"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <h1
-            className="c7 c20"
-          >
-            <span
-              className="c21"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h1>
-          <h1
-            className="c7 c20"
-          >
-            <span
-              className="c21"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h1>
-          <h1
-            className="c7 c20"
-          >
-            <span
-              className="c21"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h1>
-          <h1
-            className="c7 c20"
-          >
-            <span
-              className="c21"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h1>
-          <h1
-            className="c7 c20"
-          >
-            <span
-              className="c21"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h1>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c10"
-    />
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      />
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <h2
-            className="c7 c26"
-          >
-            <span
-              className="c27"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h2
-            className="c7 c26"
-          >
-            <span
-              className="c27"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h2
-            className="c7 c26"
-          >
-            <span
-              className="c27"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h2
-            className="c7 c26"
-          >
-            <span
-              className="c27"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-          <h2
-            className="c7 c26"
-          >
-            <span
-              className="c27"
-            >
-              HIIIIIIIIIII
-            </span>
-          </h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Truncation 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1848,15 +1724,15 @@ exports[`Storyshots Components/Text With Truncation 1`] = `
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1864,7 +1740,7 @@ exports[`Storyshots Components/Text With Truncation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -1882,7 +1758,7 @@ exports[`Storyshots Components/Text With Truncation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1994,37 +1870,46 @@ exports[`Storyshots Components/Text With Truncation 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <p
-          className="c6 c7"
+        <div
+          className="c5"
         >
-          <span
-            className="c8"
+          <p
+            className="c6 c7"
           >
-            This text will be clipped because \`truncate=true\` and the text is long enough to fill the entire card.
-          </span>
-        </p>
+            <span
+              className="c8"
+            >
+              This text will be clipped because \`truncate=true\` and the text is long enough to fill the entire card.
+            </span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Variants 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2045,16 +1930,36 @@ exports[`Storyshots Components/Text With Variants 1`] = `
   box-sizing: border-box;
 }
 
-.c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c8 {
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c11 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2062,99 +1967,19 @@ exports[`Storyshots Components/Text With Variants 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
-}
-
-.c16 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  text-align: initial;
-}
-
-.c16::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c13 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5195rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
-  text-align: initial;
-}
-
-.c13::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.873rem;
-}
-
-.c17 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.26584375rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
-  text-align: initial;
-}
-
-.c17::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7593125rem;
-}
-
-.c21 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1.014625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
-  text-align: initial;
-}
-
-.c21::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.774375rem;
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.420625rem);
-  -ms-transform: translateY(0.420625rem);
-  transform: translateY(0.420625rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2162,79 +1987,39 @@ exports[`Storyshots Components/Text With Variants 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.94125rem;
+  margin-top: -0.8727272727272727rem;
 }
 
-.c2 {
-  font-family: neue-haas-grotesk-display,Helvetica,"Open Sans",sans-serif;
-  font-size: 4.5rem;
+.c12 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 4.81075rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.7662500000000001rem);
-  -ms-transform: translateY(0.7662500000000001rem);
-  transform: translateY(0.7662500000000001rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
-.c2::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -1.6325000000000003rem;
-}
-
-.c5 {
-  font-family: neue-haas-grotesk-display,Helvetica,"Open Sans",sans-serif;
-  font-size: 3.75rem;
-  font-weight: 700;
-  line-height: 4.050625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.659375rem);
-  -ms-transform: translateY(0.659375rem);
-  transform: translateY(0.659375rem);
-  text-align: initial;
-}
-
-.c5::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.4187500000000002rem;
-}
-
-.c7 {
-  font-family: neue-haas-grotesk-display,Helvetica,"Open Sans",sans-serif;
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 3.037125rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.5168750000000001rem);
-  -ms-transform: translateY(0.5168750000000001rem);
-  transform: translateY(0.5168750000000001rem);
-  text-align: initial;
-}
-
-.c7::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.1337500000000003rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.2670625rem;
-  text-transform: capitalize;
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -2242,147 +2027,127 @@ exports[`Storyshots Components/Text With Variants 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.5545454545454546rem;
 }
 
-.c19 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1.014625rem;
-  text-transform: uppercase;
+.c7 {
+  font-family: "Inter",sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.4204545454545454rem);
+  -ms-transform: translateY(0.4204545454545454rem);
+  transform: translateY(0.4204545454545454rem);
   text-align: initial;
 }
 
-.c19::before {
+.c7::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.9409090909090908rem;
 }
 
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
+.c2 {
+  font-family: "Inter",sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.7386363636363635rem);
+  -ms-transform: translateY(0.7386363636363635rem);
+  transform: translateY(0.7386363636363635rem);
+  text-align: initial;
+}
+
+.c2::before {
+  content: "";
   display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  height: 0;
+  margin-top: -1.5772727272727272rem;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
-  box-sizing: border-box;
+.c5 {
+  font-family: "Inter",sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 4rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.6363636363636362rem);
+  -ms-transform: translateY(0.6363636363636362rem);
+  transform: translateY(0.6363636363636362rem);
+  text-align: initial;
 }
 
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
+.c5::before {
+  content: "";
   display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  height: 0;
+  margin-top: -1.3727272727272726rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
+.c6 {
+  font-family: "Inter",sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+  text-align: initial;
 }
 
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
+.c6::before {
+  content: "";
   display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c20 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c20 *,
-.c20 *::before,
-.c20 *::after {
-  box-sizing: border-box;
+  height: 0;
+  margin-top: -1.1rem;
 }
 
 .c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.024375000000000008rem;
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
+.c10::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: uppercase;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c3 {
@@ -2400,60 +2165,12 @@ exports[`Storyshots Components/Text With Variants 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.06074999999999997rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
 .c3 *::before,
 .c3 *::after {
-  box-sizing: border-box;
-}
-
-.c6 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.050624999999999976rem;
-}
-
-.c6 *,
-.c6 *::before,
-.c6 *::after {
-  box-sizing: border-box;
-}
-
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.037124999999999964rem;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
   box-sizing: border-box;
 }
 
@@ -2508,142 +2225,151 @@ exports[`Storyshots Components/Text With Variants 1`] = `
 }
 
 <div
-  className="c0"
->
-  <h2
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <h2
+      className="c1 c2"
     >
-      display1
-    </span>
-  </h2>
-  <div
-    className="c4"
-  />
-  <h2
-    className="c1 c5"
-  >
-    <span
-      className="c6"
+      <span
+        className="c3"
+      >
+        display1
+      </span>
+    </h2>
+    <div
+      className="c4"
+    />
+    <h2
+      className="c1 c5"
     >
-      display2
-    </span>
-  </h2>
-  <div
-    className="c4"
-  />
-  <h2
-    className="c1 c7"
-  >
-    <span
-      className="c8"
+      <span
+        className="c3"
+      >
+        display2
+      </span>
+    </h2>
+    <div
+      className="c4"
+    />
+    <h2
+      className="c1 c6"
     >
-      display3
-    </span>
-  </h2>
-  <div
-    className="c4"
-  />
-  <h1
-    className="c1 c9"
-  >
-    <span
-      className="c10"
+      <span
+        className="c3"
+      >
+        display3
+      </span>
+    </h2>
+    <div
+      className="c4"
+    />
+    <h1
+      className="c1 c7"
     >
-      h1
-    </span>
-  </h1>
-  <div
-    className="c4"
-  />
-  <h2
-    className="c1 c11"
-  >
-    <span
-      className="c12"
+      <span
+        className="c3"
+      >
+        h1
+      </span>
+    </h1>
+    <div
+      className="c4"
+    />
+    <h2
+      className="c1 c8"
     >
-      h2
-    </span>
-  </h2>
-  <div
-    className="c4"
-  />
-  <h6
-    className="c1 c13"
-  >
-    <span
-      className="c12"
+      <span
+        className="c3"
+      >
+        h2
+      </span>
+    </h2>
+    <div
+      className="c4"
+    />
+    <h6
+      className="c1 c9"
     >
-      subtitle
-    </span>
-  </h6>
-  <div
-    className="c4"
-  />
-  <span
-    className="c1 c14"
-  >
+      <span
+        className="c3"
+      >
+        subtitle
+      </span>
+    </h6>
+    <div
+      className="c4"
+    />
     <span
-      className="c15"
+      className="c1 c10"
     >
-      button
+      <span
+        className="c3"
+      >
+        button
+      </span>
     </span>
-  </span>
-  <div
-    className="c4"
-  />
-  <p
-    className="c1 c16"
-  >
+    <div
+      className="c4"
+    />
+    <p
+      className="c1 c11"
+    >
+      <span
+        className="c3"
+      >
+        body
+      </span>
+    </p>
+    <div
+      className="c4"
+    />
     <span
-      className="c15"
+      className="c1 c12"
     >
-      body
+      <span
+        className="c3"
+      >
+        label
+      </span>
     </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <span
-    className="c1 c17"
-  >
-    <span
-      className="c18"
+    <div
+      className="c4"
+    />
+    <p
+      className="c1 c13"
     >
-      label
-    </span>
-  </span>
-  <div
-    className="c4"
-  />
-  <p
-    className="c1 c19"
-  >
-    <span
-      className="c20"
+      <span
+        className="c3"
+      >
+        overline
+      </span>
+    </p>
+    <div
+      className="c4"
+    />
+    <p
+      className="c1 c14"
     >
-      overline
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <p
-    className="c1 c21"
-  >
-    <span
-      className="c20"
-    >
-      caption
-    </span>
-  </p>
-</div>
+      <span
+        className="c3"
+      >
+        caption
+      </span>
+    </p>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Weights 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2665,15 +2391,15 @@ exports[`Storyshots Components/Text With Weights 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2681,18 +2407,18 @@ exports[`Storyshots Components/Text With Weights 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -2701,18 +2427,18 @@ exports[`Storyshots Components/Text With Weights 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 500;
   text-align: initial;
 }
@@ -2721,7 +2447,7 @@ exports[`Storyshots Components/Text With Weights 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -2739,7 +2465,7 @@ exports[`Storyshots Components/Text With Weights 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -2799,46 +2525,55 @@ exports[`Storyshots Components/Text With Weights 1`] = `
 }
 
 <div
-  className="c0"
->
-  <p
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      Normal
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <p
-    className="c1 c5"
-  >
-    <span
-      className="c3"
+      <span
+        className="c3"
+      >
+        Normal
+      </span>
+    </p>
+    <div
+      className="c4"
+    />
+    <p
+      className="c1 c5"
     >
-      Bolder
-    </span>
-  </p>
-  <div
-    className="c4"
-  />
-  <p
-    className="c1 c6"
-  >
-    <span
-      className="c3"
+      <span
+        className="c3"
+      >
+        Bolder
+      </span>
+    </p>
+    <div
+      className="c4"
+    />
+    <p
+      className="c1 c6"
     >
-      Boldest
-    </span>
-  </p>
-</div>
+      <span
+        className="c3"
+      >
+        Boldest
+      </span>
+    </p>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Text With Wrapping 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2881,15 +2616,15 @@ exports[`Storyshots Components/Text With Wrapping 1`] = `
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2897,7 +2632,7 @@ exports[`Storyshots Components/Text With Wrapping 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -2915,7 +2650,7 @@ exports[`Storyshots Components/Text With Wrapping 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -3024,44 +2759,45 @@ exports[`Storyshots Components/Text With Wrapping 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
-      >
-        <p
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam vestibulum morbi blandit cursus risus. Arcu bibendum at varius vel. Tristique senectus et netus et malesuada fames ac turpis egestas. A pellentesque sit amet porttitor. Amet tellus cras adipiscing enim eu. Urna et pharetra pharetra massa massa ultricies. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Rhoncus mattis rhoncus urna neque viverra justo nec. Amet est placerat in egestas erat. Aliquet porttitor lacus luctus accumsan tortor. Sed libero enim sed faucibus turpis. Aliquam vestibulum morbi blandit cursus risus at.
-          </span>
-        </p>
-      </div>
+        className="c3"
+      />
       <div
-        className="c5"
+        className="c4"
       >
-        <p
-          className="c6 c7"
+        <div
+          className="c5"
         >
-          <span
-            className="c8"
+          <p
+            className="c6 c7"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </span>
-        </p>
+            <span
+              className="c8"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam vestibulum morbi blandit cursus risus. Arcu bibendum at varius vel. Tristique senectus et netus et malesuada fames ac turpis egestas. A pellentesque sit amet porttitor. Amet tellus cras adipiscing enim eu. Urna et pharetra pharetra massa massa ultricies. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Rhoncus mattis rhoncus urna neque viverra justo nec. Amet est placerat in egestas erat. Aliquet porttitor lacus luctus accumsan tortor. Sed libero enim sed faucibus turpis. Aliquam vestibulum morbi blandit cursus risus at.
+            </span>
+          </p>
+        </div>
+        <div
+          className="c5"
+        >
+          <p
+            className="c6 c7"
+          >
+            <span
+              className="c8"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

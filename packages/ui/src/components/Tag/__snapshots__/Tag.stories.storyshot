@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Tag Basic 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -47,15 +55,15 @@ exports[`Storyshots Components/Tag Basic 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -63,7 +71,7 @@ exports[`Storyshots Components/Tag Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c5 {
@@ -81,7 +89,7 @@ exports[`Storyshots Components/Tag Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -126,27 +134,36 @@ exports[`Storyshots Components/Tag Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <span
-    as="span"
-    className="c1"
+    className="c0"
   >
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c1"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Tag
+        <span
+          className="c5"
+        >
+          Tag
+        </span>
       </span>
     </span>
-  </span>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Tag With Closeable 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -242,15 +259,15 @@ exports[`Storyshots Components/Tag With Closeable 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -258,7 +275,7 @@ exports[`Storyshots Components/Tag With Closeable 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c5 {
@@ -276,7 +293,7 @@ exports[`Storyshots Components/Tag With Closeable 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -418,92 +435,101 @@ exports[`Storyshots Components/Tag With Closeable 1`] = `
 }
 
 <div
-  className="c0"
->
-  <span
-    as="span"
-    className="c1"
+    className="c0"
   >
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c1"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Closeable filled
+        <span
+          className="c5"
+        >
+          Closeable filled
+        </span>
       </span>
-    </span>
-    <button
-      aria-label="Remove Closeable filled"
-      className="c6 c7"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      type="button"
-    >
-      <svg
-        aria-hidden={true}
-        className="c8"
-        focusable="false"
-        viewBox="0 0 24 24"
+      <button
+        aria-label="Remove Closeable filled"
+        className="c6 c7"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        type="button"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-        />
-      </svg>
-    </button>
-  </span>
-  <div
-    className="c9"
-  />
-  <span
-    as="span"
-    className="c10"
-  >
+        <svg
+          aria-hidden={true}
+          className="c8"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+        </svg>
+      </button>
+    </span>
+    <div
+      className="c9"
+    />
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c10"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Closeable outline
+        <span
+          className="c5"
+        >
+          Closeable outline
+        </span>
       </span>
-    </span>
-    <button
-      aria-label="Remove Closeable outline"
-      className="c6 c11"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      type="button"
-    >
-      <svg
-        aria-hidden={true}
-        className="c8"
-        focusable="false"
-        viewBox="0 0 24 24"
+      <button
+        aria-label="Remove Closeable outline"
+        className="c6 c11"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        type="button"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-        />
-      </svg>
-    </button>
-  </span>
-</div>
+        <svg
+          aria-hidden={true}
+          className="c8"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+        </svg>
+      </button>
+    </span>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Tag With Colors 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -549,15 +575,15 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -565,7 +591,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c6 {
@@ -583,7 +609,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -1059,222 +1085,231 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <span
-      as="span"
-      className="c2"
-    >
-      <span
-        className="c3 c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          Brand
-        </span>
-      </span>
-    </span>
     <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c8"
+      className="c1"
     >
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c2"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Brand2
+          <span
+            className="c6"
+          >
+            Brand
+          </span>
         </span>
       </span>
-    </span>
+      <div
+        className="c7"
+      />
+      <span
+        as="span"
+        className="c8"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Brand2
+          </span>
+        </span>
+      </span>
+      <div
+        className="c7"
+      />
+      <span
+        as="span"
+        className="c9"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Error
+          </span>
+        </span>
+      </span>
+      <div
+        className="c7"
+      />
+      <span
+        as="span"
+        className="c10"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Neutral
+          </span>
+        </span>
+      </span>
+      <div
+        className="c7"
+      />
+      <span
+        as="span"
+        className="c11"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Warning
+          </span>
+        </span>
+      </span>
+      <div
+        className="c7"
+      />
+      <span
+        as="span"
+        className="c12"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Custom
+          </span>
+        </span>
+      </span>
+    </div>
     <div
-      className="c7"
+      className="c13"
     />
-    <span
-      as="span"
-      className="c9"
-    >
-      <span
-        className="c3 c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          Error
-        </span>
-      </span>
-    </span>
     <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c10"
+      className="c1"
     >
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c14"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Neutral
+          <span
+            className="c6"
+          >
+            Brand
+          </span>
         </span>
       </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c11"
-    >
+      <div
+        className="c7"
+      />
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c15"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Warning
+          <span
+            className="c6"
+          >
+            Brand2
+          </span>
         </span>
       </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c12"
-    >
+      <div
+        className="c7"
+      />
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c16"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Custom
+          <span
+            className="c6"
+          >
+            Error
+          </span>
         </span>
       </span>
-    </span>
-  </div>
-  <div
-    className="c13"
-  />
-  <div
-    className="c1"
-  >
-    <span
-      as="span"
-      className="c14"
-    >
+      <div
+        className="c7"
+      />
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c17"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Brand
+          <span
+            className="c6"
+          >
+            Neutral
+          </span>
         </span>
       </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c15"
-    >
+      <div
+        className="c7"
+      />
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c18"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Brand2
+          <span
+            className="c6"
+          >
+            Warning
+          </span>
         </span>
       </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c16"
-    >
+      <div
+        className="c7"
+      />
       <span
-        className="c3 c4 c5"
+        as="span"
+        className="c19"
       >
         <span
-          className="c6"
+          className="c3 c4 c5"
         >
-          Error
+          <span
+            className="c6"
+          >
+            Custom
+          </span>
         </span>
       </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c17"
-    >
-      <span
-        className="c3 c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          Neutral
-        </span>
-      </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c18"
-    >
-      <span
-        className="c3 c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          Warning
-        </span>
-      </span>
-    </span>
-    <div
-      className="c7"
-    />
-    <span
-      as="span"
-      className="c19"
-    >
-      <span
-        className="c3 c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          Custom
-        </span>
-      </span>
-    </span>
-  </div>
-</div>
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Tag With Icon 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1370,15 +1405,15 @@ exports[`Storyshots Components/Tag With Icon 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -1386,7 +1421,7 @@ exports[`Storyshots Components/Tag With Icon 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c7 {
@@ -1404,7 +1439,7 @@ exports[`Storyshots Components/Tag With Icon 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c7 *,
@@ -1578,198 +1613,207 @@ exports[`Storyshots Components/Tag With Icon 1`] = `
 }
 
 <div
-  className="c0"
->
-  <span
-    as="span"
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <svg
-        aria-hidden={true}
-        className="c3"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-        />
-      </svg>
-    </div>
     <span
-      className="c4 c5 c6"
+      as="span"
+      className="c1"
     >
-      <span
-        className="c7"
+      <div
+        className="c2"
       >
-        Filled icon
+        <svg
+          aria-hidden={true}
+          className="c3"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
+      <span
+        className="c4 c5 c6"
+      >
+        <span
+          className="c7"
+        >
+          Filled icon
+        </span>
       </span>
     </span>
-  </span>
-  <div
-    className="c8"
-  />
-  <span
-    as="span"
-    className="c9"
-  >
     <div
-      className="c2"
-    >
-      <svg
-        aria-hidden={true}
-        className="c3"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-        />
-      </svg>
-    </div>
+      className="c8"
+    />
     <span
-      className="c4 c5 c6"
+      as="span"
+      className="c9"
     >
-      <span
-        className="c7"
+      <div
+        className="c2"
       >
-        Outline icon
+        <svg
+          aria-hidden={true}
+          className="c3"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
+      <span
+        className="c4 c5 c6"
+      >
+        <span
+          className="c7"
+        >
+          Outline icon
+        </span>
       </span>
     </span>
-  </span>
-  <div
-    className="c8"
-  />
-  <span
-    as="span"
-    className="c1"
-  >
     <div
-      className="c2"
-    >
-      <svg
-        aria-hidden={true}
-        className="c3"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-        />
-      </svg>
-    </div>
+      className="c8"
+    />
     <span
-      className="c4 c5 c10"
+      as="span"
+      className="c1"
     >
+      <div
+        className="c2"
+      >
+        <svg
+          aria-hidden={true}
+          className="c3"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
       <span
-        className="c7"
+        className="c4 c5 c10"
       >
-        Closeable filled icon
+        <span
+          className="c7"
+        >
+          Closeable filled icon
+        </span>
       </span>
-    </span>
-    <button
-      aria-label="Remove Closeable filled icon"
-      className="c11 c12"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      type="button"
-    >
-      <svg
-        aria-hidden={true}
-        className="c13"
-        focusable="false"
-        viewBox="0 0 24 24"
+      <button
+        aria-label="Remove Closeable filled icon"
+        className="c11 c12"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        type="button"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-        />
-      </svg>
-    </button>
-  </span>
-  <div
-    className="c8"
-  />
-  <span
-    as="span"
-    className="c9"
-  >
+        <svg
+          aria-hidden={true}
+          className="c13"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+        </svg>
+      </button>
+    </span>
     <div
-      className="c2"
-    >
-      <svg
-        aria-hidden={true}
-        className="c3"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-        />
-      </svg>
-    </div>
+      className="c8"
+    />
     <span
-      className="c4 c5 c10"
+      as="span"
+      className="c9"
     >
+      <div
+        className="c2"
+      >
+        <svg
+          aria-hidden={true}
+          className="c3"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
       <span
-        className="c7"
+        className="c4 c5 c10"
       >
-        Closeable outline icon
+        <span
+          className="c7"
+        >
+          Closeable outline icon
+        </span>
       </span>
-    </span>
-    <button
-      aria-label="Remove Closeable outline icon"
-      className="c11 c14"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      type="button"
-    >
-      <svg
-        aria-hidden={true}
-        className="c13"
-        focusable="false"
-        viewBox="0 0 24 24"
+      <button
+        aria-label="Remove Closeable outline icon"
+        className="c11 c14"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        type="button"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-        />
-      </svg>
-    </button>
-  </span>
-</div>
+        <svg
+          aria-hidden={true}
+          className="c13"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+        </svg>
+      </button>
+    </span>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Tag With Rounded 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1815,15 +1859,15 @@ exports[`Storyshots Components/Tag With Rounded 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -1831,7 +1875,7 @@ exports[`Storyshots Components/Tag With Rounded 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c5 {
@@ -1849,7 +1893,7 @@ exports[`Storyshots Components/Tag With Rounded 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -1950,44 +1994,53 @@ exports[`Storyshots Components/Tag With Rounded 1`] = `
 }
 
 <div
-  className="c0"
->
-  <span
-    as="span"
-    className="c1"
+    className="c0"
   >
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c1"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Rounded filled
+        <span
+          className="c5"
+        >
+          Rounded filled
+        </span>
       </span>
     </span>
-  </span>
-  <div
-    className="c6"
-  />
-  <span
-    as="span"
-    className="c7"
-  >
+    <div
+      className="c6"
+    />
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c7"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Rounded outline
+        <span
+          className="c5"
+        >
+          Rounded outline
+        </span>
       </span>
     </span>
-  </span>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Tag With Variants 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2033,15 +2086,15 @@ exports[`Storyshots Components/Tag With Variants 1`] = `
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -2049,7 +2102,7 @@ exports[`Storyshots Components/Tag With Variants 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c5 {
@@ -2067,7 +2120,7 @@ exports[`Storyshots Components/Tag With Variants 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -2168,38 +2221,39 @@ exports[`Storyshots Components/Tag With Variants 1`] = `
 }
 
 <div
-  className="c0"
->
-  <span
-    as="span"
-    className="c1"
+    className="c0"
   >
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c1"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Filled
+        <span
+          className="c5"
+        >
+          Filled
+        </span>
       </span>
     </span>
-  </span>
-  <div
-    className="c6"
-  />
-  <span
-    as="span"
-    className="c7"
-  >
+    <div
+      className="c6"
+    />
     <span
-      className="c2 c3 c4"
+      as="span"
+      className="c7"
     >
       <span
-        className="c5"
+        className="c2 c3 c4"
       >
-        Outline
+        <span
+          className="c5"
+        >
+          Outline
+        </span>
       </span>
     </span>
-  </span>
-</div>
+  </div>,
+]
 `;

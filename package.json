@@ -10,7 +10,6 @@
     "test/fixtures/*/*"
   ],
   "scripts": {
-    "authenticate": "node ./tasks/authenticate",
     "commit": "git-cz",
     "build": "node ./tasksfile.js build",
     "deduplicate": "node ./tasksfile.js deduplicate",

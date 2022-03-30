@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Link Basic 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -23,15 +31,15 @@ exports[`Storyshots Components/Link Basic 1`] = `
 }
 
 .c1 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -39,7 +47,7 @@ exports[`Storyshots Components/Link Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c2 {
@@ -57,7 +65,7 @@ exports[`Storyshots Components/Link Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c2 *,
@@ -108,25 +116,34 @@ exports[`Storyshots Components/Link Basic 1`] = `
 }
 
 <p
-  className="c0 c1"
->
-  <span
-    className="c2"
+    className="c0 c1"
   >
-    <a
-      className="c3"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      rel={null}
+    <span
+      className="c2"
     >
-      Link
-    </a>
-  </span>
-</p>
+      <a
+        className="c3"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        rel={null}
+      >
+        Link
+      </a>
+    </span>
+  </p>,
+]
 `;
 
 exports[`Storyshots Components/Link With Button 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -148,15 +165,15 @@ exports[`Storyshots Components/Link With Button 1`] = `
 }
 
 .c1 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -164,7 +181,7 @@ exports[`Storyshots Components/Link With Button 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c2 {
@@ -182,7 +199,7 @@ exports[`Storyshots Components/Link With Button 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c2 *,
@@ -252,26 +269,35 @@ exports[`Storyshots Components/Link With Button 1`] = `
 }
 
 <p
-  className="c0 c1"
->
-  <span
-    className="c2"
+    className="c0 c1"
   >
-    <button
-      className="c3"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      rel={null}
+    <span
+      className="c2"
     >
-      I am a button
-    </button>
-  </span>
-</p>
+      <button
+        className="c3"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        rel={null}
+      >
+        I am a button
+      </button>
+    </span>
+  </p>,
+]
 `;
 
 exports[`Storyshots Components/Link With Colors 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -293,15 +319,15 @@ exports[`Storyshots Components/Link With Colors 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -309,7 +335,7 @@ exports[`Storyshots Components/Link With Colors 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -327,7 +353,7 @@ exports[`Storyshots Components/Link With Colors 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -592,105 +618,114 @@ exports[`Storyshots Components/Link With Colors 1`] = `
 }
 
 <div
-  className="c0"
->
-  <p
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c4"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Brand
-      </a>
-    </span>
-  </p>
-  <div
-    className="c5"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+        <a
+          className="c4"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Brand
+        </a>
+      </span>
+    </p>
+    <div
+      className="c5"
+    />
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c6"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Brand 2
-      </a>
-    </span>
-  </p>
-  <div
-    className="c5"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+        <a
+          className="c6"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Brand 2
+        </a>
+      </span>
+    </p>
+    <div
+      className="c5"
+    />
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c7"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Error
-      </a>
-    </span>
-  </p>
-  <div
-    className="c5"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+        <a
+          className="c7"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Error
+        </a>
+      </span>
+    </p>
+    <div
+      className="c5"
+    />
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c8"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Inherit
-      </a>
-    </span>
-  </p>
-  <div
-    className="c5"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+        <a
+          className="c8"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Inherit
+        </a>
+      </span>
+    </p>
+    <div
+      className="c5"
+    />
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c9"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Custom
-      </a>
-    </span>
-  </p>
-</div>
+        <a
+          className="c9"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Custom
+        </a>
+      </span>
+    </p>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Link With Router 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -712,15 +747,15 @@ exports[`Storyshots Components/Link With Router 1`] = `
 }
 
 .c1 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -728,7 +763,7 @@ exports[`Storyshots Components/Link With Router 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c2 {
@@ -746,7 +781,7 @@ exports[`Storyshots Components/Link With Router 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c2 *,
@@ -797,27 +832,36 @@ exports[`Storyshots Components/Link With Router 1`] = `
 }
 
 <p
-  className="c0 c1"
->
-  <span
-    className="c2"
+    className="c0 c1"
   >
-    <a
-      className="c3"
-      href="/"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      rel={null}
+    <span
+      className="c2"
     >
-      React Router Link
-    </a>
-  </span>
-</p>
+      <a
+        className="c3"
+        href="/"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        rel={null}
+      >
+        React Router Link
+      </a>
+    </span>
+  </p>,
+]
 `;
 
 exports[`Storyshots Components/Link With Typical Usage 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -861,15 +905,15 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -877,19 +921,19 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -897,19 +941,19 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c13 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -917,7 +961,7 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c12 {
@@ -935,7 +979,7 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -959,7 +1003,7 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -968,30 +1012,6 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
   box-sizing: border-box;
 }
 
@@ -1136,7 +1156,7 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   transform: translateY(2px);
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1146,6 +1166,47 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   color: #38A169;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c16:focus {
+  outline: none;
+  outline-offset: 1px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c16:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c16:visited,
+.c16:active {
+  color: #38A169;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  color: inherit;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -1174,51 +1235,10 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
 
 .c17:visited,
 .c17:active {
-  color: #38A169;
-}
-
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  color: inherit;
-  cursor: pointer;
-  font-size: inherit;
-  line-height: inherit;
-  outline: none;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c18:focus {
-  outline: none;
-  outline-offset: 1px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c18:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c18:visited,
-.c18:active {
   color: inherit;
 }
 
-.c15 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1234,13 +1254,13 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   height: 8px;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c16 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1256,182 +1276,191 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   height: 16px;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Typical Usage
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Typical Usage
+              Links are typically used in one of the following 3 ways:
             </span>
-          </h2>
+          </p>
+        </div>
+        <div
+          className="c10"
+        >
+          <span
+            className="c7 c13"
+          >
+            <span
+              className="c12"
+            >
+              Standalone
+            </span>
+          </span>
+          <div
+            className="c14"
+          />
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              Use block elements, like Text, to create a standalone link.
+            </span>
+          </p>
+          <div
+            className="c15"
+          />
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              <a
+                className="c16"
+                href="https://acme.co"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                Privacy Policy
+              </a>
+            </span>
+          </p>
+        </div>
+        <div
+          className="c10"
+        >
+          <span
+            className="c7 c13"
+          >
+            <span
+              className="c12"
+            >
+              Inline
+            </span>
+          </span>
+          <div
+            className="c14"
+          />
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              Create an inline 
+              <a
+                className="c16"
+                href="https://acme.co"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                link
+              </a>
+               by adding it within a body of text.
+            </span>
+          </p>
+        </div>
+        <div
+          className="c10"
+        >
+          <span
+            className="c7 c13"
+          >
+            <span
+              className="c12"
+            >
+              Subtle
+            </span>
+          </span>
+          <div
+            className="c14"
+          />
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              A subtle
+               
+              <a
+                className="c17"
+                href="https://acme.co"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                link
+              </a>
+               
+              matches the style of the surrounding text. You can set the color prop to 
+              <i>
+                inherit
+              </i>
+               to create a subtle link.
+            </span>
+          </p>
         </div>
       </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            Links are typically used in one of the following 3 ways:
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
-        <span
-          className="c7 c13"
-        >
-          <span
-            className="c14"
-          >
-            Standalone
-          </span>
-        </span>
-        <div
-          className="c15"
-        />
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            Use block elements, like Text, to create a standalone link.
-          </span>
-        </p>
-        <div
-          className="c16"
-        />
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            <a
-              className="c17"
-              href="https://acme.co"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
-            >
-              Privacy Policy
-            </a>
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
-        <span
-          className="c7 c13"
-        >
-          <span
-            className="c14"
-          >
-            Inline
-          </span>
-        </span>
-        <div
-          className="c15"
-        />
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            Create an inline 
-            <a
-              className="c17"
-              href="https://acme.co"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
-            >
-              link
-            </a>
-             by adding it within a body of text.
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
-        <span
-          className="c7 c13"
-        >
-          <span
-            className="c14"
-          >
-            Subtle
-          </span>
-        </span>
-        <div
-          className="c15"
-        />
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            A subtle
-             
-            <a
-              className="c18"
-              href="https://acme.co"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
-            >
-              link
-            </a>
-             
-            matches the style of the surrounding text. You can set the color prop to 
-            <i>
-              inherit
-            </i>
-             to create a subtle link.
-          </span>
-        </p>
-      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Link With Underline 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1453,15 +1482,15 @@ exports[`Storyshots Components/Link With Underline 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1469,7 +1498,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
@@ -1487,7 +1516,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -1670,61 +1699,62 @@ exports[`Storyshots Components/Link With Underline 1`] = `
 }
 
 <div
-  className="c0"
->
-  <p
-    className="c1 c2"
+    className="c0"
   >
-    <span
-      className="c3"
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c4"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        None
-      </a>
-    </span>
-  </p>
-  <div
-    className="c5"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+        <a
+          className="c4"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          None
+        </a>
+      </span>
+    </p>
+    <div
+      className="c5"
+    />
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c6"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Hover
-      </a>
-    </span>
-  </p>
-  <div
-    className="c5"
-  />
-  <p
-    className="c1 c2"
-  >
-    <span
-      className="c3"
+        <a
+          className="c6"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Hover
+        </a>
+      </span>
+    </p>
+    <div
+      className="c5"
+    />
+    <p
+      className="c1 c2"
     >
-      <a
-        className="c7"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        rel={null}
+      <span
+        className="c3"
       >
-        Always
-      </a>
-    </span>
-  </p>
-</div>
+        <a
+          className="c7"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          rel={null}
+        >
+          Always
+        </a>
+      </span>
+    </p>
+  </div>,
+]
 `;
