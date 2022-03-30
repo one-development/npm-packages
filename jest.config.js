@@ -11,14 +11,14 @@ module.exports = {
   ],
   reporters: [
     'default',
-    [
-      'jest-html-reporter',
-      {
-        outputPath: 'reports/test-report.html',
-        pageTitle: 'PARKCORE!',
-        sort: 'titleAsc',
-      },
-    ],
+    // [
+    //   'jest-html-reporter',
+    //   {
+    //     outputPath: 'reports/test-report.html',
+    //     pageTitle: 'NPM Packages',
+    //     sort: 'titleAsc',
+    //   },
+    // ],
     [
       'jest-junit',
       {
