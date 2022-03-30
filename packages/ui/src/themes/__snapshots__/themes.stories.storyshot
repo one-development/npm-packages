@@ -632,8 +632,8 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #0E24C4;
-  color: rgba(255,255,255,1);
+  background-color: #267EBD;
+  color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -898,8 +898,8 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #E7EAFE;
-  color: rgba(8,22,122,1);
+  background-color: #267EBD;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -907,7 +907,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  grid-area: light;
+  grid-area: main;
   height: 75px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -936,8 +936,8 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #08167A;
-  color: rgba(255,255,255,0.87);
+  background-color: #E1EBF5;
+  color: rgba(24,93,135,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -945,7 +945,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  grid-area: dark;
+  grid-area: light;
   height: 75px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -970,6 +970,44 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background-color: #185D87;
+  color: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-area: dark;
+  height: 75px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.c52 *,
+.c52 *::before,
+.c52 *::after {
+  box-sizing: border-box;
+}
+
+.c53 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -982,13 +1020,13 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   color: rgba(0,0,0,0.87);
 }
 
-.c52 *,
-.c52 *::before,
-.c52 *::after {
+.c53 *,
+.c53 *::before,
+.c53 *::after {
   box-sizing: border-box;
 }
 
-.c53 {
+.c54 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1028,17 +1066,17 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c53 *,
-.c53 *::before,
-.c53 *::after {
+.c54 *,
+.c54 *::before,
+.c54 *::after {
   box-sizing: border-box;
 }
 
-.c53::-moz-focus-inner {
+.c54::-moz-focus-inner {
   border-style: none;
 }
 
-.c56 {
+.c57 {
   font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -1051,7 +1089,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   text-align: center;
 }
 
-.c56::before {
+.c57::before {
   content: "";
   display: block;
   height: 0;
@@ -1308,7 +1346,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   box-sizing: border-box;
 }
 
-.c59 {
+.c60 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1331,24 +1369,24 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   padding: 0px 12px;
 }
 
-.c59 *,
-.c59 *::before,
-.c59 *::after {
+.c60 *,
+.c60 *::before,
+.c60 *::after {
   box-sizing: border-box;
 }
 
-.c59:hover {
+.c60:hover {
   background-color: rgba(0,59,102,0.2);
 }
 
-.c59:active {
+.c60:active {
   background-color: rgba(0,59,102,0.2);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c58 {
+.c59 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1374,18 +1412,18 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   padding: 0 calc(24px - 1px);
 }
 
-.c58 *,
-.c58 *::before,
-.c58 *::after {
+.c59 *,
+.c59 *::before,
+.c59 *::after {
   box-sizing: border-box;
 }
 
-.c58:hover {
+.c59:hover {
   background-color: rgba(0,59,102,0.08);
   color: hsl(205.29999999999995,100%,15%);
 }
 
-.c58:active {
+.c59:active {
   background-color: rgba(0,59,102,0.08);
   color: hsl(205.29999999999995,100%,15%);
   -webkit-transform: scale(0.96);
@@ -1393,7 +1431,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   transform: scale(0.96);
 }
 
-.c54 {
+.c55 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1417,24 +1455,24 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   padding: 0px 24px;
 }
 
-.c54 *,
-.c54 *::before,
-.c54 *::after {
+.c55 *,
+.c55 *::before,
+.c55 *::after {
   box-sizing: border-box;
 }
 
-.c54:hover {
+.c55:hover {
   background-color: hsl(205.29999999999995,100%,16%);
 }
 
-.c54:active {
+.c55:active {
   box-shadow: none;
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c55 {
+.c56 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1642,7 +1680,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   box-sizing: border-box;
 }
 
-.c57 {
+.c58 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1658,9 +1696,9 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   width: 16px;
 }
 
-.c57 *,
-.c57 *::before,
-.c57 *::after {
+.c58 *,
+.c58 *::before,
+.c58 *::after {
   box-sizing: border-box;
 }
 
@@ -1692,7 +1730,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   box-sizing: border-box;
 }
 
-.c60 {
+.c61 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1719,7 +1757,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
   width: 50px;
 }
 
-.c60 svg {
+.c61 svg {
   fill: currentColor;
   height: 24px;
   width: 24px;
@@ -2159,7 +2197,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                     <span
                       className="c26"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
@@ -2338,7 +2376,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                 className="c36"
               >
                 <div
-                  className="c43"
+                  className="c50"
                 >
                   <p
                     className="c18 c22"
@@ -2358,12 +2396,12 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                     <span
                       className="c26"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
                 <div
-                  className="c50"
+                  className="c51"
                 >
                   <p
                     className="c18 c22"
@@ -2383,12 +2421,12 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                     <span
                       className="c26"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
                 <div
-                  className="c51"
+                  className="c52"
                 >
                   <p
                     className="c18 c22"
@@ -2408,7 +2446,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                     <span
                       className="c26"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -2450,11 +2488,11 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
             className="c25"
           >
             <div
-              className="c52"
+              className="c53"
             >
               <button
                 aria-busy={false}
-                className="c53 c54"
+                className="c54 c55"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -2462,10 +2500,10 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                 type="button"
               >
                 <div
-                  className="c55"
+                  className="c56"
                 >
                   <span
-                    className="c18 c56"
+                    className="c18 c57"
                   >
                     <span
                       className="c26"
@@ -2476,11 +2514,11 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                 </div>
               </button>
               <div
-                className="c57"
+                className="c58"
               />
               <button
                 aria-busy={false}
-                className="c53 c58"
+                className="c54 c59"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -2488,10 +2526,10 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                 type="button"
               >
                 <div
-                  className="c55"
+                  className="c56"
                 >
                   <span
-                    className="c18 c56"
+                    className="c18 c57"
                   >
                     <span
                       className="c26"
@@ -2502,11 +2540,11 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                 </div>
               </button>
               <div
-                className="c57"
+                className="c58"
               />
               <button
                 aria-busy={false}
-                className="c53 c59"
+                className="c54 c60"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -2514,10 +2552,10 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
                 type="button"
               >
                 <div
-                  className="c55"
+                  className="c56"
                 >
                   <span
-                    className="c18 c56"
+                    className="c18 c57"
                   >
                     <span
                       className="c26"
@@ -2534,7 +2572,7 @@ exports[`Storyshots Tools/Theme Builder Basic 1`] = `
     </div>
     <button
       aria-label="Download theme as a JSON file"
-      className="c53 c60"
+      className="c54 c61"
       disabled={false}
       onClick={[Function]}
       type="button"
@@ -2615,8 +2653,8 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #0E24C4;
-  color: rgba(255,255,255,1);
+  background-color: #267EBD;
+  color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2881,8 +2919,8 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #E7EAFE;
-  color: rgba(8,22,122,1);
+  background-color: #267EBD;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2890,7 +2928,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  grid-area: light;
+  grid-area: main;
   height: 75px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2919,8 +2957,46 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #08167A;
-  color: rgba(255,255,255,0.87);
+  background-color: #E1EBF5;
+  color: rgba(24,93,135,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-area: light;
+  height: 75px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.c50 *,
+.c50 *::before,
+.c50 *::after {
+  box-sizing: border-box;
+}
+
+.c51 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background-color: #185D87;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2937,9 +3013,9 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   padding: 16px;
 }
 
-.c50 *,
-.c50 *::before,
-.c50 *::after {
+.c51 *,
+.c51 *::before,
+.c51 *::after {
   box-sizing: border-box;
 }
 
@@ -3497,7 +3573,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   box-sizing: border-box;
 }
 
-.c51 {
+.c52 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3519,13 +3595,13 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   color: rgba(53,104,89,1);
 }
 
-.c51 *,
-.c51 *::before,
-.c51 *::after {
+.c52 *,
+.c52 *::before,
+.c52 *::after {
   box-sizing: border-box;
 }
 
-.c52 {
+.c53 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3565,17 +3641,17 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c52 *,
-.c52 *::before,
-.c52 *::after {
+.c53 *,
+.c53 *::before,
+.c53 *::after {
   box-sizing: border-box;
 }
 
-.c52::-moz-focus-inner {
+.c53::-moz-focus-inner {
   border-style: none;
 }
 
-.c55 {
+.c56 {
   font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -3588,7 +3664,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   text-align: center;
 }
 
-.c55::before {
+.c56::before {
   content: "";
   display: block;
   height: 0;
@@ -3845,7 +3921,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   box-sizing: border-box;
 }
 
-.c58 {
+.c59 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3868,24 +3944,24 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   padding: 0px 12px;
 }
 
-.c58 *,
-.c58 *::before,
-.c58 *::after {
+.c59 *,
+.c59 *::before,
+.c59 *::after {
   box-sizing: border-box;
 }
 
-.c58:hover {
+.c59:hover {
   background-color: rgba(53,104,89,0.32);
 }
 
-.c58:active {
+.c59:active {
   background-color: rgba(53,104,89,0.32);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c57 {
+.c58 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3911,18 +3987,18 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   padding: 0 calc(24px - 1px);
 }
 
-.c57 *,
-.c57 *::before,
-.c57 *::after {
+.c58 *,
+.c58 *::before,
+.c58 *::after {
   box-sizing: border-box;
 }
 
-.c57:hover {
+.c58:hover {
   background-color: rgba(53,104,89,0.16);
   color: hsl(162.39999999999998,32.5%,23.1%);
 }
 
-.c57:active {
+.c58:active {
   background-color: rgba(53,104,89,0.16);
   color: hsl(162.39999999999998,32.5%,23.1%);
   -webkit-transform: scale(0.96);
@@ -3930,7 +4006,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   transform: scale(0.96);
 }
 
-.c53 {
+.c54 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3954,24 +4030,24 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   padding: 0px 24px;
 }
 
-.c53 *,
-.c53 *::before,
-.c53 *::after {
+.c54 *,
+.c54 *::before,
+.c54 *::after {
   box-sizing: border-box;
 }
 
-.c53:hover {
+.c54:hover {
   background-color: hsl(162.39999999999998,32.5%,24.6%);
 }
 
-.c53:active {
+.c54:active {
   box-shadow: none;
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c54 {
+.c55 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4179,7 +4255,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   box-sizing: border-box;
 }
 
-.c56 {
+.c57 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4195,9 +4271,9 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   width: 16px;
 }
 
-.c56 *,
-.c56 *::before,
-.c56 *::after {
+.c57 *,
+.c57 *::before,
+.c57 *::after {
   box-sizing: border-box;
 }
 
@@ -4229,7 +4305,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   box-sizing: border-box;
 }
 
-.c59 {
+.c60 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4256,7 +4332,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
   width: 50px;
 }
 
-.c59 svg {
+.c60 svg {
   fill: currentColor;
   height: 24px;
   width: 24px;
@@ -4696,7 +4772,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
@@ -4875,7 +4951,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                 className="c35"
               >
                 <div
-                  className="c42"
+                  className="c49"
                 >
                   <p
                     className="c17 c21"
@@ -4895,12 +4971,12 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
                 <div
-                  className="c49"
+                  className="c50"
                 >
                   <p
                     className="c17 c21"
@@ -4920,12 +4996,12 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                     <span
                       className="c25"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
                 <div
-                  className="c50"
+                  className="c51"
                 >
                   <p
                     className="c17 c21"
@@ -4945,7 +5021,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                     <span
                       className="c25"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -4987,11 +5063,11 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
             className="c24"
           >
             <div
-              className="c51"
+              className="c52"
             >
               <button
                 aria-busy={false}
-                className="c52 c53"
+                className="c53 c54"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -4999,10 +5075,10 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                 type="button"
               >
                 <div
-                  className="c54"
+                  className="c55"
                 >
                   <span
-                    className="c17 c55"
+                    className="c17 c56"
                   >
                     <span
                       className="c25"
@@ -5013,11 +5089,11 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                 </div>
               </button>
               <div
-                className="c56"
+                className="c57"
               />
               <button
                 aria-busy={false}
-                className="c52 c57"
+                className="c53 c58"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -5025,10 +5101,10 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                 type="button"
               >
                 <div
-                  className="c54"
+                  className="c55"
                 >
                   <span
-                    className="c17 c55"
+                    className="c17 c56"
                   >
                     <span
                       className="c25"
@@ -5039,11 +5115,11 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                 </div>
               </button>
               <div
-                className="c56"
+                className="c57"
               />
               <button
                 aria-busy={false}
-                className="c52 c58"
+                className="c53 c59"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -5051,10 +5127,10 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
                 type="button"
               >
                 <div
-                  className="c54"
+                  className="c55"
                 >
                   <span
-                    className="c17 c55"
+                    className="c17 c56"
                   >
                     <span
                       className="c25"
@@ -5071,7 +5147,7 @@ exports[`Storyshots Tools/Theme Builder Basil 1`] = `
     </div>
     <button
       aria-label="Download theme as a JSON file"
-      className="c52 c59"
+      className="c53 c60"
       disabled={false}
       onClick={[Function]}
       type="button"
@@ -5304,8 +5380,8 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #E7EAFE;
-  color: rgba(8,22,122,1);
+  background-color: #E1EBF5;
+  color: rgba(24,93,135,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5342,8 +5418,8 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #08167A;
-  color: rgba(255,255,255,0.87);
+  background-color: #185D87;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5380,8 +5456,8 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #ECFBE7;
-  color: rgba(0,122,0,1);
+  background-color: #DDEDE4;
+  color: rgba(38,128,72,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5418,7 +5494,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #007A00;
+  background-color: #268048;
   color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -5485,7 +5561,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #007A00;
+  background-color: #268048;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5524,7 +5600,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #55B03B;
+  background-color: #54CC88;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5803,7 +5879,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #55B03B;
+  background-color: #54CC88;
   color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -5841,7 +5917,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #687BE4;
+  background-color: #4395D9;
   color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -5879,7 +5955,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #E15349;
+  background-color: #F03D3D;
   color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -5917,7 +5993,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #EABF3D;
+  background-color: #F0A306;
   color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -6306,8 +6382,8 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: rgba(85,176,59,0.16);
-  color: hsl(106.69999999999999,49.8%,57.6%);
+  background-color: rgba(84,204,136,0.16);
+  color: hsl(146,54.1%,70.6%);
   height: 34px;
   padding: 0px 12px;
 }
@@ -6319,11 +6395,11 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
 }
 
 .c56:hover {
-  background-color: rgba(85,176,59,0.32);
+  background-color: rgba(84,204,136,0.32);
 }
 
 .c56:active {
-  background-color: rgba(85,176,59,0.32);
+  background-color: rgba(84,204,136,0.32);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
@@ -6346,7 +6422,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  color: #55B03B;
+  color: #54CC88;
   height: 34px;
   padding: 0px 12px;
   border: 1px solid rgba(255,255,255,0.12);
@@ -6362,13 +6438,13 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
 }
 
 .c55:hover {
-  background-color: rgba(85,176,59,0.16);
-  color: hsl(106.69999999999999,49.8%,57.6%);
+  background-color: rgba(84,204,136,0.16);
+  color: hsl(146,54.1%,70.6%);
 }
 
 .c55:active {
-  background-color: rgba(85,176,59,0.16);
-  color: hsl(106.69999999999999,49.8%,57.6%);
+  background-color: rgba(84,204,136,0.16);
+  color: hsl(146,54.1%,70.6%);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
@@ -6391,7 +6467,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: #55B03B;
+  background-color: #54CC88;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(0,0,0,1);
   height: 44px;
@@ -6405,7 +6481,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
 }
 
 .c51:hover {
-  background-color: hsl(106.69999999999999,49.8%,36.9%);
+  background-color: hsl(146,54.1%,45.2%);
 }
 
 .c51:active {
@@ -6678,7 +6754,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #687BE4;
+  background-color: #4395D9;
   border-radius: 100%;
   bottom: 24px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.16);
@@ -6961,7 +7037,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #55B03B
+                      #54CC88
                     </span>
                   </p>
                 </div>
@@ -6986,7 +7062,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #ECFBE7
+                      #DDEDE4
                     </span>
                   </p>
                 </div>
@@ -7011,7 +7087,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #007A00
+                      #268048
                     </span>
                   </p>
                 </div>
@@ -7044,7 +7120,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #687BE4
+                      #4395D9
                     </span>
                   </p>
                 </div>
@@ -7069,7 +7145,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
@@ -7094,7 +7170,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -7140,7 +7216,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #687BE4
+                      #4395D9
                     </span>
                   </p>
                 </div>
@@ -7173,7 +7249,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #E15349
+                      #F03D3D
                     </span>
                   </p>
                 </div>
@@ -7256,7 +7332,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #EABF3D
+                      #F0A306
                     </span>
                   </p>
                 </div>
@@ -7339,7 +7415,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #687BE4
+                      #4395D9
                     </span>
                   </p>
                 </div>
@@ -7364,7 +7440,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
@@ -7389,7 +7465,7 @@ exports[`Storyshots Tools/Theme Builder One UI Dark 1`] = `
                     <span
                       className="c26"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -7832,44 +7908,6 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   box-sizing: border-box;
 }
 
-.c39 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  background-color: #0E24C4;
-  color: rgba(255,255,255,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  grid-area: main;
-  height: 75px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 16px;
-}
-
-.c39 *,
-.c39 *::before,
-.c39 *::after {
-  box-sizing: border-box;
-}
-
 .c42 {
   box-sizing: border-box;
   margin: 0;
@@ -7884,8 +7922,8 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #F03D3D;
-  color: rgba(255,255,255,1);
+  background-color: #267EBD;
+  color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7922,6 +7960,44 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
+  background-color: #F03D3D;
+  color: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-area: main;
+  height: 75px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.c43 *,
+.c43 *::before,
+.c43 *::after {
+  box-sizing: border-box;
+}
+
+.c44 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
   background-color: #FFE5E5;
   color: rgba(148,0,17,1);
   display: -webkit-box;
@@ -7940,13 +8016,13 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   padding: 16px;
 }
 
-.c43 *,
-.c43 *::before,
-.c43 *::after {
+.c44 *,
+.c44 *::before,
+.c44 *::after {
   box-sizing: border-box;
 }
 
-.c44 {
+.c45 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -7978,13 +8054,13 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   padding: 16px;
 }
 
-.c44 *,
-.c44 *::before,
-.c44 *::after {
+.c45 *,
+.c45 *::before,
+.c45 *::after {
   box-sizing: border-box;
 }
 
-.c45 {
+.c46 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -8016,13 +8092,13 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   padding: 16px;
 }
 
-.c45 *,
-.c45 *::before,
-.c45 *::after {
+.c46 *,
+.c46 *::before,
+.c46 *::after {
   box-sizing: border-box;
 }
 
-.c46 {
+.c47 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -8054,13 +8130,13 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   padding: 16px;
 }
 
-.c46 *,
-.c46 *::before,
-.c46 *::after {
+.c47 *,
+.c47 *::before,
+.c47 *::after {
   box-sizing: border-box;
 }
 
-.c47 {
+.c48 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -8092,9 +8168,47 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   padding: 16px;
 }
 
-.c47 *,
-.c47 *::before,
-.c47 *::after {
+.c48 *,
+.c48 *::before,
+.c48 *::after {
+  box-sizing: border-box;
+}
+
+.c39 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background-color: #267EBD;
+  color: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-area: main;
+  height: 75px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.c39 *,
+.c39 *::before,
+.c39 *::after {
   box-sizing: border-box;
 }
 
@@ -8112,8 +8226,8 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #E7EAFE;
-  color: rgba(8,22,122,1);
+  background-color: #E1EBF5;
+  color: rgba(24,93,135,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8150,8 +8264,8 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #08167A;
-  color: rgba(255,255,255,0.87);
+  background-color: #185D87;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8174,7 +8288,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   box-sizing: border-box;
 }
 
-.c48 {
+.c49 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -8196,9 +8310,9 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   color: rgba(0,0,0,0.87);
 }
 
-.c48 *,
-.c48 *::before,
-.c48 *::after {
+.c49 *,
+.c49 *::before,
+.c49 *::after {
   box-sizing: border-box;
 }
 
@@ -8216,7 +8330,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #007A00;
+  background-color: #268048;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8255,7 +8369,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #009D00;
+  background-color: #38A169;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8292,7 +8406,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #009D00;
+  background-color: #38A169;
   color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -8330,8 +8444,8 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #ECFBE7;
-  color: rgba(0,122,0,1);
+  background-color: #DDEDE4;
+  color: rgba(38,128,72,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8368,7 +8482,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #007A00;
+  background-color: #268048;
   color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -8392,7 +8506,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   box-sizing: border-box;
 }
 
-.c49 {
+.c50 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -8432,17 +8546,17 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c49 *,
-.c49 *::before,
-.c49 *::after {
+.c50 *,
+.c50 *::before,
+.c50 *::after {
   box-sizing: border-box;
 }
 
-.c49::-moz-focus-inner {
+.c50::-moz-focus-inner {
   border-style: none;
 }
 
-.c52 {
+.c53 {
   font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -8455,7 +8569,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   text-align: center;
 }
 
-.c52::before {
+.c53::before {
   content: "";
   display: block;
   height: 0;
@@ -8712,6 +8826,46 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   box-sizing: border-box;
 }
 
+.c56 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
+  height: 34px;
+  padding: 0px 12px;
+}
+
+.c56 *,
+.c56 *::before,
+.c56 *::after {
+  box-sizing: border-box;
+}
+
+.c56:hover {
+  background-color: rgba(56,161,105,0.32);
+}
+
+.c56:active {
+  background-color: rgba(56,161,105,0.32);
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
 .c55 {
   box-sizing: border-box;
   margin: 0;
@@ -8729,10 +8883,13 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
+  color: #38A169;
   height: 34px;
   padding: 0px 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: currentColor;
+  height: 44px;
+  padding: 0 calc(24px - 1px);
 }
 
 .c55 *,
@@ -8742,103 +8899,60 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
 }
 
 .c55:hover {
-  background-color: rgba(0,157,0,0.32);
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
 }
 
 .c55:active {
-  background-color: rgba(0,157,0,0.32);
-  -webkit-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
-}
-
-.c54 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: auto;
-  color: #009D00;
-  height: 34px;
-  padding: 0px 12px;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-color: currentColor;
-  height: 44px;
-  padding: 0 calc(24px - 1px);
-}
-
-.c54 *,
-.c54 *::before,
-.c54 *::after {
-  box-sizing: border-box;
-}
-
-.c54:hover {
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
-}
-
-.c54:active {
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
-  -webkit-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
-}
-
-.c50 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: auto;
-  background-color: #009D00;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
-  color: rgba(255,255,255,1);
-  height: 44px;
-  padding: 0px 24px;
-}
-
-.c50 *,
-.c50 *::before,
-.c50 *::after {
-  box-sizing: border-box;
-}
-
-.c50:hover {
-  background-color: hsl(120,100%,24.6%);
-}
-
-.c50:active {
-  box-shadow: none;
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
 .c51 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  background-color: #38A169;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c51 *,
+.c51 *::before,
+.c51 *::after {
+  box-sizing: border-box;
+}
+
+.c51:hover {
+  background-color: hsl(148,48.4%,34%);
+}
+
+.c51:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.c52 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -9046,7 +9160,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   box-sizing: border-box;
 }
 
-.c53 {
+.c54 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -9062,9 +9176,9 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   width: 16px;
 }
 
-.c53 *,
-.c53 *::before,
-.c53 *::after {
+.c54 *,
+.c54 *::before,
+.c54 *::after {
   box-sizing: border-box;
 }
 
@@ -9096,12 +9210,12 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   box-sizing: border-box;
 }
 
-.c56 {
+.c57 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #0E24C4;
+  background-color: #267EBD;
   border-radius: 100%;
   bottom: 24px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.16);
@@ -9123,7 +9237,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
   width: 50px;
 }
 
-.c56 svg {
+.c57 svg {
   fill: currentColor;
   height: 24px;
   width: 24px;
@@ -9384,7 +9498,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #009D00
+                      #38A169
                     </span>
                   </p>
                 </div>
@@ -9409,7 +9523,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #ECFBE7
+                      #DDEDE4
                     </span>
                   </p>
                 </div>
@@ -9434,7 +9548,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #007A00
+                      #268048
                     </span>
                   </p>
                 </div>
@@ -9467,7 +9581,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
@@ -9492,7 +9606,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
@@ -9517,7 +9631,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -9543,7 +9657,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 className="c35"
               >
                 <div
-                  className="c39"
+                  className="c42"
                 >
                   <p
                     className="c17 c21"
@@ -9563,7 +9677,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
@@ -9576,7 +9690,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 className="c35"
               >
                 <div
-                  className="c42"
+                  className="c43"
                 >
                   <p
                     className="c17 c21"
@@ -9601,7 +9715,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                   </p>
                 </div>
                 <div
-                  className="c43"
+                  className="c44"
                 >
                   <p
                     className="c17 c21"
@@ -9626,7 +9740,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                   </p>
                 </div>
                 <div
-                  className="c44"
+                  className="c45"
                 >
                   <p
                     className="c17 c21"
@@ -9659,7 +9773,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 className="c35"
               >
                 <div
-                  className="c45"
+                  className="c46"
                 >
                   <p
                     className="c17 c21"
@@ -9684,7 +9798,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                   </p>
                 </div>
                 <div
-                  className="c46"
+                  className="c47"
                 >
                   <p
                     className="c17 c21"
@@ -9709,7 +9823,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                   </p>
                 </div>
                 <div
-                  className="c47"
+                  className="c48"
                 >
                   <p
                     className="c17 c21"
@@ -9762,7 +9876,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
@@ -9787,7 +9901,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
@@ -9812,7 +9926,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                     <span
                       className="c25"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -9854,11 +9968,11 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
             className="c24"
           >
             <div
-              className="c48"
+              className="c49"
             >
               <button
                 aria-busy={false}
-                className="c49 c50"
+                className="c50 c51"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -9866,10 +9980,10 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 type="button"
               >
                 <div
-                  className="c51"
+                  className="c52"
                 >
                   <span
-                    className="c17 c52"
+                    className="c17 c53"
                   >
                     <span
                       className="c25"
@@ -9880,11 +9994,11 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 </div>
               </button>
               <div
-                className="c53"
+                className="c54"
               />
               <button
                 aria-busy={false}
-                className="c49 c54"
+                className="c50 c55"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -9892,10 +10006,10 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 type="button"
               >
                 <div
-                  className="c51"
+                  className="c52"
                 >
                   <span
-                    className="c17 c52"
+                    className="c17 c53"
                   >
                     <span
                       className="c25"
@@ -9906,11 +10020,11 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 </div>
               </button>
               <div
-                className="c53"
+                className="c54"
               />
               <button
                 aria-busy={false}
-                className="c49 c55"
+                className="c50 c56"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -9918,10 +10032,10 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
                 type="button"
               >
                 <div
-                  className="c51"
+                  className="c52"
                 >
                   <span
-                    className="c17 c52"
+                    className="c17 c53"
                   >
                     <span
                       className="c25"
@@ -9938,7 +10052,7 @@ exports[`Storyshots Tools/Theme Builder One UI Light 1`] = `
     </div>
     <button
       aria-label="Download theme as a JSON file"
-      className="c49 c56"
+      className="c50 c57"
       disabled={false}
       onClick={[Function]}
       type="button"
@@ -10057,8 +10171,8 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #0E24C4;
-  color: rgba(255,255,255,1);
+  background-color: #267EBD;
+  color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10323,8 +10437,8 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #E7EAFE;
-  color: rgba(8,22,122,1);
+  background-color: #267EBD;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10332,7 +10446,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  grid-area: light;
+  grid-area: main;
   height: 75px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -10361,8 +10475,46 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  background-color: #08167A;
-  color: rgba(255,255,255,0.87);
+  background-color: #E1EBF5;
+  color: rgba(24,93,135,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-area: light;
+  height: 75px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.c50 *,
+.c50 *::before,
+.c50 *::after {
+  box-sizing: border-box;
+}
+
+.c51 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background-color: #185D87;
+  color: rgba(255,255,255,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10379,9 +10531,9 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   padding: 16px;
 }
 
-.c50 *,
-.c50 *::before,
-.c50 *::after {
+.c51 *,
+.c51 *::before,
+.c51 *::after {
   box-sizing: border-box;
 }
 
@@ -10901,7 +11053,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   box-sizing: border-box;
 }
 
-.c51 {
+.c52 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -10923,13 +11075,13 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   color: rgba(0,0,0,1);
 }
 
-.c51 *,
-.c51 *::before,
-.c51 *::after {
+.c52 *,
+.c52 *::before,
+.c52 *::after {
   box-sizing: border-box;
 }
 
-.c52 {
+.c53 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -10969,17 +11121,17 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c52 *,
-.c52 *::before,
-.c52 *::after {
+.c53 *,
+.c53 *::before,
+.c53 *::after {
   box-sizing: border-box;
 }
 
-.c52::-moz-focus-inner {
+.c53::-moz-focus-inner {
   border-style: none;
 }
 
-.c55 {
+.c56 {
   font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -10992,7 +11144,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   text-align: center;
 }
 
-.c55::before {
+.c56::before {
   content: "";
   display: block;
   height: 0;
@@ -11249,7 +11401,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   box-sizing: border-box;
 }
 
-.c58 {
+.c59 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -11272,24 +11424,24 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   padding: 0px 12px;
 }
 
-.c58 *,
-.c58 *::before,
-.c58 *::after {
+.c59 *,
+.c59 *::before,
+.c59 *::after {
   box-sizing: border-box;
 }
 
-.c58:hover {
+.c59:hover {
   background-color: rgba(255,222,3,0.32);
 }
 
-.c58:active {
+.c59:active {
   background-color: rgba(255,222,3,0.32);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c57 {
+.c58 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -11315,18 +11467,18 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   padding: 0 calc(24px - 1px);
 }
 
-.c57 *,
-.c57 *::before,
-.c57 *::after {
+.c58 *,
+.c58 *::before,
+.c58 *::after {
   box-sizing: border-box;
 }
 
-.c57:hover {
+.c58:hover {
   background-color: rgba(255,222,3,0.16);
   color: hsl(52.10000000000002,100%,37.9%);
 }
 
-.c57:active {
+.c58:active {
   background-color: rgba(255,222,3,0.16);
   color: hsl(52.10000000000002,100%,37.9%);
   -webkit-transform: scale(0.96);
@@ -11334,7 +11486,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   transform: scale(0.96);
 }
 
-.c53 {
+.c54 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -11358,24 +11510,24 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   padding: 0px 24px;
 }
 
-.c53 *,
-.c53 *::before,
-.c53 *::after {
+.c54 *,
+.c54 *::before,
+.c54 *::after {
   box-sizing: border-box;
 }
 
-.c53:hover {
+.c54:hover {
   background-color: hsl(52.10000000000002,100%,40.5%);
 }
 
-.c53:active {
+.c54:active {
   box-shadow: none;
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c54 {
+.c55 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -11583,7 +11735,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   box-sizing: border-box;
 }
 
-.c56 {
+.c57 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -11599,9 +11751,9 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   width: 16px;
 }
 
-.c56 *,
-.c56 *::before,
-.c56 *::after {
+.c57 *,
+.c57 *::before,
+.c57 *::after {
   box-sizing: border-box;
 }
 
@@ -11633,7 +11785,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   box-sizing: border-box;
 }
 
-.c59 {
+.c60 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -11660,7 +11812,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
   width: 50px;
 }
 
-.c59 svg {
+.c60 svg {
   fill: currentColor;
   height: 24px;
   width: 24px;
@@ -12100,7 +12252,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
@@ -12279,7 +12431,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                 className="c35"
               >
                 <div
-                  className="c42"
+                  className="c49"
                 >
                   <p
                     className="c17 c21"
@@ -12299,12 +12451,12 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                     <span
                       className="c25"
                     >
-                      #0E24C4
+                      #267EBD
                     </span>
                   </p>
                 </div>
                 <div
-                  className="c49"
+                  className="c50"
                 >
                   <p
                     className="c17 c21"
@@ -12324,12 +12476,12 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                     <span
                       className="c25"
                     >
-                      #E7EAFE
+                      #E1EBF5
                     </span>
                   </p>
                 </div>
                 <div
-                  className="c50"
+                  className="c51"
                 >
                   <p
                     className="c17 c21"
@@ -12349,7 +12501,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                     <span
                       className="c25"
                     >
-                      #08167A
+                      #185D87
                     </span>
                   </p>
                 </div>
@@ -12391,11 +12543,11 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
             className="c24"
           >
             <div
-              className="c51"
+              className="c52"
             >
               <button
                 aria-busy={false}
-                className="c52 c53"
+                className="c53 c54"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -12403,10 +12555,10 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                 type="button"
               >
                 <div
-                  className="c54"
+                  className="c55"
                 >
                   <span
-                    className="c17 c55"
+                    className="c17 c56"
                   >
                     <span
                       className="c25"
@@ -12417,11 +12569,11 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                 </div>
               </button>
               <div
-                className="c56"
+                className="c57"
               />
               <button
                 aria-busy={false}
-                className="c52 c57"
+                className="c53 c58"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -12429,10 +12581,10 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                 type="button"
               >
                 <div
-                  className="c54"
+                  className="c55"
                 >
                   <span
-                    className="c17 c55"
+                    className="c17 c56"
                   >
                     <span
                       className="c25"
@@ -12443,11 +12595,11 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                 </div>
               </button>
               <div
-                className="c56"
+                className="c57"
               />
               <button
                 aria-busy={false}
-                className="c52 c58"
+                className="c53 c59"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -12455,10 +12607,10 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
                 type="button"
               >
                 <div
-                  className="c54"
+                  className="c55"
                 >
                   <span
-                    className="c17 c55"
+                    className="c17 c56"
                   >
                     <span
                       className="c25"
@@ -12475,7 +12627,7 @@ exports[`Storyshots Tools/Theme Builder Owl 1`] = `
     </div>
     <button
       aria-label="Download theme as a JSON file"
-      className="c52 c59"
+      className="c53 c60"
       disabled={false}
       onClick={[Function]}
       type="button"

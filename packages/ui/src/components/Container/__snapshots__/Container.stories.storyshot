@@ -491,7 +491,7 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -520,7 +520,7 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
 
 .c9:visited,
 .c9:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c10 {

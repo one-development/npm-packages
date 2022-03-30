@@ -52,7 +52,7 @@ exports[`Storyshots Components/Spinner Basic 1`] = `
   animation: iVXCSc 700ms linear infinite;
   border-color: transparent;
   border-style: solid;
-  border-top-color: #009D00;
+  border-top-color: #38A169;
   border-width: 4px;
   border-radius: 50%;
   box-sizing: border-box;
@@ -137,7 +137,7 @@ exports[`Storyshots Components/Spinner With Custom Color 1`] = `
   animation: iVXCSc 700ms linear infinite;
   border-color: transparent;
   border-style: solid;
-  border-top-color: #0E24C4;
+  border-top-color: #267EBD;
   border-width: 4px;
   border-radius: 50%;
   box-sizing: border-box;
@@ -345,7 +345,7 @@ exports[`Storyshots Components/Spinner With Typical Usage 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: #009D00;
+  background-color: #38A169;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -359,7 +359,7 @@ exports[`Storyshots Components/Spinner With Typical Usage 1`] = `
 }
 
 .c3:hover {
-  background-color: hsl(120,100%,24.6%);
+  background-color: hsl(148,48.4%,34%);
 }
 
 .c3:active {

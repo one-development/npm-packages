@@ -708,7 +708,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #009D00;
+  background-color: #38A169;
   border-radius: 4px;
   color: rgba(255,255,255,1);
   display: -webkit-box;
@@ -739,7 +739,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #0E24C4;
+  background-color: #267EBD;
   border-radius: 4px;
   color: rgba(255,255,255,1);
   display: -webkit-box;
@@ -865,7 +865,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   align-items: center;
   background-color: transparent;
   border-radius: 4px;
-  color: #009D00;
+  color: #38A169;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -873,7 +873,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   height: 34px;
   overflow: hidden;
   position: relative;
-  border-color: #009D00;
+  border-color: #38A169;
   border-size: 1px;
   border-style: solid;
 }
@@ -899,7 +899,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   align-items: center;
   background-color: transparent;
   border-radius: 4px;
-  color: #0E24C4;
+  color: #267EBD;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -907,7 +907,7 @@ exports[`Storyshots Components/Tag With Colors 1`] = `
   height: 34px;
   overflow: hidden;
   position: relative;
-  border-color: #0E24C4;
+  border-color: #267EBD;
   border-size: 1px;
   border-style: solid;
 }

@@ -245,7 +245,7 @@ exports[`Storyshots Components/Text With Colors 1`] = `
   min-width: 0;
   margin-left: 24px;
   padding: 16px;
-  background-color: #009D00;
+  background-color: #38A169;
   color: rgba(0,0,0,0.87);
 }
 
