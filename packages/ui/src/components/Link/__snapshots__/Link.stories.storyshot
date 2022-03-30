@@ -75,7 +75,7 @@ exports[`Storyshots Components/Link Basic 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -104,7 +104,7 @@ exports[`Storyshots Components/Link Basic 1`] = `
 
 .c3:visited,
 .c3:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 <p
@@ -215,7 +215,7 @@ exports[`Storyshots Components/Link With Button 1`] = `
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -248,7 +248,7 @@ exports[`Storyshots Components/Link With Button 1`] = `
 
 .c3:visited,
 .c3:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 <p
@@ -345,7 +345,7 @@ exports[`Storyshots Components/Link With Colors 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -374,7 +374,7 @@ exports[`Storyshots Components/Link With Colors 1`] = `
 
 .c4:visited,
 .c4:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c6 {
@@ -386,7 +386,7 @@ exports[`Storyshots Components/Link With Colors 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #0E24C4;
+  color: #267EBD;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -415,7 +415,7 @@ exports[`Storyshots Components/Link With Colors 1`] = `
 
 .c6:visited,
 .c6:active {
-  color: #0E24C4;
+  color: #267EBD;
 }
 
 .c7 {
@@ -764,7 +764,7 @@ exports[`Storyshots Components/Link With Router 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -793,7 +793,7 @@ exports[`Storyshots Components/Link With Router 1`] = `
 
 .c3:visited,
 .c3:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 <p
@@ -1145,7 +1145,7 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -1174,7 +1174,7 @@ exports[`Storyshots Components/Link With Typical Usage 1`] = `
 
 .c17:visited,
 .c17:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c18 {
@@ -1505,7 +1505,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -1534,7 +1534,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
 
 .c7:visited,
 .c7:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c4 {
@@ -1546,7 +1546,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -1575,7 +1575,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
 
 .c4:visited,
 .c4:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c6 {
@@ -1587,7 +1587,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -1616,7 +1616,7 @@ exports[`Storyshots Components/Link With Underline 1`] = `
 
 .c6:visited,
 .c6:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c5 {

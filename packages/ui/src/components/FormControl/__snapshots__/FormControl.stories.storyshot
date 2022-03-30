@@ -512,7 +512,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #009D00;
+  background-color: #38A169;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -526,7 +526,7 @@ exports[`Storyshots Components/FormControl With Browser Validation 1`] = `
 }
 
 .c27:hover {
-  background-color: hsl(120,100%,24.6%);
+  background-color: hsl(148,48.4%,34%);
 }
 
 .c27:active {
@@ -1502,7 +1502,7 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  color: #0E24C4;
+  color: #267EBD;
   background-color: inherit;
 }
 
@@ -1523,8 +1523,8 @@ exports[`Storyshots Components/FormControl With Custom Markup 1`] = `
   -webkit-text-size-adjust: 100%;
   min-width: 0;
   border-radius: 4px;
-  background-color: #E7EAFE;
-  color: rgba(8,22,122,1);
+  background-color: #E1EBF5;
+  color: rgba(24,93,135,1);
   padding: 8px;
 }
 
@@ -2893,7 +2893,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #009D00;
+  background-color: #38A169;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -2907,7 +2907,7 @@ exports[`Storyshots Components/FormControl With JS Validation 1`] = `
 }
 
 .c41:hover {
-  background-color: hsl(120,100%,24.6%);
+  background-color: hsl(148,48.4%,34%);
 }
 
 .c41:active {

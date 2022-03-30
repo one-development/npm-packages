@@ -174,8 +174,8 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
   height: 34px;
   padding: 0px 12px;
 }
@@ -187,11 +187,11 @@ exports[`Storyshots Components/CardActions Basic 1`] = `
 }
 
 .c11:hover {
-  background-color: rgba(0,157,0,0.32);
+  background-color: rgba(56,161,105,0.32);
 }
 
 .c11:active {
-  background-color: rgba(0,157,0,0.32);
+  background-color: rgba(56,161,105,0.32);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
@@ -583,7 +583,7 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  color: #009D00;
+  color: #38A169;
   height: 34px;
   padding: 0px 12px;
 }
@@ -595,13 +595,13 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
 }
 
 .c15:hover {
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
 }
 
 .c15:active {
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
@@ -624,8 +624,8 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: rgba(0,157,0,0.16);
-  color: hsl(120,100%,23.1%);
+  background-color: rgba(56,161,105,0.16);
+  color: hsl(148,48.4%,31.9%);
   height: 34px;
   padding: 0px 12px;
 }
@@ -637,11 +637,11 @@ exports[`Storyshots Components/CardActions With Alignment 1`] = `
 }
 
 .c12:hover {
-  background-color: rgba(0,157,0,0.32);
+  background-color: rgba(56,161,105,0.32);
 }
 
 .c12:active {
-  background-color: rgba(0,157,0,0.32);
+  background-color: rgba(56,161,105,0.32);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
@@ -1297,7 +1297,7 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #009D00;
+  background-color: #38A169;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -1311,7 +1311,7 @@ exports[`Storyshots Components/CardActions With Full Width 1`] = `
 }
 
 .c15:hover {
-  background-color: hsl(120,100%,24.6%);
+  background-color: hsl(148,48.4%,34%);
 }
 
 .c15:active {

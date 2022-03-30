@@ -490,7 +490,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #009D00;
+  background-color: #38A169;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -504,7 +504,7 @@ exports[`Storyshots Components/Select With Browser Validation 1`] = `
 }
 
 .c25:hover {
-  background-color: hsl(120,100%,24.6%);
+  background-color: hsl(148,48.4%,34%);
 }
 
 .c25:active {
@@ -2356,7 +2356,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #009D00;
+  background-color: #38A169;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -2370,7 +2370,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
 }
 
 .c29:hover {
-  background-color: hsl(120,100%,24.6%);
+  background-color: hsl(148,48.4%,34%);
 }
 
 .c29:active {
@@ -2624,7 +2624,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #009D00;
+  color: #38A169;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -2653,7 +2653,7 @@ exports[`Storyshots Components/Select With JS Validation 1`] = `
 
 .c18:visited,
 .c18:active {
-  color: #009D00;
+  color: #38A169;
 }
 
 .c24 {
