@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Notification Basic 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -23,15 +31,15 @@ exports[`Storyshots Components/Notification Basic 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -39,7 +47,7 @@ exports[`Storyshots Components/Notification Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -57,7 +65,7 @@ exports[`Storyshots Components/Notification Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -127,41 +135,50 @@ exports[`Storyshots Components/Notification Basic 1`] = `
 }
 
 <div
-  className="c0"
-  role="alert"
->
-  <svg
-    aria-hidden={true}
-    className="c1 c2"
-    focusable="false"
-    viewBox="0 0 24 24"
+    className="c0"
+    role="alert"
   >
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
-    />
-  </svg>
-  <div
-    className="c3"
-  >
-    <p
-      className="c4 c5"
+    <svg
+      aria-hidden={true}
+      className="c1 c2"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      <span
-        className="c6"
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+      />
+    </svg>
+    <div
+      className="c3"
+    >
+      <p
+        className="c4 c5"
       >
-        This is a basic notification
-      </span>
-    </p>
-  </div>
-</div>
+        <span
+          className="c6"
+        >
+          This is a basic notification
+        </span>
+      </p>
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -233,15 +250,15 @@ exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -249,7 +266,7 @@ exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -267,7 +284,7 @@ exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -345,48 +362,12 @@ exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
 }
 
 <div
-  className="c0"
-  role="alert"
->
-  <svg
-    aria-hidden={true}
-    className="c1 c2"
-    focusable="false"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
-    />
-  </svg>
-  <div
-    className="c3"
-  >
-    <p
-      className="c4 c5"
-    >
-      <span
-        className="c6"
-      >
-        This notification will be dismissed automatically...
-      </span>
-    </p>
-  </div>
-  <button
-    aria-label="Dismiss notification"
-    className="c7 c8"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
+    role="alert"
   >
     <svg
       aria-hidden={true}
-      className="c1"
+      className="c1 c2"
       focusable="false"
       viewBox="0 0 24 24"
     >
@@ -395,15 +376,60 @@ exports[`Storyshots Components/Notification With Auto Dismiss 1`] = `
         fill="none"
       />
       <path
-        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
       />
     </svg>
-  </button>
-</div>
+    <div
+      className="c3"
+    >
+      <p
+        className="c4 c5"
+      >
+        <span
+          className="c6"
+        >
+          This notification will be dismissed automatically...
+        </span>
+      </p>
+    </div>
+    <button
+      aria-label="Dismiss notification"
+      className="c7 c8"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
+    >
+      <svg
+        aria-hidden={true}
+        className="c1"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+    </button>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -475,15 +501,15 @@ exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -491,7 +517,7 @@ exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -509,7 +535,7 @@ exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -587,48 +613,12 @@ exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
 }
 
 <div
-  className="c0"
-  role="alert"
->
-  <svg
-    aria-hidden={true}
-    className="c1 c2"
-    focusable="false"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
-    />
-  </svg>
-  <div
-    className="c3"
-  >
-    <p
-      className="c4 c5"
-    >
-      <span
-        className="c6"
-      >
-        Click the close button to dismiss this notification
-      </span>
-    </p>
-  </div>
-  <button
-    aria-label="Dismiss notification"
-    className="c7 c8"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
+    role="alert"
   >
     <svg
       aria-hidden={true}
-      className="c1"
+      className="c1 c2"
       focusable="false"
       viewBox="0 0 24 24"
     >
@@ -637,15 +627,60 @@ exports[`Storyshots Components/Notification With Manual Dismiss 1`] = `
         fill="none"
       />
       <path
-        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
       />
     </svg>
-  </button>
-</div>
+    <div
+      className="c3"
+    >
+      <p
+        className="c4 c5"
+      >
+        <span
+          className="c6"
+        >
+          Click the close button to dismiss this notification
+        </span>
+      </p>
+    </div>
+    <button
+      aria-label="Dismiss notification"
+      className="c7 c8"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
+    >
+      <svg
+        aria-hidden={true}
+        className="c1"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+    </button>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Notification With Typical Usage 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -688,15 +723,15 @@ exports[`Storyshots Components/Notification With Typical Usage 1`] = `
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -704,7 +739,7 @@ exports[`Storyshots Components/Notification With Typical Usage 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -722,7 +757,7 @@ exports[`Storyshots Components/Notification With Typical Usage 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -883,72 +918,81 @@ exports[`Storyshots Components/Notification With Typical Usage 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-    role="alert"
+    className="c0"
   >
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
-      />
-    </svg>
     <div
-      className="c4"
+      className="c1"
+      role="alert"
     >
-      <div
-        className="c5"
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
       >
-        <p
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            <b>
-              Something happened.
-            </b>
-             This notification is informing you about something. If you want to fix it, click the link below.
-          </span>
-        </p>
-        <div
-          className="c9"
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
         />
-        <p
-          className="c6 c7"
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+        />
+      </svg>
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
         >
-          <span
-            className="c8"
+          <p
+            className="c6 c7"
           >
-            <a
-              className="c10"
-              href="/"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
+            <span
+              className="c8"
             >
-              Learn more
-            </a>
-          </span>
-        </p>
+              <b>
+                Something happened.
+              </b>
+               This notification is informing you about something. If you want to fix it, click the link below.
+            </span>
+          </p>
+          <div
+            className="c9"
+          />
+          <p
+            className="c6 c7"
+          >
+            <span
+              className="c8"
+            >
+              <a
+                className="c10"
+                href="/"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                Learn more
+              </a>
+            </span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Notification With Variants 1`] = `
-.c5 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -970,15 +1014,15 @@ exports[`Storyshots Components/Notification With Variants 1`] = `
 }
 
 .c6 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -986,7 +1030,7 @@ exports[`Storyshots Components/Notification With Variants 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c7 {
@@ -1004,7 +1048,7 @@ exports[`Storyshots Components/Notification With Variants 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c7 *,
@@ -1208,144 +1252,145 @@ exports[`Storyshots Components/Notification With Variants 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-    role="alert"
+    className="c0"
   >
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
-      />
-    </svg>
     <div
-      className="c4"
+      className="c1"
+      role="alert"
     >
-      <p
-        className="c5 c6"
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
       >
-        <span
-          className="c7"
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+        />
+      </svg>
+      <div
+        className="c4"
+      >
+        <p
+          className="c5 c6"
         >
-          Info notification
-        </span>
-      </p>
+          <span
+            className="c7"
+          >
+            Info notification
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="c8"
-  />
-  <div
-    className="c9"
-    role="alert"
-  >
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-      />
-    </svg>
     <div
-      className="c4"
-    >
-      <p
-        className="c5 c6"
-      >
-        <span
-          className="c7"
-        >
-          Success notification
-        </span>
-      </p>
-    </div>
-  </div>
-  <div
-    className="c8"
-  />
-  <div
-    className="c10"
-    role="alert"
-  >
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-      />
-    </svg>
+      className="c8"
+    />
     <div
-      className="c4"
+      className="c9"
+      role="alert"
     >
-      <p
-        className="c5 c6"
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
       >
-        <span
-          className="c7"
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+        />
+      </svg>
+      <div
+        className="c4"
+      >
+        <p
+          className="c5 c6"
         >
-          Warning notification
-        </span>
-      </p>
+          <span
+            className="c7"
+          >
+            Success notification
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="c8"
-  />
-  <div
-    className="c11"
-    role="alert"
-  >
-    <svg
-      aria-hidden={true}
-      className="c2 c3"
-      focusable="false"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
-      />
-    </svg>
     <div
-      className="c4"
+      className="c8"
+    />
+    <div
+      className="c10"
+      role="alert"
     >
-      <p
-        className="c5 c6"
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
       >
-        <span
-          className="c7"
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+        />
+      </svg>
+      <div
+        className="c4"
+      >
+        <p
+          className="c5 c6"
         >
-          Error notification
-        </span>
-      </p>
+          <span
+            className="c7"
+          >
+            Warning notification
+          </span>
+        </p>
+      </div>
     </div>
-  </div>
-</div>
+    <div
+      className="c8"
+    />
+    <div
+      className="c11"
+      role="alert"
+    >
+      <svg
+        aria-hidden={true}
+        className="c2 c3"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+        />
+      </svg>
+      <div
+        className="c4"
+      >
+        <p
+          className="c5 c6"
+        >
+          <span
+            className="c7"
+          >
+            Error notification
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>,
+]
 `;

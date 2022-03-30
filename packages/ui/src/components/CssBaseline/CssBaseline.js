@@ -1,6 +1,7 @@
+import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
-const CssBaseline = createGlobalStyle(({ theme }) => ({
+const Resets = createGlobalStyle(({ theme }) => ({
   '*, *::before, *::after': {
     boxSizing: 'inherit',
   },
@@ -28,6 +29,17 @@ const CssBaseline = createGlobalStyle(({ theme }) => ({
     WebkitTextSizeAdjust: '100%',
   },
 }))
+
+const CssBaseline = () => (
+  <div>
+    <style>
+      {`
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    `}
+    </style>
+    <Resets />
+  </div>
+)
 
 CssBaseline.displayName = 'CssBaseline'
 CssBaseline.defaultProps = {}

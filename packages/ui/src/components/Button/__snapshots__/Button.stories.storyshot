@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Button Basic 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -73,15 +81,15 @@ exports[`Storyshots Components/Button Basic 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -89,7 +97,7 @@ exports[`Storyshots Components/Button Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
@@ -107,7 +115,7 @@ exports[`Storyshots Components/Button Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -177,32 +185,41 @@ exports[`Storyshots Components/Button Basic 1`] = `
 }
 
 <button
-  aria-busy={false}
-  className="c0 c1"
-  disabled={false}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  type="button"
->
-  <div
-    className="c2"
+    aria-busy={false}
+    className="c0 c1"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="button"
   >
-    <span
-      className="c3 c4"
+    <div
+      className="c2"
     >
       <span
-        className="c5"
+        className="c3 c4"
       >
-        undefined
+        <span
+          className="c5"
+        >
+          undefined
+        </span>
       </span>
-    </span>
-  </div>
-</button>
+    </div>
+  </button>,
+]
 `;
 
 exports[`Storyshots Components/Button With Colors 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -274,15 +291,15 @@ exports[`Storyshots Components/Button With Colors 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -290,7 +307,7 @@ exports[`Storyshots Components/Button With Colors 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -308,7 +325,7 @@ exports[`Storyshots Components/Button With Colors 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -592,140 +609,149 @@ exports[`Storyshots Components/Button With Colors 1`] = `
 }
 
 <div
-  className="c0"
->
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
   >
-    <div
-      className="c3"
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Brand
+          <span
+            className="c6"
+          >
+            Brand
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c8"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c8"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Brand2
+          <span
+            className="c6"
+          >
+            Brand2
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c9"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c9"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Error
+          <span
+            className="c6"
+          >
+            Error
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c10"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c10"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Neutral
+          <span
+            className="c6"
+          >
+            Neutral
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c11"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c11"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Custom
+          <span
+            className="c6"
+          >
+            Custom
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-</div>
+      </div>
+    </button>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Button With Hierarchy 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -788,7 +814,7 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   box-sizing: border-box;
 }
 
-.c15 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -805,13 +831,13 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   color: rgba(0,0,0,0.87);
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -851,46 +877,46 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c18::-moz-focus-inner {
+.c17::-moz-focus-inner {
   border-style: none;
 }
 
-.c21 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c20 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c21::before {
+.c20::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -898,19 +924,19 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -918,10 +944,10 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c16 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -936,12 +962,12 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
@@ -960,7 +986,7 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -972,34 +998,7 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   box-sizing: border-box;
 }
 
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1025,18 +1024,18 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   padding: 0 calc(24px - 1px);
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c19:hover {
+.c18:hover {
   background-color: rgba(0,0,0,0.08);
   color: hsla(0,0%,0%,0.87);
 }
 
-.c19:active {
+.c18:active {
   background-color: rgba(0,0,0,0.08);
   color: hsla(0,0%,0%,0.87);
   -webkit-transform: scale(0.96);
@@ -1044,7 +1043,7 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   transform: scale(0.96);
 }
 
-.c23 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1068,24 +1067,24 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   padding: 0px 24px;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c23:hover {
+.c22:hover {
   background-color: hsl(0,85.6%,47.2%);
 }
 
-.c23:active {
+.c22:active {
   box-shadow: none;
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c20 {
+.c19 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1173,7 +1172,7 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   overflow: hidden;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1196,21 +1195,21 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   justify-content: flex-end;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c17 > * {
+.c16 > * {
   margin-right: 8px;
 }
 
-.c17 > :last-child {
+.c16 > :last-child {
   margin-right: 0;
 }
 
-.c14 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1221,21 +1220,21 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   -webkit-text-size-adjust: 100%;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c14:first-child {
+.c13:first-child {
   padding-top: 32px;
 }
 
-.c14:last-child {
+.c13:last-child {
   padding-bottom: 32px;
 }
 
-.c14:only-child {
+.c13:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -1286,7 +1285,7 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   margin-top: 8px;
 }
 
-.c22 {
+.c21 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1302,127 +1301,136 @@ exports[`Storyshots Components/Button With Hierarchy 1`] = `
   width: 8px;
 }
 
-.c22 *,
-.c22 *::before,
-.c22 *::after {
+.c21 *,
+.c21 *::before,
+.c21 *::after {
   box-sizing: border-box;
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
-        >
-          <h2
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              Remove Vehicle
-            </span>
-          </h2>
-          <p
-            className="c10 c11 c12"
-          >
-            <span
-              className="c13"
-            >
-              Do you want to remove the following vehicle?
-            </span>
-          </p>
-        </div>
-      </div>
-      <div
-        className="c14"
-      >
-        <div
-          className="c15"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c16"
-            >
-              Acura TL - ABC123
-            </span>
-          </p>
-        </div>
-      </div>
-      <div
-        className="c17"
-      >
-        <button
-          aria-busy={false}
-          className="c18 c19"
-          disabled={false}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          type="button"
+          className="c5"
         >
           <div
-            className="c20"
+            className="c6"
           >
-            <span
-              className="c7 c21"
+            <h2
+              className="c7 c8"
             >
               <span
-                className="c16"
+                className="c9"
               >
-                Cancel
+                Remove Vehicle
               </span>
-            </span>
+            </h2>
+            <p
+              className="c10 c11 c12"
+            >
+              <span
+                className="c9"
+              >
+                Do you want to remove the following vehicle?
+              </span>
+            </p>
           </div>
-        </button>
+        </div>
         <div
-          className="c22"
-        />
-        <button
-          aria-busy={false}
-          className="c18 c23"
-          disabled={false}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          type="button"
+          className="c13"
         >
           <div
-            className="c20"
+            className="c14"
           >
-            <span
-              className="c7 c21"
+            <p
+              className="c7 c11"
             >
               <span
-                className="c16"
+                className="c15"
               >
-                Remove
+                Acura TL - ABC123
               </span>
-            </span>
+            </p>
           </div>
-        </button>
+        </div>
+        <div
+          className="c16"
+        >
+          <button
+            aria-busy={false}
+            className="c17 c18"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
+          >
+            <div
+              className="c19"
+            >
+              <span
+                className="c7 c20"
+              >
+                <span
+                  className="c15"
+                >
+                  Cancel
+                </span>
+              </span>
+            </div>
+          </button>
+          <div
+            className="c21"
+          />
+          <button
+            aria-busy={false}
+            className="c17 c22"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            type="button"
+          >
+            <div
+              className="c19"
+            >
+              <span
+                className="c7 c20"
+              >
+                <span
+                  className="c15"
+                >
+                  Remove
+                </span>
+              </span>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Button With Href 1`] = `
-.c3 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1494,15 +1502,15 @@ exports[`Storyshots Components/Button With Href 1`] = `
 }
 
 .c4 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -1510,7 +1518,7 @@ exports[`Storyshots Components/Button With Href 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c5 {
@@ -1528,7 +1536,7 @@ exports[`Storyshots Components/Button With Href 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c5 *,
@@ -1598,32 +1606,41 @@ exports[`Storyshots Components/Button With Href 1`] = `
 }
 
 <a
-  aria-busy={false}
-  aria-disabled={false}
-  className="c0 c1"
-  href="https://google.com"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
->
-  <div
-    className="c2"
+    aria-busy={false}
+    aria-disabled={false}
+    className="c0 c1"
+    href="https://google.com"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
   >
-    <span
-      className="c3 c4"
+    <div
+      className="c2"
     >
       <span
-        className="c5"
+        className="c3 c4"
       >
-        View Google Website
+        <span
+          className="c5"
+        >
+          View Google Website
+        </span>
       </span>
-    </span>
-  </div>
-</a>
+    </div>
+  </a>,
+]
 `;
 
 exports[`Storyshots Components/Button With Icon 1`] = `
-.c6 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1695,15 +1712,15 @@ exports[`Storyshots Components/Button With Icon 1`] = `
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -1711,7 +1728,7 @@ exports[`Storyshots Components/Button With Icon 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
@@ -1729,7 +1746,7 @@ exports[`Storyshots Components/Button With Icon 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c8 *,
@@ -1880,94 +1897,103 @@ exports[`Storyshots Components/Button With Icon 1`] = `
 }
 
 <div
-  className="c0"
->
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
   >
-    <div
-      className="c3"
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4"
-      >
-        <svg
-          aria-hidden={true}
-          className="c5"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
-          />
-        </svg>
-      </span>
-      <span
-        className="c6 c7"
+      <div
+        className="c3"
       >
         <span
-          className="c8"
+          className="c4"
         >
-          Go Back
+          <svg
+            aria-hidden={true}
+            className="c5"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+            />
+          </svg>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c9"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+        <span
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            Go Back
+          </span>
+        </span>
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c9"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c6 c7"
+      <div
+        className="c3"
       >
         <span
-          className="c8"
+          className="c6 c7"
         >
-          Continue
+          <span
+            className="c8"
+          >
+            Continue
+          </span>
         </span>
-      </span>
-      <span
-        className="c10"
-      >
-        <svg
-          aria-hidden={true}
-          className="c5"
-          focusable="false"
-          viewBox="0 0 24 24"
+        <span
+          className="c10"
         >
-          <path
-            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-          />
-        </svg>
-      </span>
-    </div>
-  </button>
-</div>
+          <svg
+            aria-hidden={true}
+            className="c5"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            />
+          </svg>
+        </span>
+      </div>
+    </button>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Button With Shapes 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2039,15 +2065,15 @@ exports[`Storyshots Components/Button With Shapes 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -2055,7 +2081,7 @@ exports[`Storyshots Components/Button With Shapes 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -2073,7 +2099,7 @@ exports[`Storyshots Components/Button With Shapes 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -2234,62 +2260,71 @@ exports[`Storyshots Components/Button With Shapes 1`] = `
 }
 
 <div
-  className="c0"
->
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
   >
-    <div
-      className="c3"
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Default Shape
+          <span
+            className="c6"
+          >
+            Default Shape
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c8"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c8"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Pill Shape
+          <span
+            className="c6"
+          >
+            Pill Shape
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-</div>
+      </div>
+    </button>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Button With States 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2483,15 +2518,15 @@ exports[`Storyshots Components/Button With States 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -2499,7 +2534,7 @@ exports[`Storyshots Components/Button With States 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -2517,7 +2552,7 @@ exports[`Storyshots Components/Button With States 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -2720,106 +2755,115 @@ exports[`Storyshots Components/Button With States 1`] = `
 }
 
 <div
-  className="c0"
->
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
   >
-    <div
-      className="c3"
-    >
-      <span
-        className="c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          No State
-        </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={true}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
-    <div
-      className="c8"
-    >
-      <span
-        className="c4 c5"
-      >
-        <span
-          className="c6"
-        >
-          Loading
-        </span>
-      </span>
-    </div>
-    <div
-      className="c9"
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
       <div
-        aria-label="Completing Loading"
-        aria-live="polite"
-        className="c10"
-        role="status"
-      >
-        <div
-          className="c11"
-        />
-        <div
-          className="c12"
-        />
-      </div>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c13 c14"
-    disabled={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    tabIndex={-1}
-    type="button"
-  >
-    <div
-      className="c3"
-    >
-      <span
-        className="c4 c5"
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Disabled
+          <span
+            className="c6"
+          >
+            No State
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-</div>
+      </div>
+    </button>
+    <div
+      className="c7"
+    />
+    <button
+      aria-busy={true}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
+    >
+      <div
+        className="c8"
+      >
+        <span
+          className="c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Loading
+          </span>
+        </span>
+      </div>
+      <div
+        className="c9"
+      >
+        <div
+          aria-label="Completing Loading"
+          aria-live="polite"
+          className="c10"
+          role="status"
+        >
+          <div
+            className="c11"
+          />
+          <div
+            className="c12"
+          />
+        </div>
+      </div>
+    </button>
+    <div
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c13 c14"
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      tabIndex={-1}
+      type="button"
+    >
+      <div
+        className="c3"
+      >
+        <span
+          className="c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Disabled
+          </span>
+        </span>
+      </div>
+    </button>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Button With Variants 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2891,15 +2935,15 @@ exports[`Storyshots Components/Button With Variants 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -2907,7 +2951,7 @@ exports[`Storyshots Components/Button With Variants 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c6 {
@@ -2925,7 +2969,7 @@ exports[`Storyshots Components/Button With Variants 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
@@ -3171,108 +3215,109 @@ exports[`Storyshots Components/Button With Variants 1`] = `
 }
 
 <div
-  className="c0"
->
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
   >
-    <div
-      className="c3"
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Primary
+          <span
+            className="c6"
+          >
+            Primary
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c8"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c8"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Secondary
+          <span
+            className="c6"
+          >
+            Secondary
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c9"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c9"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Tertiary
+          <span
+            className="c6"
+          >
+            Tertiary
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-  <div
-    className="c7"
-  />
-  <button
-    aria-busy={false}
-    className="c1 c10"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
-  >
+      </div>
+    </button>
     <div
-      className="c3"
+      className="c7"
+    />
+    <button
+      aria-busy={false}
+      className="c1 c10"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
       >
         <span
-          className="c6"
+          className="c4 c5"
         >
-          Text
+          <span
+            className="c6"
+          >
+            Text
+          </span>
         </span>
-      </span>
-    </div>
-  </button>
-</div>
+      </div>
+    </button>
+  </div>,
+]
 `;

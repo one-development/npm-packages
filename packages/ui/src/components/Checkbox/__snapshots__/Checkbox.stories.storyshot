@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Checkbox Basic 1`] = `
-.c5 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -23,14 +31,14 @@ exports[`Storyshots Components/Checkbox Basic 1`] = `
 }
 
 .c6 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -39,7 +47,7 @@ exports[`Storyshots Components/Checkbox Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c7 {
@@ -57,7 +65,7 @@ exports[`Storyshots Components/Checkbox Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c7 *,
@@ -208,67 +216,76 @@ input[type=checkbox]:checked + .c2 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-labelledby="checkbox-basic-label"
-      aria-required={true}
-      autoComplete="on"
-      autoFocus={false}
-      disabled={false}
-      id="checkbox-basic"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      required={true}
-      role="checkbox"
-      type="checkbox"
-    />
     <div
-      className="c2"
+      className="c1"
     >
-      <svg
-        aria-hidden={true}
-        className="c3"
-        focusable="false"
-        viewBox="0 0 24 24"
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-labelledby="checkbox-basic-label"
+        aria-required={true}
+        autoComplete="on"
+        autoFocus={false}
+        disabled={false}
+        id="checkbox-basic"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        required={true}
+        role="checkbox"
+        type="checkbox"
+      />
+      <div
+        className="c2"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-        />
-      </svg>
+        <svg
+          aria-hidden={true}
+          className="c3"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+          />
+        </svg>
+      </div>
     </div>
-  </div>
-  <label
-    className="c4"
-    htmlFor="checkbox-basic"
-    id="checkbox-basic-label"
-  >
-    <span
-      className="c5 c6"
+    <label
+      className="c4"
+      htmlFor="checkbox-basic"
+      id="checkbox-basic-label"
     >
       <span
-        className="c7"
+        className="c5 c6"
       >
-        Agree with me
+        <span
+          className="c7"
+        >
+          Agree with me
+        </span>
       </span>
-    </span>
-  </label>
-</div>
+    </label>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -331,7 +348,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c24 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -371,46 +388,46 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
-.c24::-moz-focus-inner {
+.c23::-moz-focus-inner {
   border-style: none;
 }
 
-.c27 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c26 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c27::before {
+.c26::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -418,19 +435,19 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -438,39 +455,39 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
-.c22 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c21 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
 
-.c22::before {
+.c21::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -478,7 +495,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c12 {
@@ -496,7 +513,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -520,7 +537,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -532,31 +549,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c25 {
+.c24 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -580,24 +573,24 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c25 *,
-.c25 *::before,
-.c25 *::after {
+.c24 *,
+.c24 *::before,
+.c24 *::after {
   box-sizing: border-box;
 }
 
-.c25:hover {
+.c24:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c25:active {
+.c24:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c26 {
+.c25 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -685,7 +678,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   overflow: hidden;
 }
 
-.c23 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -708,17 +701,17 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c23 > * {
+.c22 > * {
   margin-left: 8px;
 }
 
-.c23 > :first-child {
+.c22 > :first-child {
   margin-left: 0;
 }
 
@@ -794,7 +787,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c20 {
+.c19 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -811,7 +804,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   width: 1em;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -841,13 +834,13 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   position: relative;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c17 {
   background-color: transparent;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -857,7 +850,7 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   width: 18px;
 }
 
-.c18 input[type=checkbox] {
+.c17 input[type=checkbox] {
   cursor: pointer;
   focus-ring: none;
   font-size: 1rem;
@@ -868,11 +861,11 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   z-index: 1;
 }
 
-.c18 input[type=checkbox][disabled] {
+.c17 input[type=checkbox][disabled] {
   cursor: not-allowed;
 }
 
-.c19 {
+.c18 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -906,13 +899,13 @@ exports[`Storyshots Components/Checkbox With Browser Validation 1`] = `
   width: 18px;
 }
 
-input[type=checkbox]:checked + .c19 {
+input[type=checkbox]:checked + .c18 {
   background-color: #38A169;
   border-color: #38A169;
   color: rgba(255,255,255,1);
 }
 
-.c21 {
+.c20 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -958,160 +951,169 @@ input[type=checkbox]:checked + .c19 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
+            className="c5"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c6"
+            >
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using Browser Validation
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
             >
               <span
-                className="c9"
+                className="c12"
               >
-                Using Browser Validation
+                You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
+            </p>
+            <div
+              className="c13"
+            />
             <span
-              className="c12"
+              className="c14 c15"
             >
-              You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
+              <span
+                className="c12"
+              >
+                Note: Many form components set noValidate=true. Make sure it is also set to false as well.
+              </span>
             </span>
-          </p>
+          </div>
           <div
-            className="c13"
-          />
-          <span
-            className="c14 c15"
+            className="c10"
           >
-            <span
+            <div
               className="c16"
             >
-              Note: Many form components set noValidate=true. Make sure it is also set to false as well.
-            </span>
-          </span>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c17"
-          >
-            <div
-              className="c18"
-            >
-              <input
-                aria-disabled={false}
-                aria-invalid={false}
-                aria-labelledby="with-html-validation-label"
-                aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                disabled={false}
-                id="with-html-validation"
-                name="agree"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={true}
-                role="checkbox"
-                type="checkbox"
-              />
               <div
-                className="c19"
+                className="c17"
               >
-                <svg
-                  aria-hidden={true}
-                  className="c20"
-                  focusable="false"
-                  viewBox="0 0 24 24"
+                <input
+                  aria-disabled={false}
+                  aria-invalid={false}
+                  aria-labelledby="with-html-validation-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  disabled={false}
+                  id="with-html-validation"
+                  name="agree"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                  role="checkbox"
+                  type="checkbox"
+                />
+                <div
+                  className="c18"
                 >
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                  <path
-                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-                  />
-                </svg>
+                  <svg
+                    aria-hidden={true}
+                    className="c19"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
               </div>
-            </div>
-            <label
-              className="c21"
-              htmlFor="with-html-validation"
-              id="with-html-validation-label"
-            >
-              <span
-                className="c7 c22"
+              <label
+                className="c20"
+                htmlFor="with-html-validation"
+                id="with-html-validation-label"
               >
                 <span
-                  className="c12"
+                  className="c7 c21"
                 >
-                  Do you agree?
+                  <span
+                    className="c12"
+                  >
+                    Do you agree?
+                  </span>
                 </span>
-              </span>
-            </label>
+              </label>
+            </div>
           </div>
-        </div>
-        <div
-          className="c23"
-        >
-          <button
-            aria-busy={false}
-            className="c24 c25"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <div
+            className="c22"
           >
-            <div
-              className="c26"
+            <button
+              aria-busy={false}
+              className="c23 c24"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
             >
-              <span
-                className="c7 c27"
+              <div
+                className="c25"
               >
                 <span
-                  className="c12"
+                  className="c7 c26"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Checkbox With Custom Label 1`] = `
-.c11 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1154,14 +1156,14 @@ exports[`Storyshots Components/Checkbox With Custom Label 1`] = `
 }
 
 .c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -1170,7 +1172,7 @@ exports[`Storyshots Components/Checkbox With Custom Label 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c13 {
@@ -1188,7 +1190,7 @@ exports[`Storyshots Components/Checkbox With Custom Label 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c13 *,
@@ -1479,107 +1481,116 @@ input[type=checkbox]:checked + .c8 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
           <div
-            className="c7"
+            className="c6"
           >
-            <input
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-labelledby="with-custom-label-label"
-              aria-required={true}
-              autoComplete="on"
-              autoFocus={false}
-              disabled={false}
-              id="with-custom-label"
-              name="agree"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              onInvalid={[Function]}
-              required={true}
-              role="checkbox"
-              type="checkbox"
-            />
             <div
-              className="c8"
+              className="c7"
             >
-              <svg
-                aria-hidden={true}
-                className="c9"
-                focusable="false"
-                viewBox="0 0 24 24"
+              <input
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-labelledby="with-custom-label-label"
+                aria-required={true}
+                autoComplete="on"
+                autoFocus={false}
+                disabled={false}
+                id="with-custom-label"
+                name="agree"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInvalid={[Function]}
+                required={true}
+                role="checkbox"
+                type="checkbox"
+              />
+              <div
+                className="c8"
               >
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-                />
-              </svg>
+                <svg
+                  aria-hidden={true}
+                  className="c9"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                  />
+                </svg>
+              </div>
             </div>
-          </div>
-          <label
-            className="c10"
-            htmlFor="with-custom-label"
-            id="with-custom-label-label"
-          >
-            <span
-              className="c11 c12"
+            <label
+              className="c10"
+              htmlFor="with-custom-label"
+              id="with-custom-label-label"
             >
               <span
-                className="c13"
+                className="c11 c12"
               >
-                I agree to the ACME 
-                <a
-                  className="c14"
-                  href="https://acme.co"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel={null}
+                <span
+                  className="c13"
                 >
-                  Terms of Use
-                </a>
-                 and 
-                <a
-                  className="c14"
-                  href="https://acme.co"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel={null}
-                >
-                  Privacy Policy
-                </a>
-                 .
+                  I agree to the ACME 
+                  <a
+                    className="c14"
+                    href="https://acme.co"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel={null}
+                  >
+                    Terms of Use
+                  </a>
+                   and 
+                  <a
+                    className="c14"
+                    href="https://acme.co"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel={null}
+                  >
+                    Privacy Policy
+                  </a>
+                   .
+                </span>
               </span>
-            </span>
-          </label>
+            </label>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1672,15 +1683,15 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
 }
 
 .c23 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -1688,19 +1699,19 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1708,19 +1719,19 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1728,18 +1739,18 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c18 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -1748,7 +1759,7 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -1766,7 +1777,7 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -1790,7 +1801,7 @@ exports[`Storyshots Components/Checkbox With JS Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2182,155 +2193,164 @@ input[type=checkbox]:checked + .c15 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Using JavaScript Validation
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              In this example, a Checkbox component is rendered and controlled with external state.
-              <br />
-              <br />
-              <b>
-                Note:
-              </b>
-               this example uses react-hook-form to manage state and provide error validation. When the value attribute is omitted, react-hook-form provides it as true/false.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c13"
+            className="c5"
           >
             <div
-              className="c14"
+              className="c6"
             >
-              <input
-                aria-disabled={false}
-                aria-invalid={false}
-                aria-labelledby="basic-checkbox-label"
-                aria-required={false}
-                autoComplete="on"
-                autoFocus={false}
-                disabled={false}
-                id="basic-checkbox"
-                name="agree"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={false}
-                role="checkbox"
-                type="checkbox"
-              />
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using JavaScript Validation
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
+            >
+              <span
+                className="c12"
+              >
+                In this example, a Checkbox component is rendered and controlled with external state.
+                <br />
+                <br />
+                <b>
+                  Note:
+                </b>
+                 this example uses react-hook-form to manage state and provide error validation. When the value attribute is omitted, react-hook-form provides it as true/false.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c13"
+            >
               <div
-                className="c15"
+                className="c14"
               >
-                <svg
-                  aria-hidden={true}
-                  className="c16"
-                  focusable="false"
-                  viewBox="0 0 24 24"
+                <input
+                  aria-disabled={false}
+                  aria-invalid={false}
+                  aria-labelledby="basic-checkbox-label"
+                  aria-required={false}
+                  autoComplete="on"
+                  autoFocus={false}
+                  disabled={false}
+                  id="basic-checkbox"
+                  name="agree"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={false}
+                  role="checkbox"
+                  type="checkbox"
+                />
+                <div
+                  className="c15"
                 >
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                  <path
-                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-                  />
-                </svg>
+                  <svg
+                    aria-hidden={true}
+                    className="c16"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
               </div>
-            </div>
-            <label
-              className="c17"
-              htmlFor="basic-checkbox"
-              id="basic-checkbox-label"
-            >
-              <span
-                className="c7 c18"
+              <label
+                className="c17"
+                htmlFor="basic-checkbox"
+                id="basic-checkbox-label"
               >
                 <span
-                  className="c12"
+                  className="c7 c18"
                 >
-                  Do you agree?
+                  <span
+                    className="c12"
+                  >
+                    Do you agree?
+                  </span>
                 </span>
-              </span>
-            </label>
+              </label>
+            </div>
           </div>
-        </div>
-        <div
-          className="c19"
-        >
-          <button
-            aria-busy={false}
-            className="c20 c21"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <div
+            className="c19"
           >
-            <div
-              className="c22"
+            <button
+              aria-busy={false}
+              className="c20 c21"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
             >
-              <span
-                className="c7 c23"
+              <div
+                className="c22"
               >
                 <span
-                  className="c12"
+                  className="c7 c23"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2423,15 +2443,15 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
 }
 
 .c23 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -2439,19 +2459,19 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2459,19 +2479,19 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -2479,18 +2499,18 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c18 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 700;
   text-align: initial;
 }
@@ -2499,7 +2519,7 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -2517,7 +2537,7 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -2541,7 +2561,7 @@ exports[`Storyshots Components/Checkbox With Settings Layout 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2933,269 +2953,270 @@ input[type=checkbox]:checked + .c15 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Using a Settings Layout
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              In many applications, it is common to use right-aligned checkboxes in a settings menu. You can create a settings style layout by setting 
-              <code>
-                fullWidth: true
-              </code>
-                and 
-              <code>
-                labelPosition: start
-              </code>
-              .
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c13"
+            className="c5"
           >
             <div
-              className="c14"
+              className="c6"
             >
-              <input
-                aria-disabled={false}
-                aria-invalid={false}
-                aria-labelledby="settings-1-label"
-                aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                disabled={false}
-                id="settings-1"
-                name="option1"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={true}
-                role="checkbox"
-                type="checkbox"
-              />
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using a Settings Layout
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
+            >
+              <span
+                className="c12"
+              >
+                In many applications, it is common to use right-aligned checkboxes in a settings menu. You can create a settings style layout by setting 
+                <code>
+                  fullWidth: true
+                </code>
+                  and 
+                <code>
+                  labelPosition: start
+                </code>
+                .
+              </span>
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c13"
+            >
               <div
-                className="c15"
+                className="c14"
               >
-                <svg
-                  aria-hidden={true}
-                  className="c16"
-                  focusable="false"
-                  viewBox="0 0 24 24"
+                <input
+                  aria-disabled={false}
+                  aria-invalid={false}
+                  aria-labelledby="settings-1-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  disabled={false}
+                  id="settings-1"
+                  name="option1"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                  role="checkbox"
+                  type="checkbox"
+                />
+                <div
+                  className="c15"
                 >
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                  <path
-                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-                  />
-                </svg>
+                  <svg
+                    aria-hidden={true}
+                    className="c16"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
               </div>
-            </div>
-            <label
-              className="c17"
-              htmlFor="settings-1"
-              id="settings-1-label"
-            >
-              <span
-                className="c7 c18"
+              <label
+                className="c17"
+                htmlFor="settings-1"
+                id="settings-1-label"
               >
                 <span
-                  className="c12"
+                  className="c7 c18"
                 >
-                  Option 1
+                  <span
+                    className="c12"
+                  >
+                    Option 1
+                  </span>
                 </span>
-              </span>
-            </label>
+              </label>
+            </div>
+            <div
+              className="c13"
+            >
+              <div
+                className="c14"
+              >
+                <input
+                  aria-disabled={false}
+                  aria-invalid={false}
+                  aria-labelledby="settings-2-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  disabled={false}
+                  id="settings-2"
+                  name="option2"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                  role="checkbox"
+                  type="checkbox"
+                />
+                <div
+                  className="c15"
+                >
+                  <svg
+                    aria-hidden={true}
+                    className="c16"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <label
+                className="c17"
+                htmlFor="settings-2"
+                id="settings-2-label"
+              >
+                <span
+                  className="c7 c18"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Option 2
+                  </span>
+                </span>
+              </label>
+            </div>
+            <div
+              className="c13"
+            >
+              <div
+                className="c14"
+              >
+                <input
+                  aria-disabled={false}
+                  aria-invalid={false}
+                  aria-labelledby="settings-3-label"
+                  aria-required={true}
+                  autoComplete="on"
+                  autoFocus={false}
+                  disabled={false}
+                  id="settings-3"
+                  name="option3"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  required={true}
+                  role="checkbox"
+                  type="checkbox"
+                />
+                <div
+                  className="c15"
+                >
+                  <svg
+                    aria-hidden={true}
+                    className="c16"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <label
+                className="c17"
+                htmlFor="settings-3"
+                id="settings-3-label"
+              >
+                <span
+                  className="c7 c18"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Option 3
+                  </span>
+                </span>
+              </label>
+            </div>
           </div>
           <div
-            className="c13"
+            className="c19"
           >
-            <div
-              className="c14"
+            <button
+              aria-busy={false}
+              className="c20 c21"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
             >
-              <input
-                aria-disabled={false}
-                aria-invalid={false}
-                aria-labelledby="settings-2-label"
-                aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                disabled={false}
-                id="settings-2"
-                name="option2"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={true}
-                role="checkbox"
-                type="checkbox"
-              />
               <div
-                className="c15"
+                className="c22"
               >
-                <svg
-                  aria-hidden={true}
-                  className="c16"
-                  focusable="false"
-                  viewBox="0 0 24 24"
+                <span
+                  className="c7 c23"
                 >
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                  <path
-                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-                  />
-                </svg>
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
+                </span>
               </div>
-            </div>
-            <label
-              className="c17"
-              htmlFor="settings-2"
-              id="settings-2-label"
-            >
-              <span
-                className="c7 c18"
-              >
-                <span
-                  className="c12"
-                >
-                  Option 2
-                </span>
-              </span>
-            </label>
+            </button>
           </div>
-          <div
-            className="c13"
-          >
-            <div
-              className="c14"
-            >
-              <input
-                aria-disabled={false}
-                aria-invalid={false}
-                aria-labelledby="settings-3-label"
-                aria-required={true}
-                autoComplete="on"
-                autoFocus={false}
-                disabled={false}
-                id="settings-3"
-                name="option3"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                required={true}
-                role="checkbox"
-                type="checkbox"
-              />
-              <div
-                className="c15"
-              >
-                <svg
-                  aria-hidden={true}
-                  className="c16"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                  <path
-                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <label
-              className="c17"
-              htmlFor="settings-3"
-              id="settings-3-label"
-            >
-              <span
-                className="c7 c18"
-              >
-                <span
-                  className="c12"
-                >
-                  Option 3
-                </span>
-              </span>
-            </label>
-          </div>
-        </div>
-        <div
-          className="c19"
-        >
-          <button
-            aria-busy={false}
-            className="c20 c21"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
-          >
-            <div
-              className="c22"
-            >
-              <span
-                className="c7 c23"
-              >
-                <span
-                  className="c12"
-                >
-                  Save Changes
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
-.c4 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -172,15 +180,15 @@ exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
 }
 
 .c5 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -188,19 +196,19 @@ exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -208,19 +216,19 @@ exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c14 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -228,7 +236,7 @@ exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
 .c6 {
@@ -246,36 +254,12 @@ exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c6 *,
 .c6 *::before,
 .c6 *::after {
-  box-sizing: border-box;
-}
-
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c15 *,
-.c15 *::before,
-.c15 *::after {
   box-sizing: border-box;
 }
 
@@ -412,95 +396,96 @@ exports[`Storyshots Utils/ClickAwayListener Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <button
-    aria-busy={false}
-    className="c1 c2"
-    disabled={false}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    type="button"
+    className="c0"
   >
-    <div
-      className="c3"
+    <button
+      aria-busy={false}
+      className="c1 c2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="button"
     >
-      <span
-        className="c4 c5"
+      <div
+        className="c3"
+      >
+        <span
+          className="c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Open Menu
+          </span>
+        </span>
+      </div>
+    </button>
+    <div
+      className="c7"
+    >
+      <div
+        className="c8"
+      >
+        <p
+          className="c4 c9"
+        >
+          <span
+            className="c6"
+          >
+            Item 1
+          </span>
+        </p>
+        <div
+          className="c10"
+        />
+        <hr
+          className="c11"
+        />
+        <div
+          className="c10"
+        />
+        <p
+          className="c4 c9"
+        >
+          <span
+            className="c6"
+          >
+            Item 2
+          </span>
+        </p>
+        <div
+          className="c10"
+        />
+        <hr
+          className="c11"
+        />
+        <div
+          className="c10"
+        />
+        <p
+          className="c4 c9"
+        >
+          <span
+            className="c6"
+          >
+            Item 3
+          </span>
+        </p>
+      </div>
+      <div
+        className="c12"
+      />
+      <p
+        className="c13 c14"
       >
         <span
           className="c6"
         >
-          Open Menu
+          Note: Click outside this menu to close
         </span>
-      </span>
+      </p>
     </div>
-  </button>
-  <div
-    className="c7"
-  >
-    <div
-      className="c8"
-    >
-      <p
-        className="c4 c9"
-      >
-        <span
-          className="c6"
-        >
-          Item 1
-        </span>
-      </p>
-      <div
-        className="c10"
-      />
-      <hr
-        className="c11"
-      />
-      <div
-        className="c10"
-      />
-      <p
-        className="c4 c9"
-      >
-        <span
-          className="c6"
-        >
-          Item 2
-        </span>
-      </p>
-      <div
-        className="c10"
-      />
-      <hr
-        className="c11"
-      />
-      <div
-        className="c10"
-      />
-      <p
-        className="c4 c9"
-      >
-        <span
-          className="c6"
-        >
-          Item 3
-        </span>
-      </p>
-    </div>
-    <div
-      className="c12"
-    />
-    <p
-      className="c13 c14"
-    >
-      <span
-        className="c15"
-      >
-        Note: Click outside this menu to close
-      </span>
-    </p>
-  </div>
-</div>
+  </div>,
+]
 `;

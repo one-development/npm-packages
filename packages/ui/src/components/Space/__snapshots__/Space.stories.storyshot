@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Space Basic 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -74,20 +82,29 @@ exports[`Storyshots Components/Space Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
-    />
-  </div>
-</div>
+      className="c1"
+    >
+      <div
+        className="c2"
+      />
+    </div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Space With Custom Dimensions 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -131,15 +148,15 @@ exports[`Storyshots Components/Space With Custom Dimensions 1`] = `
 }
 
 .c2 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.26584375rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -147,7 +164,7 @@ exports[`Storyshots Components/Space With Custom Dimensions 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.7593125rem;
+  margin-top: -0.759090909090909rem;
 }
 
 .c3 {
@@ -165,7 +182,7 @@ exports[`Storyshots Components/Space With Custom Dimensions 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
+  vertical-align: 0rem;
 }
 
 .c3 *,
@@ -294,73 +311,82 @@ exports[`Storyshots Components/Space With Custom Dimensions 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div>
-    <span
-      className="c1 c2"
-    >
+    className="c0"
+  >
+    <div>
       <span
-        className="c3"
+        className="c1 c2"
       >
-        *10.5
+        <span
+          className="c3"
+        >
+          *10.5
+        </span>
       </span>
-    </span>
-    <div
-      className="c4"
-    >
       <div
-        className="c5"
-      />
+        className="c4"
+      >
+        <div
+          className="c5"
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="c6"
-  />
-  <div>
-    <span
-      className="c1 c2"
-    >
+    <div
+      className="c6"
+    />
+    <div>
       <span
-        className="c3"
+        className="c1 c2"
       >
-        *20
+        <span
+          className="c3"
+        >
+          *20
+        </span>
       </span>
-    </span>
-    <div
-      className="c4"
-    >
       <div
-        className="c7"
-      />
+        className="c4"
+      >
+        <div
+          className="c7"
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="c6"
-  />
-  <div>
-    <span
-      className="c1 c2"
-    >
+    <div
+      className="c6"
+    />
+    <div>
       <span
-        className="c3"
+        className="c1 c2"
       >
-        *30 x *50
+        <span
+          className="c3"
+        >
+          *30 x *50
+        </span>
       </span>
-    </span>
-    <div
-      className="c4"
-    >
       <div
-        className="c8"
-      />
+        className="c4"
+      >
+        <div
+          className="c8"
+        />
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Space With Flex Row 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -461,22 +487,31 @@ exports[`Storyshots Components/Space With Flex Row 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-  />
-  <div
-    className="c2"
-  />
-  <div
-    className="c3"
-  />
-</div>
+    className="c0"
+  >
+    <div
+      className="c1"
+    />
+    <div
+      className="c2"
+    />
+    <div
+      className="c3"
+    />
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -564,15 +599,15 @@ exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -580,19 +615,19 @@ exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -600,7 +635,7 @@ exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -618,7 +653,7 @@ exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -642,7 +677,7 @@ exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -848,62 +883,63 @@ exports[`Storyshots Components/Space With Responsive Dimensions 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <h2
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              Using Responsive Props
-            </span>
-          </h2>
-        </div>
-      </div>
+        className="c3"
+      />
       <div
-        className="c10"
+        className="c4"
       >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            This box is smaller at breakpoints smaller than 600px.
-          </span>
-        </p>
         <div
-          className="c13"
-        />
-        <div
-          className="c14"
+          className="c5"
         >
           <div
-            className="c15"
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Using Responsive Props
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              This box is smaller at breakpoints smaller than 600px.
+            </span>
+          </p>
+          <div
+            className="c13"
+          />
+          <div
+            className="c14"
           >
             <div
-              className="c16"
-            />
+              className="c15"
+            >
+              <div
+                className="c16"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

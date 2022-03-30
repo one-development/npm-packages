@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/RadioGroup Basic 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -23,14 +31,14 @@ exports[`Storyshots Components/RadioGroup Basic 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 400;
   text-align: initial;
 }
@@ -39,7 +47,7 @@ exports[`Storyshots Components/RadioGroup Basic 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
@@ -57,7 +65,7 @@ exports[`Storyshots Components/RadioGroup Basic 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -213,123 +221,132 @@ input[type=radio]:checked + .c5 {
 }
 
 <div
-  aria-disabled={false}
-  aria-invalid={false}
-  aria-label="radio-group-basic"
-  aria-required={true}
-  className="c0"
-  id="radio-group-basic"
-  role="radiogroup"
->
-  <div
-    className="c1"
+    aria-disabled={false}
+    aria-invalid={false}
+    aria-label="radio-group-basic"
+    aria-required={true}
+    className="c0"
+    id="radio-group-basic"
+    role="radiogroup"
   >
     <div
-      className="c2"
-      onInput={[Function]}
+      className="c1"
     >
       <div
-        className="c3 c4"
+        className="c2"
+        onInput={[Function]}
       >
-        <input
-          aria-disabled={false}
-          aria-invalid={false}
-          aria-labelledby="radio-group-basic-red-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          defaultChecked={true}
-          disabled={false}
-          id="radio-group-basic-red"
-          name="radio-group-basic"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="red"
-        />
-        <span
-          aria-hidden="true"
-          className="c5"
-        />
-      </div>
-      <label
-        className="c6"
-        htmlFor="radio-group-basic-red"
-        id="radio-group-basic-red-label"
-      >
-        <span
-          className="c7 c8"
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-labelledby="radio-group-basic-red-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            defaultChecked={true}
+            disabled={false}
+            id="radio-group-basic-red"
+            name="radio-group-basic"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="red"
+          />
+          <span
+            aria-hidden="true"
+            className="c5"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-group-basic-red"
+          id="radio-group-basic-red-label"
         >
           <span
-            className="c9"
+            className="c7 c8"
           >
-            Red
+            <span
+              className="c9"
+            >
+              Red
+            </span>
           </span>
-        </span>
-      </label>
+        </label>
+      </div>
     </div>
-  </div>
-  <div
-    className="c10"
-  >
     <div
-      className="c2"
-      onInput={[Function]}
+      className="c10"
     >
       <div
-        className="c3 c4"
+        className="c2"
+        onInput={[Function]}
       >
-        <input
-          aria-disabled={false}
-          aria-invalid={false}
-          aria-labelledby="radio-group-basic-blue-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          defaultChecked={false}
-          disabled={false}
-          id="radio-group-basic-blue"
-          name="radio-group-basic"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="blue"
-        />
-        <span
-          aria-hidden="true"
-          className="c5"
-        />
-      </div>
-      <label
-        className="c6"
-        htmlFor="radio-group-basic-blue"
-        id="radio-group-basic-blue-label"
-      >
-        <span
-          className="c7 c8"
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-labelledby="radio-group-basic-blue-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            defaultChecked={false}
+            disabled={false}
+            id="radio-group-basic-blue"
+            name="radio-group-basic"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="blue"
+          />
+          <span
+            aria-hidden="true"
+            className="c5"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-group-basic-blue"
+          id="radio-group-basic-blue-label"
         >
           <span
-            className="c9"
+            className="c7 c8"
           >
-            blue
+            <span
+              className="c9"
+            >
+              blue
+            </span>
           </span>
-        </span>
-      </label>
+        </label>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -392,7 +409,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c28 {
+.c26 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -432,46 +449,46 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   -webkit-tap-highlight-color: transparent;
 }
 
-.c28 *,
-.c28 *::before,
-.c28 *::after {
+.c26 *,
+.c26 *::before,
+.c26 *::after {
   box-sizing: border-box;
 }
 
-.c28::-moz-focus-inner {
+.c26::-moz-focus-inner {
   border-style: none;
 }
 
-.c31 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c29 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
-.c31::before {
+.c29::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -479,19 +496,19 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -499,19 +516,19 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c15 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
-  line-height: 1.014625rem;
+  line-height: 1rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
   text-align: initial;
 }
 
@@ -519,27 +536,27 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.55475rem;
+  margin-top: -0.5545454545454546rem;
 }
 
-.c24 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c23 {
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 400;
   text-align: initial;
 }
 
-.c24::before {
+.c23::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -557,7 +574,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -581,7 +598,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -593,58 +610,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   box-sizing: border-box;
 }
 
-.c25 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c25 *,
-.c25 *::before,
-.c25 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c29 {
+.c27 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -668,24 +634,24 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   padding: 0px 24px;
 }
 
-.c29 *,
-.c29 *::before,
-.c29 *::after {
+.c27 *,
+.c27 *::before,
+.c27 *::after {
   box-sizing: border-box;
 }
 
-.c29:hover {
+.c27:hover {
   background-color: hsl(148,48.4%,34%);
 }
 
-.c29:active {
+.c27:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c30 {
+.c28 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -773,7 +739,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   overflow: hidden;
 }
 
-.c27 {
+.c25 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -796,17 +762,17 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   justify-content: flex-start;
 }
 
-.c27 *,
-.c27 *::before,
-.c27 *::after {
+.c25 *,
+.c25 *::before,
+.c25 *::after {
   box-sizing: border-box;
 }
 
-.c27 > * {
+.c25 > * {
   margin-left: 8px;
 }
 
-.c27 > :first-child {
+.c25 > :first-child {
   margin-left: 0;
 }
 
@@ -882,7 +848,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   transform: translateY(2px);
 }
 
-.c19 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -903,13 +869,13 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   position: relative;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c21 {
+.c20 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -927,7 +893,7 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   width: 18px;
 }
 
-.c21 input[type=radio] {
+.c20 input[type=radio] {
   cursor: pointer;
   font-size: 1rem;
   grid-area: input;
@@ -938,11 +904,11 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   z-index: 1;
 }
 
-.c21 input[type=radio][disabled] {
+.c20 input[type=radio][disabled] {
   cursor: not-allowed;
 }
 
-.c22 {
+.c21 {
   background-color: transparent;
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.6);
@@ -959,24 +925,24 @@ exports[`Storyshots Components/RadioGroup With Browser Validation 1`] = `
   width: 18px;
 }
 
-.c20:hover .c22 {
+.c19:hover .c21 {
   border-color: rgba(0,0,0,0.87);
 }
 
-input[type=radio]:checked + .c22 {
+input[type=radio]:checked + .c21 {
   border-color: rgba(0,0,0,0.87);
   border-width: 6px;
 }
 
-.c20:hover .c32 {
+.c19:hover .c30 {
   border-color: rgba(0,0,0,0.38);
 }
 
-.c20:hover .c33 {
+.c19:hover .c31 {
   border-color: rgba(0,0,0,0.87);
 }
 
-.c23 {
+.c22 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -996,7 +962,7 @@ input[type=radio]:checked + .c22 {
   -webkit-tap-highlight-color: transparent;
 }
 
-.c17 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1009,17 +975,17 @@ input[type=radio]:checked + .c22 {
   border-radius: 4px;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c17 {
   padding: 8px 16px;
 }
 
-.c26 {
+.c24 {
   padding: 8px 16px;
   border-top: 1px solid rgba(0,0,0,0.12);
   border-top-color: rgba(0,0,0,0.12);
@@ -1048,213 +1014,222 @@ input[type=radio]:checked + .c22 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <h2
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              Using Browser Validation
-            </span>
-          </h2>
-        </div>
-      </div>
+        className="c3"
+      />
       <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            You can enable built-in HTML validation by setting formNoValidate=false on your RadioGroup. It will be forwared to all Radio children. Try submitting the form below to see for yourself.
-          </span>
-        </p>
-        <div
-          className="c13"
-        />
-        <p
-          className="c14 c15"
-        >
-          <span
-            className="c16"
-          >
-            Note: Many form components set noValidate=true. Make sure it is also set to false as well.
-          </span>
-        </p>
-      </div>
-      <form
-        onSubmit={[Function]}
+        className="c4"
       >
         <div
-          className="c10"
+          className="c5"
         >
           <div
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-label="color"
-            aria-required={true}
-            className="c17"
-            id="rgwbv-color"
-            role="radiogroup"
+            className="c6"
           >
-            <div
-              className="c18"
+            <h2
+              className="c7 c8"
             >
-              <div
-                className="c19"
-                onInput={[Function]}
+              <span
+                className="c9"
               >
-                <div
-                  className="c20 c21"
-                >
-                  <input
-                    aria-disabled={false}
-                    aria-invalid={false}
-                    aria-labelledby="rgwbv-red-label"
-                    aria-required={true}
-                    autoComplete="on"
-                    autoFocus={false}
-                    disabled={false}
-                    id="rgwbv-red"
-                    name="color"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    required={true}
-                    role="radio"
-                    type="radio"
-                    value="red"
-                  />
-                  <span
-                    aria-hidden="true"
-                    className="c22"
-                  />
-                </div>
-                <label
-                  className="c23"
-                  htmlFor="rgwbv-red"
-                  id="rgwbv-red-label"
-                >
-                  <span
-                    className="c7 c24"
-                  >
-                    <span
-                      className="c25"
-                    >
-                      Red
-                    </span>
-                  </span>
-                </label>
-              </div>
-            </div>
-            <div
-              className="c26"
-            >
-              <div
-                className="c19"
-                onInput={[Function]}
-              >
-                <div
-                  className="c20 c21"
-                >
-                  <input
-                    aria-disabled={false}
-                    aria-invalid={false}
-                    aria-labelledby="rgwbv-blue-label"
-                    aria-required={true}
-                    autoComplete="on"
-                    autoFocus={false}
-                    disabled={false}
-                    id="rgwbv-blue"
-                    name="color"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    required={true}
-                    role="radio"
-                    type="radio"
-                    value="blue"
-                  />
-                  <span
-                    aria-hidden="true"
-                    className="c22"
-                  />
-                </div>
-                <label
-                  className="c23"
-                  htmlFor="rgwbv-blue"
-                  id="rgwbv-blue-label"
-                >
-                  <span
-                    className="c7 c24"
-                  >
-                    <span
-                      className="c25"
-                    >
-                      Blue
-                    </span>
-                  </span>
-                </label>
-              </div>
-            </div>
+                Using Browser Validation
+              </span>
+            </h2>
           </div>
         </div>
         <div
-          className="c27"
+          className="c10"
         >
-          <button
-            aria-busy={false}
-            className="c28 c29"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <p
+            className="c7 c11"
+          >
+            <span
+              className="c12"
+            >
+              You can enable built-in HTML validation by setting formNoValidate=false on your RadioGroup. It will be forwared to all Radio children. Try submitting the form below to see for yourself.
+            </span>
+          </p>
+          <div
+            className="c13"
+          />
+          <p
+            className="c14 c15"
+          >
+            <span
+              className="c12"
+            >
+              Note: Many form components set noValidate=true. Make sure it is also set to false as well.
+            </span>
+          </p>
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="c10"
           >
             <div
-              className="c30"
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-label="color"
+              aria-required={true}
+              className="c16"
+              id="rgwbv-color"
+              role="radiogroup"
             >
-              <span
-                className="c7 c31"
+              <div
+                className="c17"
+              >
+                <div
+                  className="c18"
+                  onInput={[Function]}
+                >
+                  <div
+                    className="c19 c20"
+                  >
+                    <input
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-labelledby="rgwbv-red-label"
+                      aria-required={true}
+                      autoComplete="on"
+                      autoFocus={false}
+                      disabled={false}
+                      id="rgwbv-red"
+                      name="color"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      required={true}
+                      role="radio"
+                      type="radio"
+                      value="red"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="c21"
+                    />
+                  </div>
+                  <label
+                    className="c22"
+                    htmlFor="rgwbv-red"
+                    id="rgwbv-red-label"
+                  >
+                    <span
+                      className="c7 c23"
+                    >
+                      <span
+                        className="c9"
+                      >
+                        Red
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div
+                className="c24"
+              >
+                <div
+                  className="c18"
+                  onInput={[Function]}
+                >
+                  <div
+                    className="c19 c20"
+                  >
+                    <input
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-labelledby="rgwbv-blue-label"
+                      aria-required={true}
+                      autoComplete="on"
+                      autoFocus={false}
+                      disabled={false}
+                      id="rgwbv-blue"
+                      name="color"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      required={true}
+                      role="radio"
+                      type="radio"
+                      value="blue"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="c21"
+                    />
+                  </div>
+                  <label
+                    className="c22"
+                    htmlFor="rgwbv-blue"
+                    id="rgwbv-blue-label"
+                  >
+                    <span
+                      className="c7 c23"
+                    >
+                      <span
+                        className="c9"
+                      >
+                        Blue
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c25"
+          >
+            <button
+              aria-busy={false}
+              className="c26 c27"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
+            >
+              <div
+                className="c28"
               >
                 <span
-                  className="c12"
+                  className="c7 c29"
                 >
-                  Save Changes
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
                 </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1297,15 +1272,15 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -1313,19 +1288,19 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -1333,18 +1308,18 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c20 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   font-weight: 400;
   text-align: initial;
 }
@@ -1353,7 +1328,7 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c12 {
@@ -1371,7 +1346,7 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
 .c12 *,
@@ -1395,7 +1370,7 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1404,33 +1379,6 @@ exports[`Storyshots Components/RadioGroup With Controlled State 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c21 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c21 *,
-.c21 *::before,
-.c21 *::after {
   box-sizing: border-box;
 }
 
@@ -1661,11 +1609,11 @@ input[type=radio]:checked + .c18 {
   border-width: 6px;
 }
 
-.c16:hover .c23 {
+.c16:hover .c22 {
   border-color: rgba(0,0,0,0.38);
 }
 
-.c16:hover .c24 {
+.c16:hover .c23 {
   border-color: rgba(0,0,0,0.87);
 }
 
@@ -1712,239 +1660,248 @@ input[type=radio]:checked + .c18 {
   padding: 8px 16px;
 }
 
-.c22 {
+.c21 {
   padding: 8px 16px;
   border-top: 1px solid rgba(0,0,0,0.12);
   border-top-color: rgba(0,0,0,0.12);
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
       <div
-        className="c5"
+        className="c3"
+      />
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <h2
-            className="c7 c8"
+          <div
+            className="c6"
+          >
+            <h2
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Using Controlled State
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div
+          className="c10"
+        >
+          <p
+            className="c7 c11"
           >
             <span
-              className="c9"
+              className="c12"
             >
-              Using Controlled State
+              In this example, a RadioGroup is being used as a controlled component. This means that 
+              <i>
+                onChange
+              </i>
+               and 
+              <i>
+                value
+              </i>
+               props are being provided. The RadioGroup will correctly provide these props to its children.
             </span>
-          </h2>
+          </p>
         </div>
-      </div>
-      <div
-        className="c10"
-      >
-        <p
-          className="c7 c11"
-        >
-          <span
-            className="c12"
-          >
-            In this example, a RadioGroup is being used as a controlled component. This means that 
-            <i>
-              onChange
-            </i>
-             and 
-            <i>
-              value
-            </i>
-             props are being provided. The RadioGroup will correctly provide these props to its children.
-          </span>
-        </p>
-      </div>
-      <div
-        className="c10"
-      >
         <div
-          aria-disabled={false}
-          aria-invalid={false}
-          aria-label="color"
-          aria-required={true}
-          className="c13"
-          id="rgwcs"
-          role="radiogroup"
+          className="c10"
         >
           <div
-            className="c14"
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-label="color"
+            aria-required={true}
+            className="c13"
+            id="rgwcs"
+            role="radiogroup"
           >
             <div
-              className="c15"
-              onInput={[Function]}
+              className="c14"
             >
               <div
-                className="c16 c17"
+                className="c15"
+                onInput={[Function]}
               >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="rgwcs-red-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  checked={true}
-                  disabled={false}
-                  id="rgwcs-red"
-                  name="color"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="red"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c18"
-                />
-              </div>
-              <label
-                className="c19"
-                htmlFor="rgwcs-red"
-                id="rgwcs-red-label"
-              >
-                <span
-                  className="c7 c20"
+                <div
+                  className="c16 c17"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="rgwcs-red-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    checked={true}
+                    disabled={false}
+                    id="rgwcs-red"
+                    name="color"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="red"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c18"
+                  />
+                </div>
+                <label
+                  className="c19"
+                  htmlFor="rgwcs-red"
+                  id="rgwcs-red-label"
                 >
                   <span
-                    className="c21"
+                    className="c7 c20"
                   >
-                    Red
+                    <span
+                      className="c9"
+                    >
+                      Red
+                    </span>
                   </span>
-                </span>
-              </label>
+                </label>
+              </div>
             </div>
-          </div>
-          <div
-            className="c22"
-          >
             <div
-              className="c15"
-              onInput={[Function]}
+              className="c21"
             >
               <div
-                className="c16 c17"
+                className="c15"
+                onInput={[Function]}
               >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="rgwcs-blue-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  checked={false}
-                  disabled={false}
-                  id="rgwcs-blue"
-                  name="color"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="blue"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c18"
-                />
-              </div>
-              <label
-                className="c19"
-                htmlFor="rgwcs-blue"
-                id="rgwcs-blue-label"
-              >
-                <span
-                  className="c7 c20"
+                <div
+                  className="c16 c17"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="rgwcs-blue-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    checked={false}
+                    disabled={false}
+                    id="rgwcs-blue"
+                    name="color"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="blue"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c18"
+                  />
+                </div>
+                <label
+                  className="c19"
+                  htmlFor="rgwcs-blue"
+                  id="rgwcs-blue-label"
                 >
                   <span
-                    className="c21"
+                    className="c7 c20"
                   >
-                    Blue
+                    <span
+                      className="c9"
+                    >
+                      Blue
+                    </span>
                   </span>
-                </span>
-              </label>
+                </label>
+              </div>
             </div>
-          </div>
-          <div
-            className="c22"
-          >
             <div
-              className="c15"
-              onInput={[Function]}
+              className="c21"
             >
               <div
-                className="c16 c17"
+                className="c15"
+                onInput={[Function]}
               >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="rgwcs-green-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  checked={false}
-                  disabled={false}
-                  id="rgwcs-green"
-                  name="color"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="green"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c18"
-                />
-              </div>
-              <label
-                className="c19"
-                htmlFor="rgwcs-green"
-                id="rgwcs-green-label"
-              >
-                <span
-                  className="c7 c20"
+                <div
+                  className="c16 c17"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="rgwcs-green-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    checked={false}
+                    disabled={false}
+                    id="rgwcs-green"
+                    name="color"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="green"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c18"
+                  />
+                </div>
+                <label
+                  className="c19"
+                  htmlFor="rgwcs-green"
+                  id="rgwcs-green-label"
                 >
                   <span
-                    className="c21"
+                    className="c7 c20"
                   >
-                    Green
+                    <span
+                      className="c9"
+                    >
+                      Green
+                    </span>
                   </span>
-                </span>
-              </label>
+                </label>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
-.c7 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2007,6 +1964,1677 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
   box-sizing: border-box;
 }
 
+.c31 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c31 *,
+.c31 *::before,
+.c31 *::after {
+  box-sizing: border-box;
+}
+
+.c31::-moz-focus-inner {
+  border-style: none;
+}
+
+.c34 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: center;
+}
+
+.c34::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c8 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c11 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c11::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c16 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
+  text-align: initial;
+}
+
+.c16::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.759090909090909rem;
+}
+
+.c24 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c24::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c32 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 100%;
+  background-color: #38A169;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c32 *,
+.c32 *::before,
+.c32 *::after {
+  box-sizing: border-box;
+}
+
+.c32:hover {
+  background-color: hsl(148,48.4%,34%);
+}
+
+.c32:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.c33 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c30 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c30 *,
+.c30 *::before,
+.c30 *::after {
+  box-sizing: border-box;
+}
+
+.c30 > * {
+  margin-left: 8px;
+}
+
+.c30 > :first-child {
+  margin-left: 0;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c10:first-child {
+  padding-top: 32px;
+}
+
+.c10:last-child {
+  padding-bottom: 32px;
+}
+
+.c10:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c5:only-child {
+  padding-bottom: 32px;
+}
+
+.c6 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  margin-bottom: 8px;
+}
+
+.c28 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: text;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c28 *,
+.c28 *::before,
+.c28 *::after {
+  box-sizing: border-box;
+}
+
+.c28 input {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  min-width: 0;
+  opacity: 1;
+  outline: none;
+}
+
+.c28 input *,
+.c28 input *::before,
+.c28 input *::after {
+  box-sizing: border-box;
+}
+
+.c28 input::-webkit-input-placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c28 input::-moz-placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c28 input:-ms-input-placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c28 input::placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c28:focus-within {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  padding: 0 8px;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 36px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c21 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 36px;
+  position: relative;
+  width: 18px;
+}
+
+.c21 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c21 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c22 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c20:hover .c22 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c22 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c20:hover .c35 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+.c20:hover .c36 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+.c23 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c27 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.03);
+}
+
+.c27 *,
+.c27 *::before,
+.c27 *::after {
+  box-sizing: border-box;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c18 {
+  padding: 8px 16px;
+}
+
+.c25 {
+  padding: 8px 16px;
+  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+.c26 {
+  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+.c29 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 16px;
+}
+
+.c29 *,
+.c29 *::before,
+.c29 *::after {
+  box-sizing: border-box;
+}
+
+@supports selector(:-webkit-autofill) {
+  .c28 input:-webkit-autofill,
+  .c28 input:-webkit-autofill:hover,
+  .c28 input:-webkit-autofill:focus,
+  .c28 input:-webkit-autofill:active,
+  .c28 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
+    transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
+  }
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
+      >
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <div
+            className="c5"
+          >
+            <div
+              className="c6"
+            >
+              <h2
+                className="c7 c8"
+              >
+                <span
+                  className="c9"
+                >
+                  Using Radio Details
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c10"
+          >
+            <p
+              className="c7 c11"
+            >
+              <span
+                className="c12"
+              >
+                You can use the RadioDetails component to automatically show or hide additional context beneath the selected Radio option. For example, you can display Apple Pay instructions or additional credit card fields.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c13"
+            >
+              <div
+                className="c14"
+              >
+                <label
+                  className="c15 c16"
+                  htmlFor="rgwdf-payment-type"
+                  id="rgwdf-payment-type-label"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Payment Type
+                  </span>
+                </label>
+              </div>
+              <div
+                aria-disabled={false}
+                aria-errormessage={null}
+                aria-invalid={false}
+                aria-labelledby="rgwdf-payment-type-label"
+                aria-required={true}
+                className="c17"
+                id="rgwdf-payment-type"
+                role="radiogroup"
+              >
+                <div
+                  className="c18"
+                >
+                  <div
+                    className="c19"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c20 c21"
+                    >
+                      <input
+                        aria-controls="rgwdf-applepay-details"
+                        aria-disabled={false}
+                        aria-expanded={false}
+                        aria-invalid={false}
+                        aria-labelledby="rgwdf-applepay-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        defaultChecked={false}
+                        disabled={false}
+                        id="rgwdf-applepay"
+                        name="payment-type"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="applepay"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c22"
+                      />
+                    </div>
+                    <label
+                      className="c23"
+                      htmlFor="rgwdf-applepay"
+                      id="rgwdf-applepay-label"
+                    >
+                      <span
+                        className="c7 c24"
+                      >
+                        <span
+                          className="c9"
+                        >
+                          Apple Pay
+                        </span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="c25"
+                >
+                  <div
+                    className="c19"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c20 c21"
+                    >
+                      <input
+                        aria-controls="rgwdf-creditcard-details"
+                        aria-disabled={false}
+                        aria-expanded={true}
+                        aria-invalid={false}
+                        aria-labelledby="rgwdf-creditcard-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        defaultChecked={true}
+                        disabled={false}
+                        id="rgwdf-creditcard"
+                        name="payment-type"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="creditcard"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c22"
+                      />
+                    </div>
+                    <label
+                      className="c23"
+                      htmlFor="rgwdf-creditcard"
+                      id="rgwdf-creditcard-label"
+                    >
+                      <span
+                        className="c7 c24"
+                      >
+                        <span
+                          className="c9"
+                        >
+                          Credit Card
+                        </span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="c26"
+                >
+                  <div
+                    className="c27"
+                    id="rgwdf-creditcard-details"
+                  >
+                    <div
+                      className="c13"
+                    >
+                      <div
+                        className="c14"
+                      >
+                        <label
+                          className="c15 c16"
+                          htmlFor="rgwdf-card-number"
+                          id="rgwdf-card-number-label"
+                        >
+                          <span
+                            className="c12"
+                          >
+                            Card Number
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="c28"
+                      >
+                        <input
+                          aria-disabled={false}
+                          aria-errormessage={null}
+                          aria-invalid={false}
+                          aria-labelledby="rgwdf-card-number-label"
+                          aria-required={true}
+                          autoComplete="on"
+                          autoCorrect="off"
+                          autoFocus={false}
+                          disabled={false}
+                          id="rgwdf-card-number"
+                          name="card-number"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onInvalid={[Function]}
+                          required={true}
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="c29"
+                    />
+                    <div
+                      className="c13"
+                    >
+                      <div
+                        className="c14"
+                      >
+                        <label
+                          className="c15 c16"
+                          htmlFor="rgwdf-expiry"
+                          id="rgwdf-expiry-label"
+                        >
+                          <span
+                            className="c12"
+                          >
+                            Expiration (MM/YY)
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="c28"
+                      >
+                        <input
+                          aria-disabled={false}
+                          aria-errormessage={null}
+                          aria-invalid={false}
+                          aria-labelledby="rgwdf-expiry-label"
+                          aria-required={true}
+                          autoComplete="on"
+                          autoCorrect="off"
+                          autoFocus={false}
+                          disabled={false}
+                          id="rgwdf-expiry"
+                          name="expiry"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onInvalid={[Function]}
+                          required={true}
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="c29"
+                    />
+                    <div
+                      className="c13"
+                    >
+                      <div
+                        className="c14"
+                      >
+                        <label
+                          className="c15 c16"
+                          htmlFor="rgwdf-zipcode"
+                          id="rgwdf-zipcode-label"
+                        >
+                          <span
+                            className="c12"
+                          >
+                            Zip Code
+                          </span>
+                        </label>
+                      </div>
+                      <div
+                        className="c28"
+                      >
+                        <input
+                          aria-disabled={false}
+                          aria-errormessage={null}
+                          aria-invalid={false}
+                          aria-labelledby="rgwdf-zipcode-label"
+                          aria-required={true}
+                          autoComplete="on"
+                          autoCorrect="off"
+                          autoFocus={false}
+                          disabled={false}
+                          id="rgwdf-zipcode"
+                          name="zipcode"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          onInvalid={[Function]}
+                          required={true}
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c30"
+          >
+            <button
+              aria-busy={false}
+              className="c31 c32"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
+            >
+              <div
+                className="c33"
+              >
+                <span
+                  className="c7 c34"
+                >
+                  <span
+                    className="c12"
+                  >
+                    Save Changes
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/RadioGroup With Details Text 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c9 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 36px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 36px;
+  position: relative;
+  width: 18px;
+}
+
+.c5 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c5 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c6 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c4:hover .c6 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c6 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c4:hover .c16 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+.c4:hover .c17 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.03);
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  padding: 8px 16px;
+}
+
+.c15 {
+  padding: 8px 16px;
+  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+.c11 {
+  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      aria-disabled={false}
+      aria-invalid={false}
+      aria-label="rgwdt"
+      aria-required={true}
+      className="c1"
+      id="rgwdt"
+      role="radiogroup"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+          onInput={[Function]}
+        >
+          <div
+            className="c4 c5"
+          >
+            <input
+              aria-controls="rgwdt-red-details"
+              aria-disabled={false}
+              aria-expanded={true}
+              aria-invalid={false}
+              aria-labelledby="rgwdt-red-label"
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              defaultChecked={true}
+              disabled={false}
+              id="rgwdt-red"
+              name="rgwdt"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              required={true}
+              role="radio"
+              type="radio"
+              value="red"
+            />
+            <span
+              aria-hidden="true"
+              className="c6"
+            />
+          </div>
+          <label
+            className="c7"
+            htmlFor="rgwdt-red"
+            id="rgwdt-red-label"
+          >
+            <span
+              className="c8 c9"
+            >
+              <span
+                className="c10"
+              >
+                Red
+              </span>
+            </span>
+          </label>
+        </div>
+      </div>
+      <div
+        className="c11"
+      >
+        <div
+          className="c12"
+          id="rgwdt-red-details"
+        >
+          <p
+            className="c8 c13"
+          >
+            <span
+              className="c14"
+            >
+              Red is a great color
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        className="c15"
+      >
+        <div
+          className="c3"
+          onInput={[Function]}
+        >
+          <div
+            className="c4 c5"
+          >
+            <input
+              aria-controls="rgwdt-blue-details"
+              aria-disabled={false}
+              aria-expanded={false}
+              aria-invalid={false}
+              aria-labelledby="rgwdt-blue-label"
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              defaultChecked={false}
+              disabled={false}
+              id="rgwdt-blue"
+              name="rgwdt"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              required={true}
+              role="radio"
+              type="radio"
+              value="blue"
+            />
+            <span
+              aria-hidden="true"
+              className="c6"
+            />
+          </div>
+          <label
+            className="c7"
+            htmlFor="rgwdt-blue"
+            id="rgwdt-blue-label"
+          >
+            <span
+              className="c8 c9"
+            >
+              <span
+                className="c10"
+              >
+                blue
+              </span>
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.6);
+  display: block;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c20 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.87);
+  display: block;
+}
+
+.c20 *,
+.c20 *::before,
+.c20 *::after {
+  box-sizing: border-box;
+}
+
 .c33 {
   box-sizing: border-box;
   margin: 0;
@@ -2058,15 +3686,15 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
 }
 
 .c36 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: capitalize;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: center;
 }
 
@@ -2074,19 +3702,19 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
@@ -2094,70 +3722,90 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
-}
-
-.c11 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  text-align: initial;
-}
-
-.c11::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c16 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.26584375rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
-  text-align: initial;
-}
-
-.c16::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7593125rem;
-}
-
-.c25 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  font-weight: 400;
-  text-align: initial;
-}
-
-.c25::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c12 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c12::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c21 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
+  text-align: initial;
+}
+
+.c21::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.759090909090909rem;
+}
+
+.c29 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 700;
+  text-align: initial;
+}
+
+.c29::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c17 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c17::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2172,12 +3820,12 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
+  vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
@@ -2196,7 +3844,7 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
+  vertical-align: 0rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2205,57 +3853,6 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
 .c9 *,
 .c9 *::before,
 .c9 *::after {
-  box-sizing: border-box;
-}
-
-.c26 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c26 *,
-.c26 *::before,
-.c26 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
   box-sizing: border-box;
 }
 
@@ -2497,262 +4094,6 @@ exports[`Storyshots Components/RadioGroup With Details Form 1`] = `
   transform: translateY(2px);
 }
 
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c14 {
-  margin-bottom: 8px;
-}
-
-.c30 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0 9px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FFFFFF;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.12);
-  border-radius: 4px;
-  color: rgba(0,0,0,0.87);
-  cursor: text;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  font-family: inherit;
-  font-size: 1rem;
-  height: 44px;
-  max-width: 100%;
-  min-width: 0;
-  outline: 1px solid gray;
-  outline-color: transparent;
-  position: relative;
-  -webkit-tap-highlight-color: transparent;
-  width: 100%;
-}
-
-.c30 *,
-.c30 *::before,
-.c30 *::after {
-  box-sizing: border-box;
-}
-
-.c30 input {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  border: 0;
-  color: currentColor;
-  display: block;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-family: inherit;
-  font-size: inherit;
-  height: 100%;
-  min-width: 0;
-  opacity: 1;
-  outline: none;
-}
-
-.c30 input *,
-.c30 input *::before,
-.c30 input *::after {
-  box-sizing: border-box;
-}
-
-.c30 input::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c30 input::-moz-placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c30 input:-ms-input-placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c30 input::placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c30:focus-within {
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
-  padding: 0 8px;
-}
-
-.c20 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  display: grid;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-template-areas: "input label" "input description";
-  grid-template-columns: 18px auto;
-  grid-template-rows: 36px auto;
-  min-height: 36px;
-  position: relative;
-}
-
-.c20 *,
-.c20 *::before,
-.c20 *::after {
-  box-sizing: border-box;
-}
-
-.c22 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-area: input;
-  height: 36px;
-  position: relative;
-  width: 18px;
-}
-
-.c22 input[type=radio] {
-  cursor: pointer;
-  font-size: 1rem;
-  grid-area: input;
-  height: 18px;
-  margin: 0;
-  opacity: 0;
-  width: 18px;
-  z-index: 1;
-}
-
-.c22 input[type=radio][disabled] {
-  cursor: not-allowed;
-}
-
-.c23 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c21:hover .c23 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c23 {
-  border-color: rgba(0,0,0,0.87);
-  border-width: 6px;
-}
-
-.c21:hover .c37 {
-  border-color: rgba(0,0,0,0.38);
-}
-
-.c21:hover .c38 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-.c24 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  grid-area: label;
-  height: 100%;
-  overflow: hidden;
-  padding-left: 8px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c29 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 24px 16px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.03);
-}
-
-.c29 *,
-.c29 *::before,
-.c29 *::after {
-  box-sizing: border-box;
-}
-
 .c18 {
   box-sizing: border-box;
   margin: 0;
@@ -2762,8 +4103,6 @@ input[type=radio]:checked + .c23 {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
 }
 
 .c18 *,
@@ -2773,1496 +4112,6 @@ input[type=radio]:checked + .c23 {
 }
 
 .c19 {
-  padding: 8px 16px;
-}
-
-.c27 {
-  padding: 8px 16px;
-  border-top: 1px solid rgba(0,0,0,0.12);
-  border-top-color: rgba(0,0,0,0.12);
-}
-
-.c28 {
-  border-top: 1px solid rgba(0,0,0,0.12);
-  border-top-color: rgba(0,0,0,0.12);
-}
-
-.c31 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  height: 16px;
-}
-
-.c31 *,
-.c31 *::before,
-.c31 *::after {
-  box-sizing: border-box;
-}
-
-@supports selector(:-webkit-autofill) {
-  .c30 input:-webkit-autofill,
-  .c30 input:-webkit-autofill:hover,
-  .c30 input:-webkit-autofill:focus,
-  .c30 input:-webkit-autofill:active,
-  .c30 input:-webkit-autofill::first-line {
-    font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-    font-size: 1rem;
-    -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
-    transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
-  }
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1 c2"
-  >
-    <div
-      className="c3"
-    />
-    <div
-      className="c4"
-    >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
-      >
-        <div
-          className="c5"
-        >
-          <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Using Radio Details
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              You can use the RadioDetails component to automatically show or hide additional context beneath the selected Radio option. For example, you can display Apple Pay instructions or additional credit card fields.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c13"
-          >
-            <div
-              className="c14"
-            >
-              <label
-                className="c15 c16"
-                htmlFor="rgwdf-payment-type"
-                id="rgwdf-payment-type-label"
-              >
-                <span
-                  className="c17"
-                >
-                  Payment Type
-                </span>
-              </label>
-            </div>
-            <div
-              aria-disabled={false}
-              aria-errormessage={null}
-              aria-invalid={false}
-              aria-labelledby="rgwdf-payment-type-label"
-              aria-required={true}
-              className="c18"
-              id="rgwdf-payment-type"
-              role="radiogroup"
-            >
-              <div
-                className="c19"
-              >
-                <div
-                  className="c20"
-                  onInput={[Function]}
-                >
-                  <div
-                    className="c21 c22"
-                  >
-                    <input
-                      aria-controls="rgwdf-applepay-details"
-                      aria-disabled={false}
-                      aria-expanded={false}
-                      aria-invalid={false}
-                      aria-labelledby="rgwdf-applepay-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      defaultChecked={false}
-                      disabled={false}
-                      id="rgwdf-applepay"
-                      name="payment-type"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="applepay"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c23"
-                    />
-                  </div>
-                  <label
-                    className="c24"
-                    htmlFor="rgwdf-applepay"
-                    id="rgwdf-applepay-label"
-                  >
-                    <span
-                      className="c7 c25"
-                    >
-                      <span
-                        className="c26"
-                      >
-                        Apple Pay
-                      </span>
-                    </span>
-                  </label>
-                </div>
-              </div>
-              <div
-                className="c27"
-              >
-                <div
-                  className="c20"
-                  onInput={[Function]}
-                >
-                  <div
-                    className="c21 c22"
-                  >
-                    <input
-                      aria-controls="rgwdf-creditcard-details"
-                      aria-disabled={false}
-                      aria-expanded={true}
-                      aria-invalid={false}
-                      aria-labelledby="rgwdf-creditcard-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      defaultChecked={true}
-                      disabled={false}
-                      id="rgwdf-creditcard"
-                      name="payment-type"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="creditcard"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c23"
-                    />
-                  </div>
-                  <label
-                    className="c24"
-                    htmlFor="rgwdf-creditcard"
-                    id="rgwdf-creditcard-label"
-                  >
-                    <span
-                      className="c7 c25"
-                    >
-                      <span
-                        className="c26"
-                      >
-                        Credit Card
-                      </span>
-                    </span>
-                  </label>
-                </div>
-              </div>
-              <div
-                className="c28"
-              >
-                <div
-                  className="c29"
-                  id="rgwdf-creditcard-details"
-                >
-                  <div
-                    className="c13"
-                  >
-                    <div
-                      className="c14"
-                    >
-                      <label
-                        className="c15 c16"
-                        htmlFor="rgwdf-card-number"
-                        id="rgwdf-card-number-label"
-                      >
-                        <span
-                          className="c17"
-                        >
-                          Card Number
-                        </span>
-                      </label>
-                    </div>
-                    <div
-                      className="c30"
-                    >
-                      <input
-                        aria-disabled={false}
-                        aria-errormessage={null}
-                        aria-invalid={false}
-                        aria-labelledby="rgwdf-card-number-label"
-                        aria-required={true}
-                        autoComplete="on"
-                        autoCorrect="off"
-                        autoFocus={false}
-                        disabled={false}
-                        id="rgwdf-card-number"
-                        name="card-number"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        onFocus={[Function]}
-                        onInvalid={[Function]}
-                        required={true}
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="c31"
-                  />
-                  <div
-                    className="c13"
-                  >
-                    <div
-                      className="c14"
-                    >
-                      <label
-                        className="c15 c16"
-                        htmlFor="rgwdf-expiry"
-                        id="rgwdf-expiry-label"
-                      >
-                        <span
-                          className="c17"
-                        >
-                          Expiration (MM/YY)
-                        </span>
-                      </label>
-                    </div>
-                    <div
-                      className="c30"
-                    >
-                      <input
-                        aria-disabled={false}
-                        aria-errormessage={null}
-                        aria-invalid={false}
-                        aria-labelledby="rgwdf-expiry-label"
-                        aria-required={true}
-                        autoComplete="on"
-                        autoCorrect="off"
-                        autoFocus={false}
-                        disabled={false}
-                        id="rgwdf-expiry"
-                        name="expiry"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        onFocus={[Function]}
-                        onInvalid={[Function]}
-                        required={true}
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="c31"
-                  />
-                  <div
-                    className="c13"
-                  >
-                    <div
-                      className="c14"
-                    >
-                      <label
-                        className="c15 c16"
-                        htmlFor="rgwdf-zipcode"
-                        id="rgwdf-zipcode-label"
-                      >
-                        <span
-                          className="c17"
-                        >
-                          Zip Code
-                        </span>
-                      </label>
-                    </div>
-                    <div
-                      className="c30"
-                    >
-                      <input
-                        aria-disabled={false}
-                        aria-errormessage={null}
-                        aria-invalid={false}
-                        aria-labelledby="rgwdf-zipcode-label"
-                        aria-required={true}
-                        autoComplete="on"
-                        autoCorrect="off"
-                        autoFocus={false}
-                        disabled={false}
-                        id="rgwdf-zipcode"
-                        name="zipcode"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        onFocus={[Function]}
-                        onInvalid={[Function]}
-                        required={true}
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c32"
-        >
-          <button
-            aria-busy={false}
-            className="c33 c34"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
-          >
-            <div
-              className="c35"
-            >
-              <span
-                className="c7 c36"
-              >
-                <span
-                  className="c12"
-                >
-                  Save Changes
-                </span>
-              </span>
-            </div>
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components/RadioGroup With Details Text 1`] = `
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 420px;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c13 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  text-align: initial;
-}
-
-.c13::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c9 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  font-weight: 400;
-  text-align: initial;
-}
-
-.c9::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
-  box-sizing: border-box;
-}
-
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  display: grid;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-template-areas: "input label" "input description";
-  grid-template-columns: 18px auto;
-  grid-template-rows: 36px auto;
-  min-height: 36px;
-  position: relative;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c5 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-area: input;
-  height: 36px;
-  position: relative;
-  width: 18px;
-}
-
-.c5 input[type=radio] {
-  cursor: pointer;
-  font-size: 1rem;
-  grid-area: input;
-  height: 18px;
-  margin: 0;
-  opacity: 0;
-  width: 18px;
-  z-index: 1;
-}
-
-.c5 input[type=radio][disabled] {
-  cursor: not-allowed;
-}
-
-.c6 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c4:hover .c6 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c6 {
-  border-color: rgba(0,0,0,0.87);
-  border-width: 6px;
-}
-
-.c4:hover .c16 {
-  border-color: rgba(0,0,0,0.38);
-}
-
-.c4:hover .c17 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-.c7 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  grid-area: label;
-  height: 100%;
-  overflow: hidden;
-  padding-left: 8px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 24px 16px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.03);
-}
-
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  padding: 8px 16px;
-}
-
-.c15 {
-  padding: 8px 16px;
-  border-top: 1px solid rgba(0,0,0,0.12);
-  border-top-color: rgba(0,0,0,0.12);
-}
-
-.c11 {
-  border-top: 1px solid rgba(0,0,0,0.12);
-  border-top-color: rgba(0,0,0,0.12);
-}
-
-<div
-  className="c0"
->
-  <div
-    aria-disabled={false}
-    aria-invalid={false}
-    aria-label="rgwdt"
-    aria-required={true}
-    className="c1"
-    id="rgwdt"
-    role="radiogroup"
-  >
-    <div
-      className="c2"
-    >
-      <div
-        className="c3"
-        onInput={[Function]}
-      >
-        <div
-          className="c4 c5"
-        >
-          <input
-            aria-controls="rgwdt-red-details"
-            aria-disabled={false}
-            aria-expanded={true}
-            aria-invalid={false}
-            aria-labelledby="rgwdt-red-label"
-            aria-required={true}
-            autoComplete="on"
-            autoFocus={false}
-            defaultChecked={true}
-            disabled={false}
-            id="rgwdt-red"
-            name="rgwdt"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            role="radio"
-            type="radio"
-            value="red"
-          />
-          <span
-            aria-hidden="true"
-            className="c6"
-          />
-        </div>
-        <label
-          className="c7"
-          htmlFor="rgwdt-red"
-          id="rgwdt-red-label"
-        >
-          <span
-            className="c8 c9"
-          >
-            <span
-              className="c10"
-            >
-              Red
-            </span>
-          </span>
-        </label>
-      </div>
-    </div>
-    <div
-      className="c11"
-    >
-      <div
-        className="c12"
-        id="rgwdt-red-details"
-      >
-        <p
-          className="c8 c13"
-        >
-          <span
-            className="c14"
-          >
-            Red is a great color
-          </span>
-        </p>
-      </div>
-    </div>
-    <div
-      className="c15"
-    >
-      <div
-        className="c3"
-        onInput={[Function]}
-      >
-        <div
-          className="c4 c5"
-        >
-          <input
-            aria-controls="rgwdt-blue-details"
-            aria-disabled={false}
-            aria-expanded={false}
-            aria-invalid={false}
-            aria-labelledby="rgwdt-blue-label"
-            aria-required={true}
-            autoComplete="on"
-            autoFocus={false}
-            defaultChecked={false}
-            disabled={false}
-            id="rgwdt-blue"
-            name="rgwdt"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            role="radio"
-            type="radio"
-            value="blue"
-          />
-          <span
-            aria-hidden="true"
-            className="c6"
-          />
-        </div>
-        <label
-          className="c7"
-          htmlFor="rgwdt-blue"
-          id="rgwdt-blue-label"
-        >
-          <span
-            className="c8 c9"
-          >
-            <span
-              className="c10"
-            >
-              blue
-            </span>
-          </span>
-        </label>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
-.c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.6);
-  display: block;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 420px;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c21 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.87);
-  display: block;
-}
-
-.c21 *,
-.c21 *::before,
-.c21 *::after {
-  box-sizing: border-box;
-}
-
-.c36 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  outline: 0;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c36 *,
-.c36 *::before,
-.c36 *::after {
-  box-sizing: border-box;
-}
-
-.c36::-moz-focus-inner {
-  border-style: none;
-}
-
-.c39 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.2670625rem;
-  text-transform: capitalize;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  text-align: center;
-}
-
-.c39::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c8 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5195rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.873rem;
-}
-
-.c12 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  text-align: initial;
-}
-
-.c12::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c22 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.26584375rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32965625rem);
-  -ms-transform: translateY(0.32965625rem);
-  transform: translateY(0.32965625rem);
-  text-align: initial;
-}
-
-.c22::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7593125rem;
-}
-
-.c31 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.2670625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
-  font-weight: 700;
-  text-align: initial;
-}
-
-.c31::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.713875rem;
-}
-
-.c17 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1.014625rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.227375rem);
-  -ms-transform: translateY(0.227375rem);
-  transform: translateY(0.227375rem);
-  text-align: initial;
-}
-
-.c17::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.55475rem;
-}
-
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c32 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c32 *,
-.c32 *::before,
-.c32 *::after {
-  box-sizing: border-box;
-}
-
-.c23 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.015843750000000004rem;
-}
-
-.c23 *,
-.c23 *::before,
-.c23 *::after {
-  box-sizing: border-box;
-}
-
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.014625000000000013rem;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c37 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 100%;
-  background-color: #38A169;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
-  color: rgba(255,255,255,1);
-  height: 44px;
-  padding: 0px 24px;
-}
-
-.c37 *,
-.c37 *::before,
-.c37 *::after {
-  box-sizing: border-box;
-}
-
-.c37:hover {
-  background-color: hsl(148,48.4%,34%);
-}
-
-.c37:active {
-  box-shadow: none;
-  -webkit-transform: scale(0.98);
-  -ms-transform: scale(0.98);
-  transform: scale(0.98);
-}
-
-.c38 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  visibility: visible;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: #FFFFFF;
-  box-shadow: none;
-  color: rgba(0,0,0,0.87);
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.87);
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.c35 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.c35 *,
-.c35 *::before,
-.c35 *::after {
-  box-sizing: border-box;
-}
-
-.c35 > * {
-  margin-left: 8px;
-}
-
-.c35 > :first-child {
-  margin-left: 0;
-}
-
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
-}
-
-.c10:first-child {
-  padding-top: 32px;
-}
-
-.c10:last-child {
-  padding-bottom: 32px;
-}
-
-.c10:only-child {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 32px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  padding-bottom: 8px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c5:only-child {
-  padding-bottom: 32px;
-}
-
-.c6 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  margin-top: -4px;
-  overflow: hidden;
-  padding: 4px 0px;
-  -webkit-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-
-.c19 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c19 *,
-.c19 *::before,
-.c19 *::after {
-  box-sizing: border-box;
-}
-
-.c20 {
   margin-bottom: 8px;
 }
 
@@ -4307,7 +4156,7 @@ exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
   color: #38A169;
 }
 
-.c26 {
+.c24 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4328,13 +4177,13 @@ exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
   position: relative;
 }
 
-.c26 *,
-.c26 *::before,
-.c26 *::after {
+.c24 *,
+.c24 *::before,
+.c24 *::after {
   box-sizing: border-box;
 }
 
-.c28 {
+.c26 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4352,7 +4201,7 @@ exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
   width: 18px;
 }
 
-.c28 input[type=radio] {
+.c26 input[type=radio] {
   cursor: pointer;
   font-size: 1rem;
   grid-area: input;
@@ -4363,11 +4212,11 @@ exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
   z-index: 1;
 }
 
-.c28 input[type=radio][disabled] {
+.c26 input[type=radio][disabled] {
   cursor: not-allowed;
 }
 
-.c29 {
+.c27 {
   background-color: transparent;
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.6);
@@ -4384,24 +4233,24 @@ exports[`Storyshots Components/RadioGroup With JS Validation 1`] = `
   width: 18px;
 }
 
-.c27:hover .c29 {
+.c25:hover .c27 {
   border-color: rgba(0,0,0,0.87);
 }
 
-input[type=radio]:checked + .c29 {
+input[type=radio]:checked + .c27 {
   border-color: rgba(0,0,0,0.87);
   border-width: 6px;
 }
 
-.c27:hover .c40 {
+.c25:hover .c37 {
   border-color: rgba(0,0,0,0.38);
 }
 
-.c27:hover .c41 {
+.c25:hover .c38 {
   border-color: rgba(0,0,0,0.87);
 }
 
-.c30 {
+.c28 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4421,13 +4270,13 @@ input[type=radio]:checked + .c29 {
   -webkit-tap-highlight-color: transparent;
 }
 
-.c33 {
+.c30 {
   grid-area: description;
   margin-top: 8px;
   padding-left: 8px;
 }
 
-.c24 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4440,17 +4289,17 @@ input[type=radio]:checked + .c29 {
   border-radius: 4px;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c25 {
+.c23 {
   padding: 16px;
 }
 
-.c34 {
+.c31 {
   padding: 16px;
   border-top: 1px solid rgba(0,0,0,0.12);
   border-top-color: rgba(0,0,0,0.12);
@@ -4507,328 +4356,329 @@ input[type=radio]:checked + .c29 {
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1 c2"
+    className="c0"
   >
     <div
-      className="c3"
-    />
-    <div
-      className="c4"
+      className="c1 c2"
     >
-      <form
-        noValidate={true}
-        onSubmit={[Function]}
+      <div
+        className="c3"
+      />
+      <div
+        className="c4"
       >
-        <div
-          className="c5"
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
         >
           <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Using JavaScript Validation
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c11"
-          >
-            <p
-              className="c7 c12"
-            >
-              <span
-                className="c13"
-              >
-                In this example, a RadioGroup is being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation. It also uses the
-                 
-                <a
-                  className="c14"
-                  href="/?path=/docs/components-formcontrol--basic"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel={null}
-                >
-                  FormControl
-                </a>
-                 
-                component to provide errors and labels.
-              </span>
-            </p>
-            <div
-              className="c15"
-            />
-            <p
-              className="c16 c17"
-            >
-              <span
-                className="c18"
-              >
-                Note: in order to demonstrate validation, this RadioGroup does not define a defaultValue. However, this is considered bad practice and confusing UX for users.
-              </span>
-            </p>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c19"
+            className="c5"
           >
             <div
-              className="c20"
+              className="c6"
             >
-              <label
-                className="c21 c22"
-                htmlFor="rgwjsv-notification-preference"
-                id="rgwjsv-notification-preference-label"
+              <h2
+                className="c7 c8"
               >
                 <span
-                  className="c23"
+                  className="c9"
                 >
-                  Notification Preference
+                  Using JavaScript Validation
                 </span>
-              </label>
-            </div>
-            <div
-              aria-disabled={false}
-              aria-errormessage={null}
-              aria-invalid={false}
-              aria-labelledby="rgwjsv-notification-preference-label"
-              aria-required={true}
-              className="c24"
-              id="rgwjsv-notification-preference"
-              role="radiogroup"
-            >
-              <div
-                className="c25"
-              >
-                <div
-                  className="c26"
-                  onInput={[Function]}
-                >
-                  <div
-                    className="c27 c28"
-                  >
-                    <input
-                      aria-describedby="rgwjsv-notify-none-description"
-                      aria-disabled={false}
-                      aria-invalid={false}
-                      aria-labelledby="rgwjsv-notify-none-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      disabled={false}
-                      id="rgwjsv-notify-none"
-                      name="notify"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="none"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c29"
-                    />
-                  </div>
-                  <label
-                    className="c30"
-                    htmlFor="rgwjsv-notify-none"
-                    id="rgwjsv-notify-none-label"
-                  >
-                    <span
-                      className="c7 c31"
-                    >
-                      <span
-                        className="c32"
-                      >
-                        None
-                      </span>
-                    </span>
-                  </label>
-                  <div
-                    className="c21 c17 c33"
-                    id="rgwjsv-notify-none-description"
-                  >
-                    <span
-                      className="c18"
-                    >
-                      We will never send you emails
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="c34"
-              >
-                <div
-                  className="c26"
-                  onInput={[Function]}
-                >
-                  <div
-                    className="c27 c28"
-                  >
-                    <input
-                      aria-describedby="rgwjsv-notify-some-description"
-                      aria-disabled={false}
-                      aria-invalid={false}
-                      aria-labelledby="rgwjsv-notify-some-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      disabled={false}
-                      id="rgwjsv-notify-some"
-                      name="notify"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="some"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c29"
-                    />
-                  </div>
-                  <label
-                    className="c30"
-                    htmlFor="rgwjsv-notify-some"
-                    id="rgwjsv-notify-some-label"
-                  >
-                    <span
-                      className="c7 c31"
-                    >
-                      <span
-                        className="c32"
-                      >
-                        Some
-                      </span>
-                    </span>
-                  </label>
-                  <div
-                    className="c21 c17 c33"
-                    id="rgwjsv-notify-some-description"
-                  >
-                    <span
-                      className="c18"
-                    >
-                      We will only send you important notification emails
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="c34"
-              >
-                <div
-                  className="c26"
-                  onInput={[Function]}
-                >
-                  <div
-                    className="c27 c28"
-                  >
-                    <input
-                      aria-describedby="rgwjsv-notify-all-description"
-                      aria-disabled={false}
-                      aria-invalid={false}
-                      aria-labelledby="rgwjsv-notify-all-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      disabled={false}
-                      id="rgwjsv-notify-all"
-                      name="notify"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="all"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c29"
-                    />
-                  </div>
-                  <label
-                    className="c30"
-                    htmlFor="rgwjsv-notify-all"
-                    id="rgwjsv-notify-all-label"
-                  >
-                    <span
-                      className="c7 c31"
-                    >
-                      <span
-                        className="c32"
-                      >
-                        All
-                      </span>
-                    </span>
-                  </label>
-                  <div
-                    className="c21 c17 c33"
-                    id="rgwjsv-notify-all-description"
-                  >
-                    <span
-                      className="c18"
-                    >
-                      We will send you notification and marketing emails
-                    </span>
-                  </div>
-                </div>
-              </div>
+              </h2>
             </div>
           </div>
-        </div>
-        <div
-          className="c35"
-        >
-          <button
-            aria-busy={false}
-            className="c36 c37"
-            disabled={false}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            type="submit"
+          <div
+            className="c10"
           >
             <div
-              className="c38"
+              className="c11"
             >
-              <span
-                className="c7 c39"
+              <p
+                className="c7 c12"
               >
                 <span
                   className="c13"
                 >
-                  Save Changes
+                  In this example, a RadioGroup is being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation. It also uses the
+                   
+                  <a
+                    className="c14"
+                    href="/?path=/docs/components-formcontrol--basic"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel={null}
+                  >
+                    FormControl
+                  </a>
+                   
+                  component to provide errors and labels.
                 </span>
-              </span>
+              </p>
+              <div
+                className="c15"
+              />
+              <p
+                className="c16 c17"
+              >
+                <span
+                  className="c13"
+                >
+                  Note: in order to demonstrate validation, this RadioGroup does not define a defaultValue. However, this is considered bad practice and confusing UX for users.
+                </span>
+              </p>
             </div>
-          </button>
-        </div>
-      </form>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c18"
+            >
+              <div
+                className="c19"
+              >
+                <label
+                  className="c20 c21"
+                  htmlFor="rgwjsv-notification-preference"
+                  id="rgwjsv-notification-preference-label"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Notification Preference
+                  </span>
+                </label>
+              </div>
+              <div
+                aria-disabled={false}
+                aria-errormessage={null}
+                aria-invalid={false}
+                aria-labelledby="rgwjsv-notification-preference-label"
+                aria-required={true}
+                className="c22"
+                id="rgwjsv-notification-preference"
+                role="radiogroup"
+              >
+                <div
+                  className="c23"
+                >
+                  <div
+                    className="c24"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c25 c26"
+                    >
+                      <input
+                        aria-describedby="rgwjsv-notify-none-description"
+                        aria-disabled={false}
+                        aria-invalid={false}
+                        aria-labelledby="rgwjsv-notify-none-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        disabled={false}
+                        id="rgwjsv-notify-none"
+                        name="notify"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="none"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c27"
+                      />
+                    </div>
+                    <label
+                      className="c28"
+                      htmlFor="rgwjsv-notify-none"
+                      id="rgwjsv-notify-none-label"
+                    >
+                      <span
+                        className="c7 c29"
+                      >
+                        <span
+                          className="c9"
+                        >
+                          None
+                        </span>
+                      </span>
+                    </label>
+                    <div
+                      className="c20 c17 c30"
+                      id="rgwjsv-notify-none-description"
+                    >
+                      <span
+                        className="c13"
+                      >
+                        We will never send you emails
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="c31"
+                >
+                  <div
+                    className="c24"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c25 c26"
+                    >
+                      <input
+                        aria-describedby="rgwjsv-notify-some-description"
+                        aria-disabled={false}
+                        aria-invalid={false}
+                        aria-labelledby="rgwjsv-notify-some-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        disabled={false}
+                        id="rgwjsv-notify-some"
+                        name="notify"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="some"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c27"
+                      />
+                    </div>
+                    <label
+                      className="c28"
+                      htmlFor="rgwjsv-notify-some"
+                      id="rgwjsv-notify-some-label"
+                    >
+                      <span
+                        className="c7 c29"
+                      >
+                        <span
+                          className="c9"
+                        >
+                          Some
+                        </span>
+                      </span>
+                    </label>
+                    <div
+                      className="c20 c17 c30"
+                      id="rgwjsv-notify-some-description"
+                    >
+                      <span
+                        className="c13"
+                      >
+                        We will only send you important notification emails
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="c31"
+                >
+                  <div
+                    className="c24"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c25 c26"
+                    >
+                      <input
+                        aria-describedby="rgwjsv-notify-all-description"
+                        aria-disabled={false}
+                        aria-invalid={false}
+                        aria-labelledby="rgwjsv-notify-all-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        disabled={false}
+                        id="rgwjsv-notify-all"
+                        name="notify"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="all"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c27"
+                      />
+                    </div>
+                    <label
+                      className="c28"
+                      htmlFor="rgwjsv-notify-all"
+                      id="rgwjsv-notify-all-label"
+                    >
+                      <span
+                        className="c7 c29"
+                      >
+                        <span
+                          className="c9"
+                        >
+                          All
+                        </span>
+                      </span>
+                    </label>
+                    <div
+                      className="c20 c17 c30"
+                      id="rgwjsv-notify-all-description"
+                    >
+                      <span
+                        className="c13"
+                      >
+                        We will send you notification and marketing emails
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="c32"
+          >
+            <button
+              aria-busy={false}
+              className="c33 c34"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="submit"
+            >
+              <div
+                className="c35"
+              >
+                <span
+                  className="c7 c36"
+                >
+                  <span
+                    className="c13"
+                  >
+                    Save Changes
+                  </span>
+                </span>
+              </div>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

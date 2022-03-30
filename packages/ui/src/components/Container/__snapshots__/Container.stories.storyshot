@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Container Basic 1`] = `
-.c0 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -50,16 +58,25 @@ exports[`Storyshots Components/Container Basic 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-  />
-</div>
+    className="c0"
+  >
+    <div
+      className="c1"
+    />
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Container With App Layout 1`] = `
-.c2 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -178,7 +195,7 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   box-sizing: border-box;
 }
 
-.c11 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -200,42 +217,42 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   color: rgba(0,0,0,0.87);
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+.c17 {
+  font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5195rem;
+  line-height: 1.5rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3865rem);
-  -ms-transform: translateY(0.3865rem);
-  transform: translateY(0.3865rem);
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
   text-align: initial;
 }
 
-.c18::before {
+.c17::before {
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.873rem;
+  margin-top: -0.8727272727272727rem;
 }
 
 .c7 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  line-height: 1.2670625rem;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.30693750000000003rem);
-  -ms-transform: translateY(0.30693750000000003rem);
-  transform: translateY(0.30693750000000003rem);
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
   text-align: initial;
 }
 
@@ -243,19 +260,19 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.713875rem;
+  margin-top: -0.7136363636363636rem;
 }
 
 .c3 {
-  font-family: neue-haas-grotesk-text,Helvetica,"Open Sans",sans-serif;
+  font-family: "Inter",sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.774375rem;
+  line-height: 1.75rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.420625rem);
-  -ms-transform: translateY(0.420625rem);
-  transform: translateY(0.420625rem);
+  -webkit-transform: translateY(0.4204545454545454rem);
+  -ms-transform: translateY(0.4204545454545454rem);
+  transform: translateY(0.4204545454545454rem);
   text-align: initial;
 }
 
@@ -263,58 +280,7 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.94125rem;
-}
-
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.017062500000000008rem;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c19 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: -0.019500000000000003rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c19 *,
-.c19 *::before,
-.c19 *::after {
-  box-sizing: border-box;
+  margin-top: -0.9409090909090908rem;
 }
 
 .c4 {
@@ -332,7 +298,7 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
-  vertical-align: -0.024375000000000008rem;
+  vertical-align: 0rem;
 }
 
 .c4 *,
@@ -341,7 +307,34 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   box-sizing: border-box;
 }
 
-.c12 {
+.c18 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c18 *,
+.c18 *::before,
+.c18 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -356,13 +349,13 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   position: relative;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c14 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -381,13 +374,13 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   top: 0;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c15 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -398,19 +391,19 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   -webkit-text-size-adjust: 100%;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c13 {
+.c12 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c20 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -421,26 +414,26 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   -webkit-text-size-adjust: 100%;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
-.c20:first-child {
+.c19:first-child {
   padding-top: 32px;
 }
 
-.c20:last-child {
+.c19:last-child {
   padding-bottom: 32px;
 }
 
-.c20:only-child {
+.c19:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c16 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -460,17 +453,17 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   display: flex;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c16:only-child {
+.c15:only-child {
   padding-bottom: 32px;
 }
 
-.c17 {
+.c16 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -482,7 +475,7 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   transform: translateY(2px);
 }
 
-.c9 {
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -500,30 +493,30 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   text-decoration: underline;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   outline-offset: 1px;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c9:hover {
+.c8:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c9:visited,
-.c9:active {
+.c8:visited,
+.c8:active {
   color: #38A169;
 }
 
-.c10 {
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -539,139 +532,148 @@ exports[`Storyshots Components/Container With App Layout 1`] = `
   width: 16px;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <h1
-      className="c2 c3"
-    >
-      <span
-        className="c4"
-      >
-        ACME
-      </span>
-    </h1>
-    <nav
-      className="c5"
-    >
-      <div
-        className="c6"
-        role="list"
-      >
-        <p
-          className="c2 c7"
-          role="listitem"
-        >
-          <span
-            className="c8"
-          >
-            <a
-              className="c9"
-              href="/home"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
-            >
-              Home
-            </a>
-          </span>
-        </p>
-        <div
-          className="c10"
-        />
-        <p
-          className="c2 c7"
-          role="listitem"
-        >
-          <span
-            className="c8"
-          >
-            <a
-              className="c9"
-              href="/products"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
-            >
-              Products
-            </a>
-          </span>
-        </p>
-        <div
-          className="c10"
-        />
-        <p
-          className="c2 c7"
-          role="listitem"
-        >
-          <span
-            className="c8"
-          >
-            <a
-              className="c9"
-              href="/account"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel={null}
-            >
-              Account
-            </a>
-          </span>
-        </p>
-      </div>
-    </nav>
-  </div>
-  <main
-    className="c11"
+    className="c0"
   >
     <div
-      className="c12 c13"
+      className="c1"
     >
-      <div
-        className="c14"
-      />
-      <div
-        className="c15"
+      <h1
+        className="c2 c3"
+      >
+        <span
+          className="c4"
+        >
+          ACME
+        </span>
+      </h1>
+      <nav
+        className="c5"
       >
         <div
-          className="c16"
+          className="c6"
+          role="list"
+        >
+          <p
+            className="c2 c7"
+            role="listitem"
+          >
+            <span
+              className="c4"
+            >
+              <a
+                className="c8"
+                href="/home"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                Home
+              </a>
+            </span>
+          </p>
+          <div
+            className="c9"
+          />
+          <p
+            className="c2 c7"
+            role="listitem"
+          >
+            <span
+              className="c4"
+            >
+              <a
+                className="c8"
+                href="/products"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                Products
+              </a>
+            </span>
+          </p>
+          <div
+            className="c9"
+          />
+          <p
+            className="c2 c7"
+            role="listitem"
+          >
+            <span
+              className="c4"
+            >
+              <a
+                className="c8"
+                href="/account"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel={null}
+              >
+                Account
+              </a>
+            </span>
+          </p>
+        </div>
+      </nav>
+    </div>
+    <main
+      className="c10"
+    >
+      <div
+        className="c11 c12"
+      >
+        <div
+          className="c13"
+        />
+        <div
+          className="c14"
         >
           <div
-            className="c17"
+            className="c15"
           >
-            <h2
-              className="c2 c18"
+            <div
+              className="c16"
             >
-              <span
-                className="c19"
+              <h2
+                className="c2 c17"
               >
-                About ACME
-              </span>
-            </h2>
+                <span
+                  className="c18"
+                >
+                  About ACME
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c19"
+          >
+            Here is some text about ACME corp
           </div>
         </div>
-        <div
-          className="c20"
-        >
-          Here is some text about ACME corp
-        </div>
       </div>
-    </div>
-  </main>
-</div>
+    </main>
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Container With No Gutters 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -720,16 +722,25 @@ exports[`Storyshots Components/Container With No Gutters 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-  />
-</div>
+    className="c0"
+  >
+    <div
+      className="c1"
+    />
+  </div>,
+]
 `;
 
 exports[`Storyshots Components/Container With No Max Width 1`] = `
-.c1 {
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -778,10 +789,11 @@ exports[`Storyshots Components/Container With No Max Width 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
-  />
-</div>
+    className="c0"
+  >
+    <div
+      className="c1"
+    />
+  </div>,
+]
 `;

@@ -44,7 +44,7 @@ describe('createTypography', () => {
   it('should override toString methods', () => {
     const typography = makeTypography()
     const display1 = `
-  font-family: neue-haas-grotesk-display, Helvetica, "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 4.75rem;

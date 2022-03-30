@@ -1170,6 +1170,11 @@
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
   integrity sha512-4Th98KlMHr5+JkxfcoDT//6vY8vM+iSPrLNpHhRyLx2CFYi8e2RfqPLdpbnpo0Q5lQC5hNB79yes07zb02fvCw==
 
+"@capsizecss/metrics@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@capsizecss/metrics/-/metrics-0.2.0.tgz#54d1f4c441d9569ddf99772a0b320e27fdf0bcf3"
+  integrity sha512-vXHtt/fdyXzEtNkyCyEAx1tM1ubZNEiRaZEdUOovbePNKRvtHwgluFwlbJoq1SaW72OlgXRl9wOVrLNjfjI0iA==
+
 "@chromaui/localtunnel@1.10.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@chromaui/localtunnel/-/localtunnel-1.10.1.tgz#34da7dab7055a16b1b9034a9eb7e3054ebec4b98"
