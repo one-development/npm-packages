@@ -77,11 +77,11 @@ const ControlFill = styled.span(({ theme, styleProps }) => ({
    * based on which states have least to most precedence.
    */
   [`${Control}:hover &`]: {
-    borderColor: theme.colors.onSurface.primary,
+    borderColor: theme.colors.highlight,
   },
   // eslint-disable-next-line sort-keys
   'input[type=radio]:checked + &': {
-    borderColor: theme.colors.onSurface.primary,
+    borderColor: theme.colors.highlight,
     borderWidth: 6,
   },
   ...(styleProps.focusVisible && {
@@ -91,7 +91,7 @@ const ControlFill = styled.span(({ theme, styleProps }) => ({
   ...(styleProps.invalid && {
     borderColor: theme.colors.error,
     [`${Control}:hover &`]: {
-      borderColor: theme.colors.onSurface.primary,
+      borderColor: theme.colors.highlight,
     },
     'input[type=radio]:checked + &': {
       borderWidth: 6,

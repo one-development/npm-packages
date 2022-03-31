@@ -176,11 +176,11 @@ Array [
 }
 
 .c2:hover .c4 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c4 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -865,11 +865,11 @@ Array [
 }
 
 .c19:hover .c21 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c21 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -878,7 +878,7 @@ input[type=radio]:checked + .c21 {
 }
 
 .c19:hover .c30 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c22 {
@@ -1500,11 +1500,11 @@ Array [
 }
 
 .c4:hover .c6 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c6 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -1513,7 +1513,7 @@ input[type=radio]:checked + .c6 {
 }
 
 .c4:hover .c23 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c7 {
@@ -2045,11 +2045,11 @@ Array [
 }
 
 .c2:hover .c4 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c4 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -2058,7 +2058,7 @@ input[type=radio]:checked + .c4 {
 }
 
 .c2:hover .c14 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c5 {
@@ -2350,11 +2350,11 @@ Array [
 }
 
 .c3:hover .c5 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c5 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -2363,7 +2363,7 @@ input[type=radio]:checked + .c5 {
 }
 
 .c3:hover .c12 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c6 {
@@ -3166,11 +3166,11 @@ Array [
 }
 
 .c20:hover .c22 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c22 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -3179,7 +3179,7 @@ input[type=radio]:checked + .c22 {
 }
 
 .c20:hover .c31 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c23 {
@@ -3681,11 +3681,11 @@ Array [
 }
 
 .c3:hover .c5 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c5 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -3737,7 +3737,7 @@ input[type=radio]:checked + .c11 {
 }
 
 .c3:hover .c13 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c13 {
