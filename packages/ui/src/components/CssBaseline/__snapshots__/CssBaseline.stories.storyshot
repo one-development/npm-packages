@@ -9,8 +9,33 @@ Array [
     
     </style>
   </div>,
-  <div>
-    Hello, this text has received baseline styles.
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
+  >
+    <div>
+      Hello, this text has received baseline styles.
+    </div>
   </div>,
 ]
 `;

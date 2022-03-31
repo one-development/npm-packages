@@ -1,8 +1,6 @@
 import createSwatch from './utils/createSwatch'
 
-const indigo = createSwatch('#0e24c4')
-
-indigo[50] = '#E7EAFE'
-indigo[900] = '#08167A'
+// const indigo = createSwatch('#3352DE')
+const indigo = createSwatch('#3f37c9')
 
 export default indigo

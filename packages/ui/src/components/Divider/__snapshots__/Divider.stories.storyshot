@@ -19,6 +19,27 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -29,15 +50,19 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-<hr
+<div
     className="c0"
-  />,
+  >
+    <hr
+      className="c1"
+    />
+  </div>,
 ]
 `;
 
@@ -50,7 +75,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -65,13 +111,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -92,13 +138,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -117,13 +163,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -143,13 +189,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -162,14 +208,14 @@ Array [
   text-align: center;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -187,9 +233,9 @@ Array [
   vertical-align: 0rem;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
@@ -199,47 +245,51 @@ Array [
     <div
       className="c1"
     >
-      <p
-        className="c2 c3"
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          One
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            One
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Two
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            Two
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Three
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            Three
+          </span>
+        </p>
+      </div>
     </div>
   </div>,
 ]
@@ -254,7 +304,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -269,13 +340,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -295,13 +366,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -322,13 +393,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -343,13 +414,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -362,14 +433,14 @@ Array [
   text-align: center;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -387,9 +458,9 @@ Array [
   vertical-align: 0rem;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
@@ -399,47 +470,51 @@ Array [
     <div
       className="c1"
     >
-      <p
-        className="c2 c3"
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          One
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            One
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Two
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            Two
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Three
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            Three
+          </span>
+        </p>
+      </div>
     </div>
   </div>,
 ]
@@ -454,7 +529,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -469,13 +565,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -495,13 +591,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -517,13 +613,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -539,13 +635,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -558,14 +654,14 @@ Array [
   text-align: center;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -583,9 +679,9 @@ Array [
   vertical-align: 0rem;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
@@ -595,47 +691,51 @@ Array [
     <div
       className="c1"
     >
-      <p
-        className="c2 c3"
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          One
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            One
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Two
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            Two
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Three
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            Three
+          </span>
+        </p>
+      </div>
     </div>
   </div>,
 ]
@@ -650,7 +750,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -665,13 +786,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -691,13 +812,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -712,13 +833,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -734,13 +855,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -753,14 +874,14 @@ Array [
   text-align: center;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -778,9 +899,9 @@ Array [
   vertical-align: 0rem;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
@@ -790,47 +911,51 @@ Array [
     <div
       className="c1"
     >
-      <p
-        className="c2 c3"
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          One
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            One
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Two
-        </span>
-      </p>
-    </div>
-    <hr
-      className="c5"
-    />
-    <div
-      className="c1"
-    >
-      <p
-        className="c2 c3"
+          <span
+            className="c5"
+          >
+            Two
+          </span>
+        </p>
+      </div>
+      <hr
+        className="c6"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c4"
+        <p
+          className="c3 c4"
         >
-          Three
-        </span>
-      </p>
+          <span
+            className="c5"
+          >
+            Three
+          </span>
+        </p>
+      </div>
     </div>
   </div>,
 ]

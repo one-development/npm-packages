@@ -148,30 +148,6 @@ const basilTheme = createTheme({
 })
 
 /* eslint-disable react/prop-types */
-function StatusBar({ time }) {
-  return (
-    <Box
-      alignItems='center'
-      backgroundColor='brandDark'
-      display='flex'
-      height='24px'
-      justifyContent='flex-end'
-      paddingRight='md'
-      position='sticky'
-      top={0}
-      width='100%'
-      zIndex='appbar'
-    >
-      <Text
-        color='onBrandDark.primary'
-        variant='caption'
-        variantMapping={{ caption: 'span' }}
-      >
-        {time}
-      </Text>
-    </Box>
-  )
-}
 
 function Drawer({ children, isOpen, onClose }) {
   if (!isOpen) return null
@@ -266,7 +242,7 @@ const AppbarIcon = styled.div(({ theme }) => ({
   cursor: 'pointer',
   height: '24px',
   marginRight: theme.space.lg,
-  svg: { fill: theme.colors.onBrand.primary },
+  svg: { fill: 'currentColor' },
   width: '24px',
 }))
 
@@ -282,7 +258,9 @@ function AppBar(props) {
   return (
     <Box
       alignItems='center'
-      backgroundColor='brand'
+      backgroundColor='surface'
+      borderBottom='thin'
+      color='onSurface.primary'
       display='flex'
       height='appbarHeight'
       maxHeight='appbarHeight'
@@ -290,10 +268,10 @@ function AppBar(props) {
       position='sticky'
       width='100%'
       zIndex='appbar'
-      top='24px'
+      top={0}
     >
       <AppbarIcon onClick={onTitleClick}>{menuIcon}</AppbarIcon>
-      <Text color='onBrand.primary' variant='h1'>
+      <Text color='inherit' variant='h1'>
         {title}
       </Text>
     </Box>
@@ -414,7 +392,7 @@ function App({ themeName }) {
       top={0}
       overflow='auto'
     >
-      <StatusBar time='10:51 PM' />
+      {/* <StatusBar time='10:51 PM' /> */}
       <AppBar title={themeName} onTitleClick={toggleDrawer} />
       <Drawer isOpen={isDrawerOpen} onClose={toggleDrawer}>
         {drawerItems.map((name, i) => (
@@ -454,6 +432,7 @@ function App({ themeName }) {
               <Swatch title='feedback' main='highlight' />
               <Swatch main='error' dark='errorDark' light='errorLight' />
               <Swatch main='warning' dark='warningDark' light='warningLight' />
+              <Swatch main='success' dark='successDark' light='successLight' />
               <Swatch main='info' dark='infoDark' light='infoLight' />
             </CardContent>
           </Card>

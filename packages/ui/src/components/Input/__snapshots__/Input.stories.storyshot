@@ -14,229 +14,20 @@ Array [
   margin: 0;
   moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: antialiased;
-  padding: 0 9px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FFFFFF;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.12);
-  border-radius: 4px;
-  color: rgba(0,0,0,0.87);
-  cursor: text;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  font-family: inherit;
-  font-size: 1rem;
-  height: 44px;
-  max-width: 100%;
   min-width: 0;
-  outline: 1px solid gray;
-  outline-color: transparent;
-  position: relative;
-  -webkit-tap-highlight-color: transparent;
-  width: 100%;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
 }
 
 .c0 *,
 .c0 *::before,
 .c0 *::after {
   box-sizing: border-box;
-}
-
-.c0 input {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  border: 0;
-  color: currentColor;
-  display: block;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-family: inherit;
-  font-size: inherit;
-  height: 100%;
-  min-width: 0;
-  opacity: 1;
-  outline: none;
-}
-
-.c0 input *,
-.c0 input *::before,
-.c0 input *::after {
-  box-sizing: border-box;
-}
-
-.c0 input::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c0 input::-moz-placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c0 input:-ms-input-placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c0 input::placeholder {
-  color: rgba(0,0,0,0.38);
-  opacity: 1;
-}
-
-.c0:focus-within {
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
-  padding: 0 8px;
-}
-
-@supports selector(:-webkit-autofill) {
-  .c0 input:-webkit-autofill,
-  .c0 input:-webkit-autofill:hover,
-  .c0 input:-webkit-autofill:focus,
-  .c0 input:-webkit-autofill:active,
-  .c0 input:-webkit-autofill::first-line {
-    font-family: "Inter",sans-serif;
-    font-size: 1rem;
-    -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
-    transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
-  }
-}
-
-<div
-    className="c0"
-  >
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="input-basic"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      required={true}
-      type="text"
-    />
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Input With Adornments 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c4::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c10 {
-  display: inline-block;
-  fill: currentColor;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 1rem;
-  height: 1em;
-  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 1em;
 }
 
 .c1 {
@@ -308,7 +99,6 @@ Array [
   min-width: 0;
   opacity: 1;
   outline: none;
-  margin-left: 8px;
 }
 
 .c1 input *,
@@ -339,11 +129,163 @@ Array [
 
 .c1:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c7 {
+@supports selector(:-webkit-autofill) {
+  .c1 input:-webkit-autofill,
+  .c1 input:-webkit-autofill:hover,
+  .c1 input:-webkit-autofill:focus,
+  .c1 input:-webkit-autofill:active,
+  .c1 input:-webkit-autofill::first-line {
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
+    transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
+  }
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="input-basic"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        required={true}
+        type="text"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Input With Adornments 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -381,13 +323,117 @@ Array [
   width: 100%;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c7 input {
+.c2 input {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: currentColor;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  min-width: 0;
+  opacity: 1;
+  outline: none;
+  margin-left: 8px;
+}
+
+.c2 input *,
+.c2 input *::before,
+.c2 input *::after {
+  box-sizing: border-box;
+}
+
+.c2 input::-webkit-input-placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c2 input::-moz-placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c2 input:-ms-input-placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c2 input::placeholder {
+  color: rgba(0,0,0,0.38);
+  opacity: 1;
+}
+
+.c2:focus-within {
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: #3F37C9;
+  padding: 0 8px;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0 9px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.12);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  cursor: text;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 44px;
+  max-width: 100%;
+  min-width: 0;
+  outline: 1px solid gray;
+  outline-color: transparent;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c8 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -415,39 +461,39 @@ Array [
   margin-right: 8px;
 }
 
-.c7 input *,
-.c7 input *::before,
-.c7 input *::after {
+.c8 input *,
+.c8 input *::before,
+.c8 input *::after {
   box-sizing: border-box;
 }
 
-.c7 input::-webkit-input-placeholder {
+.c8 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c7 input::-moz-placeholder {
+.c8 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c7 input:-ms-input-placeholder {
+.c8 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c7 input::placeholder {
+.c8 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c7:focus-within {
+.c8:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -485,13 +531,13 @@ Array [
   width: 100%;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c9 input {
+.c10 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -520,53 +566,53 @@ Array [
   margin-left: 8px;
 }
 
-.c9 input *,
-.c9 input *::before,
-.c9 input *::after {
+.c10 input *,
+.c10 input *::before,
+.c10 input *::after {
   box-sizing: border-box;
 }
 
-.c9 input::-webkit-input-placeholder {
+.c10 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c9 input::-moz-placeholder {
+.c10 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c9 input:-ms-input-placeholder {
+.c10 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c9 input::placeholder {
+.c10 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c9:focus-within {
+.c10:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -582,13 +628,13 @@ Array [
   height: 24px;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -610,18 +656,18 @@ Array [
   align-items: stretch;
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c1 input:-webkit-autofill,
-  .c1 input:-webkit-autofill:hover,
-  .c1 input:-webkit-autofill:focus,
-  .c1 input:-webkit-autofill:active,
-  .c1 input:-webkit-autofill::first-line {
+  .c2 input:-webkit-autofill,
+  .c2 input:-webkit-autofill:hover,
+  .c2 input:-webkit-autofill:focus,
+  .c2 input:-webkit-autofill:active,
+  .c2 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -630,11 +676,11 @@ Array [
 }
 
 @supports selector(:-webkit-autofill) {
-  .c7 input:-webkit-autofill,
-  .c7 input:-webkit-autofill:hover,
-  .c7 input:-webkit-autofill:focus,
-  .c7 input:-webkit-autofill:active,
-  .c7 input:-webkit-autofill::first-line {
+  .c8 input:-webkit-autofill,
+  .c8 input:-webkit-autofill:hover,
+  .c8 input:-webkit-autofill:focus,
+  .c8 input:-webkit-autofill:active,
+  .c8 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -643,11 +689,11 @@ Array [
 }
 
 @supports selector(:-webkit-autofill) {
-  .c9 input:-webkit-autofill,
-  .c9 input:-webkit-autofill:hover,
-  .c9 input:-webkit-autofill:focus,
-  .c9 input:-webkit-autofill:active,
-  .c9 input:-webkit-autofill::first-line {
+  .c10 input:-webkit-autofill,
+  .c10 input:-webkit-autofill:hover,
+  .c10 input:-webkit-autofill:focus,
+  .c10 input:-webkit-autofill:active,
+  .c10 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -664,165 +710,169 @@ Array [
       <div
         className="c2"
       >
-        <p
-          className="c3 c4"
+        <div
+          className="c3"
         >
-          <span
-            className="c5"
+          <p
+            className="c4 c5"
           >
-            @
-          </span>
-        </p>
+            <span
+              className="c6"
+            >
+              @
+            </span>
+          </p>
+        </div>
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          id="input-with-adornments-start"
+          name="input-with-adornments-start"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="Input with a start adornment"
+          required={true}
+          type="text"
+        />
       </div>
-      <input
-        aria-disabled={false}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="input-with-adornments-start"
-        name="input-with-adornments-start"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="Input with a start adornment"
-        required={true}
-        type="text"
-      />
-    </div>
-    <div
-      className="c6"
-    />
-    <div
-      className="c7"
-    >
-      <input
-        aria-disabled={false}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="input-with-adornments-end"
-        name="input-with-adornments-end"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="Input with an end adornment"
-        required={true}
-        type="text"
+      <div
+        className="c7"
       />
       <div
         className="c8"
       >
-        <p
-          className="c3 c4"
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          id="input-with-adornments-end"
+          name="input-with-adornments-end"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="Input with an end adornment"
+          required={true}
+          type="text"
+        />
+        <div
+          className="c9"
         >
-          <span
-            className="c5"
+          <p
+            className="c4 c5"
           >
-            .00
-          </span>
-        </p>
+            <span
+              className="c6"
+            >
+              .00
+            </span>
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      className="c6"
-    />
-    <div
-      className="c9"
-    >
       <div
-        className="c2"
+        className="c7"
+      />
+      <div
+        className="c10"
       >
-        <p
-          className="c3 c4"
+        <div
+          className="c3"
         >
-          <span
-            className="c5"
+          <p
+            className="c4 c5"
           >
-            $
-          </span>
-        </p>
+            <span
+              className="c6"
+            >
+              $
+            </span>
+          </p>
+        </div>
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          id="input-with-adornments-start-end"
+          name="input-with-adornments-start-end"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="Input with start and end adornments"
+          required={true}
+          type="text"
+        />
+        <div
+          className="c9"
+        >
+          <p
+            className="c4 c5"
+          >
+            <span
+              className="c6"
+            >
+              .00
+            </span>
+          </p>
+        </div>
       </div>
-      <input
-        aria-disabled={false}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="input-with-adornments-start-end"
-        name="input-with-adornments-start-end"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="Input with start and end adornments"
-        required={true}
-        type="text"
+      <div
+        className="c7"
       />
       <div
         className="c8"
       >
-        <p
-          className="c3 c4"
+        <input
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          id="input-with-adornments-icon"
+          name="input-with-adornments-icon"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="Input with icon adornment"
+          required={true}
+          type="text"
+        />
+        <div
+          className="c9"
         >
-          <span
-            className="c5"
+          <svg
+            aria-hidden={true}
+            className="c11"
+            focusable="false"
+            viewBox="0 0 24 24"
           >
-            .00
-          </span>
-        </p>
-      </div>
-    </div>
-    <div
-      className="c6"
-    />
-    <div
-      className="c7"
-    >
-      <input
-        aria-disabled={false}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        id="input-with-adornments-icon"
-        name="input-with-adornments-icon"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="Input with icon adornment"
-        required={true}
-        type="text"
-      />
-      <div
-        className="c8"
-      >
-        <svg
-          aria-hidden={true}
-          className="c10"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-          />
-        </svg>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </div>,
@@ -838,7 +888,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -853,13 +924,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -874,13 +945,13 @@ Array [
   display: block;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -895,13 +966,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -941,17 +1012,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
-.c18::-moz-focus-inner {
+.c19::-moz-focus-inner {
   border-style: none;
 }
 
-.c21 {
+.c22 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -964,14 +1035,14 @@ Array [
   text-align: center;
 }
 
-.c21::before {
+.c22::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -984,14 +1055,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -1004,14 +1075,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c15 {
+.c16 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -1024,14 +1095,14 @@ Array [
   text-align: initial;
 }
 
-.c15::before {
+.c16::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1049,13 +1120,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1076,13 +1147,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c19 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1099,31 +1170,31 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #38A169;
+  background-color: #3F37C9;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
   padding: 0px 24px;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c19:hover {
-  background-color: hsl(148,48.4%,34%);
+.c20:hover {
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
 }
 
-.c19:active {
+.c20:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c20 {
+.c21 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1142,7 +1213,7 @@ Array [
   visibility: visible;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1157,13 +1228,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1182,13 +1253,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1199,19 +1270,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c17 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1234,21 +1305,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c17 > * {
+.c18 > * {
   margin-left: 8px;
 }
 
-.c17 > :first-child {
+.c18 > :first-child {
   margin-left: 0;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1259,26 +1330,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1298,17 +1369,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -1320,7 +1391,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c16 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1358,13 +1429,13 @@ Array [
   width: 100%;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c16 input {
+.c17 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1391,39 +1462,39 @@ Array [
   outline: none;
 }
 
-.c16 input *,
-.c16 input *::before,
-.c16 input *::after {
+.c17 input *,
+.c17 input *::before,
+.c17 input *::after {
   box-sizing: border-box;
 }
 
-.c16 input::-webkit-input-placeholder {
+.c17 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input::-moz-placeholder {
+.c17 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input:-ms-input-placeholder {
+.c17 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input::placeholder {
+.c17 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16:focus-within {
+.c17:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1439,18 +1510,18 @@ Array [
   height: 16px;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c16 input:-webkit-autofill,
-  .c16 input:-webkit-autofill:hover,
-  .c16 input:-webkit-autofill:focus,
-  .c16 input:-webkit-autofill:active,
-  .c16 input:-webkit-autofill::first-line {
+  .c17 input:-webkit-autofill,
+  .c17 input:-webkit-autofill:hover,
+  .c17 input:-webkit-autofill:focus,
+  .c17 input:-webkit-autofill:active,
+  .c17 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1462,113 +1533,117 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
-        <form
-          onSubmit={[Function]}
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
         >
-          <div
-            className="c5"
+          <form
+            onSubmit={[Function]}
           >
             <div
               className="c6"
             >
-              <h2
-                className="c7 c8"
-              >
-                <span
-                  className="c9"
-                >
-                  Using Browser Validation
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c10"
-          >
-            <p
-              className="c7 c11"
-            >
-              <span
-                className="c12"
-              >
-                You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
-              </span>
-            </p>
-            <div
-              className="c13"
-            />
-            <p
-              className="c14 c15"
-            >
-              <span
-                className="c12"
-              >
-                Note: Many form components set noValidate=true. Make sure it is also set to false as well.
-              </span>
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c16"
-            >
-              <input
-                aria-disabled={false}
-                aria-invalid={false}
-                aria-required={true}
-                autoComplete="on"
-                autoCorrect="off"
-                autoFocus={false}
-                disabled={false}
-                id="input-with-browser-validation"
-                name="email"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                onInvalid={[Function]}
-                placeholder="Email Address"
-                required={true}
-                type="email"
-              />
-            </div>
-          </div>
-          <div
-            className="c17"
-          >
-            <button
-              aria-busy={false}
-              className="c18 c19"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="submit"
-            >
               <div
-                className="c20"
+                className="c7"
               >
-                <span
-                  className="c7 c21"
+                <h2
+                  className="c8 c9"
                 >
                   <span
-                    className="c12"
+                    className="c10"
                   >
-                    Save Changes
+                    Using Browser Validation
                   </span>
-                </span>
+                </h2>
               </div>
-            </button>
-          </div>
-        </form>
+            </div>
+            <div
+              className="c11"
+            >
+              <p
+                className="c8 c12"
+              >
+                <span
+                  className="c13"
+                >
+                  You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
+                </span>
+              </p>
+              <div
+                className="c14"
+              />
+              <p
+                className="c15 c16"
+              >
+                <span
+                  className="c13"
+                >
+                  Note: Many form components set noValidate=true. Make sure it is also set to false as well.
+                </span>
+              </p>
+            </div>
+            <div
+              className="c11"
+            >
+              <div
+                className="c17"
+              >
+                <input
+                  aria-disabled={false}
+                  aria-invalid={false}
+                  aria-required={true}
+                  autoComplete="on"
+                  autoCorrect="off"
+                  autoFocus={false}
+                  disabled={false}
+                  id="input-with-browser-validation"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onInvalid={[Function]}
+                  placeholder="Email Address"
+                  required={true}
+                  type="email"
+                />
+              </div>
+            </div>
+            <div
+              className="c18"
+            >
+              <button
+                aria-busy={false}
+                className="c19 c20"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="submit"
+              >
+                <div
+                  className="c21"
+                >
+                  <span
+                    className="c8 c22"
+                  >
+                    <span
+                      className="c13"
+                    >
+                      Save Changes
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>,
@@ -1584,7 +1659,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1599,13 +1695,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1621,13 +1717,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -1640,14 +1736,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -1660,14 +1756,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1685,13 +1781,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1712,13 +1808,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1733,13 +1829,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1758,13 +1854,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1775,19 +1871,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1798,26 +1894,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1837,17 +1933,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -1859,7 +1955,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1897,13 +1993,13 @@ Array [
   width: 100%;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c13 input {
+.c14 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1930,44 +2026,44 @@ Array [
   outline: none;
 }
 
-.c13 input *,
-.c13 input *::before,
-.c13 input *::after {
+.c14 input *,
+.c14 input *::before,
+.c14 input *::after {
   box-sizing: border-box;
 }
 
-.c13 input::-webkit-input-placeholder {
+.c14 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13 input::-moz-placeholder {
+.c14 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13 input:-ms-input-placeholder {
+.c14 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13 input::placeholder {
+.c14 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13:focus-within {
+.c14:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c13 input:-webkit-autofill,
-  .c13 input:-webkit-autofill:hover,
-  .c13 input:-webkit-autofill:focus,
-  .c13 input:-webkit-autofill:active,
-  .c13 input:-webkit-autofill::first-line {
+  .c14 input:-webkit-autofill,
+  .c14 input:-webkit-autofill:hover,
+  .c14 input:-webkit-autofill:focus,
+  .c14 input:-webkit-autofill:active,
+  .c14 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -1979,70 +2075,74 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Adding Extra Attributes
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
             >
               <span
-                className="c9"
+                className="c13"
               >
-                Adding Extra Attributes
+                You can use inputs as controlled components via value/onChange
               </span>
-            </h2>
+            </p>
           </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              You can use inputs as controlled components via value/onChange
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
           <div
-            className="c13"
+            className="c11"
           >
-            <input
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-required={true}
-              autoComplete="on"
-              autoCorrect="off"
-              autoFocus={false}
-              data-test-id="first-name"
-              disabled={false}
-              id="input-with-controlled-state"
-              name="input-with-controlled-state"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              onInvalid={[Function]}
-              placeholder="First Name"
-              required={true}
-              type="text"
-              value=""
-            />
+            <div
+              className="c14"
+            >
+              <input
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-required={true}
+                autoComplete="on"
+                autoCorrect="off"
+                autoFocus={false}
+                data-test-id="first-name"
+                disabled={false}
+                id="input-with-controlled-state"
+                name="input-with-controlled-state"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInvalid={[Function]}
+                placeholder="First Name"
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -2060,7 +2160,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2075,13 +2196,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2096,13 +2217,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -2115,14 +2236,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -2135,14 +2256,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2160,13 +2281,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2187,13 +2308,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2208,13 +2329,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2233,13 +2354,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2250,19 +2371,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2273,26 +2394,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2312,17 +2433,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -2334,7 +2455,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2372,13 +2493,13 @@ Array [
   width: 100%;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c13 input {
+.c14 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2405,44 +2526,44 @@ Array [
   outline: none;
 }
 
-.c13 input *,
-.c13 input *::before,
-.c13 input *::after {
+.c14 input *,
+.c14 input *::before,
+.c14 input *::after {
   box-sizing: border-box;
 }
 
-.c13 input::-webkit-input-placeholder {
+.c14 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13 input::-moz-placeholder {
+.c14 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13 input:-ms-input-placeholder {
+.c14 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13 input::placeholder {
+.c14 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c13:focus-within {
+.c14:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c13 input:-webkit-autofill,
-  .c13 input:-webkit-autofill:hover,
-  .c13 input:-webkit-autofill:focus,
-  .c13 input:-webkit-autofill:active,
-  .c13 input:-webkit-autofill::first-line {
+  .c14 input:-webkit-autofill,
+  .c14 input:-webkit-autofill:hover,
+  .c14 input:-webkit-autofill:focus,
+  .c14 input:-webkit-autofill:active,
+  .c14 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -2454,68 +2575,72 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Adding Custom Attributes
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
             >
               <span
-                className="c9"
+                className="c13"
               >
-                Adding Custom Attributes
+                You can add custom HTML attributes to your Input via the \`input\` prop. This may be useful when adding test attributes to inputs.
               </span>
-            </h2>
+            </p>
           </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              You can add custom HTML attributes to your Input via the \`input\` prop. This may be useful when adding test attributes to inputs.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
           <div
-            className="c13"
+            className="c11"
           >
-            <input
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-required={true}
-              autoComplete="on"
-              autoCorrect="off"
-              autoFocus={false}
-              data-test-id="first-name"
-              disabled={false}
-              id="input-with-custom-attributes"
-              name="input-with-custom-attributes"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              onInvalid={[Function]}
-              required={true}
-              type="text"
-            />
+            <div
+              className="c14"
+            >
+              <input
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-required={true}
+                autoComplete="on"
+                autoCorrect="off"
+                autoFocus={false}
+                data-test-id="first-name"
+                disabled={false}
+                id="input-with-custom-attributes"
+                name="input-with-custom-attributes"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInvalid={[Function]}
+                required={true}
+                type="text"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -2533,7 +2658,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2548,13 +2694,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2569,13 +2715,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2590,13 +2736,13 @@ Array [
   display: block;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c20 {
+.c21 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2636,17 +2782,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c21 *,
+.c21 *::before,
+.c21 *::after {
   box-sizing: border-box;
 }
 
-.c20::-moz-focus-inner {
+.c21::-moz-focus-inner {
   border-style: none;
 }
 
-.c25 {
+.c26 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -2659,14 +2805,14 @@ Array [
   text-align: center;
 }
 
-.c25::before {
+.c26::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -2679,14 +2825,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -2699,14 +2845,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c15 {
+.c16 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -2719,14 +2865,14 @@ Array [
   text-align: initial;
 }
 
-.c15::before {
+.c16::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2744,13 +2890,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2771,13 +2917,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c23 {
+.c24 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2794,31 +2940,31 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #38A169;
+  background-color: #3F37C9;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
   padding: 0px 24px;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c24 *,
+.c24 *::before,
+.c24 *::after {
   box-sizing: border-box;
 }
 
-.c23:hover {
-  background-color: hsl(148,48.4%,34%);
+.c24:hover {
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
 }
 
-.c23:active {
+.c24:active {
   box-shadow: none;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.c24 {
+.c25 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -2837,7 +2983,7 @@ Array [
   visibility: visible;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2852,13 +2998,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2877,13 +3023,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2894,19 +3040,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c22 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2929,21 +3075,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c22 *,
-.c22 *::before,
-.c22 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
-.c22 > * {
+.c23 > * {
   margin-left: 8px;
 }
 
-.c22 > :first-child {
+.c23 > :first-child {
   margin-left: 0;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2954,26 +3100,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2993,17 +3139,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -3015,7 +3161,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c21 {
+.c22 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -3032,7 +3178,7 @@ Array [
   width: 1em;
 }
 
-.c18 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3070,13 +3216,13 @@ Array [
   width: 100%;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
-.c18 input {
+.c19 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3103,46 +3249,46 @@ Array [
   outline: none;
 }
 
-.c18 input *,
-.c18 input *::before,
-.c18 input *::after {
+.c19 input *,
+.c19 input *::before,
+.c19 input *::after {
   box-sizing: border-box;
 }
 
-.c18 input::-webkit-input-placeholder {
+.c19 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18 input::-moz-placeholder {
+.c19 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18 input:-ms-input-placeholder {
+.c19 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18 input::placeholder {
+.c19 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c18:focus-within {
+.c19:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c19 {
+.c20 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c16 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3151,7 +3297,7 @@ Array [
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  color: #38A169;
+  color: #3F37C9;
   cursor: pointer;
   font-size: inherit;
   line-height: inherit;
@@ -3160,30 +3306,30 @@ Array [
   text-decoration: underline;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c16:focus {
+.c17:focus {
   outline: none;
   outline-offset: 1px;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c16:hover {
+.c17:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c16:visited,
-.c16:active {
-  color: #38A169;
+.c17:visited,
+.c17:active {
+  color: #3F37C9;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3199,13 +3345,13 @@ Array [
   height: 24px;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c17 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3227,18 +3373,18 @@ Array [
   align-items: stretch;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c18 input:-webkit-autofill,
-  .c18 input:-webkit-autofill:hover,
-  .c18 input:-webkit-autofill:focus,
-  .c18 input:-webkit-autofill:active,
-  .c18 input:-webkit-autofill::first-line {
+  .c19 input:-webkit-autofill,
+  .c19 input:-webkit-autofill:hover,
+  .c19 input:-webkit-autofill:focus,
+  .c19 input:-webkit-autofill:active,
+  .c19 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -3250,242 +3396,246 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
-        <form
-          noValidate={true}
-          onSubmit={[Function]}
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
         >
-          <div
-            className="c5"
+          <form
+            noValidate={true}
+            onSubmit={[Function]}
           >
             <div
               className="c6"
             >
-              <h2
-                className="c7 c8"
+              <div
+                className="c7"
+              >
+                <h2
+                  className="c8 c9"
+                >
+                  <span
+                    className="c10"
+                  >
+                    Using JavaScript Validation
+                  </span>
+                </h2>
+              </div>
+            </div>
+            <div
+              className="c11"
+            >
+              <p
+                className="c8 c12"
               >
                 <span
-                  className="c9"
+                  className="c13"
                 >
-                  Using JavaScript Validation
+                  In this example, an Input is being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation for a few common input types.
                 </span>
-              </h2>
+              </p>
+              <div
+                className="c14"
+              />
+              <p
+                className="c15 c16"
+              >
+                <span
+                  className="c13"
+                >
+                  Note: This example uses standalone input components, but they work better when used with a
+                   
+                  <a
+                    className="c17"
+                    href="/?path=/docs/components-formcontrol--basic"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel={null}
+                  >
+                    Form Control
+                  </a>
+                   
+                  component.
+                </span>
+              </p>
             </div>
-          </div>
-          <div
-            className="c10"
-          >
-            <p
-              className="c7 c11"
-            >
-              <span
-                className="c12"
-              >
-                In this example, an Input is being rendered and controlled with external state. This example uses react-hook-form to manage state and provide error validation for a few common input types.
-              </span>
-            </p>
             <div
-              className="c13"
-            />
-            <p
-              className="c14 c15"
+              className="c11"
             >
-              <span
-                className="c12"
+              <div
+                className="c18"
               >
-                Note: This example uses standalone input components, but they work better when used with a
-                 
-                <a
-                  className="c16"
-                  href="/?path=/docs/components-formcontrol--basic"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel={null}
-                >
-                  Form Control
-                </a>
-                 
-                component.
-              </span>
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c17"
-            >
-              <div>
-                <div
-                  className="c18"
-                >
-                  <input
-                    aria-disabled={false}
-                    aria-invalid={false}
-                    aria-required={true}
-                    autoComplete="on"
-                    autoCorrect="off"
-                    autoFocus={false}
-                    disabled={false}
-                    id="name"
-                    name="name"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    placeholder="Name"
-                    required={true}
-                    type="text"
-                  />
-                </div>
-              </div>
-              <div
-                className="c13"
-              />
-              <div>
-                <div
-                  className="c18"
-                >
-                  <input
-                    aria-disabled={false}
-                    aria-invalid={false}
-                    aria-required={true}
-                    autoComplete="on"
-                    autoCorrect="off"
-                    autoFocus={false}
-                    disabled={false}
-                    id="email"
-                    name="email"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    placeholder="Email"
-                    required={true}
-                    type="email"
-                  />
-                </div>
-              </div>
-              <div
-                className="c13"
-              />
-              <div>
-                <div
-                  className="c18"
-                >
-                  <input
-                    aria-disabled={false}
-                    aria-invalid={false}
-                    aria-required={true}
-                    autoComplete="on"
-                    autoCorrect="off"
-                    autoFocus={false}
-                    disabled={false}
-                    id="phone"
-                    maxLength="10"
-                    name="phone"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    placeholder="Phone"
-                    required={true}
-                    type="tel"
-                  />
-                </div>
-              </div>
-              <div
-                className="c13"
-              />
-              <div>
-                <div
-                  className="c18"
-                >
-                  <input
-                    aria-disabled={false}
-                    aria-invalid={false}
-                    aria-required={true}
-                    autoComplete="new-password"
-                    autoCorrect="off"
-                    autoFocus={false}
-                    disabled={false}
-                    id="password"
-                    name="password"
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onInvalid={[Function]}
-                    placeholder="Password"
-                    required={true}
-                    type="password"
-                  />
+                <div>
                   <div
                     className="c19"
                   >
-                    <button
-                      aria-label="Show password text"
-                      className="c20 "
+                    <input
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-required={true}
+                      autoComplete="on"
+                      autoCorrect="off"
+                      autoFocus={false}
                       disabled={false}
+                      id="name"
+                      name="name"
                       onBlur={[Function]}
-                      onClick={[Function]}
+                      onChange={[Function]}
                       onFocus={[Function]}
-                      type="button"
+                      onInvalid={[Function]}
+                      placeholder="Name"
+                      required={true}
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="c14"
+                />
+                <div>
+                  <div
+                    className="c19"
+                  >
+                    <input
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-required={true}
+                      autoComplete="on"
+                      autoCorrect="off"
+                      autoFocus={false}
+                      disabled={false}
+                      id="email"
+                      name="email"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      placeholder="Email"
+                      required={true}
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="c14"
+                />
+                <div>
+                  <div
+                    className="c19"
+                  >
+                    <input
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-required={true}
+                      autoComplete="on"
+                      autoCorrect="off"
+                      autoFocus={false}
+                      disabled={false}
+                      id="phone"
+                      maxLength="10"
+                      name="phone"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      placeholder="Phone"
+                      required={true}
+                      type="tel"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="c14"
+                />
+                <div>
+                  <div
+                    className="c19"
+                  >
+                    <input
+                      aria-disabled={false}
+                      aria-invalid={false}
+                      aria-required={true}
+                      autoComplete="new-password"
+                      autoCorrect="off"
+                      autoFocus={false}
+                      disabled={false}
+                      id="password"
+                      name="password"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onInvalid={[Function]}
+                      placeholder="Password"
+                      required={true}
+                      type="password"
+                    />
+                    <div
+                      className="c20"
                     >
-                      <svg
-                        aria-hidden={true}
-                        className="c21"
-                        focusable="false"
-                        viewBox="0 0 24 24"
+                      <button
+                        aria-label="Show password text"
+                        className="c21 "
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        type="button"
                       >
-                        <path
-                          d="M0 0h24v24H0z"
-                          fill="none"
-                        />
-                        <path
-                          d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                        />
-                      </svg>
-                    </button>
+                        <svg
+                          aria-hidden={true}
+                          className="c22"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="c22"
-          >
-            <button
-              aria-busy={false}
-              className="c20 c23"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="submit"
+            <div
+              className="c23"
             >
-              <div
-                className="c24"
+              <button
+                aria-busy={false}
+                className="c21 c24"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="submit"
               >
-                <span
-                  className="c7 c25"
+                <div
+                  className="c25"
                 >
                   <span
-                    className="c12"
+                    className="c8 c26"
                   >
-                    Save Changes
+                    <span
+                      className="c13"
+                    >
+                      Save Changes
+                    </span>
                   </span>
-                </span>
-              </div>
-            </button>
-          </div>
-        </form>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>,
@@ -3501,7 +3651,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3516,13 +3687,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3537,13 +3708,13 @@ Array [
   display: block;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3558,13 +3729,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -3577,14 +3748,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -3597,14 +3768,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c15 {
+.c16 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -3617,14 +3788,14 @@ Array [
   text-align: initial;
 }
 
-.c15::before {
+.c16::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3642,13 +3813,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3669,13 +3840,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3690,13 +3861,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3715,13 +3886,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3732,19 +3903,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3755,26 +3926,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3794,17 +3965,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -3816,7 +3987,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c16 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3854,13 +4025,13 @@ Array [
   width: 100%;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c16 input {
+.c17 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3887,39 +4058,39 @@ Array [
   outline: none;
 }
 
-.c16 input *,
-.c16 input *::before,
-.c16 input *::after {
+.c17 input *,
+.c17 input *::before,
+.c17 input *::after {
   box-sizing: border-box;
 }
 
-.c16 input::-webkit-input-placeholder {
+.c17 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input::-moz-placeholder {
+.c17 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input:-ms-input-placeholder {
+.c17 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input::placeholder {
+.c17 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16:focus-within {
+.c17:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3935,18 +4106,18 @@ Array [
   height: 16px;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c16 input:-webkit-autofill,
-  .c16 input:-webkit-autofill:hover,
-  .c16 input:-webkit-autofill:focus,
-  .c16 input:-webkit-autofill:active,
-  .c16 input:-webkit-autofill::first-line {
+  .c17 input:-webkit-autofill,
+  .c17 input:-webkit-autofill:hover,
+  .c17 input:-webkit-autofill:focus,
+  .c17 input:-webkit-autofill:active,
+  .c17 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -3958,81 +4129,85 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Using Input Masking
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
             >
               <span
-                className="c9"
+                className="c13"
               >
-                Using Input Masking
+                You can format your Input value on blur via the \`mask\` prop.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              You can format your Input value on blur via the \`mask\` prop.
-            </span>
-          </p>
-          <div
-            className="c13"
-          />
-          <p
-            className="c14 c15"
-          >
-            <span
-              className="c12"
-            >
-              NOTE: It can be helpful to use the \`maxLength\` attribute to prevent extra characters.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c16"
-          >
-            <input
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-required={true}
-              autoComplete="on"
-              autoCorrect="off"
-              autoFocus={false}
-              disabled={false}
-              id="input-with-mask"
-              maxLength="10"
-              name="input-with-mask"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              onInvalid={[Function]}
-              placeholder="(###) ###-####"
-              required={true}
-              type="tel"
+            </p>
+            <div
+              className="c14"
             />
+            <p
+              className="c15 c16"
+            >
+              <span
+                className="c13"
+              >
+                NOTE: It can be helpful to use the \`maxLength\` attribute to prevent extra characters.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
+            <div
+              className="c17"
+            >
+              <input
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-required={true}
+                autoComplete="on"
+                autoCorrect="off"
+                autoFocus={false}
+                disabled={false}
+                id="input-with-mask"
+                maxLength="10"
+                name="input-with-mask"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInvalid={[Function]}
+                placeholder="(###) ###-####"
+                required={true}
+                type="tel"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -4051,6 +4226,27 @@ Array [
     </style>
   </div>,
   .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4087,13 +4283,13 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c0 input {
+.c1 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4120,44 +4316,44 @@ Array [
   outline: none;
 }
 
-.c0 input *,
-.c0 input *::before,
-.c0 input *::after {
+.c1 input *,
+.c1 input *::before,
+.c1 input *::after {
   box-sizing: border-box;
 }
 
-.c0 input::-webkit-input-placeholder {
+.c1 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c0 input::-moz-placeholder {
+.c1 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c0 input:-ms-input-placeholder {
+.c1 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c0 input::placeholder {
+.c1 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c0:focus-within {
+.c1:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c0 input:-webkit-autofill,
-  .c0 input:-webkit-autofill:hover,
-  .c0 input:-webkit-autofill:focus,
-  .c0 input:-webkit-autofill:active,
-  .c0 input:-webkit-autofill::first-line {
+  .c1 input:-webkit-autofill,
+  .c1 input:-webkit-autofill:hover,
+  .c1 input:-webkit-autofill:focus,
+  .c1 input:-webkit-autofill:active,
+  .c1 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -4168,24 +4364,28 @@ Array [
 <div
     className="c0"
   >
-    <input
-      aria-disabled={false}
-      aria-invalid={false}
-      aria-required={true}
-      autoComplete="on"
-      autoCorrect="off"
-      autoFocus={false}
-      disabled={false}
-      id="input-with-min-width"
-      name="input-with-min-width"
-      onBlur={[Function]}
-      onChange={[Function]}
-      onFocus={[Function]}
-      onInvalid={[Function]}
-      placeholder="Min width input"
-      required={true}
-      type="text"
-    />
+    <div
+      className="c1"
+    >
+      <input
+        aria-disabled={false}
+        aria-invalid={false}
+        aria-required={true}
+        autoComplete="on"
+        autoCorrect="off"
+        autoFocus={false}
+        disabled={false}
+        id="input-with-min-width"
+        name="input-with-min-width"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onInvalid={[Function]}
+        placeholder="Min width input"
+        required={true}
+        type="text"
+      />
+    </div>
   </div>,
 ]
 `;
@@ -4199,7 +4399,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4214,13 +4435,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4235,13 +4456,13 @@ Array [
   display: block;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4256,13 +4477,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4302,17 +4523,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
-.c18::-moz-focus-inner {
+.c19::-moz-focus-inner {
   border-style: none;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -4325,14 +4546,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -4345,14 +4566,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c15 {
+.c16 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -4365,14 +4586,14 @@ Array [
   text-align: initial;
 }
 
-.c15::before {
+.c16::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4390,13 +4611,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4417,13 +4638,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4438,13 +4659,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4463,13 +4684,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4480,19 +4701,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4503,26 +4724,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4542,17 +4763,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -4564,7 +4785,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c19 {
+.c20 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -4581,7 +4802,7 @@ Array [
   width: 1em;
 }
 
-.c16 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4619,13 +4840,13 @@ Array [
   width: 100%;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c16 input {
+.c17 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4652,46 +4873,46 @@ Array [
   outline: none;
 }
 
-.c16 input *,
-.c16 input *::before,
-.c16 input *::after {
+.c17 input *,
+.c17 input *::before,
+.c17 input *::after {
   box-sizing: border-box;
 }
 
-.c16 input::-webkit-input-placeholder {
+.c17 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input::-moz-placeholder {
+.c17 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input:-ms-input-placeholder {
+.c17 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16 input::placeholder {
+.c17 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c16:focus-within {
+.c17:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4707,18 +4928,18 @@ Array [
   height: 16px;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c16 input:-webkit-autofill,
-  .c16 input:-webkit-autofill:hover,
-  .c16 input:-webkit-autofill:focus,
-  .c16 input:-webkit-autofill:active,
-  .c16 input:-webkit-autofill::first-line {
+  .c17 input:-webkit-autofill,
+  .c17 input:-webkit-autofill:hover,
+  .c17 input:-webkit-autofill:focus,
+  .c17 input:-webkit-autofill:active,
+  .c17 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -4730,106 +4951,110 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Using Password Inputs
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
             >
               <span
-                className="c9"
+                className="c13"
               >
-                Using Password Inputs
+                Input provides built-in logic when you set type=password. A button is added to the right side of the input to toggle the masking of the current text.
               </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              Input provides built-in logic when you set type=password. A button is added to the right side of the input to toggle the masking of the current text.
-            </span>
-          </p>
-          <div
-            className="c13"
-          />
-          <p
-            className="c14 c15"
-          >
-            <span
-              className="c12"
-            >
-              NOTE: By default, the component will use auto-complete=new-password when text is masked and auto-complete=disabled when text is visible. You can change that by providing an autoComplete prop.
-            </span>
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <div
-            className="c16"
-          >
-            <input
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-required={true}
-              autoComplete="new-password"
-              autoCorrect="off"
-              autoFocus={false}
-              disabled={false}
-              id="input-with-passwords"
-              name="input-with-passwords"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              onInvalid={[Function]}
-              required={true}
-              type="password"
+            </p>
+            <div
+              className="c14"
             />
+            <p
+              className="c15 c16"
+            >
+              <span
+                className="c13"
+              >
+                NOTE: By default, the component will use auto-complete=new-password when text is masked and auto-complete=disabled when text is visible. You can change that by providing an autoComplete prop.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c11"
+          >
             <div
               className="c17"
             >
-              <button
-                aria-label="Show password text"
-                className="c18 "
+              <input
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-required={true}
+                autoComplete="new-password"
+                autoCorrect="off"
+                autoFocus={false}
                 disabled={false}
+                id="input-with-passwords"
+                name="input-with-passwords"
                 onBlur={[Function]}
-                onClick={[Function]}
+                onChange={[Function]}
                 onFocus={[Function]}
-                type="button"
+                onInvalid={[Function]}
+                required={true}
+                type="password"
+              />
+              <div
+                className="c18"
               >
-                <svg
-                  aria-hidden={true}
-                  className="c19"
-                  focusable="false"
-                  viewBox="0 0 24 24"
+                <button
+                  aria-label="Show password text"
+                  className="c19 "
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  type="button"
                 >
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                  <path
-                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-                  />
-                </svg>
-              </button>
+                  <svg
+                    aria-hidden={true}
+                    className="c20"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -4848,7 +5073,28 @@ Array [
     
     </style>
   </div>,
-  .c3 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4863,7 +5109,7 @@ Array [
   align-items: center;
   background-color: #FFFFFF;
   border: 1px solid rgba(0,0,0,0.12);
-  border-color: #F03D3D;
+  border-color: #D63349;
   border-radius: 4px;
   color: rgba(0,0,0,0.87);
   cursor: text;
@@ -4886,13 +5132,13 @@ Array [
   width: 100%;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c3 input {
+.c4 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4919,39 +5165,39 @@ Array [
   outline: none;
 }
 
-.c3 input *,
-.c3 input *::before,
-.c3 input *::after {
+.c4 input *,
+.c4 input *::before,
+.c4 input *::after {
   box-sizing: border-box;
 }
 
-.c3 input::-webkit-input-placeholder {
+.c4 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c3 input::-moz-placeholder {
+.c4 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c3 input:-ms-input-placeholder {
+.c4 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c3 input::placeholder {
+.c4 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c3:focus-within {
+.c4:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: #F03D3D;
+  border-color: #D63349;
   padding: 0 8px;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -4990,13 +5236,13 @@ Array [
   width: 100%;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c1 input {
+.c2 input {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -5023,39 +5269,39 @@ Array [
   outline: none;
 }
 
-.c1 input *,
-.c1 input *::before,
-.c1 input *::after {
+.c2 input *,
+.c2 input *::before,
+.c2 input *::after {
   box-sizing: border-box;
 }
 
-.c1 input::-webkit-input-placeholder {
+.c2 input::-webkit-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c1 input::-moz-placeholder {
+.c2 input::-moz-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c1 input:-ms-input-placeholder {
+.c2 input:-ms-input-placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c1 input::placeholder {
+.c2 input::placeholder {
   color: rgba(0,0,0,0.38);
   opacity: 1;
 }
 
-.c1:focus-within {
+.c2:focus-within {
   border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
+  border-color: #3F37C9;
   padding: 0 8px;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -5071,13 +5317,13 @@ Array [
   height: 24px;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -5099,18 +5345,18 @@ Array [
   align-items: stretch;
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
 @supports selector(:-webkit-autofill) {
-  .c3 input:-webkit-autofill,
-  .c3 input:-webkit-autofill:hover,
-  .c3 input:-webkit-autofill:focus,
-  .c3 input:-webkit-autofill:active,
-  .c3 input:-webkit-autofill::first-line {
+  .c4 input:-webkit-autofill,
+  .c4 input:-webkit-autofill:hover,
+  .c4 input:-webkit-autofill:focus,
+  .c4 input:-webkit-autofill:active,
+  .c4 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -5119,11 +5365,11 @@ Array [
 }
 
 @supports selector(:-webkit-autofill) {
-  .c1 input:-webkit-autofill,
-  .c1 input:-webkit-autofill:hover,
-  .c1 input:-webkit-autofill:focus,
-  .c1 input:-webkit-autofill:active,
-  .c1 input:-webkit-autofill::first-line {
+  .c2 input:-webkit-autofill,
+  .c2 input:-webkit-autofill:hover,
+  .c2 input:-webkit-autofill:focus,
+  .c2 input:-webkit-autofill:active,
+  .c2 input:-webkit-autofill::first-line {
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     -webkit-transition: background-color 1e9s ease-in-out 1e9s,color 1e9s ease-in-out 1e9s;
@@ -5137,46 +5383,50 @@ Array [
     <div
       className="c1"
     >
-      <input
-        aria-disabled={true}
-        aria-invalid={false}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={true}
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="disabled"
-        required={true}
-        tabIndex={-1}
-        type="text"
+      <div
+        className="c2"
+      >
+        <input
+          aria-disabled={true}
+          aria-invalid={false}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="disabled"
+          required={true}
+          tabIndex={-1}
+          type="text"
+        />
+      </div>
+      <div
+        className="c3"
       />
-    </div>
-    <div
-      className="c2"
-    />
-    <div
-      className="c3"
-    >
-      <input
-        aria-disabled={false}
-        aria-invalid={true}
-        aria-required={true}
-        autoComplete="on"
-        autoCorrect="off"
-        autoFocus={false}
-        disabled={false}
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        placeholder="invalid"
-        required={true}
-        type="text"
-      />
+      <div
+        className="c4"
+      >
+        <input
+          aria-disabled={false}
+          aria-invalid={true}
+          aria-required={true}
+          autoComplete="on"
+          autoCorrect="off"
+          autoFocus={false}
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          placeholder="invalid"
+          required={true}
+          type="text"
+        />
+      </div>
     </div>
   </div>,
 ]

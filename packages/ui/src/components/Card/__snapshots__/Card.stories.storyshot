@@ -9,7 +9,7 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -19,29 +19,8 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 360px;
-  background-color: inherit;
+  background-color: #FFFFFF;
+  padding: 16px;
   color: rgba(0,0,0,0.87);
 }
 
@@ -52,295 +31,6 @@ Array [
 }
 
 .c8 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
-}
-
-.c11 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c11::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: #FFFFFF;
-  box-shadow: none;
-  color: rgba(0,0,0,0.87);
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.87);
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
-}
-
-.c10:first-child {
-  padding-top: 32px;
-}
-
-.c10:last-child {
-  padding-bottom: 32px;
-}
-
-.c10:only-child {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 32px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  padding-bottom: 8px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c5:only-child {
-  padding-bottom: 32px;
-}
-
-.c6 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  margin-top: -4px;
-  overflow: hidden;
-  padding: 4px 0px;
-  -webkit-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <div
-        className="c3"
-      />
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-        >
-          <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Simple Card
-              </span>
-            </h2>
-          </div>
-        </div>
-        <div
-          className="c10"
-        >
-          <p
-            className="c7 c11"
-          >
-            <span
-              className="c12"
-            >
-              This is a simple card. It uses CardHeader and CardContent to correctly position its children. It also has the default density.
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Card With Actions 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -361,7 +51,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -376,80 +66,10 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
-}
-
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  outline: 0;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c15 *,
-.c15 *::before,
-.c15 *::after {
-  box-sizing: border-box;
-}
-
-.c15::-moz-focus-inner {
-  border-style: none;
-}
-
-.c18 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: capitalize;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: center;
-}
-
-.c18::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
 }
 
 .c9 {
@@ -543,151 +163,6 @@ Array [
   box-sizing: border-box;
 }
 
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: auto;
-  background-color: rgba(56,161,105,0.16);
-  color: hsl(148,48.4%,31.9%);
-  height: 34px;
-  padding: 0px 12px;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c16:hover {
-  background-color: rgba(56,161,105,0.32);
-}
-
-.c16:active {
-  background-color: rgba(56,161,105,0.32);
-  -webkit-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
-}
-
-.c21 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: auto;
-  color: rgba(0,0,0,0.87);
-  height: 34px;
-  padding: 0px 12px;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-color: currentColor;
-  height: 44px;
-  padding: 0 calc(24px - 1px);
-}
-
-.c21 *,
-.c21 *::before,
-.c21 *::after {
-  box-sizing: border-box;
-}
-
-.c21:hover {
-  background-color: rgba(0,0,0,0.08);
-  color: hsla(0,0%,0%,0.87);
-}
-
-.c21:active {
-  background-color: rgba(0,0,0,0.08);
-  color: hsla(0,0%,0%,0.87);
-  -webkit-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
-}
-
-.c22 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: auto;
-  background-color: #38A169;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
-  color: rgba(255,255,255,1);
-  height: 44px;
-  padding: 0px 24px;
-}
-
-.c22 *,
-.c22 *::before,
-.c22 *::after {
-  box-sizing: border-box;
-}
-
-.c22:hover {
-  background-color: hsl(148,48.4%,34%);
-}
-
-.c22:active {
-  box-shadow: none;
-  -webkit-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
-}
-
-.c17 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  visibility: visible;
-}
-
 .c2 {
   box-sizing: border-box;
   margin: 0;
@@ -757,7 +232,578 @@ Array [
   overflow: hidden;
 }
 
-.c20 {
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c11:first-child {
+  padding-top: 32px;
+}
+
+.c11:last-child {
+  padding-bottom: 32px;
+}
+
+.c11:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:only-child {
+  padding-bottom: 32px;
+}
+
+.c7 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  Simple Card
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div
+            className="c11"
+          >
+            <p
+              className="c8 c12"
+            >
+              <span
+                className="c13"
+              >
+                This is a simple card. It uses CardHeader and CardContent to correctly position its children. It also has the default density.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Card With Actions 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 360px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c16::-moz-focus-inner {
+  border-style: none;
+}
+
+.c19 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: center;
+}
+
+.c19::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c10 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c10::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  background-color: rgba(63,55,201,0.08);
+  color: hsl(243.29999999999995,57.5%,37.6%);
+  height: 36px;
+  padding: 0px 12px;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c17:hover {
+  background-color: rgba(63,55,201,0.2);
+}
+
+.c17:active {
+  background-color: rgba(63,55,201,0.2);
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.c22 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  color: rgba(0,0,0,0.87);
+  height: 36px;
+  padding: 0px 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-color: currentColor;
+  height: 44px;
+  padding: 0 calc(24px - 1px);
+}
+
+.c22 *,
+.c22 *::before,
+.c22 *::after {
+  box-sizing: border-box;
+}
+
+.c22:hover {
+  background-color: rgba(0,0,0,0.08);
+  color: hsla(0,0%,0%,0.87);
+}
+
+.c22:active {
+  background-color: rgba(0,0,0,0.08);
+  color: hsla(0,0%,0%,0.87);
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.c23 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  background-color: #3F37C9;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c23 *,
+.c23 *::before,
+.c23 *::after {
+  box-sizing: border-box;
+}
+
+.c23:hover {
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
+}
+
+.c23:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c21 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -780,21 +826,21 @@ Array [
   justify-content: flex-end;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c21 *,
+.c21 *::before,
+.c21 *::after {
   box-sizing: border-box;
 }
 
-.c20 > * {
+.c21 > * {
   margin-right: 8px;
 }
 
-.c20 > :last-child {
+.c21 > :last-child {
   margin-right: 0;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -817,21 +863,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c14 > * {
+.c15 > * {
   margin-left: 8px;
 }
 
-.c14 > :first-child {
+.c15 > :first-child {
   margin-left: 0;
 }
 
-.c11 {
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -842,26 +888,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
-.c11:first-child {
+.c12:first-child {
   padding-top: 32px;
 }
 
-.c11:last-child {
+.c12:last-child {
   padding-bottom: 32px;
 }
 
-.c11:only-child {
+.c12:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -881,17 +927,17 @@ Array [
   display: flex;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c6:only-child {
+.c7:only-child {
   padding-bottom: 32px;
 }
 
-.c7 {
+.c8 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -903,7 +949,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c19 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -919,13 +965,13 @@ Array [
   height: 24px;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -947,9 +993,9 @@ Array [
   align-items: stretch;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
@@ -960,164 +1006,168 @@ Array [
       className="c1"
     >
       <div
-        className="c2 c3"
+        className="c2"
       >
         <div
-          className="c4"
-        />
-        <div
-          className="c5"
+          className="c3 c4"
         >
+          <div
+            className="c5"
+          />
           <div
             className="c6"
           >
             <div
               className="c7"
             >
-              <h2
-                className="c8 c9"
-              >
-                <span
-                  className="c10"
-                >
-                  Left Aligned
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c11"
-          >
-            <p
-              className="c8 c12"
-            >
-              <span
-                className="c13"
-              >
-                This card has left aligned actions
-              </span>
-            </p>
-          </div>
-          <div
-            className="c14"
-          >
-            <button
-              aria-busy={false}
-              className="c15 c16"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
-            >
               <div
-                className="c17"
+                className="c8"
               >
-                <span
-                  className="c8 c18"
+                <h2
+                  className="c9 c10"
                 >
                   <span
-                    className="c13"
+                    className="c11"
                   >
-                    Learn More
+                    Left Aligned
                   </span>
-                </span>
+                </h2>
               </div>
-            </button>
+            </div>
+            <div
+              className="c12"
+            >
+              <p
+                className="c9 c13"
+              >
+                <span
+                  className="c14"
+                >
+                  This card has left aligned actions
+                </span>
+              </p>
+            </div>
+            <div
+              className="c15"
+            >
+              <button
+                aria-busy={false}
+                className="c16 c17"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c9 c19"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Learn More
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="c19"
-      />
-      <div
-        className="c2 c3"
-      >
         <div
-          className="c4"
+          className="c20"
         />
         <div
-          className="c5"
+          className="c3 c4"
         >
+          <div
+            className="c5"
+          />
           <div
             className="c6"
           >
             <div
               className="c7"
             >
-              <h2
-                className="c8 c9"
+              <div
+                className="c8"
               >
-                <span
-                  className="c10"
+                <h2
+                  className="c9 c10"
                 >
-                  Right Aligned
-                </span>
-              </h2>
+                  <span
+                    className="c11"
+                  >
+                    Right Aligned
+                  </span>
+                </h2>
+              </div>
             </div>
-          </div>
-          <div
-            className="c11"
-          >
-            <p
-              className="c8 c12"
+            <div
+              className="c12"
             >
-              <span
-                className="c13"
-              >
-                This card has right aligned actions
-              </span>
-            </p>
-          </div>
-          <div
-            className="c20"
-          >
-            <button
-              aria-busy={false}
-              className="c15 c21"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
-            >
-              <div
-                className="c17"
+              <p
+                className="c9 c13"
               >
                 <span
-                  className="c8 c18"
+                  className="c14"
                 >
-                  <span
-                    className="c13"
-                  >
-                    Cancel
-                  </span>
+                  This card has right aligned actions
                 </span>
-              </div>
-            </button>
-            <button
-              aria-busy={false}
-              className="c15 c22"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
+              </p>
+            </div>
+            <div
+              className="c21"
             >
-              <div
-                className="c17"
+              <button
+                aria-busy={false}
+                className="c16 c22"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
               >
-                <span
-                  className="c8 c18"
+                <div
+                  className="c18"
                 >
                   <span
-                    className="c13"
+                    className="c9 c19"
                   >
-                    Save
+                    <span
+                      className="c14"
+                    >
+                      Cancel
+                    </span>
                   </span>
-                </span>
-              </div>
-            </button>
+                </div>
+              </button>
+              <button
+                aria-busy={false}
+                className="c16 c23"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c9 c19"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Save
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -1135,7 +1185,28 @@ Array [
     
     </style>
   </div>,
-  .c8 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1150,13 +1221,13 @@ Array [
   display: block;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1171,13 +1242,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c15 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1217,17 +1288,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c15::-moz-focus-inner {
+.c16::-moz-focus-inner {
   border-style: none;
 }
 
-.c18 {
+.c19 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -1240,14 +1311,14 @@ Array [
   text-align: center;
 }
 
-.c18::before {
+.c19::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c9 {
+.c10 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -1260,14 +1331,14 @@ Array [
   text-align: initial;
 }
 
-.c9::before {
+.c10::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c12 {
+.c13 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -1280,14 +1351,14 @@ Array [
   text-align: initial;
 }
 
-.c12::before {
+.c13::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1305,13 +1376,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1332,13 +1403,13 @@ Array [
   white-space: nowrap;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c16 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1355,30 +1426,30 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: rgba(56,161,105,0.16);
-  color: hsl(148,48.4%,31.9%);
-  height: 34px;
+  background-color: rgba(63,55,201,0.08);
+  color: hsl(243.29999999999995,57.5%,37.6%);
+  height: 36px;
   padding: 0px 12px;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c16:hover {
-  background-color: rgba(56,161,105,0.32);
+.c17:hover {
+  background-color: rgba(63,55,201,0.2);
 }
 
-.c16:active {
-  background-color: rgba(56,161,105,0.32);
+.c17:active {
+  background-color: rgba(63,55,201,0.2);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c17 {
+.c18 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1397,7 +1468,7 @@ Array [
   visibility: visible;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1412,13 +1483,13 @@ Array [
   position: relative;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1437,13 +1508,13 @@ Array [
   top: 0;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1454,19 +1525,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1489,21 +1560,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c14 > * {
+.c15 > * {
   margin-left: 8px;
 }
 
-.c14 > :first-child {
+.c15 > :first-child {
   margin-left: 0;
 }
 
-.c22 {
+.c23 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1526,21 +1597,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c22 *,
-.c22 *::before,
-.c22 *::after {
+.c23 *,
+.c23 *::before,
+.c23 *::after {
   box-sizing: border-box;
 }
 
-.c22 > * {
+.c23 > * {
   margin-left: 8px;
 }
 
-.c22 > :first-child {
+.c23 > :first-child {
   margin-left: 0;
 }
 
-.c25 {
+.c26 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1563,21 +1634,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c25 *,
-.c25 *::before,
-.c25 *::after {
+.c26 *,
+.c26 *::before,
+.c26 *::after {
   box-sizing: border-box;
 }
 
-.c25 > * {
+.c26 > * {
   margin-left: 8px;
 }
 
-.c25 > :first-child {
+.c26 > :first-child {
   margin-left: 0;
 }
 
-.c28 {
+.c29 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1600,21 +1671,21 @@ Array [
   justify-content: flex-start;
 }
 
-.c28 *,
-.c28 *::before,
-.c28 *::after {
+.c29 *,
+.c29 *::before,
+.c29 *::after {
   box-sizing: border-box;
 }
 
-.c28 > * {
+.c29 > * {
   margin-left: 8px;
 }
 
-.c28 > :first-child {
+.c29 > :first-child {
   margin-left: 0;
 }
 
-.c11 {
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1625,26 +1696,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
-.c11:first-child {
+.c12:first-child {
   padding-top: 32px;
 }
 
-.c11:last-child {
+.c12:last-child {
   padding-bottom: 32px;
 }
 
-.c11:only-child {
+.c12:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c21 {
+.c22 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1655,26 +1726,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c21 *,
-.c21 *::before,
-.c21 *::after {
+.c22 *,
+.c22 *::before,
+.c22 *::after {
   box-sizing: border-box;
 }
 
-.c21:first-child {
+.c22:first-child {
   padding-top: 28px;
 }
 
-.c21:last-child {
+.c22:last-child {
   padding-bottom: 28px;
 }
 
-.c21:only-child {
+.c22:only-child {
   padding-bottom: 28px;
   padding-top: 28px;
 }
 
-.c24 {
+.c25 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1685,26 +1756,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c24 *,
-.c24 *::before,
-.c24 *::after {
+.c25 *,
+.c25 *::before,
+.c25 *::after {
   box-sizing: border-box;
 }
 
-.c24:first-child {
+.c25:first-child {
   padding-top: 24px;
 }
 
-.c24:last-child {
+.c25:last-child {
   padding-bottom: 24px;
 }
 
-.c24:only-child {
+.c25:only-child {
   padding-bottom: 24px;
   padding-top: 24px;
 }
 
-.c27 {
+.c28 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1715,26 +1786,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c27 *,
-.c27 *::before,
-.c27 *::after {
+.c28 *,
+.c28 *::before,
+.c28 *::after {
   box-sizing: border-box;
 }
 
-.c27:first-child {
+.c28:first-child {
   padding-top: 24px;
 }
 
-.c27:last-child {
+.c28:last-child {
   padding-bottom: 24px;
 }
 
-.c27:only-child {
+.c28:only-child {
   padding-bottom: 24px;
   padding-top: 24px;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1754,17 +1825,17 @@ Array [
   display: flex;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c6:only-child {
+.c7:only-child {
   padding-bottom: 32px;
 }
 
-.c20 {
+.c21 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1784,17 +1855,17 @@ Array [
   display: flex;
 }
 
-.c20 *,
-.c20 *::before,
-.c20 *::after {
+.c21 *,
+.c21 *::before,
+.c21 *::after {
   box-sizing: border-box;
 }
 
-.c20:only-child {
+.c21:only-child {
   padding-bottom: 28px;
 }
 
-.c23 {
+.c24 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1814,17 +1885,17 @@ Array [
   display: flex;
 }
 
-.c23 *,
-.c23 *::before,
-.c23 *::after {
+.c24 *,
+.c24 *::before,
+.c24 *::after {
   box-sizing: border-box;
 }
 
-.c23:only-child {
+.c24:only-child {
   padding-bottom: 24px;
 }
 
-.c26 {
+.c27 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1844,17 +1915,17 @@ Array [
   display: flex;
 }
 
-.c26 *,
-.c26 *::before,
-.c26 *::after {
+.c27 *,
+.c27 *::before,
+.c27 *::after {
   box-sizing: border-box;
 }
 
-.c26:only-child {
+.c27:only-child {
   padding-bottom: 24px;
 }
 
-.c7 {
+.c8 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -1866,7 +1937,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c19 {
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1882,13 +1953,13 @@ Array [
   height: 24px;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1910,80 +1981,80 @@ Array [
   align-items: stretch;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
 @media (min-width:600px) {
-  .c28 {
+  .c29 {
     padding: 20px;
   }
 }
 
 @media (min-width:960px) {
-  .c28 {
+  .c29 {
     padding: 24px;
   }
 }
 
 @media (min-width:600px) {
-  .c27 {
+  .c28 {
     padding: 12px 20px;
   }
 
-  .c27:first-child {
+  .c28:first-child {
     padding-top: 28px;
   }
 
-  .c27:last-child {
+  .c28:last-child {
     padding-bottom: 28px;
   }
 
-  .c27:only-child {
+  .c28:only-child {
     padding-bottom: 28px;
     padding-top: 28px;
   }
 }
 
 @media (min-width:960px) {
-  .c27 {
+  .c28 {
     padding: 16px 24px;
   }
 
-  .c27:first-child {
+  .c28:first-child {
     padding-top: 32px;
   }
 
-  .c27:last-child {
+  .c28:last-child {
     padding-bottom: 32px;
   }
 
-  .c27:only-child {
+  .c28:only-child {
     padding-bottom: 32px;
     padding-top: 32px;
   }
 }
 
 @media (min-width:600px) {
-  .c26 {
+  .c27 {
     padding: 28px 20px;
     padding-bottom: 8px;
   }
 
-  .c26:only-child {
+  .c27:only-child {
     padding-bottom: 28px;
   }
 }
 
 @media (min-width:960px) {
-  .c26 {
+  .c27 {
     padding: 32px 24px;
     padding-bottom: 8px;
   }
 
-  .c26:only-child {
+  .c27:only-child {
     padding-bottom: 32px;
   }
 }
@@ -1995,283 +2066,287 @@ Array [
       className="c1"
     >
       <div
-        className="c2 c3"
+        className="c2"
       >
         <div
-          className="c4"
-        />
-        <div
-          className="c5"
+          className="c3 c4"
         >
+          <div
+            className="c5"
+          />
           <div
             className="c6"
           >
             <div
               className="c7"
             >
-              <h2
-                className="c8 c9"
-              >
-                <span
-                  className="c10"
-                >
-                  Default
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c11"
-          >
-            <p
-              className="c8 c12"
-            >
-              <span
-                className="c13"
-              >
-                I am using the default density, which is the largest padding available
-              </span>
-            </p>
-          </div>
-          <div
-            className="c14"
-          >
-            <button
-              aria-busy={false}
-              className="c15 c16"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
-            >
               <div
-                className="c17"
+                className="c8"
               >
-                <span
-                  className="c8 c18"
+                <h2
+                  className="c9 c10"
                 >
                   <span
-                    className="c13"
+                    className="c11"
                   >
-                    Learn More
+                    Default
                   </span>
-                </span>
+                </h2>
               </div>
-            </button>
+            </div>
+            <div
+              className="c12"
+            >
+              <p
+                className="c9 c13"
+              >
+                <span
+                  className="c14"
+                >
+                  I am using the default density, which is the largest padding available
+                </span>
+              </p>
+            </div>
+            <div
+              className="c15"
+            >
+              <button
+                aria-busy={false}
+                className="c16 c17"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c9 c19"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Learn More
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="c19"
-      />
-      <div
-        className="c2 c3"
-      >
         <div
-          className="c4"
+          className="c20"
         />
         <div
-          className="c5"
+          className="c3 c4"
         >
           <div
-            className="c20"
+            className="c5"
+          />
+          <div
+            className="c6"
           >
             <div
-              className="c7"
-            >
-              <h2
-                className="c8 c9"
-              >
-                <span
-                  className="c10"
-                >
-                  Comfortable
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c21"
-          >
-            <p
-              className="c8 c12"
-            >
-              <span
-                className="c13"
-              >
-                I am using the comfortable density, which is a happy medium between compact and default
-              </span>
-            </p>
-          </div>
-          <div
-            className="c22"
-          >
-            <button
-              aria-busy={false}
-              className="c15 c16"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
+              className="c21"
             >
               <div
-                className="c17"
+                className="c8"
               >
-                <span
-                  className="c8 c18"
+                <h2
+                  className="c9 c10"
                 >
                   <span
-                    className="c13"
+                    className="c11"
                   >
-                    Learn More
+                    Comfortable
                   </span>
-                </span>
+                </h2>
               </div>
-            </button>
+            </div>
+            <div
+              className="c22"
+            >
+              <p
+                className="c9 c13"
+              >
+                <span
+                  className="c14"
+                >
+                  I am using the comfortable density, which is a happy medium between compact and default
+                </span>
+              </p>
+            </div>
+            <div
+              className="c23"
+            >
+              <button
+                aria-busy={false}
+                className="c16 c17"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c9 c19"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Learn More
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="c19"
-      />
-      <div
-        className="c2 c3"
-      >
         <div
-          className="c4"
+          className="c20"
         />
         <div
-          className="c5"
+          className="c3 c4"
         >
           <div
-            className="c23"
+            className="c5"
+          />
+          <div
+            className="c6"
           >
             <div
-              className="c7"
-            >
-              <h2
-                className="c8 c9"
-              >
-                <span
-                  className="c10"
-                >
-                  Compact
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c24"
-          >
-            <p
-              className="c8 c12"
-            >
-              <span
-                className="c13"
-              >
-                I am using the compact density, which is the smallest option available
-              </span>
-            </p>
-          </div>
-          <div
-            className="c25"
-          >
-            <button
-              aria-busy={false}
-              className="c15 c16"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
+              className="c24"
             >
               <div
-                className="c17"
+                className="c8"
               >
-                <span
-                  className="c8 c18"
+                <h2
+                  className="c9 c10"
                 >
                   <span
-                    className="c13"
+                    className="c11"
                   >
-                    Learn More
+                    Compact
                   </span>
-                </span>
+                </h2>
               </div>
-            </button>
+            </div>
+            <div
+              className="c25"
+            >
+              <p
+                className="c9 c13"
+              >
+                <span
+                  className="c14"
+                >
+                  I am using the compact density, which is the smallest option available
+                </span>
+              </p>
+            </div>
+            <div
+              className="c26"
+            >
+              <button
+                aria-busy={false}
+                className="c16 c17"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c9 c19"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Learn More
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="c19"
-      />
-      <div
-        className="c2 c3"
-      >
         <div
-          className="c4"
+          className="c20"
         />
         <div
-          className="c5"
+          className="c3 c4"
         >
           <div
-            className="c26"
+            className="c5"
+          />
+          <div
+            className="c6"
           >
             <div
-              className="c7"
-            >
-              <h2
-                className="c8 c9"
-              >
-                <span
-                  className="c10"
-                >
-                  Responsive
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c27"
-          >
-            <p
-              className="c8 c12"
-            >
-              <span
-                className="c13"
-              >
-                I am using the responsive density. With this setting, the Card will adjust its density between default, comfortable, and compact based on the device screen size
-              </span>
-            </p>
-          </div>
-          <div
-            className="c28"
-          >
-            <button
-              aria-busy={false}
-              className="c15 c16"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
+              className="c27"
             >
               <div
-                className="c17"
+                className="c8"
               >
-                <span
-                  className="c8 c18"
+                <h2
+                  className="c9 c10"
                 >
                   <span
-                    className="c13"
+                    className="c11"
                   >
-                    Learn More
+                    Responsive
                   </span>
-                </span>
+                </h2>
               </div>
-            </button>
+            </div>
+            <div
+              className="c28"
+            >
+              <p
+                className="c9 c13"
+              >
+                <span
+                  className="c14"
+                >
+                  I am using the responsive density. With this setting, the Card will adjust its density between default, comfortable, and compact based on the device screen size
+                </span>
+              </p>
+            </div>
+            <div
+              className="c29"
+            >
+              <button
+                aria-busy={false}
+                className="c16 c17"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c18"
+                >
+                  <span
+                    className="c9 c19"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Learn More
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -2289,7 +2364,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2304,13 +2400,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2327,13 +2423,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
+.c19 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2347,13 +2443,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c18 *,
-.c18 *::before,
-.c18 *::after {
+.c19 *,
+.c19 *::before,
+.c19 *::after {
   box-sizing: border-box;
 }
 
-.c11 {
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2393,17 +2489,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
-.c11::-moz-focus-inner {
+.c12::-moz-focus-inner {
   border-style: none;
 }
 
-.c14 {
+.c15 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -2416,660 +2512,11 @@ Array [
   text-align: center;
 }
 
-.c14::before {
+.c15::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
-}
-
-.c8 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
-}
-
-.c21 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c21::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c19 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32954545454545453rem);
-  -ms-transform: translateY(0.32954545454545453rem);
-  transform: translateY(0.32954545454545453rem);
-  text-align: initial;
-}
-
-.c19::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.759090909090909rem;
-}
-
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c15 *,
-.c15 *::before,
-.c15 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 44px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: auto;
-  background-color: rgba(56,161,105,0.16);
-  color: hsl(148,48.4%,31.9%);
-  height: 34px;
-  padding: 0px 12px;
-}
-
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
-}
-
-.c12:hover {
-  background-color: rgba(56,161,105,0.32);
-}
-
-.c12:active {
-  background-color: rgba(56,161,105,0.32);
-  -webkit-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
-}
-
-.c13 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  visibility: visible;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: #FFFFFF;
-  box-shadow: none;
-  color: rgba(0,0,0,0.87);
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.87);
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c16:first-child {
-  padding-top: 32px;
-}
-
-.c16:last-child {
-  padding-bottom: 32px;
-}
-
-.c16:only-child {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 32px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  padding-bottom: 8px;
-  padding-right: calc(24px - 4px);
-  padding-top: calc(32px - 12px);
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c5:only-child {
-  padding-bottom: 32px;
-}
-
-.c10 {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.c6 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  margin-top: -4px;
-  overflow: hidden;
-  padding: 4px 0px;
-  -webkit-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-
-.c20 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  height: 8px;
-}
-
-.c20 *,
-.c20 *::before,
-.c20 *::after {
-  box-sizing: border-box;
-}
-
-.c22 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  height: 32px;
-}
-
-.c22 *,
-.c22 *::before,
-.c22 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <div
-        className="c3"
-      />
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-        >
-          <div
-            className="c6"
-          >
-            <h2
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                Profile
-              </span>
-            </h2>
-          </div>
-          <div
-            className="c10"
-          >
-            <button
-              aria-busy={false}
-              className="c11 c12"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
-            >
-              <div
-                className="c13"
-              >
-                <span
-                  className="c7 c14"
-                >
-                  <span
-                    className="c15"
-                  >
-                    Change
-                  </span>
-                </span>
-              </div>
-            </button>
-          </div>
-        </div>
-        <div
-          className="c16"
-        >
-          <div
-            className="c17"
-          >
-            <div
-              className="c18"
-            >
-              <span
-                className="c7 c19"
-              >
-                <span
-                  className="c15"
-                >
-                  Name
-                </span>
-              </span>
-              <div
-                className="c20"
-              />
-              <p
-                className="c7 c21"
-              >
-                <span
-                  className="c15"
-                >
-                  Jim Fishman
-                </span>
-              </p>
-            </div>
-            <div
-              className="c22"
-            />
-            <div
-              className="c18"
-            >
-              <span
-                className="c7 c19"
-              >
-                <span
-                  className="c15"
-                >
-                  Mobile Number
-                </span>
-              </span>
-              <div
-                className="c20"
-              />
-              <p
-                className="c7 c21"
-              >
-                <span
-                  className="c15"
-                >
-                  (256) 555-5555
-                </span>
-              </p>
-            </div>
-            <div
-              className="c22"
-            />
-            <div
-              className="c18"
-            >
-              <span
-                className="c7 c19"
-              >
-                <span
-                  className="c15"
-                >
-                  Email
-                </span>
-              </span>
-              <div
-                className="c20"
-              />
-              <p
-                className="c7 c21"
-              >
-                <span
-                  className="c15"
-                >
-                  stillusing@aol.com
-                </span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Card With Header 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.6);
-  display: block;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 360px;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c19 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #F03D3D;
-  border-radius: 100%;
-  color: rgba(255,255,255,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-}
-
-.c19 *,
-.c19 *::before,
-.c19 *::after {
-  box-sizing: border-box;
 }
 
 .c9 {
@@ -3092,7 +2539,7 @@ Array [
   margin-top: -0.8727272727272727rem;
 }
 
-.c12 {
+.c22 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -3105,7 +2552,7 @@ Array [
   text-align: initial;
 }
 
-.c12::before {
+.c22::before {
   content: "";
   display: block;
   height: 0;
@@ -3114,14 +2561,14 @@ Array [
 
 .c20 {
   font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
   text-transform: none;
   padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
   text-align: initial;
 }
 
@@ -3129,10 +2576,10 @@ Array [
   content: "";
   display: block;
   height: 0;
-  margin-top: -0.8727272727272727rem;
+  margin-top: -0.759090909090909rem;
 }
 
-.c15 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3150,9 +2597,9 @@ Array [
   vertical-align: 0rem;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
@@ -3181,6 +2628,65 @@ Array [
 .c10 *::before,
 .c10 *::after {
   box-sizing: border-box;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 44px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: auto;
+  background-color: rgba(63,55,201,0.08);
+  color: hsl(243.29999999999995,57.5%,37.6%);
+  height: 36px;
+  padding: 0px 12px;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c13:hover {
+  background-color: rgba(63,55,201,0.2);
+}
+
+.c13:active {
+  background-color: rgba(63,55,201,0.2);
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
 }
 
 .c2 {
@@ -3252,7 +2758,7 @@ Array [
   overflow: hidden;
 }
 
-.c14 {
+.c17 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3263,21 +2769,21 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c17 *,
+.c17 *::before,
+.c17 *::after {
   box-sizing: border-box;
 }
 
-.c14:first-child {
+.c17:first-child {
   padding-top: 32px;
 }
 
-.c14:last-child {
+.c17:last-child {
   padding-bottom: 32px;
 }
 
-.c14:only-child {
+.c17:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -3292,6 +2798,8 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   padding-bottom: 8px;
+  padding-right: calc(24px - 4px);
+  padding-top: calc(32px - 12px);
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3312,56 +2820,10 @@ Array [
   padding-bottom: 32px;
 }
 
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 32px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  padding-bottom: calc(8px + 4px);
-  padding-top: calc(32px - 4px);
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-.c17:only-child {
-  padding-bottom: 32px;
-}
-
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
+.c11 {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  margin-right: 16px;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
 }
 
 .c7 {
@@ -3376,11 +2838,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c13 {
-  margin-top: 8px;
-}
-
-.c16 {
+.c21 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3393,16 +2851,38 @@ Array [
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   display: block;
-  height: 24px;
+  height: 8px;
 }
 
-.c16 *,
-.c16 *::before,
-.c16 *::after {
+.c21 *,
+.c21 *::before,
+.c21 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c23 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 32px;
+}
+
+.c23 *,
+.c23 *::before,
+.c23 *::after {
+  box-sizing: border-box;
+}
+
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3424,9 +2904,9 @@ Array [
   align-items: stretch;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
@@ -3457,47 +2937,38 @@ Array [
                 <span
                   className="c10"
                 >
-                  Card Header
+                  Profile
                 </span>
               </h2>
-              <p
-                className="c11 c12 c13"
+            </div>
+            <div
+              className="c11"
+            >
+              <button
+                aria-busy={false}
+                className="c12 c13"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
               >
-                <span
-                  className="c10"
+                <div
+                  className="c14"
                 >
-                  Subtitle
-                </span>
-              </p>
+                  <span
+                    className="c8 c15"
+                  >
+                    <span
+                      className="c16"
+                    >
+                      Change
+                    </span>
+                  </span>
+                </div>
+              </button>
             </div>
           </div>
-          <div
-            className="c14"
-          >
-            <p
-              className="c8 c12"
-            >
-              <span
-                className="c15"
-              >
-                This is a card with a header. It uses CardHeader to set a title and subtitle.
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="c16"
-      />
-      <div
-        className="c2 c3"
-      >
-        <div
-          className="c4"
-        />
-        <div
-          className="c5"
-        >
           <div
             className="c17"
           >
@@ -3507,52 +2978,706 @@ Array [
               <div
                 className="c19"
               >
-                <h6
+                <span
                   className="c8 c20"
                 >
                   <span
-                    className="c15"
+                    className="c16"
                   >
-                    R
+                    Name
                   </span>
-                </h6>
+                </span>
+                <div
+                  className="c21"
+                />
+                <p
+                  className="c8 c22"
+                >
+                  <span
+                    className="c16"
+                  >
+                    Jim Fishman
+                  </span>
+                </p>
+              </div>
+              <div
+                className="c23"
+              />
+              <div
+                className="c19"
+              >
+                <span
+                  className="c8 c20"
+                >
+                  <span
+                    className="c16"
+                  >
+                    Mobile Number
+                  </span>
+                </span>
+                <div
+                  className="c21"
+                />
+                <p
+                  className="c8 c22"
+                >
+                  <span
+                    className="c16"
+                  >
+                    (256) 555-5555
+                  </span>
+                </p>
+              </div>
+              <div
+                className="c23"
+              />
+              <div
+                className="c19"
+              >
+                <span
+                  className="c8 c20"
+                >
+                  <span
+                    className="c16"
+                  >
+                    Email
+                  </span>
+                </span>
+                <div
+                  className="c21"
+                />
+                <p
+                  className="c8 c22"
+                >
+                  <span
+                    className="c16"
+                  >
+                    stillusing@aol.com
+                  </span>
+                </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Card With Header 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.6);
+  display: block;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 360px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c20 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #D63349;
+  border-radius: 100%;
+  color: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.c20 *,
+.c20 *::before,
+.c20 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c10::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c21 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c21::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c15:first-child {
+  padding-top: 32px;
+}
+
+.c15:last-child {
+  padding-bottom: 32px;
+}
+
+.c15:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c7:only-child {
+  padding-bottom: 32px;
+}
+
+.c18 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: calc(8px + 4px);
+  padding-top: calc(32px - 4px);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c18 *,
+.c18 *::before,
+.c18 *::after {
+  box-sizing: border-box;
+}
+
+.c18:only-child {
+  padding-bottom: 32px;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-right: 16px;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.c14 {
+  margin-top: 8px;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
             <div
               className="c7"
             >
-              <h2
-                className="c8 c9"
+              <div
+                className="c8"
               >
-                <span
-                  className="c10"
+                <h2
+                  className="c9 c10"
                 >
-                  Shrimp and Chorizo Paella
-                </span>
-              </h2>
+                  <span
+                    className="c11"
+                  >
+                    Card Header
+                  </span>
+                </h2>
+                <p
+                  className="c12 c13 c14"
+                >
+                  <span
+                    className="c11"
+                  >
+                    Subtitle
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              className="c15"
+            >
               <p
-                className="c11 c12 c13"
+                className="c9 c13"
               >
                 <span
-                  className="c10"
+                  className="c16"
                 >
-                  March 16, 2020
+                  This is a card with a header. It uses CardHeader to set a title and subtitle.
                 </span>
               </p>
             </div>
           </div>
+        </div>
+        <div
+          className="c17"
+        />
+        <div
+          className="c3 c4"
+        >
           <div
-            className="c14"
+            className="c5"
+          />
+          <div
+            className="c6"
           >
-            <p
-              className="c8 c12"
+            <div
+              className="c18"
             >
-              <span
-                className="c15"
+              <div
+                className="c19"
               >
-                This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.
-              </span>
-            </p>
+                <div
+                  className="c20"
+                >
+                  <h6
+                    className="c9 c21"
+                  >
+                    <span
+                      className="c16"
+                    >
+                      R
+                    </span>
+                  </h6>
+                </div>
+              </div>
+              <div
+                className="c8"
+              >
+                <h2
+                  className="c9 c10"
+                >
+                  <span
+                    className="c11"
+                  >
+                    Shrimp and Chorizo Paella
+                  </span>
+                </h2>
+                <p
+                  className="c12 c13 c14"
+                >
+                  <span
+                    className="c11"
+                  >
+                    March 16, 2020
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              className="c15"
+            >
+              <p
+                className="c9 c13"
+              >
+                <span
+                  className="c16"
+                >
+                  This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </div>

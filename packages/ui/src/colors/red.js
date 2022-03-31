@@ -1,8 +1,7 @@
 import createSwatch from './utils/createSwatch'
 
-const red = createSwatch('#f03d3d')
-
-red[50] = '#FFE5E5'
-red[900] = '#940011'
+// const red = createSwatch('#E53E3E')
+// const red = createSwatch('#ae2012')
+const red = createSwatch('#e63946')
 
 export default red

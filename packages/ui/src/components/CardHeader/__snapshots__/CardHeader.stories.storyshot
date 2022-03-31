@@ -9,7 +9,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -24,13 +45,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -45,13 +66,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -64,14 +85,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -92,13 +113,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -113,13 +134,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -138,13 +159,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -155,19 +176,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -187,17 +208,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -213,29 +234,33 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
             >
-              <span
-                className="c9"
+              <h2
+                className="c8 c9"
               >
-                Shrimp and Chorizo Paella
-              </span>
-            </h2>
+                <span
+                  className="c10"
+                >
+                  Shrimp and Chorizo Paella
+                </span>
+              </h2>
+            </div>
           </div>
         </div>
       </div>
@@ -253,7 +278,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -268,13 +314,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -289,13 +335,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c11 {
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -335,17 +381,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
-.c11::-moz-focus-inner {
+.c12::-moz-focus-inner {
   border-style: none;
 }
 
-.c14 {
+.c15 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -358,14 +404,14 @@ Array [
   text-align: center;
 }
 
-.c14::before {
+.c15::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -378,14 +424,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c15 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -403,13 +449,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -430,13 +476,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -453,30 +499,30 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: rgba(56,161,105,0.16);
-  color: hsl(148,48.4%,31.9%);
-  height: 34px;
+  background-color: rgba(63,55,201,0.08);
+  color: hsl(243.29999999999995,57.5%,37.6%);
+  height: 36px;
   padding: 0px 12px;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c12:hover {
-  background-color: rgba(56,161,105,0.32);
+.c13:hover {
+  background-color: rgba(63,55,201,0.2);
 }
 
-.c12:active {
-  background-color: rgba(56,161,105,0.32);
+.c13:active {
+  background-color: rgba(63,55,201,0.2);
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c13 {
+.c14 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -495,7 +541,7 @@ Array [
   visibility: visible;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -510,13 +556,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -535,13 +581,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -552,19 +598,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -586,23 +632,23 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c10 {
+.c11 {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -618,56 +664,60 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
             >
-              <span
-                className="c9"
-              >
-                Contact Info
-              </span>
-            </h2>
-          </div>
-          <div
-            className="c10"
-          >
-            <button
-              aria-busy={false}
-              className="c11 c12"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="button"
-            >
-              <div
-                className="c13"
+              <h2
+                className="c8 c9"
               >
                 <span
-                  className="c7 c14"
+                  className="c10"
+                >
+                  Contact Info
+                </span>
+              </h2>
+            </div>
+            <div
+              className="c11"
+            >
+              <button
+                aria-busy={false}
+                className="c12 c13"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="button"
+              >
+                <div
+                  className="c14"
                 >
                   <span
-                    className="c15"
+                    className="c8 c15"
                   >
-                    Change
+                    <span
+                      className="c16"
+                    >
+                      Change
+                    </span>
                   </span>
-                </span>
-              </div>
-            </button>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -685,7 +735,28 @@ Array [
     
     </style>
   </div>,
-  .c8 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -700,13 +771,13 @@ Array [
   display: block;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
-.c14 {
+.c15 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -721,13 +792,13 @@ Array [
   display: block;
 }
 
-.c14 *,
-.c14 *::before,
-.c14 *::after {
+.c15 *,
+.c15 *::before,
+.c15 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -741,7 +812,7 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #F03D3D;
+  background-color: #D63349;
   border-radius: 100%;
   color: rgba(255,255,255,1);
   display: -webkit-box;
@@ -756,13 +827,13 @@ Array [
   height: 40px;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -777,13 +848,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c12 {
+.c13 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -796,14 +867,14 @@ Array [
   text-align: initial;
 }
 
-.c12::before {
+.c13::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c15 {
+.c16 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -816,14 +887,14 @@ Array [
   text-align: initial;
 }
 
-.c15::before {
+.c16::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c9 {
+.c10 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 500;
@@ -836,14 +907,14 @@ Array [
   text-align: initial;
 }
 
-.c9::before {
+.c10::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -861,13 +932,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -888,13 +959,13 @@ Array [
   white-space: nowrap;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -909,13 +980,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -934,13 +1005,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -951,19 +1022,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -984,17 +1055,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1009,13 +1080,13 @@ Array [
   margin-right: 16px;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c11 {
+.c12 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -1027,7 +1098,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c16 {
+.c17 {
   margin-top: 8px;
 }
 
@@ -1035,14 +1106,14 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
@@ -1052,38 +1123,42 @@ Array [
             <div
               className="c7"
             >
-              <h6
-                className="c8 c9"
+              <div
+                className="c8"
+              >
+                <h6
+                  className="c9 c10"
+                >
+                  <span
+                    className="c11"
+                  >
+                    R
+                  </span>
+                </h6>
+              </div>
+            </div>
+            <div
+              className="c12"
+            >
+              <h2
+                className="c9 c13"
               >
                 <span
-                  className="c10"
+                  className="c14"
                 >
-                  R
+                  Shrimp and Chorizo Paella
                 </span>
-              </h6>
+              </h2>
+              <p
+                className="c15 c16 c17"
+              >
+                <span
+                  className="c14"
+                >
+                  September 15, 2020
+                </span>
+              </p>
             </div>
-          </div>
-          <div
-            className="c11"
-          >
-            <h2
-              className="c8 c12"
-            >
-              <span
-                className="c13"
-              >
-                Shrimp and Chorizo Paella
-              </span>
-            </h2>
-            <p
-              className="c14 c15 c16"
-            >
-              <span
-                className="c13"
-              >
-                September 15, 2020
-              </span>
-            </p>
           </div>
         </div>
       </div>
@@ -1101,7 +1176,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1116,13 +1212,13 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1137,13 +1233,13 @@ Array [
   display: block;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1158,13 +1254,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -1177,14 +1273,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c11 {
+.c12 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -1197,14 +1293,14 @@ Array [
   text-align: initial;
 }
 
-.c11::before {
+.c12::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1225,13 +1321,13 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1246,13 +1342,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1271,13 +1367,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1288,19 +1384,19 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1320,17 +1416,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -1342,7 +1438,7 @@ Array [
   transform: translateY(2px);
 }
 
-.c12 {
+.c13 {
   margin-top: 8px;
 }
 
@@ -1350,38 +1446,42 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
           <div
             className="c6"
           >
-            <h2
-              className="c7 c8"
+            <div
+              className="c7"
             >
-              <span
-                className="c9"
+              <h2
+                className="c8 c9"
               >
-                Shrimp and Chorizo Paella
-              </span>
-            </h2>
-            <p
-              className="c10 c11 c12"
-            >
-              <span
-                className="c9"
+                <span
+                  className="c10"
+                >
+                  Shrimp and Chorizo Paella
+                </span>
+              </h2>
+              <p
+                className="c11 c12 c13"
               >
-                September 15, 2020
-              </span>
-            </p>
+                <span
+                  className="c10"
+                >
+                  September 15, 2020
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </div>

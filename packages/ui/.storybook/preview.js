@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { withThemes } from 'storybook-addon-themes/react'
 import React from 'react'
-import { CssBaseline } from '../src/components'
+import { Box, CssBaseline } from '../src/components'
 import {
   createTheme,
   darkTheme,
@@ -96,7 +96,9 @@ export const parameters = {
       return (
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          {children}
+          <Box backgroundColor='surface' padding='md'>
+            {children}
+          </Box>
         </ThemeProvider>
       )
     },

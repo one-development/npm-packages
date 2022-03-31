@@ -146,7 +146,7 @@ const Root = styled.div(({ theme, styleProps }) => {
     // eslint-disable-next-line sort-keys
     '&:focus-within': {
       border: theme.borders.thick,
-      borderColor: invalid ? theme.colors.error : theme.colors.onSurface.hint,
+      borderColor: invalid ? theme.colors.error : theme.colors.highlight,
       padding: `0 ${px(normalPadding)}`,
     },
   }

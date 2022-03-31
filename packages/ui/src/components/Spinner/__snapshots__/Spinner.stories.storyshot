@@ -18,9 +18,10 @@ Array [
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  height: 32px;
-  position: relative;
-  width: 32px;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
 }
 
 .c0 *,
@@ -30,6 +31,26 @@ Array [
 }
 
 .c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -48,19 +69,19 @@ Array [
   top: 0;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   -webkit-animation: iVXCSc 700ms linear infinite;
   animation: iVXCSc 700ms linear infinite;
   border-color: transparent;
   border-style: solid;
-  border-top-color: #38A169;
+  border-top-color: #3F37C9;
   border-width: 4px;
   border-radius: 50%;
   box-sizing: border-box;
@@ -74,22 +95,26 @@ Array [
   bottom: 0;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after: {
+.c3 *,
+.c3 *::before,
+.c3 *::after: {
   box-sizing: border-box;
 }
 
 <div
     className="c0"
-    role="progressbar"
   >
     <div
       className="c1"
-    />
-    <div
-      className="c2"
-    />
+      role="progressbar"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
   </div>,
 ]
 `;
@@ -112,9 +137,10 @@ Array [
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
-  height: 32px;
-  position: relative;
-  width: 32px;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
 }
 
 .c0 *,
@@ -124,6 +150,26 @@ Array [
 }
 
 .c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -142,19 +188,19 @@ Array [
   top: 0;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   -webkit-animation: iVXCSc 700ms linear infinite;
   animation: iVXCSc 700ms linear infinite;
   border-color: transparent;
   border-style: solid;
-  border-top-color: #267EBD;
+  border-top-color: #99E8E4;
   border-width: 4px;
   border-radius: 50%;
   box-sizing: border-box;
@@ -168,22 +214,26 @@ Array [
   bottom: 0;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after: {
+.c3 *,
+.c3 *::before,
+.c3 *::after: {
   box-sizing: border-box;
 }
 
 <div
     className="c0"
-    role="progressbar"
   >
     <div
       className="c1"
-    />
-    <div
-      className="c2"
-    />
+      role="progressbar"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      />
+    </div>
   </div>,
 ]
 `;
@@ -197,7 +247,28 @@ Array [
     
     </style>
   </div>,
-  .c5 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -212,13 +283,13 @@ Array [
   display: block;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -232,13 +303,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -254,13 +325,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -300,17 +371,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c2::-moz-focus-inner {
+.c3::-moz-focus-inner {
   border-style: none;
 }
 
-.c6 {
+.c7 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -323,14 +394,14 @@ Array [
   text-align: center;
 }
 
-.c6::before {
+.c7::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c7 {
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -348,13 +419,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -371,31 +442,31 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: #38A169;
+  background-color: #3F37C9;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
   padding: 0px 24px;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c3:hover {
-  background-color: hsl(148,48.4%,34%);
+.c4:hover {
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
 }
 
-.c3:active {
+.c4:active {
   box-shadow: none;
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c4 {
+.c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -415,37 +486,41 @@ Array [
 }
 
 <div
-    aria-busy={false}
     className="c0"
   >
     <div
-      aria-live="polite"
-      className="c1"
-      role="status"
-    />
-    <button
       aria-busy={false}
-      className="c2 c3"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      type="button"
+      className="c1"
     >
       <div
-        className="c4"
+        aria-live="polite"
+        className="c2"
+        role="status"
+      />
+      <button
+        aria-busy={false}
+        className="c3 c4"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        type="button"
       >
-        <span
-          className="c5 c6"
+        <div
+          className="c5"
         >
           <span
-            className="c7"
+            className="c6 c7"
           >
-            Simulate Loading
+            <span
+              className="c8"
+            >
+              Simulate Loading
+            </span>
           </span>
-        </span>
-      </div>
-    </button>
+        </div>
+      </button>
+    </div>
   </div>,
 ]
 `;

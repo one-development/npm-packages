@@ -2,8 +2,8 @@ import _ from 'lodash'
 
 export default function createSizes() {
   const sizes = {
-    appbarHeight: '64px',
-    badgeHeight: '34px',
+    appbarHeight: '72px',
+    badgeHeight: '36px',
     componentHeight: '48px',
     containerWidth: '1280px',
     inputHeight: '44px',

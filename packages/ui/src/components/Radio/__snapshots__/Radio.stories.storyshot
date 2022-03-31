@@ -9,7 +9,7 @@ Array [
     
     </style>
   </div>,
-  .c5 {
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -19,1125 +19,8 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c6 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 400;
-  text-align: initial;
-}
-
-.c6::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  display: grid;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-template-areas: "input label" "input description";
-  grid-template-columns: 18px auto;
-  grid-template-rows: 36px auto;
-  min-height: 36px;
-  position: relative;
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-area: input;
-  height: 36px;
-  position: relative;
-  width: 18px;
-}
-
-.c2 input[type=radio] {
-  cursor: pointer;
-  font-size: 1rem;
-  grid-area: input;
-  height: 18px;
-  margin: 0;
-  opacity: 0;
-  width: 18px;
-  z-index: 1;
-}
-
-.c2 input[type=radio][disabled] {
-  cursor: not-allowed;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c1:hover .c3 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c3 {
-  border-color: rgba(0,0,0,0.87);
-  border-width: 6px;
-}
-
-.c4 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  grid-area: label;
-  height: 100%;
-  overflow: hidden;
-  padding-left: 8px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <input
-        aria-disabled={false}
-        aria-invalid={false}
-        aria-labelledby="radio-basic-label"
-        aria-required={true}
-        autoComplete="on"
-        autoFocus={false}
-        disabled={false}
-        id="radio-basic"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        required={true}
-        role="radio"
-        type="radio"
-      />
-      <span
-        aria-hidden="true"
-        className="c3"
-      />
-    </div>
-    <label
-      className="c4"
-      htmlFor="radio-basic"
-      id="radio-basic-label"
-    >
-      <span
-        className="c5 c6"
-      >
-        <span
-          className="c7"
-        >
-          Select this option
-        </span>
-      </span>
-    </label>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Radio With Browser Validation 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.6);
-  display: block;
-}
-
-.c15 *,
-.c15 *::before,
-.c15 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 420px;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c24 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  outline: 0;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c24 *,
-.c24 *::before,
-.c24 *::after {
-  box-sizing: border-box;
-}
-
-.c24::-moz-focus-inner {
-  border-style: none;
-}
-
-.c27 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: capitalize;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: center;
-}
-
-.c27::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c8 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
-}
-
-.c12 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c12::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c16 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c16::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c22 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 400;
-  text-align: initial;
-}
-
-.c22::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c25 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  border-radius: 4px;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  overflow: hidden;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 100%;
-  background-color: #38A169;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
-  color: rgba(255,255,255,1);
-  height: 44px;
-  padding: 0px 24px;
-}
-
-.c25 *,
-.c25 *::before,
-.c25 *::after {
-  box-sizing: border-box;
-}
-
-.c25:hover {
-  background-color: hsl(148,48.4%,34%);
-}
-
-.c25:active {
-  box-shadow: none;
-  -webkit-transform: scale(0.98);
-  -ms-transform: scale(0.98);
-  transform: scale(0.98);
-}
-
-.c26 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  visibility: visible;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
   background-color: #FFFFFF;
-  box-shadow: none;
-  color: rgba(0,0,0,0.87);
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.87);
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.c23 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.c23 *,
-.c23 *::before,
-.c23 *::after {
-  box-sizing: border-box;
-}
-
-.c23 > * {
-  margin-left: 8px;
-}
-
-.c23 > :first-child {
-  margin-left: 0;
-}
-
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
-}
-
-.c10:first-child {
-  padding-top: 32px;
-}
-
-.c10:last-child {
-  padding-bottom: 32px;
-}
-
-.c10:only-child {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 32px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  padding-bottom: 8px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c5:only-child {
-  padding-bottom: 32px;
-}
-
-.c6 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  margin-top: -4px;
-  overflow: hidden;
-  padding: 4px 0px;
-  -webkit-transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  transform: translateY(2px);
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  display: grid;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-template-areas: "input label" "input description";
-  grid-template-columns: 18px auto;
-  grid-template-rows: 36px auto;
-  min-height: 36px;
-  position: relative;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-.c19 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-area: input;
-  height: 36px;
-  position: relative;
-  width: 18px;
-}
-
-.c19 input[type=radio] {
-  cursor: pointer;
-  font-size: 1rem;
-  grid-area: input;
-  height: 18px;
-  margin: 0;
-  opacity: 0;
-  width: 18px;
-  z-index: 1;
-}
-
-.c19 input[type=radio][disabled] {
-  cursor: not-allowed;
-}
-
-.c20 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c18:hover .c20 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c20 {
-  border-color: rgba(0,0,0,0.87);
-  border-width: 6px;
-}
-
-.c18:hover .c28 {
-  border-color: rgba(0,0,0,0.38);
-}
-
-.c18:hover .c29 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-.c21 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  grid-area: label;
-  height: 100%;
-  overflow: hidden;
-  padding-left: 8px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  height: 24px;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
-  box-sizing: border-box;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
-  box-sizing: border-box;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <div
-        className="c3"
-      />
-      <div
-        className="c4"
-      >
-        <form
-          onSubmit={[Function]}
-        >
-          <div
-            className="c5"
-          >
-            <div
-              className="c6"
-            >
-              <h2
-                className="c7 c8"
-              >
-                <span
-                  className="c9"
-                >
-                  Using Browser Validation
-                </span>
-              </h2>
-            </div>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <p
-                className="c7 c12"
-              >
-                <span
-                  className="c13"
-                >
-                  You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
-                </span>
-              </p>
-              <div
-                className="c14"
-              />
-              <p
-                className="c15 c16"
-              >
-                <span
-                  className="c13"
-                >
-                  Note: Many form components set noValidate=true. Make sure it is also set to false as well.
-                </span>
-              </p>
-            </div>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c17"
-            >
-              <div
-                className="c18 c19"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="with-html-validation-no-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  disabled={false}
-                  id="with-html-validation-no"
-                  name="with-html-validation"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="no"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c20"
-                />
-              </div>
-              <label
-                className="c21"
-                htmlFor="with-html-validation-no"
-                id="with-html-validation-no-label"
-              >
-                <span
-                  className="c7 c22"
-                >
-                  <span
-                    className="c9"
-                  >
-                    I do not agree
-                  </span>
-                </span>
-              </label>
-            </div>
-            <div
-              className="c17"
-            >
-              <div
-                className="c18 c19"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="with-html-validation-yes-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  disabled={false}
-                  id="with-html-validation-yes"
-                  name="with-html-validation"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="yes"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c20"
-                />
-              </div>
-              <label
-                className="c21"
-                htmlFor="with-html-validation-yes"
-                id="with-html-validation-yes-label"
-              >
-                <span
-                  className="c7 c22"
-                >
-                  <span
-                    className="c9"
-                  >
-                    I agree
-                  </span>
-                </span>
-              </label>
-            </div>
-          </div>
-          <div
-            className="c23"
-          >
-            <button
-              aria-busy={false}
-              className="c24 c25"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="submit"
-            >
-              <div
-                className="c26"
-              >
-                <span
-                  className="c7 c27"
-                >
-                  <span
-                    className="c13"
-                  >
-                    Save Changes
-                  </span>
-                </span>
-              </div>
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Radio With Custom Markup 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 420px;
-  background-color: inherit;
+  padding: 16px;
   color: rgba(0,0,0,0.87);
 }
 
@@ -1147,919 +30,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.87);
-  display: block;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
-}
-
-.c8 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 700;
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c14 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c14::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c12 {
-  display: inline-block;
-  fill: currentColor;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 1rem;
-  height: 1em;
-  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 1em;
-}
-
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 20px 16px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #E1EBF5;
-  border-radius: 4px;
-  color: rgba(24,93,135,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c19 {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin-bottom: auto;
-  margin-right: 8px;
-}
-
-.c20 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 3px 0;
-}
-
-.c2 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  display: grid;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-template-areas: "input label" "input description";
-  grid-template-columns: 18px auto;
-  grid-template-rows: 18px auto;
-  min-height: 36px;
-  position: relative;
-}
-
-.c2 *,
-.c2 *::before,
-.c2 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-area: input;
-  height: 18px;
-  position: relative;
-  width: 18px;
-}
-
-.c4 input[type=radio] {
-  cursor: pointer;
-  font-size: 1rem;
-  grid-area: input;
-  height: 18px;
-  margin: 0;
-  opacity: 0;
-  width: 18px;
-  z-index: 1;
-}
-
-.c4 input[type=radio][disabled] {
-  cursor: not-allowed;
-}
-
-.c5 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c3:hover .c5 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c5 {
-  border-color: rgba(0,0,0,0.87);
-  border-width: 6px;
-}
-
-.c3:hover .c21 {
-  border-color: rgba(0,0,0,0.38);
-}
-
-.c3:hover .c22 {
-  border-color: rgba(0,0,0,0.87);
-}
-
 .c6 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  grid-area: label;
-  height: 100%;
-  overflow: hidden;
-  padding-left: 8px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c15 {
-  grid-area: description;
-  margin-top: 8px;
-  padding-left: 8px;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  width: 8px;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  height: 24px;
-}
-
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1"
-    >
-      <div
-        className="c2"
-      >
-        <div
-          className="c3 c4"
-        >
-          <input
-            aria-describedby="radio-with-custom-markup-contactless-description"
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-labelledby="radio-with-custom-markup-contactless-label"
-            aria-required={true}
-            autoComplete="on"
-            autoFocus={false}
-            defaultChecked={true}
-            disabled={false}
-            id="radio-with-custom-markup-contactless"
-            name="radio-with-custom-markup"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            role="radio"
-            type="radio"
-            value="contactless"
-          />
-          <span
-            aria-hidden="true"
-            className="c5"
-          />
-        </div>
-        <label
-          className="c6"
-          htmlFor="radio-with-custom-markup-contactless"
-          id="radio-with-custom-markup-contactless-label"
-        >
-          <span
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              <div
-                className="c10"
-              >
-                Contactless Payment
-                <div
-                  className="c11"
-                />
-                <svg
-                  aria-hidden={true}
-                  className="c12"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <g>
-                    <rect
-                      fill="none"
-                      height="24"
-                      width="24"
-                    />
-                  </g>
-                  <g>
-                    <path
-                      d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M8.46,14.45L7.1,13.83 c0.28-0.61,0.41-1.24,0.4-1.86c-0.01-0.63-0.14-1.24-0.4-1.8l1.36-0.63c0.35,0.75,0.53,1.56,0.54,2.4 C9.01,12.8,8.83,13.64,8.46,14.45z M11.53,16.01l-1.3-0.74c0.52-0.92,0.78-1.98,0.78-3.15c0-1.19-0.27-2.33-0.8-3.4l1.34-0.67 c0.64,1.28,0.96,2.65,0.96,4.07C12.51,13.55,12.18,14.86,11.53,16.01z M14.67,17.33l-1.35-0.66c0.78-1.6,1.18-3.18,1.18-4.69 c0-1.51-0.4-3.07-1.18-4.64l1.34-0.67C15.56,8.45,16,10.23,16,11.98C16,13.72,15.56,15.52,14.67,17.33z"
-                    />
-                  </g>
-                </svg>
-              </div>
-            </span>
-          </span>
-        </label>
-        <div
-          className="c13 c14 c15"
-          id="radio-with-custom-markup-contactless-description"
-        >
-          <span
-            className="c16"
-          >
-            Use a contactless payment method to avoid touching payment terminal
-          </span>
-        </div>
-      </div>
-      <div
-        className="c17"
-      />
-      <div
-        className="c2"
-      >
-        <div
-          className="c3 c4"
-        >
-          <input
-            aria-describedby="radio-with-custom-markup-creditdebit-description"
-            aria-disabled={false}
-            aria-invalid={false}
-            aria-labelledby="radio-with-custom-markup-creditdebit-label"
-            aria-required={true}
-            autoComplete="on"
-            autoFocus={false}
-            disabled={false}
-            id="radio-with-custom-markup-creditdebit"
-            name="radio-with-custom-markup"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onInvalid={[Function]}
-            required={true}
-            role="radio"
-            type="radio"
-            value="creditdebit"
-          />
-          <span
-            aria-hidden="true"
-            className="c5"
-          />
-        </div>
-        <label
-          className="c6"
-          htmlFor="radio-with-custom-markup-creditdebit"
-          id="radio-with-custom-markup-creditdebit-label"
-        >
-          <span
-            className="c7 c8"
-          >
-            <span
-              className="c9"
-            >
-              Credit or Debit
-            </span>
-          </span>
-        </label>
-        <div
-          className="c13 c14 c15"
-          id="radio-with-custom-markup-creditdebit-description"
-        >
-          <span
-            className="c16"
-          >
-            <div
-              className="c18"
-              role="alert"
-            >
-              <svg
-                aria-hidden={true}
-                className="c12 c19"
-                focusable="false"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
-                />
-              </svg>
-              <div
-                className="c20"
-              >
-                <p
-                  className="c7 c14"
-                >
-                  <span
-                    className="c16"
-                  >
-                    You could be exposed to germs when touching a payment terminal
-                  </span>
-                </p>
-              </div>
-            </div>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Radio With Description 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.87);
-  display: block;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c6 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 700;
-  text-align: initial;
-}
-
-.c6::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c9 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c9::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
-  box-sizing: border-box;
-}
-
-.c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  display: grid;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-template-areas: "input label" "input description";
-  grid-template-columns: 18px auto;
-  grid-template-rows: 18px auto;
-  min-height: 36px;
-  position: relative;
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  grid-area: input;
-  height: 18px;
-  position: relative;
-  width: 18px;
-}
-
-.c2 input[type=radio] {
-  cursor: pointer;
-  font-size: 1rem;
-  grid-area: input;
-  height: 18px;
-  margin: 0;
-  opacity: 0;
-  width: 18px;
-  z-index: 1;
-}
-
-.c2 input[type=radio][disabled] {
-  cursor: not-allowed;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c1:hover .c3 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c3 {
-  border-color: rgba(0,0,0,0.87);
-  border-width: 6px;
-}
-
-.c1:hover .c12 {
-  border-color: rgba(0,0,0,0.38);
-}
-
-.c1:hover .c13 {
-  border-color: rgba(0,0,0,0.87);
-}
-
-.c4 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  grid-area: label;
-  height: 100%;
-  overflow: hidden;
-  padding-left: 8px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c10 {
-  grid-area: description;
-  margin-top: 8px;
-  padding-left: 8px;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <input
-        aria-describedby="radio-with-description-description"
-        aria-disabled={false}
-        aria-invalid={false}
-        aria-labelledby="radio-with-description-label"
-        aria-required={true}
-        autoComplete="on"
-        autoFocus={false}
-        disabled={false}
-        id="radio-with-description"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        onInvalid={[Function]}
-        required={true}
-        role="radio"
-        type="radio"
-        value="red"
-      />
-      <span
-        aria-hidden="true"
-        className="c3"
-      />
-    </div>
-    <label
-      className="c4"
-      htmlFor="radio-with-description"
-      id="radio-with-description-label"
-    >
-      <span
-        className="c5 c6"
-      >
-        <span
-          className="c7"
-        >
-          Red
-        </span>
-      </span>
-    </label>
-    <div
-      className="c8 c9 c10"
-      id="radio-with-description-description"
-    >
-      <span
-        className="c11"
-      >
-        Red will be set as your color
-      </span>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Radio With Inline 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2077,30 +48,6 @@ Array [
 .c6 *,
 .c6 *::before,
 .c6 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
   box-sizing: border-box;
 }
 
@@ -2237,14 +184,6 @@ input[type=radio]:checked + .c4 {
   border-width: 6px;
 }
 
-.c2:hover .c10 {
-  border-color: rgba(0,0,0,0.38);
-}
-
-.c2:hover .c11 {
-  border-color: rgba(0,0,0,0.87);
-}
-
 .c5 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2265,28 +204,6 @@ input[type=radio]:checked + .c4 {
   -webkit-tap-highlight-color: transparent;
 }
 
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  width: 16px;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
 <div
     className="c0"
   >
@@ -2299,14 +216,12 @@ input[type=radio]:checked + .c4 {
         <input
           aria-disabled={false}
           aria-invalid={false}
-          aria-labelledby="radio-with-inline-one-label"
+          aria-labelledby="radio-basic-label"
           aria-required={true}
           autoComplete="on"
           autoFocus={false}
-          defaultChecked={true}
           disabled={false}
-          id="radio-with-inline-one"
-          name="radio-with-inline"
+          id="radio-basic"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -2314,7 +229,6 @@ input[type=radio]:checked + .c4 {
           required={true}
           role="radio"
           type="radio"
-          value="one"
         />
         <span
           aria-hidden="true"
@@ -2323,8 +237,8 @@ input[type=radio]:checked + .c4 {
       </div>
       <label
         className="c5"
-        htmlFor="radio-with-inline-one"
-        id="radio-with-inline-one-label"
+        htmlFor="radio-basic"
+        id="radio-basic-label"
       >
         <span
           className="c6 c7"
@@ -2332,56 +246,7 @@ input[type=radio]:checked + .c4 {
           <span
             className="c8"
           >
-            One
-          </span>
-        </span>
-      </label>
-    </div>
-    <div
-      className="c9"
-    />
-    <div
-      className="c1"
-    >
-      <div
-        className="c2 c3"
-      >
-        <input
-          aria-disabled={false}
-          aria-invalid={false}
-          aria-labelledby="radio-with-inline-two-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          disabled={false}
-          id="radio-with-inline-two"
-          name="radio-with-inline"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="two"
-        />
-        <span
-          aria-hidden="true"
-          className="c4"
-        />
-      </div>
-      <label
-        className="c5"
-        htmlFor="radio-with-inline-two"
-        id="radio-with-inline-two-label"
-      >
-        <span
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            Two
+            Select this option
           </span>
         </span>
       </label>
@@ -2390,7 +255,7 @@ input[type=radio]:checked + .c4 {
 ]
 `;
 
-exports[`Storyshots Components/Radio With JS Validation 1`] = `
+exports[`Storyshots Components/Radio With Browser Validation 1`] = `
 Array [
   <div>
     <style>
@@ -2399,7 +264,28 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2414,9 +300,9 @@ Array [
   display: block;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
@@ -2441,7 +327,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2456,9 +342,9 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
@@ -2532,7 +418,7 @@ Array [
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   font-family: "Inter",sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -2545,14 +431,14 @@ Array [
   text-align: initial;
 }
 
-.c8::before {
+.c9::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.8727272727272727rem;
 }
 
-.c12 {
+.c13 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -2565,7 +451,7 @@ Array [
   text-align: initial;
 }
 
-.c12::before {
+.c13::before {
   content: "";
   display: block;
   height: 0;
@@ -2612,7 +498,7 @@ Array [
   margin-top: -0.7136363636363636rem;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2630,13 +516,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2657,9 +543,9 @@ Array [
   white-space: nowrap;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
@@ -2680,7 +566,7 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: 100%;
-  background-color: #38A169;
+  background-color: #3F37C9;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
@@ -2694,7 +580,7 @@ Array [
 }
 
 .c26:hover {
-  background-color: hsl(148,48.4%,34%);
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
 }
 
 .c26:active {
@@ -2723,7 +609,7 @@ Array [
   visibility: visible;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2738,13 +624,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2763,13 +649,13 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2780,13 +666,13 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 4px;
   overflow: hidden;
@@ -2829,7 +715,7 @@ Array [
   margin-left: 0;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2840,26 +726,26 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c10:first-child {
+.c11:first-child {
   padding-top: 32px;
 }
 
-.c10:last-child {
+.c11:last-child {
   padding-bottom: 32px;
 }
 
-.c10:only-child {
+.c11:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2879,17 +765,17 @@ Array [
   display: flex;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
 }
 
-.c6 {
+.c7 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -2899,47 +785,6 @@ Array [
   -webkit-transform: translateY(2px);
   -ms-transform: translateY(2px);
   transform: translateY(2px);
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  color: #38A169;
-  cursor: pointer;
-  font-size: inherit;
-  line-height: inherit;
-  outline: none;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
-  box-sizing: border-box;
-}
-
-.c14:focus {
-  outline: none;
-  outline-offset: 1px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c14:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c14:visited,
-.c14:active {
-  color: #38A169;
 }
 
 .c18 {
@@ -3078,7 +923,7 @@ input[type=radio]:checked + .c21 {
   box-sizing: border-box;
 }
 
-.c11 {
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3100,9 +945,9 @@ input[type=radio]:checked + .c21 {
   align-items: stretch;
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
@@ -3110,252 +955,198 @@ input[type=radio]:checked + .c21 {
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
-        <form
-          noValidate={true}
-          onSubmit={[Function]}
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
         >
-          <div
-            className="c5"
+          <form
+            onSubmit={[Function]}
           >
             <div
               className="c6"
             >
-              <h2
-                className="c7 c8"
+              <div
+                className="c7"
               >
-                <span
-                  className="c9"
+                <h2
+                  className="c8 c9"
                 >
-                  Using JavaScript Validation
-                </span>
-              </h2>
+                  <span
+                    className="c10"
+                  >
+                    Using Browser Validation
+                  </span>
+                </h2>
+              </div>
             </div>
-          </div>
-          <div
-            className="c10"
-          >
             <div
               className="c11"
             >
-              <p
-                className="c7 c12"
+              <div
+                className="c12"
               >
-                <span
-                  className="c13"
+                <p
+                  className="c8 c13"
                 >
-                  In this example, Radio components are being rendered and controlled with external state. Typically, you should render Radio components inside of a  
-                  <a
+                  <span
                     className="c14"
-                    href="/?path=/story/components-radiogroup--basic"
+                  >
+                    You can enable built-in HTML validation by setting formNoValidate=false on your Input. Try submitting the input below.
+                  </span>
+                </p>
+                <div
+                  className="c15"
+                />
+                <p
+                  className="c16 c17"
+                >
+                  <span
+                    className="c14"
+                  >
+                    Note: Many form components set noValidate=true. Make sure it is also set to false as well.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              className="c11"
+            >
+              <div
+                className="c18"
+              >
+                <div
+                  className="c19 c20"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="with-html-validation-no-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    disabled={false}
+                    id="with-html-validation-no"
+                    name="with-html-validation"
                     onBlur={[Function]}
+                    onChange={[Function]}
                     onFocus={[Function]}
-                    rel={null}
-                  >
-                    RadioGroup
-                  </a>
-                  , but you can also render them on their own for special use cases.
-                </span>
-              </p>
-              <div
-                className="c15"
-              />
-              <p
-                className="c16 c17"
-              >
-                <span
-                  className="c13"
-                >
-                  Note: this example uses react-hook-form to manage state and provide error validation.
-                </span>
-              </p>
-            </div>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c18"
-            >
-              <div
-                className="c19 c20"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="one-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  defaultChecked={true}
-                  disabled={false}
-                  id="one"
-                  name="example"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="one"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c21"
-                />
-              </div>
-              <label
-                className="c22"
-                htmlFor="one"
-                id="one-label"
-              >
-                <span
-                  className="c7 c23"
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="no"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c21"
+                  />
+                </div>
+                <label
+                  className="c22"
+                  htmlFor="with-html-validation-no"
+                  id="with-html-validation-no-label"
                 >
                   <span
-                    className="c9"
+                    className="c8 c23"
                   >
-                    One
+                    <span
+                      className="c10"
+                    >
+                      I do not agree
+                    </span>
                   </span>
-                </span>
-              </label>
-            </div>
-            <div
-              className="c18"
-            >
-              <div
-                className="c19 c20"
-              >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="two-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  disabled={false}
-                  id="two"
-                  name="example"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="two"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c21"
-                />
+                </label>
               </div>
-              <label
-                className="c22"
-                htmlFor="two"
-                id="two-label"
+              <div
+                className="c18"
               >
-                <span
-                  className="c7 c23"
+                <div
+                  className="c19 c20"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="with-html-validation-yes-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    disabled={false}
+                    id="with-html-validation-yes"
+                    name="with-html-validation"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="yes"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c21"
+                  />
+                </div>
+                <label
+                  className="c22"
+                  htmlFor="with-html-validation-yes"
+                  id="with-html-validation-yes-label"
                 >
                   <span
-                    className="c9"
+                    className="c8 c23"
                   >
-                    Two
+                    <span
+                      className="c10"
+                    >
+                      I agree
+                    </span>
                   </span>
-                </span>
-              </label>
+                </label>
+              </div>
             </div>
             <div
-              className="c18"
+              className="c24"
             >
-              <div
-                className="c19 c20"
+              <button
+                aria-busy={false}
+                className="c25 c26"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="submit"
               >
-                <input
-                  aria-disabled={false}
-                  aria-invalid={false}
-                  aria-labelledby="three-label"
-                  aria-required={true}
-                  autoComplete="on"
-                  autoFocus={false}
-                  disabled={false}
-                  id="three"
-                  name="example"
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onInvalid={[Function]}
-                  required={true}
-                  role="radio"
-                  type="radio"
-                  value="three"
-                />
-                <span
-                  aria-hidden="true"
-                  className="c21"
-                />
-              </div>
-              <label
-                className="c22"
-                htmlFor="three"
-                id="three-label"
-              >
-                <span
-                  className="c7 c23"
+                <div
+                  className="c27"
                 >
                   <span
-                    className="c9"
+                    className="c8 c28"
                   >
-                    Three
+                    <span
+                      className="c14"
+                    >
+                      Save Changes
+                    </span>
                   </span>
-                </span>
-              </label>
+                </div>
+              </button>
             </div>
-          </div>
-          <div
-            className="c24"
-          >
-            <button
-              aria-busy={false}
-              className="c25 c26"
-              disabled={false}
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              type="submit"
-            >
-              <div
-                className="c27"
-              >
-                <span
-                  className="c7 c28"
-                >
-                  <span
-                    className="c13"
-                  >
-                    Reset
-                  </span>
-                </span>
-              </div>
-            </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
   </div>,
 ]
 `;
 
-exports[`Storyshots Components/Radio With States 1`] = `
+exports[`Storyshots Components/Radio With Custom Markup 1`] = `
 Array [
   <div>
     <style>
@@ -3364,7 +1155,686 @@ Array [
     
     </style>
   </div>,
-  .c6 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.87);
+  display: block;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 700;
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c15 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c15::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 20px 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EBEEFC;
+  border-radius: 4px;
+  color: rgba(35,70,158,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c20 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.c21 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 3px 0;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 18px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.c5 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c5 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c6 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c4:hover .c6 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c6 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c4:hover .c22 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+.c4:hover .c23 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c16 {
+  grid-area: description;
+  margin-top: 8px;
+  padding-left: 8px;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  width: 8px;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c18 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c18 *,
+.c18 *::before,
+.c18 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+        >
+          <div
+            className="c4 c5"
+          >
+            <input
+              aria-describedby="radio-with-custom-markup-contactless-description"
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-labelledby="radio-with-custom-markup-contactless-label"
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              defaultChecked={true}
+              disabled={false}
+              id="radio-with-custom-markup-contactless"
+              name="radio-with-custom-markup"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              required={true}
+              role="radio"
+              type="radio"
+              value="contactless"
+            />
+            <span
+              aria-hidden="true"
+              className="c6"
+            />
+          </div>
+          <label
+            className="c7"
+            htmlFor="radio-with-custom-markup-contactless"
+            id="radio-with-custom-markup-contactless-label"
+          >
+            <span
+              className="c8 c9"
+            >
+              <span
+                className="c10"
+              >
+                <div
+                  className="c11"
+                >
+                  Contactless Payment
+                  <div
+                    className="c12"
+                  />
+                  <svg
+                    aria-hidden={true}
+                    className="c13"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <g>
+                      <rect
+                        fill="none"
+                        height="24"
+                        width="24"
+                      />
+                    </g>
+                    <g>
+                      <path
+                        d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M8.46,14.45L7.1,13.83 c0.28-0.61,0.41-1.24,0.4-1.86c-0.01-0.63-0.14-1.24-0.4-1.8l1.36-0.63c0.35,0.75,0.53,1.56,0.54,2.4 C9.01,12.8,8.83,13.64,8.46,14.45z M11.53,16.01l-1.3-0.74c0.52-0.92,0.78-1.98,0.78-3.15c0-1.19-0.27-2.33-0.8-3.4l1.34-0.67 c0.64,1.28,0.96,2.65,0.96,4.07C12.51,13.55,12.18,14.86,11.53,16.01z M14.67,17.33l-1.35-0.66c0.78-1.6,1.18-3.18,1.18-4.69 c0-1.51-0.4-3.07-1.18-4.64l1.34-0.67C15.56,8.45,16,10.23,16,11.98C16,13.72,15.56,15.52,14.67,17.33z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </span>
+            </span>
+          </label>
+          <div
+            className="c14 c15 c16"
+            id="radio-with-custom-markup-contactless-description"
+          >
+            <span
+              className="c17"
+            >
+              Use a contactless payment method to avoid touching payment terminal
+            </span>
+          </div>
+        </div>
+        <div
+          className="c18"
+        />
+        <div
+          className="c3"
+        >
+          <div
+            className="c4 c5"
+          >
+            <input
+              aria-describedby="radio-with-custom-markup-creditdebit-description"
+              aria-disabled={false}
+              aria-invalid={false}
+              aria-labelledby="radio-with-custom-markup-creditdebit-label"
+              aria-required={true}
+              autoComplete="on"
+              autoFocus={false}
+              disabled={false}
+              id="radio-with-custom-markup-creditdebit"
+              name="radio-with-custom-markup"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onInvalid={[Function]}
+              required={true}
+              role="radio"
+              type="radio"
+              value="creditdebit"
+            />
+            <span
+              aria-hidden="true"
+              className="c6"
+            />
+          </div>
+          <label
+            className="c7"
+            htmlFor="radio-with-custom-markup-creditdebit"
+            id="radio-with-custom-markup-creditdebit-label"
+          >
+            <span
+              className="c8 c9"
+            >
+              <span
+                className="c10"
+              >
+                Credit or Debit
+              </span>
+            </span>
+          </label>
+          <div
+            className="c14 c15 c16"
+            id="radio-with-custom-markup-creditdebit-description"
+          >
+            <span
+              className="c17"
+            >
+              <div
+                className="c19"
+                role="alert"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="c13 c20"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+                  />
+                </svg>
+                <div
+                  className="c21"
+                >
+                  <p
+                    className="c8 c15"
+                  >
+                    <span
+                      className="c17"
+                    >
+                      You could be exposed to germs when touching a payment terminal
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Radio With Description 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3385,6 +1855,27 @@ Array [
   box-sizing: border-box;
 }
 
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.87);
+  display: block;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
 .c7 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
@@ -3394,7 +1885,7 @@ Array [
   -webkit-transform: translateY(0.3068181818181818rem);
   -ms-transform: translateY(0.3068181818181818rem);
   transform: translateY(0.3068181818181818rem);
-  font-weight: 400;
+  font-weight: 700;
   text-align: initial;
 }
 
@@ -3403,6 +1894,50 @@ Array [
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
+}
+
+.c10 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c10::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
 }
 
 .c8 {
@@ -3448,7 +1983,7 @@ Array [
   flex: 0 0 auto;
   grid-template-areas: "input label" "input description";
   grid-template-columns: 18px auto;
-  grid-template-rows: 36px auto;
+  grid-template-rows: 18px auto;
   min-height: 36px;
   position: relative;
 }
@@ -3472,7 +2007,7 @@ Array [
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   grid-area: input;
-  height: 36px;
+  height: 18px;
   position: relative;
   width: 18px;
 }
@@ -3518,59 +2053,12 @@ input[type=radio]:checked + .c4 {
   border-width: 6px;
 }
 
-.c10 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: rgba(0,0,0,0.38);
-  border-radius: 100%;
-  cursor: not-allowed;
-  height: 18px;
-  left: 0;
-  pointer-events: all;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-  box-shadow: none;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
-.c2:hover .c10 {
+.c2:hover .c13 {
   border-color: rgba(0,0,0,0.38);
 }
 
-input[type=radio]:checked + .c10 {
-  border-color: rgba(0,0,0,0.38);
-  border-width: 6px;
-}
-
-.c12 {
-  background-color: transparent;
-  border: 2px solid rgba(0,0,0,0.12);
-  border-color: #F03D3D;
-  border-radius: 100%;
-  cursor: pointer;
-  height: 18px;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: calc((100% - 18px) / 2);
-  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  width: 18px;
-}
-
-.c2:hover .c12 {
+.c2:hover .c14 {
   border-color: rgba(0,0,0,0.87);
-}
-
-input[type=radio]:checked + .c12 {
-  border-width: 6px;
 }
 
 .c5 {
@@ -3594,6 +2082,291 @@ input[type=radio]:checked + .c12 {
 }
 
 .c11 {
+  grid-area: description;
+  margin-top: 8px;
+  padding-left: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2 c3"
+      >
+        <input
+          aria-describedby="radio-with-description-description"
+          aria-disabled={false}
+          aria-invalid={false}
+          aria-labelledby="radio-with-description-label"
+          aria-required={true}
+          autoComplete="on"
+          autoFocus={false}
+          disabled={false}
+          id="radio-with-description"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInvalid={[Function]}
+          required={true}
+          role="radio"
+          type="radio"
+          value="red"
+        />
+        <span
+          aria-hidden="true"
+          className="c4"
+        />
+      </div>
+      <label
+        className="c5"
+        htmlFor="radio-with-description"
+        id="radio-with-description-label"
+      >
+        <span
+          className="c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            Red
+          </span>
+        </span>
+      </label>
+      <div
+        className="c9 c10 c11"
+        id="radio-with-description-description"
+      >
+        <span
+          className="c12"
+        >
+          Red will be set as your color
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Radio With Inline 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 36px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 36px;
+  position: relative;
+  width: 18px;
+}
+
+.c4 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c4 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c5 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c3:hover .c5 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c5 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c3:hover .c11 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+.c3:hover .c12 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+.c6 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3611,10 +2384,9 @@ input[type=radio]:checked + .c12 {
   -ms-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-  color: rgba(0,0,0,0.38);
 }
 
-.c9 {
+.c10 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3627,16 +2399,832 @@ input[type=radio]:checked + .c12 {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   display: block;
-  height: 0px;
+  width: 16px;
 }
 
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-labelledby="radio-with-inline-one-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            defaultChecked={true}
+            disabled={false}
+            id="radio-with-inline-one"
+            name="radio-with-inline"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="one"
+          />
+          <span
+            aria-hidden="true"
+            className="c5"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-with-inline-one"
+          id="radio-with-inline-one-label"
+        >
+          <span
+            className="c7 c8"
+          >
+            <span
+              className="c9"
+            >
+              One
+            </span>
+          </span>
+        </label>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2"
+      >
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-labelledby="radio-with-inline-two-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            disabled={false}
+            id="radio-with-inline-two"
+            name="radio-with-inline"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="two"
+          />
+          <span
+            aria-hidden="true"
+            className="c5"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-with-inline-two"
+          id="radio-with-inline-two-label"
+        >
+          <span
+            className="c7 c8"
+          >
+            <span
+              className="c9"
+            >
+              Two
+            </span>
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Radio With JS Validation 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.6);
+  display: block;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c26 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c26 *,
+.c26 *::before,
+.c26 *::after {
+  box-sizing: border-box;
+}
+
+.c26::-moz-focus-inner {
+  border-style: none;
+}
+
+.c29 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: center;
+}
+
+.c29::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c9 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c18 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c18::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c24 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c24::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c27 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  border-radius: 4px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 100%;
+  background-color: #3F37C9;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+  color: rgba(255,255,255,1);
+  height: 44px;
+  padding: 0px 24px;
+}
+
+.c27 *,
+.c27 *::before,
+.c27 *::after {
+  box-sizing: border-box;
+}
+
+.c27:hover {
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
+}
+
+.c27:active {
+  box-shadow: none;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+.c28 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: visible;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c25 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c25 *,
+.c25 *::before,
+.c25 *::after {
+  box-sizing: border-box;
+}
+
+.c25 > * {
+  margin-left: 8px;
+}
+
+.c25 > :first-child {
+  margin-left: 0;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c11:first-child {
+  padding-top: 32px;
+}
+
+.c11:last-child {
+  padding-bottom: 32px;
+}
+
+.c11:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 32px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:only-child {
+  padding-bottom: 32px;
+}
+
+.c7 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 4px 0px;
+  -webkit-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  color: #3F37C9;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c15:focus {
+  outline: none;
+  outline-offset: 1px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c15:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c15:visited,
+.c15:active {
+  color: #3F37C9;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 36px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c21 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 36px;
+  position: relative;
+  width: 18px;
+}
+
+.c21 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c21 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c22 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c20:hover .c22 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c22 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c20:hover .c30 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+.c20:hover .c31 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+.c23 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -3658,9 +3246,9 @@ input[type=radio]:checked + .c12 {
   align-items: stretch;
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
@@ -3673,293 +3261,880 @@ input[type=radio]:checked + .c12 {
       <div
         className="c2 c3"
       >
-        <input
-          aria-disabled={false}
-          aria-invalid={false}
-          aria-labelledby="radio-with-states-unchecked-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          disabled={false}
-          id="radio-with-states-unchecked"
-          name="radio-with-states-unchecked"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="unchecked"
-        />
-        <span
-          aria-hidden="true"
+        <div
           className="c4"
         />
-      </div>
-      <label
-        className="c5"
-        htmlFor="radio-with-states-unchecked"
-        id="radio-with-states-unchecked-label"
-      >
-        <span
-          className="c6 c7"
+        <div
+          className="c5"
         >
-          <span
-            className="c8"
+          <form
+            noValidate={true}
+            onSubmit={[Function]}
           >
-            Unchecked Radio
-          </span>
-        </span>
-      </label>
+            <div
+              className="c6"
+            >
+              <div
+                className="c7"
+              >
+                <h2
+                  className="c8 c9"
+                >
+                  <span
+                    className="c10"
+                  >
+                    Using JavaScript Validation
+                  </span>
+                </h2>
+              </div>
+            </div>
+            <div
+              className="c11"
+            >
+              <div
+                className="c12"
+              >
+                <p
+                  className="c8 c13"
+                >
+                  <span
+                    className="c14"
+                  >
+                    In this example, Radio components are being rendered and controlled with external state. Typically, you should render Radio components inside of a  
+                    <a
+                      className="c15"
+                      href="/?path=/story/components-radiogroup--basic"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      rel={null}
+                    >
+                      RadioGroup
+                    </a>
+                    , but you can also render them on their own for special use cases.
+                  </span>
+                </p>
+                <div
+                  className="c16"
+                />
+                <p
+                  className="c17 c18"
+                >
+                  <span
+                    className="c14"
+                  >
+                    Note: this example uses react-hook-form to manage state and provide error validation.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              className="c11"
+            >
+              <div
+                className="c19"
+              >
+                <div
+                  className="c20 c21"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="one-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    defaultChecked={true}
+                    disabled={false}
+                    id="one"
+                    name="example"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="one"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c22"
+                  />
+                </div>
+                <label
+                  className="c23"
+                  htmlFor="one"
+                  id="one-label"
+                >
+                  <span
+                    className="c8 c24"
+                  >
+                    <span
+                      className="c10"
+                    >
+                      One
+                    </span>
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c19"
+              >
+                <div
+                  className="c20 c21"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="two-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    disabled={false}
+                    id="two"
+                    name="example"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="two"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c22"
+                  />
+                </div>
+                <label
+                  className="c23"
+                  htmlFor="two"
+                  id="two-label"
+                >
+                  <span
+                    className="c8 c24"
+                  >
+                    <span
+                      className="c10"
+                    >
+                      Two
+                    </span>
+                  </span>
+                </label>
+              </div>
+              <div
+                className="c19"
+              >
+                <div
+                  className="c20 c21"
+                >
+                  <input
+                    aria-disabled={false}
+                    aria-invalid={false}
+                    aria-labelledby="three-label"
+                    aria-required={true}
+                    autoComplete="on"
+                    autoFocus={false}
+                    disabled={false}
+                    id="three"
+                    name="example"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInvalid={[Function]}
+                    required={true}
+                    role="radio"
+                    type="radio"
+                    value="three"
+                  />
+                  <span
+                    aria-hidden="true"
+                    className="c22"
+                  />
+                </div>
+                <label
+                  className="c23"
+                  htmlFor="three"
+                  id="three-label"
+                >
+                  <span
+                    className="c8 c24"
+                  >
+                    <span
+                      className="c10"
+                    >
+                      Three
+                    </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div
+              className="c25"
+            >
+              <button
+                aria-busy={false}
+                className="c26 c27"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                type="submit"
+              >
+                <div
+                  className="c28"
+                >
+                  <span
+                    className="c8 c29"
+                  >
+                    <span
+                      className="c14"
+                    >
+                      Reset
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <div
-      className="c9"
-    />
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Radio With States 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: transparent;
+  display: grid;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-template-areas: "input label" "input description";
+  grid-template-columns: 18px auto;
+  grid-template-rows: 36px auto;
+  min-height: 36px;
+  position: relative;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-area: input;
+  height: 36px;
+  position: relative;
+  width: 18px;
+}
+
+.c4 input[type=radio] {
+  cursor: pointer;
+  font-size: 1rem;
+  grid-area: input;
+  height: 18px;
+  margin: 0;
+  opacity: 0;
+  width: 18px;
+  z-index: 1;
+}
+
+.c4 input[type=radio][disabled] {
+  cursor: not-allowed;
+}
+
+.c5 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c3:hover .c5 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c5 {
+  border-color: rgba(0,0,0,0.87);
+  border-width: 6px;
+}
+
+.c11 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: rgba(0,0,0,0.38);
+  border-radius: 100%;
+  cursor: not-allowed;
+  height: 18px;
+  left: 0;
+  pointer-events: all;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+  box-shadow: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.c3:hover .c11 {
+  border-color: rgba(0,0,0,0.38);
+}
+
+input[type=radio]:checked + .c11 {
+  border-color: rgba(0,0,0,0.38);
+  border-width: 6px;
+}
+
+.c13 {
+  background-color: transparent;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-color: #D63349;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 18px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 18px) / 2);
+  -webkit-transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: all 150ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  width: 18px;
+}
+
+.c3:hover .c13 {
+  border-color: rgba(0,0,0,0.87);
+}
+
+input[type=radio]:checked + .c13 {
+  border-width: 6px;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  grid-area: label;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: rgba(0,0,0,0.38);
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 0px;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
+  >
     <div
       className="c1"
     >
       <div
-        className="c2 c3"
+        className="c2"
       >
-        <input
-          aria-disabled={false}
-          aria-invalid={false}
-          aria-labelledby="radio-with-states-checked-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          checked={true}
-          disabled={false}
-          id="radio-with-states-checked"
-          name="radio-with-states-checked"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="checked"
-        />
-        <span
-          aria-hidden="true"
-          className="c4"
-        />
-      </div>
-      <label
-        className="c5"
-        htmlFor="radio-with-states-checked"
-        id="radio-with-states-checked-label"
-      >
-        <span
-          className="c6 c7"
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-labelledby="radio-with-states-unchecked-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            disabled={false}
+            id="radio-with-states-unchecked"
+            name="radio-with-states-unchecked"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="unchecked"
+          />
+          <span
+            aria-hidden="true"
+            className="c5"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-with-states-unchecked"
+          id="radio-with-states-unchecked-label"
         >
           <span
-            className="c8"
+            className="c7 c8"
           >
-            Checked Radio
+            <span
+              className="c9"
+            >
+              Unchecked Radio
+            </span>
           </span>
-        </span>
-      </label>
-    </div>
-    <div
-      className="c9"
-    />
-    <div
-      className="c1"
-    >
-      <div
-        className="c2 c3"
-      >
-        <input
-          aria-disabled={true}
-          aria-invalid={false}
-          aria-labelledby="radio-with-states-disabled-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          disabled={true}
-          id="radio-with-states-disabled"
-          name="radio-with-states"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="disabled"
-        />
-        <span
-          aria-hidden="true"
-          className="c10"
-        />
+        </label>
       </div>
-      <label
-        className="c11"
-        htmlFor="radio-with-states-disabled"
-        id="radio-with-states-disabled-label"
+      <div
+        className="c10"
+      />
+      <div
+        className="c2"
       >
-        <span
-          className="c6 c7"
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={false}
+            aria-labelledby="radio-with-states-checked-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            checked={true}
+            disabled={false}
+            id="radio-with-states-checked"
+            name="radio-with-states-checked"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="checked"
+          />
+          <span
+            aria-hidden="true"
+            className="c5"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-with-states-checked"
+          id="radio-with-states-checked-label"
         >
           <span
-            className="c8"
+            className="c7 c8"
           >
-            Disabled Radio
+            <span
+              className="c9"
+            >
+              Checked Radio
+            </span>
           </span>
-        </span>
-      </label>
-    </div>
-    <div
-      className="c9"
-    />
-    <div
-      className="c1"
-    >
-      <div
-        className="c2 c3"
-      >
-        <input
-          aria-disabled={true}
-          aria-invalid={false}
-          aria-labelledby="radio-with-states-disabled-checked-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          checked={true}
-          disabled={true}
-          id="radio-with-states-disabled-checked"
-          name="radio-with-states-disabled-checked"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="disabled+checked"
-        />
-        <span
-          aria-hidden="true"
-          className="c10"
-        />
+        </label>
       </div>
-      <label
-        className="c11"
-        htmlFor="radio-with-states-disabled-checked"
-        id="radio-with-states-disabled-checked-label"
-      >
-        <span
-          className="c6 c7"
-        >
-          <span
-            className="c8"
-          >
-            Disabled + Checked Radio
-          </span>
-        </span>
-      </label>
-    </div>
-    <div
-      className="c9"
-    />
-    <div
-      className="c1"
-    >
       <div
-        className="c2 c3"
+        className="c10"
+      />
+      <div
+        className="c2"
       >
-        <input
-          aria-disabled={false}
-          aria-invalid={true}
-          aria-labelledby="radio-with-states-invalid-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          disabled={false}
-          id="radio-with-states-invalid"
-          name="radio-with-states-invalid"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="invalid"
-        />
-        <span
-          aria-hidden="true"
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={true}
+            aria-invalid={false}
+            aria-labelledby="radio-with-states-disabled-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            disabled={true}
+            id="radio-with-states-disabled"
+            name="radio-with-states"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="disabled"
+          />
+          <span
+            aria-hidden="true"
+            className="c11"
+          />
+        </div>
+        <label
           className="c12"
-        />
-      </div>
-      <label
-        className="c5"
-        htmlFor="radio-with-states-invalid"
-        id="radio-with-states-invalid-label"
-      >
-        <span
-          className="c6 c7"
+          htmlFor="radio-with-states-disabled"
+          id="radio-with-states-disabled-label"
         >
           <span
-            className="c8"
+            className="c7 c8"
           >
-            Invalid Radio
+            <span
+              className="c9"
+            >
+              Disabled Radio
+            </span>
           </span>
-        </span>
-      </label>
-    </div>
-    <div
-      className="c9"
-    />
-    <div
-      className="c1"
-    >
+        </label>
+      </div>
       <div
-        className="c2 c3"
+        className="c10"
+      />
+      <div
+        className="c2"
       >
-        <input
-          aria-disabled={false}
-          aria-invalid={true}
-          aria-labelledby="radio-with-states-invalid-checked-label"
-          aria-required={true}
-          autoComplete="on"
-          autoFocus={false}
-          checked={true}
-          disabled={false}
-          id="radio-with-states-invalid-checked"
-          name="radio-with-states-invalid-checked"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onInvalid={[Function]}
-          required={true}
-          role="radio"
-          type="radio"
-          value="invalid+checked"
-        />
-        <span
-          aria-hidden="true"
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={true}
+            aria-invalid={false}
+            aria-labelledby="radio-with-states-disabled-checked-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            checked={true}
+            disabled={true}
+            id="radio-with-states-disabled-checked"
+            name="radio-with-states-disabled-checked"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="disabled+checked"
+          />
+          <span
+            aria-hidden="true"
+            className="c11"
+          />
+        </div>
+        <label
           className="c12"
-        />
-      </div>
-      <label
-        className="c5"
-        htmlFor="radio-with-states-invalid-checked"
-        id="radio-with-states-invalid-checked-label"
-      >
-        <span
-          className="c6 c7"
+          htmlFor="radio-with-states-disabled-checked"
+          id="radio-with-states-disabled-checked-label"
         >
           <span
-            className="c8"
+            className="c7 c8"
           >
-            Invalid + Checked Radio
+            <span
+              className="c9"
+            >
+              Disabled + Checked Radio
+            </span>
           </span>
-        </span>
-      </label>
+        </label>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2"
+      >
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={true}
+            aria-labelledby="radio-with-states-invalid-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            disabled={false}
+            id="radio-with-states-invalid"
+            name="radio-with-states-invalid"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="invalid"
+          />
+          <span
+            aria-hidden="true"
+            className="c13"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-with-states-invalid"
+          id="radio-with-states-invalid-label"
+        >
+          <span
+            className="c7 c8"
+          >
+            <span
+              className="c9"
+            >
+              Invalid Radio
+            </span>
+          </span>
+        </label>
+      </div>
+      <div
+        className="c10"
+      />
+      <div
+        className="c2"
+      >
+        <div
+          className="c3 c4"
+        >
+          <input
+            aria-disabled={false}
+            aria-invalid={true}
+            aria-labelledby="radio-with-states-invalid-checked-label"
+            aria-required={true}
+            autoComplete="on"
+            autoFocus={false}
+            checked={true}
+            disabled={false}
+            id="radio-with-states-invalid-checked"
+            name="radio-with-states-invalid-checked"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInvalid={[Function]}
+            required={true}
+            role="radio"
+            type="radio"
+            value="invalid+checked"
+          />
+          <span
+            aria-hidden="true"
+            className="c13"
+          />
+        </div>
+        <label
+          className="c6"
+          htmlFor="radio-with-states-invalid-checked"
+          id="radio-with-states-invalid-checked-label"
+        >
+          <span
+            className="c7 c8"
+          >
+            <span
+              className="c9"
+            >
+              Invalid + Checked Radio
+            </span>
+          </span>
+        </label>
+      </div>
     </div>
   </div>,
 ]

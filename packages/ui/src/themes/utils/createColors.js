@@ -1,11 +1,12 @@
 /* eslint-disable max-lines */
 import Color from 'color'
 import _ from 'lodash'
-import amber from '../../colors/amber'
 import common from '../../colors/common'
 import green from '../../colors/green'
 import blue from '../../colors/blue'
-// import purple from '../../colors/purple'
+import indigo from '../../colors/indigo'
+import teal from '../../colors/teal'
+import orange from '../../colors/orange'
 import red from '../../colors/red'
 import createSwatch from '../../colors/utils/createSwatch'
 
@@ -14,51 +15,43 @@ export const baseLightTheme = {
   surface: common.white,
   // eslint-disable-next-line sort-keys
   brand: {
-    dark: green[800],
-    light: green[50],
-    main: green[600],
-    onDark: common.white,
-    onLight: green[800],
-    onMain: common.white,
+    dark: indigo[900],
+    light: indigo[50],
+    main: indigo[500],
+    onLight: indigo[900],
   },
   brand2: {
-    dark: blue[900],
-    light: blue[50],
-    main: blue[600],
-    onDark: common.white,
-    onLight: blue[900],
-    onMain: common.white,
+    dark: teal[400],
+    light: teal[50],
+    main: teal[200],
+    onLight: teal[900],
   },
   error: {
     dark: red[900],
     light: red[50],
-    main: red[400],
-    onDark: common.white,
+    main: red[500],
     onLight: red[900],
-    onMain: common.white,
   },
-  highlight: blue[600],
+  highlight: indigo[500],
   info: {
     dark: blue[900],
     light: blue[50],
     main: blue[600],
-    onDark: common.white,
     onLight: blue[900],
-    onMain: common.white,
   },
   success: {
     dark: green[800],
     light: green[50],
     main: green[600],
-    onDark: common.white,
-    onLight: green[800],
-    onMain: common.white,
+    // onDark: common.white,
+    onLight: green[900],
+    // onMain: common.white,
   },
   warning: {
-    dark: amber[800],
-    light: amber[50],
-    main: amber[300],
-    onLight: amber[800],
+    dark: orange[800],
+    light: orange[50],
+    main: orange[300],
+    onLight: orange[800],
   },
 }
 
@@ -67,41 +60,41 @@ export const baseDarkTheme = {
   surface: '#1b1b1b',
   // eslint-disable-next-line sort-keys
   brand: {
-    dark: green[800],
-    light: green[50],
-    main: green[400],
-    onLight: green[800],
+    dark: indigo[100],
+    light: indigo[900],
+    main: indigo[200],
+    onLight: indigo[50],
   },
   brand2: {
-    dark: blue[900],
-    light: blue[50],
-    main: blue[400],
-    onLight: blue[900],
+    dark: teal[100],
+    light: teal[900],
+    main: teal[200],
+    onLight: teal[50],
   },
   error: {
-    dark: red[900],
-    light: red[50],
-    main: red[400],
-    onLight: red[900],
+    dark: red[100],
+    light: red[900],
+    main: red[200],
+    onLight: red[50],
   },
-  highlight: blue[400],
+  highlight: indigo[200],
   info: {
-    dark: blue[900],
-    light: blue[50],
-    main: blue[400],
-    onLight: blue[900],
+    dark: blue[100],
+    light: blue[900],
+    main: blue[200],
+    onLight: blue[50],
   },
   success: {
-    dark: green[800],
-    light: green[50],
-    main: green[400],
-    onLight: green[800],
+    dark: green[100],
+    light: green[900],
+    main: green[200],
+    onLight: green[50],
   },
   warning: {
-    dark: amber[800],
-    light: amber[50],
-    main: amber[400],
-    onLight: amber[800],
+    dark: orange[100],
+    light: orange[900],
+    main: orange[200],
+    onLight: orange[50],
   },
 }
 

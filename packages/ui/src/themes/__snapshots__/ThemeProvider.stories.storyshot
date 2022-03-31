@@ -9,171 +9,196 @@ Array [
     
     </style>
   </div>,
-  <ol
-    role="tree"
-    style={
-      Object {
-        "listStyleType": "none",
-        "margin": 0,
-        "padding": 0,
-      }
-    }
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
   >
-    <li
-      aria-expanded={false}
-      role="treeitem"
+    <ol
+      role="tree"
       style={
         Object {
-          "backgroundColor": "white",
-          "boxSizing": "border-box",
-          "color": "black",
-          "cursor": "default",
-          "fontFamily": "Menlo, monospace",
-          "fontSize": "11px",
-          "lineHeight": 1.2,
-          "listStyle": "none",
+          "listStyleType": "none",
+          "margin": 0,
+          "padding": 0,
         }
       }
     >
-      <div
-        onClick={[Function]}
-        style={Object {}}
-      >
-        <span
-          style={
-            Object {
-              "KhtmlUserSelect": "none",
-              "MozTransform": "rotateZ(0deg)",
-              "MozUserSelect": "none",
-              "OUserSelect": "none",
-              "WebkitTouchCallout": "none",
-              "WebkitTransform": "rotateZ(0deg)",
-              "WebkitUserSelect": "none",
-              "color": "#6e6e6e",
-              "display": "inline-block",
-              "fontSize": 12,
-              "marginRight": 3,
-              "msUserSelect": "none",
-              "transform": "rotateZ(0deg)",
-              "userSelect": "none",
-            }
-          }
-        >
-          ▶
-        </span>
-        <span
-          style={
-            Object {
-              "fontStyle": "italic",
-            }
-          }
-        >
-          
-        </span>
-        <span
-          style={
-            Object {
-              "fontStyle": "italic",
-            }
-          }
-        >
-          {
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              borders
-            </span>
-            : 
-            <span>
-              Array(3)
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              borderWidths
-            </span>
-            : 
-            <span>
-              Array(3)
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              breakpoints
-            </span>
-            : 
-            <span>
-              Array(5)
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              colors
-            </span>
-            : 
-            <span>
-              Object
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              fonts
-            </span>
-            : 
-            <span>
-              Object
-            </span>
-            <span>
-              …
-            </span>
-          </span>
-          }
-        </span>
-      </div>
-      <ol
-        role="group"
+      <li
+        aria-expanded={false}
+        role="treeitem"
         style={
           Object {
-            "margin": 0,
-            "paddingLeft": 12,
+            "backgroundColor": "white",
+            "boxSizing": "border-box",
+            "color": "black",
+            "cursor": "default",
+            "fontFamily": "Menlo, monospace",
+            "fontSize": "11px",
+            "lineHeight": 1.2,
+            "listStyle": "none",
           }
         }
-      />
-    </li>
-  </ol>,
+      >
+        <div
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <span
+            style={
+              Object {
+                "KhtmlUserSelect": "none",
+                "MozTransform": "rotateZ(0deg)",
+                "MozUserSelect": "none",
+                "OUserSelect": "none",
+                "WebkitTouchCallout": "none",
+                "WebkitTransform": "rotateZ(0deg)",
+                "WebkitUserSelect": "none",
+                "color": "#6e6e6e",
+                "display": "inline-block",
+                "fontSize": 12,
+                "marginRight": 3,
+                "msUserSelect": "none",
+                "transform": "rotateZ(0deg)",
+                "userSelect": "none",
+              }
+            }
+          >
+            ▶
+          </span>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            
+          </span>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            {
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                borders
+              </span>
+              : 
+              <span>
+                Array(3)
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                borderWidths
+              </span>
+              : 
+              <span>
+                Array(3)
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                breakpoints
+              </span>
+              : 
+              <span>
+                Array(5)
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                colors
+              </span>
+              : 
+              <span>
+                Object
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                fonts
+              </span>
+              : 
+              <span>
+                Object
+              </span>
+              <span>
+                …
+              </span>
+            </span>
+            }
+          </span>
+        </div>
+        <ol
+          role="group"
+          style={
+            Object {
+              "margin": 0,
+              "paddingLeft": 12,
+            }
+          }
+        />
+      </li>
+    </ol>
+  </div>,
 ]
 `;
 
@@ -186,170 +211,195 @@ Array [
     
     </style>
   </div>,
-  <ol
-    role="tree"
-    style={
-      Object {
-        "listStyleType": "none",
-        "margin": 0,
-        "padding": 0,
-      }
-    }
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
   >
-    <li
-      aria-expanded={false}
-      role="treeitem"
+    <ol
+      role="tree"
       style={
         Object {
-          "backgroundColor": "white",
-          "boxSizing": "border-box",
-          "color": "black",
-          "cursor": "default",
-          "fontFamily": "Menlo, monospace",
-          "fontSize": "11px",
-          "lineHeight": 1.2,
-          "listStyle": "none",
+          "listStyleType": "none",
+          "margin": 0,
+          "padding": 0,
         }
       }
     >
-      <div
-        onClick={[Function]}
-        style={Object {}}
-      >
-        <span
-          style={
-            Object {
-              "KhtmlUserSelect": "none",
-              "MozTransform": "rotateZ(0deg)",
-              "MozUserSelect": "none",
-              "OUserSelect": "none",
-              "WebkitTouchCallout": "none",
-              "WebkitTransform": "rotateZ(0deg)",
-              "WebkitUserSelect": "none",
-              "color": "#6e6e6e",
-              "display": "inline-block",
-              "fontSize": 12,
-              "marginRight": 3,
-              "msUserSelect": "none",
-              "transform": "rotateZ(0deg)",
-              "userSelect": "none",
-            }
-          }
-        >
-          ▶
-        </span>
-        <span
-          style={
-            Object {
-              "fontStyle": "italic",
-            }
-          }
-        >
-          
-        </span>
-        <span
-          style={
-            Object {
-              "fontStyle": "italic",
-            }
-          }
-        >
-          {
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              borders
-            </span>
-            : 
-            <span>
-              Array(3)
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              borderWidths
-            </span>
-            : 
-            <span>
-              Array(3)
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              breakpoints
-            </span>
-            : 
-            <span>
-              Array(5)
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              colors
-            </span>
-            : 
-            <span>
-              Object
-            </span>
-          </span>
-          , 
-          <span>
-            <span
-              style={
-                Object {
-                  "color": "rgb(136, 19, 145)",
-                }
-              }
-            >
-              fonts
-            </span>
-            : 
-            <span>
-              Object
-            </span>
-            <span>
-              …
-            </span>
-          </span>
-          }
-        </span>
-      </div>
-      <ol
-        role="group"
+      <li
+        aria-expanded={false}
+        role="treeitem"
         style={
           Object {
-            "margin": 0,
-            "paddingLeft": 12,
+            "backgroundColor": "white",
+            "boxSizing": "border-box",
+            "color": "black",
+            "cursor": "default",
+            "fontFamily": "Menlo, monospace",
+            "fontSize": "11px",
+            "lineHeight": 1.2,
+            "listStyle": "none",
           }
         }
-      />
-    </li>
-  </ol>,
+      >
+        <div
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <span
+            style={
+              Object {
+                "KhtmlUserSelect": "none",
+                "MozTransform": "rotateZ(0deg)",
+                "MozUserSelect": "none",
+                "OUserSelect": "none",
+                "WebkitTouchCallout": "none",
+                "WebkitTransform": "rotateZ(0deg)",
+                "WebkitUserSelect": "none",
+                "color": "#6e6e6e",
+                "display": "inline-block",
+                "fontSize": 12,
+                "marginRight": 3,
+                "msUserSelect": "none",
+                "transform": "rotateZ(0deg)",
+                "userSelect": "none",
+              }
+            }
+          >
+            ▶
+          </span>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            
+          </span>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            {
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                borders
+              </span>
+              : 
+              <span>
+                Array(3)
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                borderWidths
+              </span>
+              : 
+              <span>
+                Array(3)
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                breakpoints
+              </span>
+              : 
+              <span>
+                Array(5)
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                colors
+              </span>
+              : 
+              <span>
+                Object
+              </span>
+            </span>
+            , 
+            <span>
+              <span
+                style={
+                  Object {
+                    "color": "rgb(136, 19, 145)",
+                  }
+                }
+              >
+                fonts
+              </span>
+              : 
+              <span>
+                Object
+              </span>
+              <span>
+                …
+              </span>
+            </span>
+            }
+          </span>
+        </div>
+        <ol
+          role="group"
+          style={
+            Object {
+              "margin": 0,
+              "paddingLeft": 12,
+            }
+          }
+        />
+      </li>
+    </ol>
+  </div>,
 ]
 `;

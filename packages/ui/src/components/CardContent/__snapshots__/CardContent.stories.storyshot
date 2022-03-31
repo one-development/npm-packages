@@ -9,7 +9,28 @@ Array [
     
     </style>
   </div>,
-  .c6 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -24,13 +45,13 @@ Array [
   display: block;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -45,13 +66,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -64,14 +85,14 @@ Array [
   text-align: initial;
 }
 
-.c7::before {
+.c8::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -89,13 +110,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -110,13 +131,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -135,33 +156,10 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
 .c4 *,
 .c4 *::before,
 .c4 *::after {
   box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
 }
 
 .c5 {
@@ -169,7 +167,7 @@ Array [
   margin: 0;
   moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -181,15 +179,38 @@ Array [
   box-sizing: border-box;
 }
 
-.c5:first-child {
+.c3 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:first-child {
   padding-top: 32px;
 }
 
-.c5:last-child {
+.c6:last-child {
   padding-bottom: 32px;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -198,26 +219,30 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
-          <p
-            className="c6 c7"
+          <div
+            className="c6"
           >
-            <span
-              className="c8"
+            <p
+              className="c7 c8"
             >
-              Use the CardContent component to provide padding around basic text and other content in Cards.
-            </span>
-          </p>
+              <span
+                className="c9"
+              >
+                Use the CardContent component to provide padding around basic text and other content in Cards.
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -234,7 +259,28 @@ Array [
     
     </style>
   </div>,
-  .c6 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -249,13 +295,13 @@ Array [
   display: block;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -270,13 +316,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -289,14 +335,14 @@ Array [
   text-align: initial;
 }
 
-.c7::before {
+.c8::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -314,13 +360,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -335,13 +381,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -360,33 +406,10 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
 .c4 *,
 .c4 *::before,
 .c4 *::after {
   box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
 }
 
 .c5 {
@@ -394,7 +417,7 @@ Array [
   margin: 0;
   moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -406,15 +429,38 @@ Array [
   box-sizing: border-box;
 }
 
-.c5:first-child {
+.c3 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:first-child {
   padding-top: 32px;
 }
 
-.c5:last-child {
+.c6:last-child {
   padding-bottom: 32px;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -423,39 +469,43 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
         <div
-          className="c5"
-        >
-          <p
-            className="c6 c7"
-          >
-            <span
-              className="c8"
-            >
-              Use the CardContent component to provide padding around basic text and other content in Cards.
-            </span>
-          </p>
-        </div>
+          className="c4"
+        />
         <div
           className="c5"
         >
-          <p
-            className="c6 c7"
+          <div
+            className="c6"
           >
-            <span
-              className="c8"
+            <p
+              className="c7 c8"
             >
-              By the way, did you know that you can add as many CardContent elements to your card as you would like? This is great for scenarios where you have multiple blocks of text.
-            </span>
-          </p>
+              <span
+                className="c9"
+              >
+                Use the CardContent component to provide padding around basic text and other content in Cards.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                By the way, did you know that you can add as many CardContent elements to your card as you would like? This is great for scenarios where you have multiple blocks of text.
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
