@@ -1,14 +1,18 @@
 import _ from 'lodash'
 import { Meta } from '@storybook/addon-docs/blocks'
 import { 
-  amber, 
   blue,
   common, 
+  cyan,
   green, 
   grey, 
   indigo, 
+  orange,
+  pink,
   purple,
   red, 
+  teal,
+  yellow,
   Link,
   Notification, 
   Space,
@@ -24,14 +28,18 @@ import ColorSwatch from './ColorSwatch'
 One UI exports a few color palettes and color functions to assist with creating themes. Additionally, color palettes can be used to accomodate special circumstances that don't warrant adding a new color to the theme. For example, an email application might allow users to assign a color to each label, but the application shouldn't necessarily include the user-facing color options as part of its theme.
 
 - [createSwatch](#createswatchhexvalue--swatch)
-- [amber](#-amber-)
 - [blue](#-blue-)
 - [common](#-common-)
+- [cyan](#-cyan-)
 - [green](#-green-)
 - [grey](#-grey-)
 - [indigo](#-indigo-)
+- [orange](#-orange-)
+- [pink](#-pink-)
 - [purple](#-purple-)
 - [red](#-red-)
+- [teal](#-teal-)
+- [yellow](#-yellow-)
 
 <ThemeProvider>
   <Notification>
@@ -70,14 +78,13 @@ const dark = swatch[800]
 
 <ColorSwatch swatch={common} />
 
-## `{ amber }`
-
-<ColorSwatch swatch={amber} />
-
 ## `{ blue }`
 
 <ColorSwatch swatch={blue} />
 
+## `{ cyan }`
+
+<ColorSwatch swatch={cyan} />
 
 ## `{ green }`
 
@@ -91,6 +98,14 @@ const dark = swatch[800]
 
 <ColorSwatch swatch={indigo} />
 
+## `{ orange }`
+
+<ColorSwatch swatch={orange} />
+
+## `{ pink }`
+
+<ColorSwatch swatch={pink} />
+
 ## `{ purple }`
 
 <ColorSwatch swatch={purple} />
@@ -98,3 +113,11 @@ const dark = swatch[800]
 ## `{ red }`
 
 <ColorSwatch swatch={red} />
+
+## `{ teal }`
+
+<ColorSwatch swatch={teal} />
+
+## `{ yellow }`
+
+<ColorSwatch swatch={yellow} />

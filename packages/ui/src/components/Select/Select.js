@@ -78,7 +78,7 @@ const Root = styled.div(({ theme, styleProps }) => {
         border: theme.borders.thick,
         borderColor: styleProps.invalid
           ? theme.colors.error
-          : theme.colors.onSurface.hint,
+          : theme.colors.highlight,
         outline: 'none',
         padding: `0 ${px(normalPadding)}`,
         paddingRight: withIconPadding,

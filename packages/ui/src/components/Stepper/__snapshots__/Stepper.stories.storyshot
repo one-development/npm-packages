@@ -9,7 +9,7 @@ Array [
     
     </style>
   </div>,
-  .c3 {
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -19,90 +19,9 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c4::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c7 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 700;
-  text-align: initial;
-}
-
-.c7::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
 }
 
 .c0 *,
@@ -111,120 +30,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.c6 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-<div
-    className="c0"
-  >
-    <ol
-      className="c1"
-    >
-      <li
-        className="c2"
-      >
-        <p
-          className="c3 c4"
-        >
-          <span
-            className="c5"
-          >
-            First Step
-          </span>
-        </p>
-      </li>
-      <li
-        aria-hidden={true}
-        className="c6"
-      >
-        &gt;
-      </li>
-      <li
-        className="c2"
-      >
-        <p
-          className="c3 c4"
-        >
-          <span
-            className="c5"
-          >
-            Second Step
-          </span>
-        </p>
-      </li>
-      <li
-        aria-hidden={true}
-        className="c6"
-      >
-        &gt;
-      </li>
-      <li
-        className="c2"
-      >
-        <p
-          aria-current="step"
-          className="c3 c7"
-        >
-          <span
-            className="c5"
-          >
-            Current Step
-          </span>
-        </p>
-      </li>
-    </ol>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -239,34 +45,13 @@ Array [
   display: block;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.38);
-  display: block;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
+.c5 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -279,7 +64,7 @@ Array [
   text-align: initial;
 }
 
-.c4::before {
+.c5::before {
   content: "";
   display: block;
   height: 0;
@@ -306,7 +91,7 @@ Array [
   margin-top: -0.7136363636363636rem;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -324,13 +109,274 @@ Array [
   vertical-align: 0rem;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <ol
+        className="c2"
+      >
+        <li
+          className="c3"
+        >
+          <p
+            className="c4 c5"
+          >
+            <span
+              className="c6"
+            >
+              First Step
+            </span>
+          </p>
+        </li>
+        <li
+          aria-hidden={true}
+          className="c7"
+        >
+          &gt;
+        </li>
+        <li
+          className="c3"
+        >
+          <p
+            className="c4 c5"
+          >
+            <span
+              className="c6"
+            >
+              Second Step
+            </span>
+          </p>
+        </li>
+        <li
+          aria-hidden={true}
+          className="c7"
+        >
+          &gt;
+        </li>
+        <li
+          className="c3"
+        >
+          <p
+            aria-current="step"
+            className="c4 c8"
+          >
+            <span
+              className="c6"
+            >
+              Current Step
+            </span>
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Stepper With Custom Separator 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c9 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 700;
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
@@ -347,7 +393,7 @@ Array [
   width: 1em;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -358,13 +404,13 @@ Array [
   -webkit-text-size-adjust: 100%;
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -378,7 +424,7 @@ Array [
   padding: 0;
 }
 
-.c2 {
+.c3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -392,7 +438,7 @@ Array [
   flex-wrap: wrap;
 }
 
-.c6 {
+.c7 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -408,136 +454,140 @@ Array [
 <div
     className="c0"
   >
-    <ol
+    <div
       className="c1"
     >
-      <li
+      <ol
         className="c2"
       >
-        <p
-          className="c3 c4"
+        <li
+          className="c3"
         >
-          <span
-            className="c5"
+          <p
+            className="c4 c5"
           >
-            Zone
-          </span>
-        </p>
-      </li>
-      <li
-        aria-hidden={true}
-        className="c6"
-      >
-        <svg
+            <span
+              className="c6"
+            >
+              Zone
+            </span>
+          </p>
+        </li>
+        <li
           aria-hidden={true}
           className="c7"
-          focusable="false"
-          viewBox="0 0 24 24"
         >
-          <path
-            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-          />
-        </svg>
-      </li>
-      <li
-        className="c2"
-      >
-        <p
-          className="c3 c4"
-        >
-          <span
-            className="c5"
+          <svg
+            aria-hidden={true}
+            className="c8"
+            focusable="false"
+            viewBox="0 0 24 24"
           >
-            Duration
-          </span>
-        </p>
-      </li>
-      <li
-        aria-hidden={true}
-        className="c6"
-      >
-        <svg
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            />
+          </svg>
+        </li>
+        <li
+          className="c3"
+        >
+          <p
+            className="c4 c5"
+          >
+            <span
+              className="c6"
+            >
+              Duration
+            </span>
+          </p>
+        </li>
+        <li
           aria-hidden={true}
           className="c7"
-          focusable="false"
-          viewBox="0 0 24 24"
         >
-          <path
-            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-          />
-        </svg>
-      </li>
-      <li
-        className="c2"
-      >
-        <p
-          className="c3 c4"
-        >
-          <span
-            className="c5"
+          <svg
+            aria-hidden={true}
+            className="c8"
+            focusable="false"
+            viewBox="0 0 24 24"
           >
-            Vehicle
-          </span>
-        </p>
-      </li>
-      <li
-        aria-hidden={true}
-        className="c6"
-      >
-        <svg
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            />
+          </svg>
+        </li>
+        <li
+          className="c3"
+        >
+          <p
+            className="c4 c5"
+          >
+            <span
+              className="c6"
+            >
+              Vehicle
+            </span>
+          </p>
+        </li>
+        <li
           aria-hidden={true}
           className="c7"
-          focusable="false"
-          viewBox="0 0 24 24"
         >
-          <path
-            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-          />
-        </svg>
-      </li>
-      <li
-        className="c2"
-      >
-        <p
-          aria-current="step"
-          className="c3 c8"
-        >
-          <span
-            className="c5"
+          <svg
+            aria-hidden={true}
+            className="c8"
+            focusable="false"
+            viewBox="0 0 24 24"
           >
-            Payment
-          </span>
-        </p>
-      </li>
-      <li
-        aria-hidden={true}
-        className="c6"
-      >
-        <svg
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            />
+          </svg>
+        </li>
+        <li
+          className="c3"
+        >
+          <p
+            aria-current="step"
+            className="c4 c9"
+          >
+            <span
+              className="c6"
+            >
+              Payment
+            </span>
+          </p>
+        </li>
+        <li
           aria-hidden={true}
           className="c7"
-          focusable="false"
-          viewBox="0 0 24 24"
         >
-          <path
-            d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-          />
-        </svg>
-      </li>
-      <li
-        className="c2"
-      >
-        <p
-          className="c9 c4"
-        >
-          <span
-            className="c5"
+          <svg
+            aria-hidden={true}
+            className="c8"
+            focusable="false"
+            viewBox="0 0 24 24"
           >
-            Review
-          </span>
-        </p>
-      </li>
-    </ol>
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            />
+          </svg>
+        </li>
+        <li
+          className="c3"
+        >
+          <p
+            className="c10 c5"
+          >
+            <span
+              className="c6"
+            >
+              Review
+            </span>
+          </p>
+        </li>
+      </ol>
+    </div>
   </div>,
 ]
 `;

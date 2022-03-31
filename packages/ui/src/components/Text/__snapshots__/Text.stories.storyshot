@@ -9,7 +9,28 @@ Array [
     
     </style>
   </div>,
-  .c1 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -24,13 +45,13 @@ Array [
   display: block;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -45,13 +66,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -64,14 +85,14 @@ Array [
   text-transform: none;
 }
 
-.c2::before {
+.c3::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -89,24 +110,28 @@ Array [
   vertical-align: 0rem;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
 <div
     className="c0"
   >
-    <p
-      className="c1 c2"
+    <div
+      className="c1"
     >
-      <span
-        className="c3"
+      <p
+        className="c2 c3"
       >
-        This is some text
-      </span>
-    </p>
+        <span
+          className="c4"
+        >
+          This is some text
+        </span>
+      </p>
+    </div>
   </div>,
 ]
 `;
@@ -120,7 +145,7 @@ Array [
     
     </style>
   </div>,
-  .c7 {
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -130,14 +155,14 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.6);
-  display: block;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c0 *,
+.c0 *::before,
+.c0 *::after {
   box-sizing: border-box;
 }
 
@@ -152,7 +177,7 @@ Array [
   -webkit-text-size-adjust: 100%;
   min-width: 0;
   background-color: initial;
-  color: rgba(0,0,0,0.38);
+  color: rgba(0,0,0,0.6);
   display: block;
 }
 
@@ -162,7 +187,28 @@ Array [
   box-sizing: border-box;
 }
 
-.c0 {
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -180,13 +226,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -201,13 +247,13 @@ Array [
   display: block;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -223,30 +269,9 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: green;
-  display: block;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
@@ -260,10 +285,9 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  margin-left: 24px;
-  padding: 16px;
-  background-color: #38A169;
-  color: rgba(0,0,0,0.87);
+  background-color: initial;
+  color: green;
+  display: block;
 }
 
 .c10 *,
@@ -282,9 +306,10 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  background-color: initial;
-  color: rgba(255,255,255,1);
-  display: block;
+  margin-left: 24px;
+  padding: 16px;
+  background-color: #3F37C9;
+  color: rgba(0,0,0,0.87);
 }
 
 .c11 *,
@@ -304,7 +329,7 @@ Array [
   -webkit-text-size-adjust: 100%;
   min-width: 0;
   background-color: initial;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,1);
   display: block;
 }
 
@@ -325,7 +350,7 @@ Array [
   -webkit-text-size-adjust: 100%;
   min-width: 0;
   background-color: initial;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   display: block;
 }
 
@@ -346,7 +371,7 @@ Array [
   -webkit-text-size-adjust: 100%;
   min-width: 0;
   background-color: initial;
-  color: orange;
+  color: rgba(255,255,255,0.5);
   display: block;
 }
 
@@ -356,7 +381,28 @@ Array [
   box-sizing: border-box;
 }
 
-.c4 {
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: orange;
+  display: block;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -369,14 +415,14 @@ Array [
   text-align: initial;
 }
 
-.c4::before {
+.c5::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -394,13 +440,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -416,13 +462,13 @@ Array [
   height: 24px;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -444,9 +490,9 @@ Array [
   align-items: stretch;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
@@ -459,128 +505,132 @@ Array [
       <div
         className="c2"
       >
-        <p
-          className="c3 c4"
-        >
-          <span
-            className="c5"
-          >
-            Primary
-          </span>
-        </p>
         <div
-          className="c6"
-        />
-        <p
-          className="c7 c4"
+          className="c3"
         >
-          <span
-            className="c5"
+          <p
+            className="c4 c5"
           >
-            Secondary
-          </span>
-        </p>
-        <div
-          className="c6"
-        />
-        <p
-          className="c8 c4"
-        >
-          <span
-            className="c5"
+            <span
+              className="c6"
+            >
+              Primary
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c8 c5"
           >
-            Hint
-          </span>
-        </p>
-        <div
-          className="c6"
-        />
-        <p
-          className="c8 c4"
-        >
-          <span
-            className="c5"
+            <span
+              className="c6"
+            >
+              Secondary
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c9 c5"
           >
-            Disabled
-          </span>
-        </p>
-        <div
-          className="c6"
-        />
-        <p
-          className="c9 c4"
-        >
-          <span
-            className="c5"
+            <span
+              className="c6"
+            >
+              Hint
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c9 c5"
           >
-            Custom
-          </span>
-        </p>
+            <span
+              className="c6"
+            >
+              Disabled
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c10 c5"
+          >
+            <span
+              className="c6"
+            >
+              Custom
+            </span>
+          </p>
+        </div>
       </div>
-    </div>
-    <div
-      className="c10"
-    >
       <div
-        className="c2"
+        className="c11"
       >
-        <p
-          className="c11 c4"
-        >
-          <span
-            className="c5"
-          >
-            Primary
-          </span>
-        </p>
         <div
-          className="c6"
-        />
-        <p
-          className="c12 c4"
+          className="c3"
         >
-          <span
-            className="c5"
+          <p
+            className="c12 c5"
           >
-            Secondary
-          </span>
-        </p>
-        <div
-          className="c6"
-        />
-        <p
-          className="c13 c4"
-        >
-          <span
-            className="c5"
+            <span
+              className="c6"
+            >
+              Primary
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c13 c5"
           >
-            Hint
-          </span>
-        </p>
-        <div
-          className="c6"
-        />
-        <p
-          className="c13 c4"
-        >
-          <span
-            className="c5"
+            <span
+              className="c6"
+            >
+              Secondary
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c14 c5"
           >
-            Disabled
-          </span>
-        </p>
-        <div
-          className="c6"
-        />
-        <p
-          className="c14 c4"
-        >
-          <span
-            className="c5"
+            <span
+              className="c6"
+            >
+              Hint
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c14 c5"
           >
-            Custom
-          </span>
-        </p>
+            <span
+              className="c6"
+            >
+              Disabled
+            </span>
+          </p>
+          <div
+            className="c7"
+          />
+          <p
+            className="c15 c5"
+          >
+            <span
+              className="c6"
+            >
+              Custom
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   </div>,
@@ -596,7 +646,7 @@ Array [
     
     </style>
   </div>,
-  .c6 {
+  .c0 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -606,29 +656,8 @@ Array [
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c6 *,
-.c6 *::before,
-.c6 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 420px;
-  background-color: inherit;
+  background-color: #FFFFFF;
+  padding: 16px;
   color: rgba(0,0,0,0.87);
 }
 
@@ -639,201 +668,6 @@ Array [
 }
 
 .c7 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c7::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: #FFFFFF;
-  box-shadow: none;
-  color: rgba(0,0,0,0.87);
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.87);
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c5:first-child {
-  padding-top: 32px;
-}
-
-.c5:last-child {
-  padding-bottom: 32px;
-}
-
-.c5:only-child {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <div
-        className="c3"
-      />
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-        >
-          <p
-            className="c6 c7"
-          >
-            <span
-              className="c8"
-            >
-              You can easily create 
-              <b>
-                bold
-              </b>
-               or 
-              <i>
-                italicized
-              </i>
-               words within blocks of text. Just render a \`b\` or \`i\` element as a child of a Text component. Additionally, Text supports a 
-              <i>
-                weight
-              </i>
-               property that can be used to bold entire blocks of text.
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Text With Stacking 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -854,7 +688,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -869,30 +703,10 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
-}
-
-.c16 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c16::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
 }
 
 .c8 {
@@ -913,186 +727,6 @@ Array [
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
-}
-
-.c15 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c15::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
-}
-
-.c13 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32954545454545453rem);
-  -ms-transform: translateY(0.32954545454545453rem);
-  transform: translateY(0.32954545454545453rem);
-  text-align: initial;
-}
-
-.c13::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.759090909090909rem;
-}
-
-.c12 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c12::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c17 {
-  font-family: "Inter",sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.75rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.4204545454545454rem);
-  -ms-transform: translateY(0.4204545454545454rem);
-  transform: translateY(0.4204545454545454rem);
-  text-align: initial;
-}
-
-.c17::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.9409090909090908rem;
-}
-
-.c20 {
-  font-family: "Inter",sans-serif;
-  font-size: 4.5rem;
-  font-weight: 700;
-  line-height: 4.75rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.7386363636363635rem);
-  -ms-transform: translateY(0.7386363636363635rem);
-  transform: translateY(0.7386363636363635rem);
-  text-align: initial;
-}
-
-.c20::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.5772727272727272rem;
-}
-
-.c19 {
-  font-family: "Inter",sans-serif;
-  font-size: 3.75rem;
-  font-weight: 700;
-  line-height: 4rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.6363636363636362rem);
-  -ms-transform: translateY(0.6363636363636362rem);
-  transform: translateY(0.6363636363636362rem);
-  text-align: initial;
-}
-
-.c19::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.3727272727272726rem;
-}
-
-.c18 {
-  font-family: "Inter",sans-serif;
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 3rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.5rem);
-  -ms-transform: translateY(0.5rem);
-  transform: translateY(0.5rem);
-  text-align: initial;
-}
-
-.c18::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.1rem;
-}
-
-.c14 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: capitalize;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c14::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c11 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: uppercase;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c11::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
 }
 
 .c9 {
@@ -1218,7 +852,469 @@ Array [
   padding-top: 32px;
 }
 
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                You can easily create 
+                <b>
+                  bold
+                </b>
+                 or 
+                <i>
+                  italicized
+                </i>
+                 words within blocks of text. Just render a \`b\` or \`i\` element as a child of a Text component. Additionally, Text supports a 
+                <i>
+                  weight
+                </i>
+                 property that can be used to bold entire blocks of text.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Text With Stacking 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c17 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c17::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c9 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c16 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c16::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c14 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
+  text-align: initial;
+}
+
+.c14::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.759090909090909rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c18 {
+  font-family: "Inter",sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.4204545454545454rem);
+  -ms-transform: translateY(0.4204545454545454rem);
+  transform: translateY(0.4204545454545454rem);
+  text-align: initial;
+}
+
+.c18::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.9409090909090908rem;
+}
+
+.c21 {
+  font-family: "Inter",sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.7386363636363635rem);
+  -ms-transform: translateY(0.7386363636363635rem);
+  transform: translateY(0.7386363636363635rem);
+  text-align: initial;
+}
+
+.c21::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.5772727272727272rem;
+}
+
+.c20 {
+  font-family: "Inter",sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 4rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.6363636363636362rem);
+  -ms-transform: translateY(0.6363636363636362rem);
+  transform: translateY(0.6363636363636362rem);
+  text-align: initial;
+}
+
+.c20::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.3727272727272726rem;
+}
+
+.c19 {
+  font-family: "Inter",sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+  text-align: initial;
+}
+
+.c19::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.1rem;
+}
+
+.c15 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c15::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c12 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: uppercase;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c12::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
 .c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c7:first-child {
+  padding-top: 32px;
+}
+
+.c7:last-child {
+  padding-bottom: 32px;
+}
+
+.c7:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -1234,9 +1330,1015 @@ Array [
   height: 24px;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  This example illustrates the whiteSpace clipping that is built into the Text component. The Text component strips unnecessary whiteSpace caused by line-height. This means that space between text components will be exact.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c11"
+        />
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <p
+                className="c8 c12"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c13"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c14"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c15"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <h6
+                className="c8 c16"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h6>
+              <h2
+                className="c8 c17"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h1
+                className="c8 c18"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h1>
+              <h2
+                className="c8 c19"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h2
+                className="c8 c20"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h2
+                className="c8 c21"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c11"
+        />
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c11"
+        />
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+              <p
+                className="c8 c9"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c11"
+        />
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <h1
+                className="c8 c18"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h1>
+              <h1
+                className="c8 c18"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h1>
+              <h1
+                className="c8 c18"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h1>
+              <h1
+                className="c8 c18"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h1>
+              <h1
+                className="c8 c18"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c11"
+        />
+        <div
+          className="c3 c4"
+        >
+          <div
+            className="c5"
+          />
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <h2
+                className="c8 c21"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h2
+                className="c8 c21"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h2
+                className="c8 c21"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h2
+                className="c8 c21"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+              <h2
+                className="c8 c21"
+              >
+                <span
+                  className="c10"
+                >
+                  HIIIIIIIIIII
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Text With Truncation 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  max-width: 420px;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  color: rgba(0,0,0,0.87);
+  position: relative;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0.87);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:first-child {
+  padding-top: 32px;
+}
+
+.c6:last-child {
+  padding-bottom: 32px;
+}
+
+.c6:only-child {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2 c3"
+      >
+        <div
+          className="c4"
+        />
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                This text will be clipped because \`truncate=true\` and the text is long enough to fill the entire card.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Text With Variants 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c9::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c12 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c12::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c10 {
+  font-family: "Inter",sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.38636363636363635rem);
+  -ms-transform: translateY(0.38636363636363635rem);
+  transform: translateY(0.38636363636363635rem);
+  text-align: initial;
+}
+
+.c10::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.8727272727272727rem;
+}
+
+.c13 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.32954545454545453rem);
+  -ms-transform: translateY(0.32954545454545453rem);
+  transform: translateY(0.32954545454545453rem);
+  text-align: initial;
+}
+
+.c13::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.759090909090909rem;
+}
+
+.c15 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c15::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c8 {
+  font-family: "Inter",sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.4204545454545454rem);
+  -ms-transform: translateY(0.4204545454545454rem);
+  transform: translateY(0.4204545454545454rem);
+  text-align: initial;
+}
+
+.c8::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.9409090909090908rem;
+}
+
+.c3 {
+  font-family: "Inter",sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.75rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.7386363636363635rem);
+  -ms-transform: translateY(0.7386363636363635rem);
+  transform: translateY(0.7386363636363635rem);
+  text-align: initial;
+}
+
+.c3::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.5772727272727272rem;
+}
+
+.c6 {
+  font-family: "Inter",sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 4rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.6363636363636362rem);
+  -ms-transform: translateY(0.6363636363636362rem);
+  transform: translateY(0.6363636363636362rem);
+  text-align: initial;
+}
+
+.c6::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.3727272727272726rem;
+}
+
+.c7 {
+  font-family: "Inter",sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+  text-align: initial;
+}
+
+.c7::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -1.1rem;
+}
+
+.c11 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c11::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c14 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: uppercase;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c14::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 24px;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
@@ -1274,1088 +2376,136 @@ Array [
     <div
       className="c1"
     >
-      <div
+      <h2
         className="c2 c3"
       >
-        <div
+        <span
           className="c4"
-        />
-        <div
-          className="c5"
         >
-          <div
-            className="c6"
-          >
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                This example illustrates the whiteSpace clipping that is built into the Text component. The Text component strips unnecessary whiteSpace caused by line-height. This means that space between text components will be exact.
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
+          display1
+        </span>
+      </h2>
       <div
-        className="c10"
+        className="c5"
       />
-      <div
-        className="c2 c3"
+      <h2
+        className="c2 c6"
       >
-        <div
+        <span
           className="c4"
-        />
-        <div
-          className="c5"
         >
-          <div
-            className="c6"
-          >
-            <p
-              className="c7 c11"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c12"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c13"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c14"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <h6
-              className="c7 c15"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h6>
-            <h2
-              className="c7 c16"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h1
-              className="c7 c17"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h1>
-            <h2
-              className="c7 c18"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h2
-              className="c7 c19"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h2
-              className="c7 c20"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-          </div>
-        </div>
-      </div>
+          display2
+        </span>
+      </h2>
       <div
-        className="c10"
+        className="c5"
       />
-      <div
-        className="c2 c3"
+      <h2
+        className="c2 c7"
       >
-        <div
+        <span
           className="c4"
-        />
-        <div
-          className="c5"
         >
-          <div
-            className="c6"
-          >
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
+          display3
+        </span>
+      </h2>
       <div
-        className="c10"
+        className="c5"
       />
-      <div
-        className="c2 c3"
+      <h1
+        className="c2 c8"
       >
-        <div
+        <span
           className="c4"
-        />
-        <div
-          className="c5"
         >
-          <div
-            className="c6"
-          >
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-            <p
-              className="c7 c8"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
+          h1
+        </span>
+      </h1>
       <div
-        className="c10"
+        className="c5"
       />
-      <div
-        className="c2 c3"
+      <h2
+        className="c2 c9"
       >
-        <div
+        <span
           className="c4"
-        />
-        <div
-          className="c5"
         >
-          <div
-            className="c6"
-          >
-            <h1
-              className="c7 c17"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h1>
-            <h1
-              className="c7 c17"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h1>
-            <h1
-              className="c7 c17"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h1>
-            <h1
-              className="c7 c17"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h1>
-            <h1
-              className="c7 c17"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h1>
-          </div>
-        </div>
-      </div>
+          h2
+        </span>
+      </h2>
       <div
-        className="c10"
+        className="c5"
       />
-      <div
-        className="c2 c3"
+      <h6
+        className="c2 c10"
       >
-        <div
+        <span
           className="c4"
-        />
-        <div
-          className="c5"
         >
-          <div
-            className="c6"
-          >
-            <h2
-              className="c7 c20"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h2
-              className="c7 c20"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h2
-              className="c7 c20"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h2
-              className="c7 c20"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-            <h2
-              className="c7 c20"
-            >
-              <span
-                className="c9"
-              >
-                HIIIIIIIIIII
-              </span>
-            </h2>
-          </div>
-        </div>
-      </div>
+          subtitle
+        </span>
+      </h6>
+      <div
+        className="c5"
+      />
+      <span
+        className="c2 c11"
+      >
+        <span
+          className="c4"
+        >
+          button
+        </span>
+      </span>
+      <div
+        className="c5"
+      />
+      <p
+        className="c2 c12"
+      >
+        <span
+          className="c4"
+        >
+          body
+        </span>
+      </p>
+      <div
+        className="c5"
+      />
+      <span
+        className="c2 c13"
+      >
+        <span
+          className="c4"
+        >
+          label
+        </span>
+      </span>
+      <div
+        className="c5"
+      />
+      <p
+        className="c2 c14"
+      >
+        <span
+          className="c4"
+        >
+          overline
+        </span>
+      </p>
+      <div
+        className="c5"
+      />
+      <p
+        className="c2 c15"
+      >
+        <span
+          className="c4"
+        >
+          caption
+        </span>
+      </p>
     </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Text With Truncation 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c6 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c6 *,
-.c6 *::before,
-.c6 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  max-width: 420px;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c7 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c7::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: #FFFFFF;
-  box-shadow: none;
-  color: rgba(0,0,0,0.87);
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0.87);
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c5:first-child {
-  padding-top: 32px;
-}
-
-.c5:last-child {
-  padding-bottom: 32px;
-}
-
-.c5:only-child {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1 c2"
-    >
-      <div
-        className="c3"
-      />
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-        >
-          <p
-            className="c6 c7"
-          >
-            <span
-              className="c8"
-            >
-              This text will be clipped because \`truncate=true\` and the text is long enough to fill the entire card.
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Text With Variants 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c8 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c8::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
-}
-
-.c11 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c11::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c9 {
-  font-family: "Inter",sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.38636363636363635rem);
-  -ms-transform: translateY(0.38636363636363635rem);
-  transform: translateY(0.38636363636363635rem);
-  text-align: initial;
-}
-
-.c9::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.8727272727272727rem;
-}
-
-.c12 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.32954545454545453rem);
-  -ms-transform: translateY(0.32954545454545453rem);
-  transform: translateY(0.32954545454545453rem);
-  text-align: initial;
-}
-
-.c12::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.759090909090909rem;
-}
-
-.c14 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c14::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c7 {
-  font-family: "Inter",sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.75rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.4204545454545454rem);
-  -ms-transform: translateY(0.4204545454545454rem);
-  transform: translateY(0.4204545454545454rem);
-  text-align: initial;
-}
-
-.c7::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.9409090909090908rem;
-}
-
-.c2 {
-  font-family: "Inter",sans-serif;
-  font-size: 4.5rem;
-  font-weight: 700;
-  line-height: 4.75rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.7386363636363635rem);
-  -ms-transform: translateY(0.7386363636363635rem);
-  transform: translateY(0.7386363636363635rem);
-  text-align: initial;
-}
-
-.c2::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.5772727272727272rem;
-}
-
-.c5 {
-  font-family: "Inter",sans-serif;
-  font-size: 3.75rem;
-  font-weight: 700;
-  line-height: 4rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.6363636363636362rem);
-  -ms-transform: translateY(0.6363636363636362rem);
-  transform: translateY(0.6363636363636362rem);
-  text-align: initial;
-}
-
-.c5::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.3727272727272726rem;
-}
-
-.c6 {
-  font-family: "Inter",sans-serif;
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 3rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.5rem);
-  -ms-transform: translateY(0.5rem);
-  transform: translateY(0.5rem);
-  text-align: initial;
-}
-
-.c6::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -1.1rem;
-}
-
-.c10 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.25rem;
-  text-transform: capitalize;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c10::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c13 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: uppercase;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c13::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c3 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  height: 24px;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-<div
-    className="c0"
-  >
-    <h2
-      className="c1 c2"
-    >
-      <span
-        className="c3"
-      >
-        display1
-      </span>
-    </h2>
-    <div
-      className="c4"
-    />
-    <h2
-      className="c1 c5"
-    >
-      <span
-        className="c3"
-      >
-        display2
-      </span>
-    </h2>
-    <div
-      className="c4"
-    />
-    <h2
-      className="c1 c6"
-    >
-      <span
-        className="c3"
-      >
-        display3
-      </span>
-    </h2>
-    <div
-      className="c4"
-    />
-    <h1
-      className="c1 c7"
-    >
-      <span
-        className="c3"
-      >
-        h1
-      </span>
-    </h1>
-    <div
-      className="c4"
-    />
-    <h2
-      className="c1 c8"
-    >
-      <span
-        className="c3"
-      >
-        h2
-      </span>
-    </h2>
-    <div
-      className="c4"
-    />
-    <h6
-      className="c1 c9"
-    >
-      <span
-        className="c3"
-      >
-        subtitle
-      </span>
-    </h6>
-    <div
-      className="c4"
-    />
-    <span
-      className="c1 c10"
-    >
-      <span
-        className="c3"
-      >
-        button
-      </span>
-    </span>
-    <div
-      className="c4"
-    />
-    <p
-      className="c1 c11"
-    >
-      <span
-        className="c3"
-      >
-        body
-      </span>
-    </p>
-    <div
-      className="c4"
-    />
-    <span
-      className="c1 c12"
-    >
-      <span
-        className="c3"
-      >
-        label
-      </span>
-    </span>
-    <div
-      className="c4"
-    />
-    <p
-      className="c1 c13"
-    >
-      <span
-        className="c3"
-      >
-        overline
-      </span>
-    </p>
-    <div
-      className="c4"
-    />
-    <p
-      className="c1 c14"
-    >
-      <span
-        className="c3"
-      >
-        caption
-      </span>
-    </p>
   </div>,
 ]
 `;
@@ -2369,7 +2519,28 @@ Array [
     
     </style>
   </div>,
-  .c1 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2384,13 +2555,13 @@ Array [
   display: block;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -2403,7 +2574,27 @@ Array [
   text-align: initial;
 }
 
-.c2::before {
+.c3::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c7 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 700;
+  text-align: initial;
+}
+
+.c7::before {
   content: "";
   display: block;
   height: 0;
@@ -2419,7 +2610,7 @@ Array [
   -webkit-transform: translateY(0.3068181818181818rem);
   -ms-transform: translateY(0.3068181818181818rem);
   transform: translateY(0.3068181818181818rem);
-  font-weight: 700;
+  font-weight: 500;
   text-align: initial;
 }
 
@@ -2430,27 +2621,7 @@ Array [
   margin-top: -0.7136363636363636rem;
 }
 
-.c5 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 500;
-  text-align: initial;
-}
-
-.c5::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2468,13 +2639,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2490,13 +2661,13 @@ Array [
   height: 24px;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2518,48 +2689,52 @@ Array [
   align-items: stretch;
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
 <div
     className="c0"
   >
-    <p
-      className="c1 c2"
-    >
-      <span
-        className="c3"
-      >
-        Normal
-      </span>
-    </p>
     <div
-      className="c4"
-    />
-    <p
-      className="c1 c5"
+      className="c1"
     >
-      <span
-        className="c3"
+      <p
+        className="c2 c3"
       >
-        Bolder
-      </span>
-    </p>
-    <div
-      className="c4"
-    />
-    <p
-      className="c1 c6"
-    >
-      <span
-        className="c3"
+        <span
+          className="c4"
+        >
+          Normal
+        </span>
+      </p>
+      <div
+        className="c5"
+      />
+      <p
+        className="c2 c6"
       >
-        Boldest
-      </span>
-    </p>
+        <span
+          className="c4"
+        >
+          Bolder
+        </span>
+      </p>
+      <div
+        className="c5"
+      />
+      <p
+        className="c2 c7"
+      >
+        <span
+          className="c4"
+        >
+          Boldest
+        </span>
+      </p>
+    </div>
   </div>,
 ]
 `;
@@ -2573,7 +2748,28 @@ Array [
     
     </style>
   </div>,
-  .c6 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2588,13 +2784,13 @@ Array [
   display: block;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2609,13 +2805,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -2628,14 +2824,14 @@ Array [
   text-align: initial;
 }
 
-.c7::before {
+.c8::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c8 {
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2653,13 +2849,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2674,13 +2870,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2699,33 +2895,10 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
 .c4 *,
 .c4 *::before,
 .c4 *::after {
   box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
 }
 
 .c5 {
@@ -2733,7 +2906,7 @@ Array [
   margin: 0;
   moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -2745,15 +2918,38 @@ Array [
   box-sizing: border-box;
 }
 
-.c5:first-child {
+.c3 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:first-child {
   padding-top: 32px;
 }
 
-.c5:last-child {
+.c6:last-child {
   padding-bottom: 32px;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -2762,39 +2958,43 @@ Array [
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
         <div
-          className="c5"
-        >
-          <p
-            className="c6 c7"
-          >
-            <span
-              className="c8"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam vestibulum morbi blandit cursus risus. Arcu bibendum at varius vel. Tristique senectus et netus et malesuada fames ac turpis egestas. A pellentesque sit amet porttitor. Amet tellus cras adipiscing enim eu. Urna et pharetra pharetra massa massa ultricies. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Rhoncus mattis rhoncus urna neque viverra justo nec. Amet est placerat in egestas erat. Aliquet porttitor lacus luctus accumsan tortor. Sed libero enim sed faucibus turpis. Aliquam vestibulum morbi blandit cursus risus at.
-            </span>
-          </p>
-        </div>
+          className="c4"
+        />
         <div
           className="c5"
         >
-          <p
-            className="c6 c7"
+          <div
+            className="c6"
           >
-            <span
-              className="c8"
+            <p
+              className="c7 c8"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </span>
-          </p>
+              <span
+                className="c9"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam vestibulum morbi blandit cursus risus. Arcu bibendum at varius vel. Tristique senectus et netus et malesuada fames ac turpis egestas. A pellentesque sit amet porttitor. Amet tellus cras adipiscing enim eu. Urna et pharetra pharetra massa massa ultricies. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Rhoncus mattis rhoncus urna neque viverra justo nec. Amet est placerat in egestas erat. Aliquet porttitor lacus luctus accumsan tortor. Sed libero enim sed faucibus turpis. Aliquam vestibulum morbi blandit cursus risus at.
+              </span>
+            </p>
+          </div>
+          <div
+            className="c6"
+          >
+            <p
+              className="c7 c8"
+            >
+              <span
+                className="c9"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>

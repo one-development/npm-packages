@@ -9,7 +9,28 @@ Array [
     
     </style>
   </div>,
-  .c1 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -24,13 +45,13 @@ Array [
   display: block;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -43,14 +64,14 @@ Array [
   text-align: initial;
 }
 
-.c2::before {
+.c3::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -68,13 +89,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
+.c4 *,
+.c4 *::before,
+.c4 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -86,25 +107,29 @@ Array [
   background-color: rgba(0,0,0,0.03);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
 <div
     className="c0"
-    id="radio-details-basic"
   >
-    <p
-      className="c1 c2"
+    <div
+      className="c1"
+      id="radio-details-basic"
     >
-      <span
-        className="c3"
+      <p
+        className="c2 c3"
       >
-        Radio details go here
-      </span>
-    </p>
+        <span
+          className="c4"
+        >
+          Radio details go here
+        </span>
+      </p>
+    </div>
   </div>,
 ]
 `;
@@ -118,7 +143,28 @@ Array [
     
     </style>
   </div>,
-  .c13 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -133,13 +179,13 @@ Array [
   display: block;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -154,53 +200,53 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c18 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  text-align: initial;
-}
-
-.c18::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
-.c14 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.3068181818181818rem);
-  -ms-transform: translateY(0.3068181818181818rem);
-  transform: translateY(0.3068181818181818rem);
-  font-weight: 400;
-  text-align: initial;
-}
-
-.c14::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.7136363636363636rem;
-}
-
 .c19 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  text-align: initial;
+}
+
+.c19::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c15 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.3068181818181818rem);
+  -ms-transform: translateY(0.3068181818181818rem);
+  transform: translateY(0.3068181818181818rem);
+  font-weight: 400;
+  text-align: initial;
+}
+
+.c15::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.7136363636363636rem;
+}
+
+.c20 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -218,13 +264,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c20 *,
+.c20 *::before,
+.c20 *::after {
   box-sizing: border-box;
 }
 
-.c15 {
+.c16 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -245,13 +291,13 @@ Array [
   white-space: nowrap;
 }
 
-.c15 *,
-.c15 *::before,
-.c15 *::after {
+.c16 *,
+.c16 *::before,
+.c16 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -266,13 +312,13 @@ Array [
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -291,33 +337,10 @@ Array [
   top: 0;
 }
 
-.c3 *,
-.c3 *::before,
-.c3 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-}
-
 .c4 *,
 .c4 *::before,
 .c4 *::after {
   box-sizing: border-box;
-}
-
-.c2 {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 4px;
-  overflow: hidden;
 }
 
 .c5 {
@@ -325,7 +348,7 @@ Array [
   margin: 0;
   moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: antialiased;
-  padding: 16px 24px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -337,20 +360,43 @@ Array [
   box-sizing: border-box;
 }
 
-.c5:first-child {
+.c3 {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 16px 24px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+.c6 *,
+.c6 *::before,
+.c6 *::after {
+  box-sizing: border-box;
+}
+
+.c6:first-child {
   padding-top: 32px;
 }
 
-.c5:last-child {
+.c6:last-child {
   padding-bottom: 32px;
 }
 
-.c5:only-child {
+.c6:only-child {
   padding-bottom: 32px;
   padding-top: 32px;
 }
 
-.c8 {
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -371,13 +417,13 @@ Array [
   position: relative;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
-.c10 {
+.c11 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -395,7 +441,7 @@ Array [
   width: 18px;
 }
 
-.c10 input[type=radio] {
+.c11 input[type=radio] {
   cursor: pointer;
   font-size: 1rem;
   grid-area: input;
@@ -406,11 +452,11 @@ Array [
   z-index: 1;
 }
 
-.c10 input[type=radio][disabled] {
+.c11 input[type=radio][disabled] {
   cursor: not-allowed;
 }
 
-.c11 {
+.c12 {
   background-color: transparent;
   border: 2px solid rgba(0,0,0,0.12);
   border-color: rgba(0,0,0,0.6);
@@ -427,24 +473,24 @@ Array [
   width: 18px;
 }
 
-.c9:hover .c11 {
+.c10:hover .c12 {
   border-color: rgba(0,0,0,0.87);
 }
 
-input[type=radio]:checked + .c11 {
+input[type=radio]:checked + .c12 {
   border-color: rgba(0,0,0,0.87);
   border-width: 6px;
 }
 
-.c9:hover .c21 {
+.c10:hover .c22 {
   border-color: rgba(0,0,0,0.38);
 }
 
-.c9:hover .c22 {
+.c10:hover .c23 {
   border-color: rgba(0,0,0,0.87);
 }
 
-.c12 {
+.c13 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -464,7 +510,7 @@ input[type=radio]:checked + .c11 {
   -webkit-tap-highlight-color: transparent;
 }
 
-.c17 {
+.c18 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -476,13 +522,13 @@ input[type=radio]:checked + .c11 {
   background-color: rgba(0,0,0,0.03);
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
+.c18 *,
+.c18 *::before,
+.c18 *::after {
   box-sizing: border-box;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -495,23 +541,23 @@ input[type=radio]:checked + .c11 {
   border-radius: 4px;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   padding: 8px 16px;
 }
 
-.c20 {
+.c21 {
   padding: 8px 16px;
   border-top: 1px solid rgba(0,0,0,0.12);
   border-top-color: rgba(0,0,0,0.12);
 }
 
-.c16 {
+.c17 {
   border-top: 1px solid rgba(0,0,0,0.12);
   border-top-color: rgba(0,0,0,0.12);
 }
@@ -520,155 +566,159 @@ input[type=radio]:checked + .c11 {
     className="c0"
   >
     <div
-      className="c1 c2"
+      className="c1"
     >
       <div
-        className="c3"
-      />
-      <div
-        className="c4"
+        className="c2 c3"
       >
+        <div
+          className="c4"
+        />
         <div
           className="c5"
         >
-          <form>
-            <div
-              aria-disabled={false}
-              aria-invalid={false}
-              aria-label="color"
-              aria-required={true}
-              className="c6"
-              id="color"
-              role="radiogroup"
-            >
+          <div
+            className="c6"
+          >
+            <form>
               <div
+                aria-disabled={false}
+                aria-invalid={false}
+                aria-label="color"
+                aria-required={true}
                 className="c7"
+                id="color"
+                role="radiogroup"
               >
                 <div
                   className="c8"
-                  onInput={[Function]}
                 >
                   <div
-                    className="c9 c10"
+                    className="c9"
+                    onInput={[Function]}
                   >
-                    <input
-                      aria-controls="blue-details"
-                      aria-disabled={false}
-                      aria-expanded={true}
-                      aria-invalid={false}
-                      aria-labelledby="blue-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      defaultChecked={true}
-                      disabled={false}
-                      id="blue"
-                      name="color"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="blue"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c11"
-                    />
-                  </div>
-                  <label
-                    className="c12"
-                    htmlFor="blue"
-                    id="blue-label"
-                  >
-                    <span
-                      className="c13 c14"
+                    <div
+                      className="c10 c11"
+                    >
+                      <input
+                        aria-controls="blue-details"
+                        aria-disabled={false}
+                        aria-expanded={true}
+                        aria-invalid={false}
+                        aria-labelledby="blue-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        defaultChecked={true}
+                        disabled={false}
+                        id="blue"
+                        name="color"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="blue"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c12"
+                      />
+                    </div>
+                    <label
+                      className="c13"
+                      htmlFor="blue"
+                      id="blue-label"
                     >
                       <span
-                        className="c15"
+                        className="c14 c15"
                       >
-                        Blue
+                        <span
+                          className="c16"
+                        >
+                          Blue
+                        </span>
                       </span>
-                    </span>
-                  </label>
+                    </label>
+                  </div>
                 </div>
-              </div>
-              <div
-                className="c16"
-              >
                 <div
                   className="c17"
-                  id="blue-details"
-                >
-                  <p
-                    className="c13 c18"
-                  >
-                    <span
-                      className="c19"
-                    >
-                      Your app will be themed blue
-                    </span>
-                  </p>
-                </div>
-              </div>
-              <div
-                className="c20"
-              >
-                <div
-                  className="c8"
-                  onInput={[Function]}
                 >
                   <div
-                    className="c9 c10"
+                    className="c18"
+                    id="blue-details"
                   >
-                    <input
-                      aria-controls="red-details"
-                      aria-disabled={false}
-                      aria-expanded={false}
-                      aria-invalid={false}
-                      aria-labelledby="red-label"
-                      aria-required={true}
-                      autoComplete="on"
-                      autoFocus={false}
-                      defaultChecked={false}
-                      disabled={false}
-                      id="red"
-                      name="color"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onInvalid={[Function]}
-                      required={true}
-                      role="radio"
-                      type="radio"
-                      value="red"
-                    />
-                    <span
-                      aria-hidden="true"
-                      className="c11"
-                    />
-                  </div>
-                  <label
-                    className="c12"
-                    htmlFor="red"
-                    id="red-label"
-                  >
-                    <span
-                      className="c13 c14"
+                    <p
+                      className="c14 c19"
                     >
                       <span
-                        className="c15"
+                        className="c20"
                       >
-                        Red
+                        Your app will be themed blue
                       </span>
-                    </span>
-                  </label>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="c21"
+                >
+                  <div
+                    className="c9"
+                    onInput={[Function]}
+                  >
+                    <div
+                      className="c10 c11"
+                    >
+                      <input
+                        aria-controls="red-details"
+                        aria-disabled={false}
+                        aria-expanded={false}
+                        aria-invalid={false}
+                        aria-labelledby="red-label"
+                        aria-required={true}
+                        autoComplete="on"
+                        autoFocus={false}
+                        defaultChecked={false}
+                        disabled={false}
+                        id="red"
+                        name="color"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onInvalid={[Function]}
+                        required={true}
+                        role="radio"
+                        type="radio"
+                        value="red"
+                      />
+                      <span
+                        aria-hidden="true"
+                        className="c12"
+                      />
+                    </div>
+                    <label
+                      className="c13"
+                      htmlFor="red"
+                      id="red-label"
+                    >
+                      <span
+                        className="c14 c15"
+                      >
+                        <span
+                          className="c16"
+                        >
+                          Red
+                        </span>
+                      </span>
+                    </label>
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -24,13 +45,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -48,13 +69,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -67,14 +88,14 @@ Array [
   text-align: initial;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -92,13 +113,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -118,38 +139,42 @@ Array [
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   margin: 0px 12px;
 }
 
 <div
     className="c0"
   >
-    <span
-      as="span"
+    <div
       className="c1"
     >
       <span
-        className="c2 c3 c4"
+        as="span"
+        className="c2"
       >
         <span
-          className="c5"
+          className="c3 c4 c5"
         >
-          Tag
+          <span
+            className="c6"
+          >
+            Tag
+          </span>
         </span>
       </span>
-    </span>
+    </div>
   </div>,
 ]
 `;
@@ -163,7 +188,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -178,13 +224,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -202,13 +248,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -248,17 +294,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c6::-moz-focus-inner {
+.c7::-moz-focus-inner {
   border-style: none;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -271,14 +317,14 @@ Array [
   text-align: initial;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -296,19 +342,1232 @@ Array [
   vertical-align: 0rem;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   display: inline-block;
   fill: currentColor;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  width: 16px;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.87);
+  border-radius: 4px;
+  color: rgba(255,255,255,0.87);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: rgba(0,0,0,0.87);
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  margin: 0px 12px;
+  margin-right: 8px;
+}
+
+.c8 {
+  cursor: pointer;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.c8:hover {
+  background-color: rgba(255,255,255,0.24);
+}
+
+.c12 {
+  cursor: pointer;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.c12:hover {
+  background-color: rgba(0,0,0,0.87);
+  color: rgba(255,255,255,0.87);
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <span
+        as="span"
+        className="c2"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Closeable filled
+          </span>
+        </span>
+        <button
+          aria-label="Remove Closeable filled"
+          className="c7 c8"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="c9"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+      </span>
+      <div
+        className="c10"
+      />
+      <span
+        as="span"
+        className="c11"
+      >
+        <span
+          className="c3 c4 c5"
+        >
+          <span
+            className="c6"
+          >
+            Closeable outline
+          </span>
+        </span>
+        <button
+          aria-label="Remove Closeable outline"
+          className="c7 c12"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="c9"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Tag With Colors 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c4 *,
+.c4 *::before,
+.c4 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c7 *,
+.c7 *::before,
+.c7 *::after {
+  box-sizing: border-box;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  height: 16px;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: block;
+  width: 16px;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c2 *,
+.c2 *::before,
+.c2 *::after {
+  box-sizing: border-box;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.87);
+  border-radius: 4px;
+  color: rgba(255,255,255,0.87);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c11 *,
+.c11 *::before,
+.c11 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3F37C9;
+  border-radius: 4px;
+  color: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c3 *,
+.c3 *::before,
+.c3 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #99E8E4;
+  border-radius: 4px;
+  color: rgba(0,0,0,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #D63349;
+  border-radius: 4px;
+  color: rgba(255,255,255,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
+  box-sizing: border-box;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F2A450;
+  border-radius: 4px;
+  color: rgba(0,0,0,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: pink;
+  border-radius: 4px;
+  color: rgba(0,0,0,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c13 *,
+.c13 *::before,
+.c13 *::after {
+  box-sizing: border-box;
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #3F37C9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: #3F37C9;
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c15 *,
+.c15 *::before,
+.c15 *::after {
+  box-sizing: border-box;
+}
+
+.c16 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #99E8E4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: #99E8E4;
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c16 *,
+.c16 *::before,
+.c16 *::after {
+  box-sizing: border-box;
+}
+
+.c17 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #D63349;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: #D63349;
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c17 *,
+.c17 *::before,
+.c17 *::after {
+  box-sizing: border-box;
+}
+
+.c18 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: rgba(0,0,0,0.87);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: rgba(0,0,0,0.87);
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c18 *,
+.c18 *::before,
+.c18 *::after {
+  box-sizing: border-box;
+}
+
+.c19 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #F2A450;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: #F2A450;
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c19 *,
+.c19 *::before,
+.c19 *::after {
+  box-sizing: border-box;
+}
+
+.c20 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: pink;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  border-color: pink;
+  border-size: 1px;
+  border-style: solid;
+}
+
+.c20 *,
+.c20 *::before,
+.c20 *::after {
+  box-sizing: border-box;
+}
+
+.c6 {
+  margin: 0px 12px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <span
+          as="span"
+          className="c3"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Brand
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c9"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Brand2
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c10"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Error
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c11"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Neutral
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c12"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Warning
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c13"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Custom
+            </span>
+          </span>
+        </span>
+      </div>
+      <div
+        className="c14"
+      />
+      <div
+        className="c2"
+      >
+        <span
+          as="span"
+          className="c15"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Brand
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c16"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Brand2
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c17"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Error
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c18"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Neutral
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c19"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Warning
+            </span>
+          </span>
+        </span>
+        <div
+          className="c8"
+        />
+        <span
+          as="span"
+          className="c20"
+        >
+          <span
+            className="c4 c5 c6"
+          >
+            <span
+              className="c7"
+            >
+              Custom
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Tag With Icon 1`] = `
+Array [
+  <div>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+    
+    </style>
+  </div>,
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: inherit;
+  display: block;
+}
+
+.c5 *,
+.c5 *::before,
+.c5 *::after {
+  box-sizing: border-box;
+}
+
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: inherit;
+  color: rgba(0,0,0,0.87);
+}
+
+.c1 *,
+.c1 *::before,
+.c1 *::after {
+  box-sizing: border-box;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c12::-moz-focus-inner {
+  border-style: none;
+}
+
+.c6 {
+  font-family: "Inter",sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  padding-top: 0.1rem;
+  -webkit-transform: translateY(0.2272727272727273rem);
+  -ms-transform: translateY(0.2272727272727273rem);
+  transform: translateY(0.2272727272727273rem);
+  text-align: initial;
+}
+
+.c6::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.5545454545454546rem;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  background-color: rgba(0,0,0,0);
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  vertical-align: 0rem;
+}
+
+.c8 *,
+.c8 *::before,
+.c8 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 16px;
+  height: 1em;
+  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+}
+
+.c4 {
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1rem;
   height: 1em;
   -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
@@ -341,7 +1600,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -354,21 +1613,21 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.87);
+  background-color: #F2A450;
   border-radius: 4px;
-  color: rgba(255,255,255,0.87);
+  color: rgba(0,0,0,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
@@ -387,15 +1646,15 @@ Array [
   align-items: center;
   background-color: transparent;
   border-radius: 4px;
-  color: rgba(0,0,0,0.87);
+  color: #F2A450;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
-  border-color: rgba(0,0,0,0.87);
+  border-color: #F2A450;
   border-size: 1px;
   border-style: solid;
 }
@@ -406,121 +1665,246 @@ Array [
   box-sizing: border-box;
 }
 
-.c4 {
-  margin: 0px 12px;
-  margin-right: 8px;
-}
-
 .c7 {
-  cursor: pointer;
-  height: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.c7:hover {
-  background-color: rgba(255,255,255,0.24);
+  margin: 0px 12px;
+  margin-left: 8px;
 }
 
 .c11 {
+  margin: 0px 12px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8px;
+  margin-right: 4px;
+}
+
+.c13 {
   cursor: pointer;
   height: 100%;
   padding-left: 8px;
   padding-right: 8px;
 }
 
-.c11:hover {
-  background-color: rgba(0,0,0,0.87);
-  color: rgba(255,255,255,0.87);
+.c13:hover {
+  background-color: rgba(0,0,0,0.12);
+}
+
+.c15 {
+  cursor: pointer;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.c15:hover {
+  background-color: #F2A450;
+  color: rgba(0,0,0,1);
 }
 
 <div
     className="c0"
   >
-    <span
-      as="span"
+    <div
       className="c1"
     >
       <span
-        className="c2 c3 c4"
+        as="span"
+        className="c2"
       >
-        <span
-          className="c5"
+        <div
+          className="c3"
         >
-          Closeable filled
+          <svg
+            aria-hidden={true}
+            className="c4"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+        </div>
+        <span
+          className="c5 c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            Filled icon
+          </span>
         </span>
       </span>
-      <button
-        aria-label="Remove Closeable filled"
-        className="c6 c7"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        type="button"
-      >
-        <svg
-          aria-hidden={true}
-          className="c8"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
-        </svg>
-      </button>
-    </span>
-    <div
-      className="c9"
-    />
-    <span
-      as="span"
-      className="c10"
-    >
+      <div
+        className="c9"
+      />
       <span
-        className="c2 c3 c4"
+        as="span"
+        className="c10"
       >
-        <span
-          className="c5"
+        <div
+          className="c3"
         >
-          Closeable outline
+          <svg
+            aria-hidden={true}
+            className="c4"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+        </div>
+        <span
+          className="c5 c6 c7"
+        >
+          <span
+            className="c8"
+          >
+            Outline icon
+          </span>
         </span>
       </span>
-      <button
-        aria-label="Remove Closeable outline"
-        className="c6 c11"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        type="button"
+      <div
+        className="c9"
+      />
+      <span
+        as="span"
+        className="c2"
       >
-        <svg
-          aria-hidden={true}
-          className="c8"
-          focusable="false"
-          viewBox="0 0 24 24"
+        <div
+          className="c3"
         >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
-        </svg>
-      </button>
-    </span>
+          <svg
+            aria-hidden={true}
+            className="c4"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+        </div>
+        <span
+          className="c5 c6 c11"
+        >
+          <span
+            className="c8"
+          >
+            Closeable filled icon
+          </span>
+        </span>
+        <button
+          aria-label="Remove Closeable filled icon"
+          className="c12 c13"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="c14"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+      </span>
+      <div
+        className="c9"
+      />
+      <span
+        as="span"
+        className="c10"
+      >
+        <div
+          className="c3"
+        >
+          <svg
+            aria-hidden={true}
+            className="c4"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+        </div>
+        <span
+          className="c5 c6 c11"
+        >
+          <span
+            className="c8"
+          >
+            Closeable outline icon
+          </span>
+        </span>
+        <button
+          aria-label="Remove Closeable outline icon"
+          className="c12 c15"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="c14"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+      </span>
+    </div>
   </div>,
 ]
 `;
 
-exports[`Storyshots Components/Tag With Colors 1`] = `
+exports[`Storyshots Components/Tag With Rounded 1`] = `
 Array [
   <div>
     <style>
@@ -529,7 +1913,28 @@ Array [
     
     </style>
   </div>,
-  .c3 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -550,7 +1955,7 @@ Array [
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -568,9 +1973,9 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
@@ -631,93 +2036,12 @@ Array [
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   display: block;
-  height: 16px;
+  width: 16px;
 }
 
 .c7 *,
 .c7 *::before,
 .c7 *::after {
-  box-sizing: border-box;
-}
-
-.c13 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  width: 16px;
-}
-
-.c13 *,
-.c13 *::before,
-.c13 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(0,0,0,0.87);
-  border-radius: 4px;
-  color: rgba(255,255,255,0.87);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
   box-sizing: border-box;
 }
 
@@ -734,14 +2058,14 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #38A169;
-  border-radius: 4px;
-  color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,0.87);
+  border-radius: 36px;
+  color: rgba(255,255,255,0.87);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
 }
@@ -765,240 +2089,14 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #267EBD;
-  border-radius: 4px;
-  color: rgba(255,255,255,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #F03D3D;
-  border-radius: 4px;
-  color: rgba(255,255,255,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FFCA28;
-  border-radius: 4px;
-  color: rgba(0,0,0,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
-  box-sizing: border-box;
-}
-
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: pink;
-  border-radius: 4px;
-  color: rgba(0,0,0,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   background-color: transparent;
-  border-radius: 4px;
-  color: #38A169;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: #38A169;
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
-  box-sizing: border-box;
-}
-
-.c15 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 4px;
-  color: #267EBD;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: #267EBD;
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c15 *,
-.c15 *::before,
-.c15 *::after {
-  box-sizing: border-box;
-}
-
-.c16 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 4px;
-  color: #F03D3D;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: #F03D3D;
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c16 *,
-.c16 *::before,
-.c16 *::after {
-  box-sizing: border-box;
-}
-
-.c17 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 4px;
+  border-radius: 36px;
   color: rgba(0,0,0,0.87);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
   border-color: rgba(0,0,0,0.87);
@@ -1006,77 +2104,9 @@ Array [
   border-style: solid;
 }
 
-.c17 *,
-.c17 *::before,
-.c17 *::after {
-  box-sizing: border-box;
-}
-
-.c18 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 4px;
-  color: #FFCA28;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: #FFCA28;
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c18 *,
-.c18 *::before,
-.c18 *::after {
-  box-sizing: border-box;
-}
-
-.c19 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 4px;
-  color: pink;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: pink;
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c19 *,
-.c19 *::before,
-.c19 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
@@ -1100,7 +2130,7 @@ Array [
           <span
             className="c6"
           >
-            Brand
+            Rounded filled
           </span>
         </span>
       </span>
@@ -1117,916 +2147,11 @@ Array [
           <span
             className="c6"
           >
-            Brand2
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c9"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Error
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c10"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Neutral
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c11"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Warning
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c12"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Custom
+            Rounded outline
           </span>
         </span>
       </span>
     </div>
-    <div
-      className="c13"
-    />
-    <div
-      className="c1"
-    >
-      <span
-        as="span"
-        className="c14"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Brand
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c15"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Brand2
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c16"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Error
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c17"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Neutral
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c18"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Warning
-          </span>
-        </span>
-      </span>
-      <div
-        className="c7"
-      />
-      <span
-        as="span"
-        className="c19"
-      >
-        <span
-          className="c3 c4 c5"
-        >
-          <span
-            className="c6"
-          >
-            Custom
-          </span>
-        </span>
-      </span>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Tag With Icon 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c4 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c4 *,
-.c4 *::before,
-.c4 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c11 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  outline: 0;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.c11 *,
-.c11 *::before,
-.c11 *::after {
-  box-sizing: border-box;
-}
-
-.c11::-moz-focus-inner {
-  border-style: none;
-}
-
-.c5 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c5::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c13 {
-  display: inline-block;
-  fill: currentColor;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 16px;
-  height: 1em;
-  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 1em;
-}
-
-.c3 {
-  display: inline-block;
-  fill: currentColor;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 1rem;
-  height: 1em;
-  -webkit-transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  transition: fill 200ms cubic-bezier(0.4,0,0.2,1) 0ms;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 1em;
-}
-
-.c8 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  width: 16px;
-}
-
-.c8 *,
-.c8 *::before,
-.c8 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #FFCA28;
-  border-radius: 4px;
-  color: rgba(0,0,0,1);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 4px;
-  color: #FFCA28;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: #FFCA28;
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
-.c6 {
-  margin: 0px 12px;
-  margin-left: 8px;
-}
-
-.c10 {
-  margin: 0px 12px;
-  margin-right: 8px;
-  margin-left: 8px;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 8px;
-  margin-right: 4px;
-}
-
-.c12 {
-  cursor: pointer;
-  height: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.c12:hover {
-  background-color: rgba(0,0,0,0.12);
-}
-
-.c14 {
-  cursor: pointer;
-  height: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.c14:hover {
-  background-color: #FFCA28;
-  color: rgba(0,0,0,1);
-}
-
-<div
-    className="c0"
-  >
-    <span
-      as="span"
-      className="c1"
-    >
-      <div
-        className="c2"
-      >
-        <svg
-          aria-hidden={true}
-          className="c3"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-      </div>
-      <span
-        className="c4 c5 c6"
-      >
-        <span
-          className="c7"
-        >
-          Filled icon
-        </span>
-      </span>
-    </span>
-    <div
-      className="c8"
-    />
-    <span
-      as="span"
-      className="c9"
-    >
-      <div
-        className="c2"
-      >
-        <svg
-          aria-hidden={true}
-          className="c3"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-      </div>
-      <span
-        className="c4 c5 c6"
-      >
-        <span
-          className="c7"
-        >
-          Outline icon
-        </span>
-      </span>
-    </span>
-    <div
-      className="c8"
-    />
-    <span
-      as="span"
-      className="c1"
-    >
-      <div
-        className="c2"
-      >
-        <svg
-          aria-hidden={true}
-          className="c3"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-      </div>
-      <span
-        className="c4 c5 c10"
-      >
-        <span
-          className="c7"
-        >
-          Closeable filled icon
-        </span>
-      </span>
-      <button
-        aria-label="Remove Closeable filled icon"
-        className="c11 c12"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        type="button"
-      >
-        <svg
-          aria-hidden={true}
-          className="c13"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
-        </svg>
-      </button>
-    </span>
-    <div
-      className="c8"
-    />
-    <span
-      as="span"
-      className="c9"
-    >
-      <div
-        className="c2"
-      >
-        <svg
-          aria-hidden={true}
-          className="c3"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-      </div>
-      <span
-        className="c4 c5 c10"
-      >
-        <span
-          className="c7"
-        >
-          Closeable outline icon
-        </span>
-      </span>
-      <button
-        aria-label="Remove Closeable outline icon"
-        className="c11 c14"
-        disabled={false}
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        type="button"
-      >
-        <svg
-          aria-hidden={true}
-          className="c13"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
-        </svg>
-      </button>
-    </span>
-  </div>,
-]
-`;
-
-exports[`Storyshots Components/Tag With Rounded 1`] = `
-Array [
-  <div>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-    
-    </style>
-  </div>,
-  .c2 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: inherit;
-  display: block;
-}
-
-.c2 *,
-.c2 *::before,
-.c2 *::after {
-  box-sizing: border-box;
-}
-
-.c0 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: inherit;
-  color: rgba(0,0,0,0.87);
-}
-
-.c0 *,
-.c0 *::before,
-.c0 *::after {
-  box-sizing: border-box;
-}
-
-.c3 {
-  font-family: "Inter",sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1rem;
-  text-transform: none;
-  padding-top: 0.1rem;
-  -webkit-transform: translateY(0.2272727272727273rem);
-  -ms-transform: translateY(0.2272727272727273rem);
-  transform: translateY(0.2272727272727273rem);
-  text-align: initial;
-}
-
-.c3::before {
-  content: "";
-  display: block;
-  height: 0;
-  margin-top: -0.5545454545454546rem;
-}
-
-.c5 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  background-color: rgba(0,0,0,0);
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  vertical-align: 0rem;
-}
-
-.c5 *,
-.c5 *::before,
-.c5 *::after {
-  box-sizing: border-box;
-}
-
-.c6 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  display: block;
-  width: 16px;
-}
-
-.c6 *,
-.c6 *::before,
-.c6 *::after {
-  box-sizing: border-box;
-}
-
-.c1 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(0,0,0,0.87);
-  border-radius: 34px;
-  color: rgba(255,255,255,0.87);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-}
-
-.c1 *,
-.c1 *::before,
-.c1 *::after {
-  box-sizing: border-box;
-}
-
-.c7 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 34px;
-  color: rgba(0,0,0,0.87);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 34px;
-  overflow: hidden;
-  position: relative;
-  border-color: rgba(0,0,0,0.87);
-  border-size: 1px;
-  border-style: solid;
-}
-
-.c7 *,
-.c7 *::before,
-.c7 *::after {
-  box-sizing: border-box;
-}
-
-.c4 {
-  margin: 0px 12px;
-}
-
-<div
-    className="c0"
-  >
-    <span
-      as="span"
-      className="c1"
-    >
-      <span
-        className="c2 c3 c4"
-      >
-        <span
-          className="c5"
-        >
-          Rounded filled
-        </span>
-      </span>
-    </span>
-    <div
-      className="c6"
-    />
-    <span
-      as="span"
-      className="c7"
-    >
-      <span
-        className="c2 c3 c4"
-      >
-        <span
-          className="c5"
-        >
-          Rounded outline
-        </span>
-      </span>
-    </span>
   </div>,
 ]
 `;
@@ -2040,7 +2165,28 @@ Array [
     
     </style>
   </div>,
-  .c2 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2055,13 +2201,13 @@ Array [
   display: block;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2079,13 +2225,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c3 {
+.c4 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -2098,14 +2244,14 @@ Array [
   text-align: initial;
 }
 
-.c3::before {
+.c4::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c5 {
+.c6 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2123,13 +2269,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c5 *,
-.c5 *::before,
-.c5 *::after {
+.c6 *,
+.c6 *::before,
+.c6 *::after {
   box-sizing: border-box;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2145,13 +2291,13 @@ Array [
   width: 16px;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2171,18 +2317,18 @@ Array [
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -2202,7 +2348,7 @@ Array [
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 34px;
+  height: 36px;
   overflow: hidden;
   position: relative;
   border-color: rgba(0,0,0,0.87);
@@ -2210,50 +2356,54 @@ Array [
   border-style: solid;
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c4 {
+.c5 {
   margin: 0px 12px;
 }
 
 <div
     className="c0"
   >
-    <span
-      as="span"
+    <div
       className="c1"
     >
       <span
-        className="c2 c3 c4"
+        as="span"
+        className="c2"
       >
         <span
-          className="c5"
+          className="c3 c4 c5"
         >
-          Filled
+          <span
+            className="c6"
+          >
+            Filled
+          </span>
         </span>
       </span>
-    </span>
-    <div
-      className="c6"
-    />
-    <span
-      as="span"
-      className="c7"
-    >
+      <div
+        className="c7"
+      />
       <span
-        className="c2 c3 c4"
+        as="span"
+        className="c8"
       >
         <span
-          className="c5"
+          className="c3 c4 c5"
         >
-          Outline
+          <span
+            className="c6"
+          >
+            Outline
+          </span>
         </span>
       </span>
-    </span>
+    </div>
   </div>,
 ]
 `;

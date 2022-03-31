@@ -9,7 +9,28 @@ Array [
     
     </style>
   </div>,
-  .c4 {
+  .c0 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: rgba(0,0,0,0.87);
+}
+
+.c0 *,
+.c0 *::before,
+.c0 *::after {
+  box-sizing: border-box;
+}
+
+.c5 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -24,13 +45,13 @@ Array [
   display: block;
 }
 
-.c4 *,
-.c4 *::before,
-.c4 *::after {
+.c5 *,
+.c5 *::before,
+.c5 *::after {
   box-sizing: border-box;
 }
 
-.c0 {
+.c1 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -46,13 +67,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c0 *,
-.c0 *::before,
-.c0 *::after {
+.c1 *,
+.c1 *::before,
+.c1 *::after {
   box-sizing: border-box;
 }
 
-.c7 {
+.c8 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -76,13 +97,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c7 *,
-.c7 *::before,
-.c7 *::after {
+.c8 *,
+.c8 *::before,
+.c8 *::after {
   box-sizing: border-box;
 }
 
-.c11 {
+.c12 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -102,13 +123,13 @@ Array [
   color: rgba(0,0,0,0.87);
 }
 
-.c11 *,
-.c11 *::before,
-.c11 *::after {
+.c12 *,
+.c12 *::before,
+.c12 *::after {
   box-sizing: border-box;
 }
 
-.c13 {
+.c14 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -123,13 +144,13 @@ Array [
   display: block;
 }
 
-.c13 *,
-.c13 *::before,
-.c13 *::after {
+.c14 *,
+.c14 *::before,
+.c14 *::after {
   box-sizing: border-box;
 }
 
-.c1 {
+.c2 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -169,17 +190,17 @@ Array [
   -webkit-tap-highlight-color: transparent;
 }
 
-.c1 *,
-.c1 *::before,
-.c1 *::after {
+.c2 *,
+.c2 *::before,
+.c2 *::after {
   box-sizing: border-box;
 }
 
-.c1::-moz-focus-inner {
+.c2::-moz-focus-inner {
   border-style: none;
 }
 
-.c5 {
+.c6 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -192,14 +213,14 @@ Array [
   text-align: center;
 }
 
-.c5::before {
+.c6::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c9 {
+.c10 {
   font-family: "Inter",sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
@@ -212,14 +233,14 @@ Array [
   text-align: initial;
 }
 
-.c9::before {
+.c10::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.7136363636363636rem;
 }
 
-.c14 {
+.c15 {
   font-family: "Inter",sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -232,14 +253,14 @@ Array [
   text-align: initial;
 }
 
-.c14::before {
+.c15::before {
   content: "";
   display: block;
   height: 0;
   margin-top: -0.5545454545454546rem;
 }
 
-.c6 {
+.c7 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -257,13 +278,13 @@ Array [
   vertical-align: 0rem;
 }
 
-.c6 *,
-.c6 *::before,
-.c6 *::after {
+.c7 *,
+.c7 *::before,
+.c7 *::after {
   box-sizing: border-box;
 }
 
-.c2 {
+.c3 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -280,31 +301,31 @@ Array [
   -webkit-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   transition: background-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border 250ms cubic-bezier(0.4,0,0.2,1) 0ms;
   width: auto;
-  background-color: #38A169;
+  background-color: #3F37C9;
   box-shadow: 0 1px 4px rgba(0,0,0,0.16);
   color: rgba(255,255,255,1);
   height: 44px;
   padding: 0px 24px;
 }
 
-.c2 *,
-.c2 *::before,
-.c2 *::after {
+.c3 *,
+.c3 *::before,
+.c3 *::after {
   box-sizing: border-box;
 }
 
-.c2:hover {
-  background-color: hsl(148,48.4%,34%);
+.c3:hover {
+  background-color: hsl(243.29999999999995,57.5%,40.2%);
 }
 
-.c2:active {
+.c3:active {
   box-shadow: none;
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
 }
 
-.c3 {
+.c4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -323,7 +344,7 @@ Array [
   visibility: visible;
 }
 
-.c10 {
+.c11 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -339,13 +360,13 @@ Array [
   height: 24px;
 }
 
-.c10 *,
-.c10 *::before,
-.c10 *::after {
+.c11 *,
+.c11 *::before,
+.c11 *::after {
   box-sizing: border-box;
 }
 
-.c12 {
+.c13 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -361,13 +382,13 @@ Array [
   height: 32px;
 }
 
-.c12 *,
-.c12 *::before,
-.c12 *::after {
+.c13 *,
+.c13 *::before,
+.c13 *::after {
   box-sizing: border-box;
 }
 
-.c8 {
+.c9 {
   box-sizing: border-box;
   margin: 0;
   moz-osx-font-smoothing: grayscale;
@@ -389,102 +410,106 @@ Array [
   align-items: stretch;
 }
 
-.c8 *,
-.c8 *::before,
-.c8 *::after {
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 
 <div
     className="c0"
   >
-    <button
-      aria-busy={false}
-      className="c1 c2"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      type="button"
+    <div
+      className="c1"
     >
-      <div
-        className="c3"
+      <button
+        aria-busy={false}
+        className="c2 c3"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        type="button"
       >
-        <span
-          className="c4 c5"
+        <div
+          className="c4"
         >
           <span
-            className="c6"
+            className="c5 c6"
           >
-            Open Menu
+            <span
+              className="c7"
+            >
+              Open Menu
+            </span>
           </span>
-        </span>
-      </div>
-    </button>
-    <div
-      className="c7"
-    >
+        </div>
+      </button>
       <div
         className="c8"
       >
+        <div
+          className="c9"
+        >
+          <p
+            className="c5 c10"
+          >
+            <span
+              className="c7"
+            >
+              Item 1
+            </span>
+          </p>
+          <div
+            className="c11"
+          />
+          <hr
+            className="c12"
+          />
+          <div
+            className="c11"
+          />
+          <p
+            className="c5 c10"
+          >
+            <span
+              className="c7"
+            >
+              Item 2
+            </span>
+          </p>
+          <div
+            className="c11"
+          />
+          <hr
+            className="c12"
+          />
+          <div
+            className="c11"
+          />
+          <p
+            className="c5 c10"
+          >
+            <span
+              className="c7"
+            >
+              Item 3
+            </span>
+          </p>
+        </div>
+        <div
+          className="c13"
+        />
         <p
-          className="c4 c9"
+          className="c14 c15"
         >
           <span
-            className="c6"
+            className="c7"
           >
-            Item 1
-          </span>
-        </p>
-        <div
-          className="c10"
-        />
-        <hr
-          className="c11"
-        />
-        <div
-          className="c10"
-        />
-        <p
-          className="c4 c9"
-        >
-          <span
-            className="c6"
-          >
-            Item 2
-          </span>
-        </p>
-        <div
-          className="c10"
-        />
-        <hr
-          className="c11"
-        />
-        <div
-          className="c10"
-        />
-        <p
-          className="c4 c9"
-        >
-          <span
-            className="c6"
-          >
-            Item 3
+            Note: Click outside this menu to close
           </span>
         </p>
       </div>
-      <div
-        className="c12"
-      />
-      <p
-        className="c13 c14"
-      >
-        <span
-          className="c6"
-        >
-          Note: Click outside this menu to close
-        </span>
-      </p>
     </div>
   </div>,
 ]
