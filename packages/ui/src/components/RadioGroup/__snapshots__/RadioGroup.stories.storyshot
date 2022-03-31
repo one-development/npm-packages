@@ -176,11 +176,11 @@ Array [
 }
 
 .c4:hover .c6 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c6 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -189,7 +189,7 @@ input[type=radio]:checked + .c6 {
 }
 
 .c4:hover .c13 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c7 {
@@ -972,11 +972,11 @@ Array [
 }
 
 .c20:hover .c22 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c22 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -985,7 +985,7 @@ input[type=radio]:checked + .c22 {
 }
 
 .c20:hover .c32 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c23 {
@@ -1672,11 +1672,11 @@ Array [
 }
 
 .c17:hover .c19 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c19 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -1685,7 +1685,7 @@ input[type=radio]:checked + .c19 {
 }
 
 .c17:hover .c24 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c20 {
@@ -2701,11 +2701,11 @@ Array [
 }
 
 .c21:hover .c23 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c23 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -2714,7 +2714,7 @@ input[type=radio]:checked + .c23 {
 }
 
 .c21:hover .c37 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c24 {
@@ -3432,11 +3432,11 @@ Array [
 }
 
 .c5:hover .c7 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c7 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -3445,7 +3445,7 @@ input[type=radio]:checked + .c7 {
 }
 
 .c5:hover .c18 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c8 {
@@ -4380,11 +4380,11 @@ Array [
 }
 
 .c26:hover .c28 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 input[type=radio]:checked + .c28 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
   border-width: 6px;
 }
 
@@ -4393,7 +4393,7 @@ input[type=radio]:checked + .c28 {
 }
 
 .c26:hover .c39 {
-  border-color: rgba(0,0,0,0.87);
+  border-color: #3F37C9;
 }
 
 .c29 {

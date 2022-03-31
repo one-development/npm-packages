@@ -62,6 +62,7 @@ const ControlCheck = styled.div(({ theme, styleProps }) => {
     {
       brand: theme.colors.brand,
       brand2: theme.colors.brand2,
+      highlight: theme.colors.highlight,
       neutral: theme.colors.onSurface.primary,
     },
     [color],
@@ -74,7 +75,8 @@ const ControlCheck = styled.div(({ theme, styleProps }) => {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'contain',
-    border: theme.borders.thin,
+    border: theme.borders.thick,
+    borderColor: theme.colors.onSurface.secondary,
     borderRadius: theme.radii.sm,
     bottom: 0,
     color: 'transparent',
@@ -96,6 +98,9 @@ const ControlCheck = styled.div(({ theme, styleProps }) => {
      * NOTE: the following modifiers are listed in order
      * based on which states have least to most precedence.
      */
+    [`${Control}:hover &`]: {
+      borderColor: backgroundColor,
+    },
     // eslint-disable-next-line sort-keys
     'input[type=checkbox]:checked + &': {
       backgroundColor,
@@ -296,7 +301,7 @@ Checkbox.defaultProps = {
   as: 'div',
   autoComplete: 'on',
   autoFocus: false,
-  color: 'brand',
+  color: 'highlight',
   disabled: false,
   formNoValidate: true,
   fullWidth: false,
@@ -345,7 +350,7 @@ Checkbox.propTypes = {
    * Note: any custom color supported by https://www.npmjs.com/package/color-string is also accepted.
    */
   color: PropTypes.oneOfType([
-    PropTypes.oneOf(['brand', 'brand2', 'neutral']),
+    PropTypes.oneOf(['highlight', 'brand', 'brand2', 'neutral']),
     color,
   ]),
   /**
