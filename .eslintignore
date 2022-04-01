@@ -4,5 +4,4 @@ dist
 .docs
 node_modules
 reports
-__snapshots__
 test/fixtures

@@ -14,11 +14,10 @@ NOTES:
 
 ## Tasks Cheat Sheet
 
-| Description                    | Command                                         |
-| ------------------------------ | ----------------------------------------------- |
-| Start the docs site            | `yarn workspace @one/ui storybook`              |
-| Create a component             | `yarn workspace @one/ui generate component`     |
-| Run _unit_ tests in watch mode | `yarn test --only=unit`                         |
-| Run _all_ tests once           | `yarn test --once`                              |
-| Update snapshots               | `yarn test --once --only=unit --updateSnapshot` |
-| Commit staged changes          | `yarn commit`                                   |
+| Description                    | Command                                     |
+| ------------------------------ | ------------------------------------------- |
+| Start the docs site            | `yarn workspace @one/ui storybook`          |
+| Create a component             | `yarn workspace @one/ui generate component` |
+| Run _unit_ tests in watch mode | `yarn test --only=unit`                     |
+| Run _all_ tests once           | `yarn test --once`                          |
+| Commit staged changes          | `yarn commit`                               |

@@ -3,15 +3,15 @@ const dedent = require('dedent')
 const { help, sh } = require('tasksfile')
 
 const deploy = () => {
-  const flags = [
-    ' --yes',
-    ' --preid alpha',
-    ' --no-commit-hooks',
-    ' --conventional-commits',
-    ` --registry ${process.env.NPM_REGISTRY}`,
-  ].join('')
+  // const flags = [
+  //   ' --yes',
+  //   ' --canary',
+  //   ' --preid alpha',
+  //   ' --no-commit-hooks',
+  //   ' --conventional-commits',
+  // ].join('')
 
-  sh(`lerna publish ${flags}`, { nopipe: true })
+  // sh(`lerna publish ${flags}`, { nopipe: true })
 
   // Packages shouldn't deploy assets (i.e. docs) until after publish has succeeded
   sh('lerna run deploy', { nopipe: true })

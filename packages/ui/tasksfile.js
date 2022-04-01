@@ -35,17 +35,22 @@ help(
 )
 
 function deploy() {
-  // eslint-disable-next-line global-require
-  const { version } = require('./package.json')
-  const bucketUri = 's3://@one/ui-docs'
-  const cpArgs = ['--recursive', '--acl public-read'].join(' ')
+  // const { version } = require('./package.json')
+  // const bucketUri = 's3://one-ui-docs'
+  // const cpArgs = ['--recursive', '--acl public-read'].join(' ')
 
-  sh(`aws s3 cp .docs ${bucketUri}/next ${cpArgs}`, {
-    nopipe: true,
-  })
-  sh(`aws s3 cp .docs ${bucketUri}/${version} ${cpArgs}`, {
-    nopipe: true,
-  })
+  // sh(`aws s3 cp .docs ${bucketUri}/next ${cpArgs}`, {
+  //   nopipe: true,
+  // })
+  // sh(`aws s3 cp .docs ${bucketUri}/${version} ${cpArgs}`, {
+  //   nopipe: true,
+  // })
+  sh(
+    `npx chromatic --project-token ${process.env.CHROMATIC_PROJECT_TOKEN} -d ./.docs`,
+    {
+      nopipe: true,
+    }
+  )
 }
 
 help(
