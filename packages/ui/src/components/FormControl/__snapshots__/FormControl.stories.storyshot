@@ -1533,27 +1533,6 @@ Array [
   box-sizing: border-box;
 }
 
-.c10 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.38);
-  display: block;
-}
-
-.c10 *,
-.c10 *::before,
-.c10 *::after {
-  box-sizing: border-box;
-}
-
 .c4 {
   box-sizing: border-box;
   margin: 0;
@@ -1572,6 +1551,27 @@ Array [
 .c4 *,
 .c4 *::before,
 .c4 *::after {
+  box-sizing: border-box;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c10 *,
+.c10 *::before,
+.c10 *::after {
   box-sizing: border-box;
 }
 
@@ -2699,27 +2699,6 @@ Array [
   box-sizing: border-box;
 }
 
-.c24 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.38);
-  display: block;
-}
-
-.c24 *,
-.c24 *::before,
-.c24 *::after {
-  box-sizing: border-box;
-}
-
 .c16 {
   box-sizing: border-box;
   margin: 0;
@@ -2738,6 +2717,27 @@ Array [
 .c16 *,
 .c16 *::before,
 .c16 *::after {
+  box-sizing: border-box;
+}
+
+.c24 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c24 *,
+.c24 *::before,
+.c24 *::after {
   box-sizing: border-box;
 }
 

@@ -5,16 +5,18 @@ import { Box, Button, Divider, Space, Text, ThemeProvider } from '../../src'
 // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
 import changelog from '!!raw-loader!../../CHANGELOG.md'
 
-const versions = changelog
-  .match(/\[\d{1,}\.\d{1,}\.\d{1,}.*\]/g)
-  .filter(str => !str.includes('alpha'))
-  .map(str => str.replace('[', '').replace(']', ''))
+const versions =
+  changelog.match(/\[\d{1,}\.\d{1,}\.\d{1,}.*\]/g) ??
+  []
+    .filter(str => !str.includes('alpha'))
+    .map(str => str.replace('[', '').replace(']', ''))
 
 const currentPath =
   typeof window !== 'undefined' && window.location.pathname.split('/')[1]
-export const currentVersion = currentPath.match(/\d{1,}\.\d{1,}\.\d{1,}.*/g)
-  ? currentPath
-  : versions[0]
+export const currentVersion =
+  (currentPath.match(/\d{1,}\.\d{1,}\.\d{1,}.*/g)
+    ? currentPath
+    : versions[0]) ?? '0.0.0'
 
 const Link = styled.a(({ theme }) => ({
   color: theme.colors.brand,
@@ -24,7 +26,7 @@ const Link = styled.a(({ theme }) => ({
 export const CurrentVersion = () => (
   <ThemeProvider>
     <Box alignItems='center' backgroundColor='transparent' display='flex'>
-      <Box as='img' src='' />
+      <Box as='img' src='./one-ui-logo-full.png' />
       <Space inline width='*1.5' />
       <Box
         display='inline-block'
