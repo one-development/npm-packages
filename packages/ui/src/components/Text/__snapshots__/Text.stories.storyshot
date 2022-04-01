@@ -187,27 +187,6 @@ Array [
   box-sizing: border-box;
 }
 
-.c9 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.38);
-  display: block;
-}
-
-.c9 *,
-.c9 *::before,
-.c9 *::after {
-  box-sizing: border-box;
-}
-
 .c1 {
   box-sizing: border-box;
   margin: 0;
@@ -250,6 +229,27 @@ Array [
 .c4 *,
 .c4 *::before,
 .c4 *::after {
+  box-sizing: border-box;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c9 *,
+.c9 *::before,
+.c9 *::after {
   box-sizing: border-box;
 }
 

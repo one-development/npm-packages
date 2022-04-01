@@ -51,6 +51,53 @@ Array [
   box-sizing: border-box;
 }
 
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: rgba(0,0,0,0.12);
+  border: none;
+  height: 1px;
+  width: auto;
+  color: rgba(0,0,0,0.87);
+}
+
+.c12 *,
+.c12 *::before,
+.c12 *::after {
+  box-sizing: border-box;
+}
+
+.c14 {
+  box-sizing: border-box;
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: antialiased;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  min-width: 0;
+  background-color: initial;
+  color: rgba(0,0,0,0.38);
+  display: block;
+}
+
+.c14 *,
+.c14 *::before,
+.c14 *::after {
+  box-sizing: border-box;
+}
+
 .c1 {
   box-sizing: border-box;
   margin: 0;
@@ -100,53 +147,6 @@ Array [
 .c8 *,
 .c8 *::before,
 .c8 *::after {
-  box-sizing: border-box;
-}
-
-.c12 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  background-color: rgba(0,0,0,0.12);
-  border: none;
-  height: 1px;
-  width: auto;
-  color: rgba(0,0,0,0.87);
-}
-
-.c12 *,
-.c12 *::before,
-.c12 *::after {
-  box-sizing: border-box;
-}
-
-.c14 {
-  box-sizing: border-box;
-  margin: 0;
-  moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: antialiased;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  min-width: 0;
-  background-color: initial;
-  color: rgba(0,0,0,0.38);
-  display: block;
-}
-
-.c14 *,
-.c14 *::before,
-.c14 *::after {
   box-sizing: border-box;
 }
 

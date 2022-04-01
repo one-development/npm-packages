@@ -13,7 +13,7 @@ export default create({
   // Theme type
   base: 'light',
   // Branding
-  // brandImage: '',
+  brandImage: './one-ui-logo-full.png',
   brandTitle: 'One UI',
   // brandUrl: '',
   // Storybook-specific colors

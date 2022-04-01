@@ -9,8 +9,9 @@ module.exports = {
     '@storybook/addon-a11y',
     'storybook-addon-themes',
   ],
+  staticDirs: ['./assets'],
   stories: [
-    // Jest can't load MDX files, so this is a temporary fix until I find a better solution
+    // TODO: Figure out why Jest can't load MDX files, and remove this temporary fix
     isTest ? null : '../src/**/*.stories.mdx',
     isTest ? null : '../docs/**/*.stories.mdx',
     '../src/**/*.stories.js',
