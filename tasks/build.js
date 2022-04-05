@@ -8,7 +8,7 @@ const build = (options = {}) => {
   if (scope) {
     sh(`lerna run build --scope ${scope}`, { nopipe: true })
   } else {
-    sh('lerna run build', { nopipe: true })
+    sh('lerna run build --parallel', { nopipe: true })
   }
 }
 

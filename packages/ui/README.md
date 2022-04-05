@@ -1,5 +1,9 @@
 # One UI
 
+An accessible component library with powerful theming
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dd4de993-c2c6-4c73-9349-9741467740d4/deploy-status)](https://app.netlify.com/sites/one-dev/deploys)
+
 ## Getting Started
 
 Run `yarn workspace @one/ui storybook`. A new browser window will open at `https://localhost:9001`.

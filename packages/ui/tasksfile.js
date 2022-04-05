@@ -35,22 +35,17 @@ help(
 )
 
 function deploy() {
-  // const { version } = require('./package.json')
-  // const bucketUri = 's3://one-ui-docs'
-  // const cpArgs = ['--recursive', '--acl public-read'].join(' ')
-
-  // sh(`aws s3 cp .docs ${bucketUri}/next ${cpArgs}`, {
-  //   nopipe: true,
-  // })
-  // sh(`aws s3 cp .docs ${bucketUri}/${version} ${cpArgs}`, {
-  //   nopipe: true,
-  // })
-  sh(
-    `npx chromatic --project-token ${process.env.CHROMATIC_PROJECT_TOKEN} -d ./.docs`,
-    {
-      nopipe: true,
-    }
-  )
+  // Deploy Chromatic snapshots
+  const chromaticToken = process.env.CHROMATIC_PROJECT_TOKEN
+  const chromaticArgs = [
+    '-d ./.docs',
+    '--exit-once-uploaded',
+    "--skip 'dependabot/**'",
+    `--project-token ${chromaticToken}`,
+  ].join(' ')
+  sh(`npx chromatic ${chromaticArgs}`, {
+    nopipe: true,
+  })
 }
 
 help(
@@ -58,8 +53,8 @@ help(
   'Run the required deploy steps (i.e. publish docs) for this package',
   {
     examples: dedent`
-    ${taskPrefix} deploy
-  `,
+      ${taskPrefix} deploy
+    `,
   }
 )
 
