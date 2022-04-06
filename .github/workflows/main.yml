@@ -58,5 +58,6 @@ jobs:
       - name: Deploy packages
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          PREVIEW_VERSION: ${{ github.sha }}
         run: |
-          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn deploy; else exit 0; fi
+          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn deploy; else yarn deploy --preview; fi

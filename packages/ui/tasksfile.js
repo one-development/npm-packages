@@ -34,19 +34,29 @@ help(
   }
 )
 
-function deploy() {
-  // const { version } = require('./package.json')
-  // const bucketUri = 's3://one-ui-docs'
-  // const cpArgs = ['--recursive', '--acl public-read'].join(' ')
+function deploy(options = {}) {
+  const { preview = false } = options
 
-  // sh(`aws s3 cp .docs ${bucketUri}/next ${cpArgs}`, {
-  //   nopipe: true,
-  // })
-  // sh(`aws s3 cp .docs ${bucketUri}/${version} ${cpArgs}`, {
-  //   nopipe: true,
-  // })
+  // eslint-disable-next-line global-require
+  const { version } = require('./package.json')
+  const { PREVIEW_VERSION: previewVersion } = process.env
+  const bucketUri = 's3://one-ui-docs'
+  const cpArgs = ['--recursive', '--acl public-read', '--dryrun'].join(' ')
+
+  if (preview) {
+    sh(`aws s3 cp .docs ${bucketUri}/preview-${previewVersion} ${cpArgs}`, {
+      nopipe: true,
+    })
+  } else {
+    sh(`aws s3 cp .docs ${bucketUri}/next ${cpArgs}`, {
+      nopipe: true,
+    })
+    sh(`aws s3 cp .docs ${bucketUri}/${version} ${cpArgs}`, {
+      nopipe: true,
+    })
+  }
   sh(
-    `npx chromatic --project-token ${process.env.CHROMATIC_PROJECT_TOKEN} -d ./.docs`,
+    `npx chromatic --project-token ${process.env.CHROMATIC_PROJECT_TOKEN} --exit-once-uploaded -d ./.docs`,
     {
       nopipe: true,
     }
@@ -58,8 +68,12 @@ help(
   'Run the required deploy steps (i.e. publish docs) for this package',
   {
     examples: dedent`
-    ${taskPrefix} deploy
-  `,
+      ${taskPrefix} deploy
+      ${taskPrefix} deploy --preview
+    `,
+    options: {
+      preview: 'Determines if the deploy is for a preview environment',
+    },
   }
 )
 

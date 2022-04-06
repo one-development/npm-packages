@@ -2,19 +2,23 @@
 const dedent = require('dedent')
 const { help, sh } = require('tasksfile')
 
-const deploy = () => {
-  // const flags = [
-  //   ' --yes',
-  //   ' --canary',
-  //   ' --preid alpha',
-  //   ' --no-commit-hooks',
-  //   ' --conventional-commits',
-  // ].join('')
+const deploy = (options = {}) => {
+  const { preview = false } = options
 
-  // sh(`lerna publish ${flags}`, { nopipe: true })
+  if (!preview) {
+    const publishFlags = [
+      ' --yes',
+      ' --canary',
+      ' --preid alpha',
+      ' --no-commit-hooks',
+      ' --conventional-commits',
+    ].join('')
+
+    sh(`lerna publish ${publishFlags}`, { nopipe: true })
+  }
 
   // Packages shouldn't deploy assets (i.e. docs) until after publish has succeeded
-  sh('lerna run deploy', { nopipe: true })
+  sh(`lerna run deploy ${preview ? '-- --preview' : ''}`, { nopipe: true })
 }
 
 help(
@@ -23,7 +27,11 @@ help(
   {
     examples: dedent`
       yarn deploy
+      yarn deploy --preview
     `,
+    options: {
+      preview: 'Determines if the deploy is to a preview environment',
+    },
   }
 )
 
