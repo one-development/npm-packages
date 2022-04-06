@@ -5,27 +5,18 @@ const { help, sh } = require('tasksfile')
 const deploy = (options = {}) => {
   const { preview = false } = options
 
-  if (!preview) {
-    // const publishFlags = [
-    //   ' --yes',
-    //   ' --canary',
-    //   ' --preid alpha',
-    //   ' --no-commit-hooks',
-    //   ' --conventional-commits',
-    // ].join('')
-
-    // sh(`lerna publish ${publishFlags}`, { nopipe: true })
-    // eslint-disable-next-line
-    console.log('Simulating publish...')
+  if (preview) {
+    sh('lerna run deploy -- --preview', {
+      nopipe: true,
+    })
+  } else {
+    sh('lerna run deploy ', { nopipe: true })
   }
-
-  // Packages shouldn't deploy assets (i.e. docs) until after publish has succeeded
-  sh('lerna run deploy', { nopipe: true })
 }
 
 help(
   deploy,
-  'Deploy all packages to NPM registry and publish package-specific files',
+  'Deploy all package-specific assets, such as storybook, docs, etc.',
   {
     examples: dedent`
       yarn deploy

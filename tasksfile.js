@@ -6,6 +6,7 @@ const deploy = require('./tasks/deploy')
 const dev = require('./tasks/dev')
 const format = require('./tasks/format')
 const lint = require('./tasks/lint')
+const release = require('./tasks/release')
 const test = require('./tasks/test')
 
 cli({
@@ -15,5 +16,6 @@ cli({
   dev,
   format,
   lint,
+  release,
   test,
 })

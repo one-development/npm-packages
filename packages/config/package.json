@@ -1,5 +1,5 @@
 {
-  "name": "@one/config",
+  "name": "@one-dev/config",
   "author": "Jordan Hurt <jth0024@gmail.com>",
   "version": "1.0.0",
   "main": "./dist/index.js",
