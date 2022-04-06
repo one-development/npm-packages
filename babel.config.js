@@ -1,12 +1,6 @@
 const { BABEL_ENV } = process.env
 
-const ignore = [
-  '__tests__',
-  '**/*.test.js',
-  '**/*.spec.js',
-  '__snapshots__',
-  '**/*.stories.js',
-]
+const ignore = ['__tests__', '**/*.test.js', '**/*.spec.js', '**/*.stories.js']
 
 const isEsm = ['es', 'esm'].includes(BABEL_ENV)
 const presets = [

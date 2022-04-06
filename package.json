@@ -86,7 +86,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "concurrently \"yarn test --once\" \"yarn lint\""
+      "pre-push": "yarn lint"
     }
   }
 }

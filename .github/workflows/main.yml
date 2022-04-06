@@ -1,0 +1,63 @@
+name: Main
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  main:
+    name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node: ['12.14']
+        os: [ubuntu-latest]
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # 👈 Required to retrieve git history
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'yarn'
+
+      - name: Install NPM packages
+        run: | # Ensure install dev dependencies and freeze lockfile
+          yarn install --production=false --offline --frozen-lockfile
+
+      - name: Check for unstaged changes
+        run: | # Ensure install was pure and made no changes
+          git diff --exit-code
+
+      - name: Check for duplicated NPM packages
+        run: | # Check for any duplicated packages
+          yarn deduplicate --ci
+
+      - name: Lint packages
+        run: yarn lint
+
+      - name: Test packages
+        run: yarn test --ci --coverage --once
+
+      - name: Save test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: reports/test-results/
+
+      - name: Build packages
+        run: yarn build
+
+      - name: Deploy packages
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          PREVIEW_VERSION: ${{ github.sha }}
+        run: |
+          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn deploy; else yarn deploy --preview; fi

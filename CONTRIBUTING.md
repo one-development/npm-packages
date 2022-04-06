@@ -39,7 +39,6 @@ We will reject any One UI contribution that:
 - All linter warnings are addressed
 - New components adhere to _component style guidelines_
 - New components support _A11y and ARIA attributes_
-- Include storyshots (auto-generated from component stories) or unit tests with [jest](https://jestjs.io/en/).
 - Include _proper documentation_ (you can start the docs site by running `yarn workspace @one/ui storybook`)
 
 ##### Test Style Guidelines
@@ -48,7 +47,6 @@ We will reject any One UI contribution that:
 - Test files should be named after the source file under test and use the convention `<sourceFileName>.test.js`. For example, `createFonts.test.js` or `createTheme.test.js`
 - Tests should always be located in a `__tests__` directory
 - The `__tests__` directory should be in the same folder as the functions or components under test
-- Snapshots are automatically generated, but please note that they will be generated in a folder called `__snapshots__`.
 
 ##### Component Style Guidelines
 
@@ -97,7 +95,7 @@ Doing so allows us to automatically generate the One UI changelog. To make a pro
 - Rebase master and squash your commits. Note: follow the _git commit formatting_ rules
 - Tag at least 1 default reviewer in your pull request.
 
-**NOTE**: when you try to push your changes, some pre-push checks may fail. Please address the issues, squash your new commits, and try again. It's easy to forget to update component snapshots or deduplicate dependencies before you commit!
+**NOTE**: when you try to push your changes, some pre-push checks may fail. Please address the issues, squash your new commits, and try again. It's easy to forget to deduplicate dependencies before you commit!
 
 ## Running Tasks
 
@@ -115,16 +113,15 @@ This repo has two types of scripts or tasks: global tasks that run for _all_ pac
 
 ##### Tasks Cheat Sheet
 
-| Description                    | Command                                         |
-| ------------------------------ | ----------------------------------------------- |
-| Start the One UI docs site     | `yarn workspace @one/ui storybook`              |
-| Create a One UI component      | `yarn workspace @one/ui generate component`     |
-| Run _unit_ tests in watch mode | `yarn test --only=unit`                         |
-| Run _all_ tests once           | `yarn test --once`                              |
-| Update One UI snapshots        | `yarn test --once --only=unit --updateSnapshot` |
-| Commit staged changes          | `yarn commit`                                   |
-| Build packages                 | `yarn build`                                    |
-| Build packages in watch mode   | `yarn dev`                                      |
+| Description                    | Command                                     |
+| ------------------------------ | ------------------------------------------- |
+| Start the One UI docs site     | `yarn workspace @one/ui storybook`          |
+| Create a One UI component      | `yarn workspace @one/ui generate component` |
+| Run _unit_ tests in watch mode | `yarn test --only=unit`                     |
+| Run _all_ tests once           | `yarn test --once`                          |
+| Commit staged changes          | `yarn commit`                               |
+| Build packages                 | `yarn build`                                |
+| Build packages in watch mode   | `yarn dev`                                  |
 
 ## Adding NPM Dependencies
 

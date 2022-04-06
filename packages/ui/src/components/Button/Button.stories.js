@@ -22,7 +22,7 @@ export default createComponentStory(Button, {
 })
 
 export const Basic = args => (
-  <Button {...args}>{`${args.children || args.variant}`}</Button>
+  <Button {...args}>{`${args.children || args.variant || 'Button'}`}</Button>
 )
 
 // eslint-disable-next-line no-unused-vars

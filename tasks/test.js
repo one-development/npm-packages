@@ -3,13 +3,7 @@ const dedent = require('dedent')
 const { help, sh } = require('tasksfile')
 
 const test = (options = {}, pattern = '') => {
-  const {
-    ci = false,
-    coverage = false,
-    once = false,
-    only = null,
-    updateSnapshot = false,
-  } = options
+  const { ci = false, coverage = false, once = false, only = null } = options
   const opts = [
     only === 'unit' ? '.test.js' : null,
     only === 'integration' ? '.integration.js' : null,
@@ -17,7 +11,6 @@ const test = (options = {}, pattern = '') => {
     ci ? '--ci' : '',
     coverage ? '--coverage' : '',
     once ? '' : '--watch',
-    updateSnapshot ? '--updateSnapshot' : '',
     pattern,
   ].join(' ')
 
@@ -31,8 +24,7 @@ help(test, 'Run tests for all packages', {
     yarn test --coverage
     yarn test --once
     yarn test --only=unit
-    yarn test --updateSnapshot
-    yarn test --once --only=unit --updateSnapshot
+    yarn test --once --only=unit
     yarn test themes/utils
   `,
   options: {
@@ -40,7 +32,6 @@ help(test, 'Run tests for all packages', {
     coverage: 'Determines if code coverage should be generated',
     once: 'Determines if tests should run in watch more or just once',
     only: 'Determines if tests should be restricted to a specific type',
-    updateSnapshot: 'Determines if React snapshots should be updated',
   },
   params: ['pattern'],
 })
