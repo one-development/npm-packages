@@ -15,7 +15,7 @@ const build = (options = {}) => {
 help(build, 'Build one or more packages for deployment', {
   examples: dedent`
     yarn build
-    yarn build --scope=@one/ui
+    yarn build --scope=@one-dev/ui
   `,
   options: {
     scope: 'The name of a single package to build',

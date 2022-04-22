@@ -4,18 +4,18 @@ One config file for your server and browser code.
 
 ## Installation
 
-Install `@one/config`
+Install `@one-dev/config`
 
 ```bash
-$ yarn add @one/config
+$ yarn add @one-dev/config
 ```
 
 ## Setup
 
-1. Import and initialize @one/config. Be sure to do this as early as possible in your server code.
+1. Import and initialize @one-dev/config. Be sure to do this as early as possible in your server code.
 
 ```javascript
-require('@one/config').initialize()
+require('@one-dev/config').initialize()
 ```
 
 2. Create a `config.js` file in your project's root directory. You can optionally add a `__server` property to store sensitive values. This property will not be available in the browser.
@@ -32,7 +32,7 @@ module.exports = {
 3. Explicitly inject the initialization script into your HTML.
 
 ```javascript
-const { getScript } = require('@one/config')
+const { getScript } = require('@one-dev/config')
 
 const html = `
   <html>
@@ -48,7 +48,7 @@ const html = `
 That's it! You can now import and access configuration from anywhere in your application.
 
 ```javascript
-const config = require('@one/config').config()
+const config = require('@one-dev/config').config()
 ```
 
 ## API
@@ -69,7 +69,7 @@ const config = require('@one/config').config()
 
 ##### `forFile()`
 
-- Returns a string representation of the `@one/config` module to write to a file. Use this function when you can't inject an initialization script into HTML and need to provide the config globally yourself using Webpack or a Babel. Since this module is meant to be used in the browser, it only supports the `config` and `get` methods, and the `__server` property will be excluded.
+- Returns a string representation of the `@one-dev/config` module to write to a file. Use this function when you can't inject an initialization script into HTML and need to provide the config globally yourself using Webpack or a Babel. Since this module is meant to be used in the browser, it only supports the `config` and `get` methods, and the `__server` property will be excluded.
 
 ##### `freeze()`
 
@@ -107,7 +107,7 @@ Well, I searched NPM and couldn't find a library that met the following criteria
 <details>
   <summary>Is it safe to store sensitive values in the `__server` property of my config file?</summary>
 
-Yes! Any values defined in the `__server` field are excluded when you use the config returned by `forBrowser`, `forFile`, or `getScript`. Furthermore, `__server` values will not get bundled into your client-side code if you import `@one/config`, because config is required dynamically on the server.
+Yes! Any values defined in the `__server` field are excluded when you use the config returned by `forBrowser`, `forFile`, or `getScript`. Furthermore, `__server` values will not get bundled into your client-side code if you import `@one-dev/config`, because config is required dynamically on the server.
 
 </details>
 
@@ -120,7 +120,7 @@ Sure! You can simply call `forFile` and use Webpack or Babel to define the confi
 // webpack.config.js
 
 const fs = require('fs')
-const { forFile, initialize } = require('@one/config')
+const { forFile, initialize } = require('@one-dev/config')
 const path = require('path')
 
 // Initialize the config
@@ -133,7 +133,7 @@ module.exports = {
   // ... other webpack config
   resolve: {
     alias: {
-      '@one/config': path.resolve(__dirname, './config.js'),
+      '@one-dev/config': path.resolve(__dirname, './config.js'),
     },
   },
 }
@@ -144,6 +144,6 @@ module.exports = {
 <details>
   <summary>Why does `config` return an empty object?</summary>
 
-Remember, you must import and configure `@one/config` as early as possible in your server's entry file. Otherwise, you may be accessing `@one/config` before it has been properly initialized.
+Remember, you must import and configure `@one-dev/config` as early as possible in your server's entry file. Otherwise, you may be accessing `@one-dev/config` before it has been properly initialized.
 
 </details>

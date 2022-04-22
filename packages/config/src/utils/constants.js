@@ -1,4 +1,4 @@
-const name = '@one/config'
+const name = '@one-dev/config'
 const stateKey = `${name}/state`
 
 module.exports = {
