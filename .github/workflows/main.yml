@@ -1,3 +1,6 @@
+# TODO: Duplicating the steps in both preview and release is stupid,
+# but saving node_modules is difficult to figure out right now.
+
 name: Main
 on:
   push:
@@ -16,8 +19,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['12.14']
-        os: [ubuntu-latest]
+        node: ['12', '14', '16']
+        os: [macOS-latest]
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -77,7 +80,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: '12.14'
+          node-version: '16'
           cache: 'yarn'
 
       - name: Install NPM packages
@@ -110,11 +113,8 @@ jobs:
       - name: Deploy package assets
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-        run:
-          | # NOTE: packages are responsible for determining what deploy does for a PR vs master
-          yarn deploy
+        run: yarn deploy
 
       - name: Publish packages
-        run:
-          | # NOTE: packages are responsible for determining what deploy does for a PR vs master
-          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn release; else yarn release --canary; fi
+        run: | # TODO: remove --canary flag from master release
+          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn release --canary; else yarn release --canary; fi

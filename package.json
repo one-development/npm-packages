@@ -19,7 +19,8 @@
     "lint": "node ./tasksfile.js lint",
     "precommit": "yarn deduplicate --ci && lint-staged && rimraf ./packages/.DS_Store",
     "tasks": "node ./tasksfile.js --help",
-    "test": "node ./tasksfile.js test"
+    "test": "node ./tasksfile.js test",
+    "release": "node ./tasksfile.js release"
   },
   "dependencies": {},
   "devDependencies": {
