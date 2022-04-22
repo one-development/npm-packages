@@ -116,6 +116,16 @@ jobs:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
         run: yarn deploy
 
+      - name: Authenticate with NPM Registry
+        run: |
+          yarn logout
+          echo "@one-dev:registry=http://registry.npmjs.org/" > .npmrc
+          echo "registry=http://registry.npmjs.org/" >> .npmrc
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+
       - name: Publish packages
         run: | # TODO: remove --canary flag from master release
           if [[ ${{ github.ref_name }} == 'master' ]]; then yarn release --canary; else yarn release --canary; fi
