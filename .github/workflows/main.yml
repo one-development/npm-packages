@@ -1,3 +1,6 @@
+# TODO: Duplicating the steps in both preview and release is stupid,
+# but saving node_modules is difficult to figure out right now.
+
 name: Main
 on:
   push:
@@ -7,15 +10,17 @@ on:
   pull_request:
     branches:
       - master
+      - next
 
 jobs:
-  main:
+  preview:
+    if: github.ref_name != 'master' && github.ref_name != 'next'
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['12.14']
-        os: [ubuntu-latest]
+        node: ['12', '14', '16']
+        os: [macOS-latest]
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -55,9 +60,61 @@ jobs:
       - name: Build packages
         run: yarn build
 
-      - name: Deploy packages
+      - name: Deploy package assets
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          PREVIEW_VERSION: ${{ github.sha }}
-        run: |
-          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn deploy; else yarn deploy --preview; fi
+        run:
+          | # NOTE: packages are responsible for determining what deploy does for a PR vs master
+          yarn deploy --preview
+
+  release:
+    if: github.ref_name == 'master' || github.ref_name == 'next'
+    name: Build, lint, test, and publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # 👈 Required to retrieve git history
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+
+      - name: Install NPM packages
+        run: | # Ensure install dev dependencies and freeze lockfile
+          yarn install --production=false --offline --frozen-lockfile
+
+      - name: Check for unstaged changes
+        run: | # Ensure install was pure and made no changes
+          git diff --exit-code
+
+      - name: Check for duplicated NPM packages
+        run: | # Check for any duplicated packages
+          yarn deduplicate --ci
+
+      - name: Lint packages
+        run: yarn lint
+
+      - name: Test packages
+        run: yarn test --ci --coverage --once
+
+      - name: Save test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: reports/test-results/
+
+      - name: Build packages
+        run: yarn build
+
+      - name: Deploy package assets
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+        run: yarn deploy
+
+      - name: Publish packages
+        run: | # TODO: remove --canary flag from master release
+          if [[ ${{ github.ref_name }} == 'master' ]]; then yarn release --canary; else yarn release --canary; fi
