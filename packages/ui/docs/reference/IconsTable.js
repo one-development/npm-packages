@@ -38,7 +38,7 @@ export default function IconsTable(props) {
                   <Text variant='label'>{`${key.replace('Icon', '')}`}</Text>
                   <Space height='*1.5' />
                   <Text color='onSurface.secondary'>
-                    {`import { ${key} } from '@one/ui'`}
+                    {`import { ${key} } from '@one-dev/ui'`}
                   </Text>
                 </Box>
                 <Box
