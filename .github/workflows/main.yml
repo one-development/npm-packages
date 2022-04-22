@@ -120,7 +120,6 @@ jobs:
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
           echo "@one-dev:registry=https://registry.npmjs.org/" > .npmrc
-          npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
 
