@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - master
+      - next
 
   pull_request:
     branches:
@@ -20,7 +21,7 @@ jobs:
     strategy:
       matrix:
         node: ['12', '14', '16']
-        os: [macOS-latest]
+        os: [macos-latest]
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -70,7 +71,7 @@ jobs:
   release:
     if: github.ref_name == 'master' || github.ref_name == 'next'
     name: Build, lint, test, and publish
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -114,6 +115,15 @@ jobs:
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
         run: yarn deploy
+
+      - name: Authenticate with NPM Registry
+        run: |
+          yarn logout
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+          echo "@one-dev:registry=https://registry.npmjs.org/" > .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
 
       - name: Publish packages
         run: | # TODO: remove --canary flag from master release

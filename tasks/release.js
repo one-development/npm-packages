@@ -10,6 +10,8 @@ const release = (options = {}) => {
     ' --preid alpha',
     ' --no-commit-hooks',
     ' --conventional-commits',
+    // Needed for NPM automation tokens: https://github.com/lerna/lerna/issues/2788
+    '--no-verify-access',
     canary ? ' --canary' : '',
   ].join('')
 

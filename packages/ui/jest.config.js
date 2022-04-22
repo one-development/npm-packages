@@ -1,6 +1,6 @@
 module.exports = {
   clearMocks: true,
-  displayName: '@one/ui',
+  displayName: '@one-dev/ui',
   setupFilesAfterEnv: ['./.jest/setupTests.js'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
