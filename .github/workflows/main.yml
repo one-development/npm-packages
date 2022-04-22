@@ -119,9 +119,8 @@ jobs:
       - name: Authenticate with NPM Registry
         run: |
           yarn logout
-          echo "@one-dev:registry=http://registry.npmjs.org/" > .npmrc
-          echo "registry=http://registry.npmjs.org/" >> .npmrc
-          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+          echo "@one-dev:registry=https://registry.npmjs.org/" > .npmrc
           npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
