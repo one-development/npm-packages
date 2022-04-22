@@ -11,7 +11,7 @@ const release = (options = {}) => {
     ' --no-commit-hooks',
     ' --conventional-commits',
     // Needed for NPM automation tokens: https://github.com/lerna/lerna/issues/2788
-    '--no-verify-access',
+    ' --no-verify-access',
     canary ? ' --canary' : '',
   ].join('')
 
